@@ -1,0 +1,39 @@
+name: 🔥 朱雀テクニカル神託
+
+on:
+  schedule:
+    # 米市場引け後 朝7:00 JST = 22:00 UTC 前日（平日のみ）
+    - cron: '0 22 * * 1-5'
+  workflow_dispatch:  # 手動実行可
+
+permissions:
+  contents: write
+
+jobs:
+  suzaku:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install deps
+        run: pip install yfinance pandas lxml requests pandas-datareader
+
+      - name: 朱雀降臨
+        run: python scripts/suzaku_scan.py
+
+      - name: 神託奉納（commit & push）
+        run: |
+          git config user.name "Suzaku Bot"
+          git config user.email "suzaku@kabu-jingu.bot"
+          git add docs/signals.json
+          if git diff --cached --quiet; then
+            echo "変更なし"
+          else
+            git commit -m "🔥 朱雀の託宣 $(date -u +'%Y-%m-%d %H:%MZ')"
+            git push
+          fi

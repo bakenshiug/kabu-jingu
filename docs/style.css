@@ -1,0 +1,205 @@
+:root {
+  --bg: #0f0a08;
+  --bg2: #1a1210;
+  --gold: #d4af37;
+  --gold-light: #f4d97a;
+  --shu: #c8102e;
+  --shu-light: #e63a4e;
+  --text: #f5ecd9;
+  --muted: #9a8b78;
+  --strong: #ff3b5c;
+  --buy: #f4a83a;
+  --weak: #d4af37;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: "Yu Mincho", "游明朝", "Hiragino Mincho ProN", serif;
+  background:
+    radial-gradient(circle at top, #2a1a14 0%, var(--bg) 70%),
+    var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  min-height: 100vh;
+}
+
+.hero {
+  text-align: center;
+  padding: 60px 20px 40px;
+  border-bottom: 2px solid var(--gold);
+  background:
+    linear-gradient(180deg, rgba(200,16,46,0.15), transparent),
+    radial-gradient(ellipse at center, rgba(212,175,55,0.1), transparent 70%);
+  position: relative;
+}
+
+.torii {
+  font-size: 72px;
+  filter: drop-shadow(0 0 24px rgba(200,16,46,0.6));
+  animation: torii-glow 4s ease-in-out infinite;
+}
+
+@keyframes torii-glow {
+  0%, 100% { filter: drop-shadow(0 0 24px rgba(200,16,46,0.6)); }
+  50% { filter: drop-shadow(0 0 40px rgba(212,175,55,0.8)); }
+}
+
+.hero h1 {
+  font-size: 48px;
+  font-weight: 900;
+  letter-spacing: 0.3em;
+  margin: 16px 0 8px;
+  background: linear-gradient(180deg, var(--gold-light), var(--gold));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 0 30px rgba(212,175,55,0.4);
+}
+
+.subtitle {
+  color: var(--muted);
+  letter-spacing: 0.2em;
+  font-size: 14px;
+}
+
+.god-line {
+  margin-top: 16px;
+  font-size: 18px;
+  color: var(--shu-light);
+  letter-spacing: 0.15em;
+}
+
+main {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+section {
+  margin-bottom: 56px;
+  padding: 24px;
+  background: linear-gradient(180deg, rgba(255,255,255,0.02), transparent);
+  border: 1px solid rgba(212,175,55,0.2);
+  border-radius: 4px;
+}
+
+section h2 {
+  font-size: 22px;
+  color: var(--gold);
+  border-bottom: 1px solid rgba(212,175,55,0.3);
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+  letter-spacing: 0.1em;
+}
+
+.summary .meta {
+  font-size: 14px;
+  color: var(--muted);
+}
+
+.summary .stats {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  margin-top: 12px;
+}
+
+.summary .stat {
+  font-size: 14px;
+}
+
+.summary .stat b {
+  color: var(--gold-light);
+  font-size: 20px;
+  margin-right: 6px;
+}
+
+.legend {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+  font-size: 13px;
+}
+
+.tag {
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+}
+
+.tag.strong { background: rgba(255,59,92,0.2); color: var(--strong); border: 1px solid var(--strong); }
+.tag.buy    { background: rgba(244,168,58,0.18); color: var(--buy); border: 1px solid var(--buy); }
+.tag.weak   { background: rgba(212,175,55,0.15); color: var(--weak); border: 1px solid var(--weak); }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: -apple-system, "Helvetica Neue", sans-serif;
+  font-size: 13px;
+}
+
+th, td {
+  padding: 10px 8px;
+  text-align: left;
+  border-bottom: 1px solid rgba(212,175,55,0.15);
+}
+
+th {
+  background: rgba(212,175,55,0.08);
+  color: var(--gold);
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+tbody tr:hover {
+  background: rgba(212,175,55,0.05);
+}
+
+td.ticker { font-weight: bold; color: var(--gold-light); }
+td.price { text-align: right; font-variant-numeric: tabular-nums; }
+td.score { text-align: center; font-weight: bold; }
+
+.row-strong td { background: rgba(255,59,92,0.06); }
+.row-buy td    { background: rgba(244,168,58,0.04); }
+
+.about ul, .roadmap ul {
+  margin: 12px 0 12px 24px;
+}
+
+.about li, .roadmap li {
+  margin-bottom: 6px;
+}
+
+.philosophy {
+  margin-top: 16px;
+  padding: 12px 16px;
+  border-left: 3px solid var(--shu);
+  background: rgba(200,16,46,0.08);
+  font-style: italic;
+  color: var(--gold-light);
+}
+
+footer {
+  text-align: center;
+  padding: 32px 20px;
+  border-top: 1px solid rgba(212,175,55,0.2);
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.disclaimer {
+  margin-top: 8px;
+  font-size: 11px;
+  opacity: 0.7;
+}
+
+@media (max-width: 640px) {
+  .hero h1 { font-size: 32px; letter-spacing: 0.2em; }
+  table { font-size: 11px; }
+  th, td { padding: 6px 4px; }
+}
