@@ -201,6 +201,12 @@ function renderTable(el, signals) {
                     : byakkoGrade === "B" ? "byakko-b"
                     : byakkoGrade === "C" ? "byakko-c"
                     : byakkoGrade === "D" ? "byakko-d" : "byakko-none";
+    const genbuGrade = s["玄武"] || "-";
+    const genbuCls = genbuGrade === "S" ? "genbu-s"
+                   : genbuGrade === "A" ? "genbu-a"
+                   : genbuGrade === "B" ? "genbu-b"
+                   : genbuGrade === "C" ? "genbu-c"
+                   : genbuGrade === "D" ? "genbu-d" : "genbu-none";
     const marketFlag = s["市場"] === "jp" ? "🇯🇵" : "🇺🇸";
     return `<tr class="${cls}">
       <td>${s["総合"]}</td>
@@ -211,6 +217,7 @@ function renderTable(el, signals) {
       <td>${esc(s["社名"])}</td>
       <td class="price">${s["現在値"]}</td>
       <td class="byakko ${byakkoCls}" title="${esc(s["白虎詳細"] || "")}">${byakkoGrade}</td>
+      <td class="genbu ${genbuCls}" title="${esc(s["玄武詳細"] || "")}">${genbuGrade}</td>
       <td>${esc(s["W%R"])}</td>
       <td>${esc(s["RSI"])}</td>
       <td>${esc(s["MACD"])}</td>
@@ -221,7 +228,9 @@ function renderTable(el, signals) {
   el.innerHTML = `<table>
     <thead><tr>
       <th>総合</th><th>Score</th><th>市場</th><th>テーマ</th><th>ティッカー</th><th>社名</th>
-      <th>現在値</th><th title="インサイダー買い">🐅白虎</th>
+      <th>現在値</th>
+      <th title="インサイダー買い">🐅白虎</th>
+      <th title="売上YoY成長率＋加速度">🐢玄武</th>
       <th>W%R</th><th>RSI</th><th>MACD</th><th>Stoch</th><th>MA</th>
     </tr></thead>
     <tbody>${rows}</tbody>

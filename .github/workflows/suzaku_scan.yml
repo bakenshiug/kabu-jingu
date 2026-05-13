@@ -30,14 +30,18 @@ jobs:
         run: python scripts/byakko_scan.py
         continue-on-error: true
 
-      - name: 朱雀×白虎 2神合議（再走で統合）
+      - name: 玄武降臨（業績モメンタム）
+        run: python scripts/genbu_scan.py
+        continue-on-error: true
+
+      - name: 朱雀×白虎×玄武 3神合議（再走で統合）
         run: python scripts/suzaku_scan.py
 
       - name: 神託奉納（commit & push）
         run: |
           git config user.name "Jingu Bot"
           git config user.email "jingu@kabu-jingu.bot"
-          git add docs/signals.json docs/byakko_data.json
+          git add docs/signals.json docs/byakko_data.json docs/genbu_data.json docs/filtered_universe.json
           if git diff --cached --quiet; then
             echo "変更なし"
           else

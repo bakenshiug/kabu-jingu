@@ -332,6 +332,13 @@ td.byakko-b { color: var(--gold-dark); background: rgba(184,134,11,0.18); }
 td.byakko-c { color: var(--muted); background: rgba(184,134,11,0.08); }
 td.byakko-d { color: #fff; background: #555; }
 td.byakko-none { color: #ccc; }
+td.genbu { text-align: center; font-weight: 900; font-size: 14px; }
+td.genbu-s { color: #fff; background: linear-gradient(135deg, #16a34a, #0f7e36); }
+td.genbu-a { color: #0f7e36; background: rgba(22,163,74,0.18); }
+td.genbu-b { color: #166534; background: rgba(22,163,74,0.10); }
+td.genbu-c { color: var(--muted); background: rgba(22,163,74,0.04); }
+td.genbu-d { color: #fff; background: #555; }
+td.genbu-none { color: #ccc; }
 td.price { text-align: right; font-variant-numeric: tabular-nums; font-weight: 600; }
 td.score { text-align: center; font-weight: bold; color: var(--shu); }
 

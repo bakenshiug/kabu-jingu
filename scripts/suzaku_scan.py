@@ -644,21 +644,44 @@ def main():
             byakko = json.load(open(byakko_path, encoding="utf-8")).get("byakko", {})
         except Exception:
             byakko = {}
-    # 麒麟判定を朱雀×白虎の2神合議に拡張
+    # 玄武データを読み込んで3神合議
+    genbu_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "docs", "genbu_data.json"))
+    genbu = {}
+    if os.path.exists(genbu_path):
+        try:
+            genbu = json.load(open(genbu_path, encoding="utf-8")).get("genbu", {})
+        except Exception:
+            genbu = {}
+
     GRADE_RANK = {"S": 4, "A": 3, "B": 2, "C": 1, None: 0, "D": -2}
     for row in rows:
         t = row["ティッカー"]
         b = byakko.get(t, {})
+        gn = genbu.get(t, {})
         row["白虎"] = b.get("grade") or "-"
         row["白虎詳細"] = b.get("note", "")
-        # 2神合議: 朱雀★★以上 + 白虎B以上 → 🦒麒麟昇格
-        suzaku_strong = row["Score"] >= 4
+        row["玄武"] = gn.get("grade") or "-"
+        row["玄武詳細"] = gn.get("note", "")
         byakko_grade = b.get("grade")
-        if suzaku_strong and GRADE_RANK.get(byakko_grade, 0) >= 2:
+        genbu_grade = gn.get("grade")
+        b_rank = GRADE_RANK.get(byakko_grade, 0)
+        g_rank = GRADE_RANK.get(genbu_grade, 0)
+        suzaku_buy = row["Alert"] == "buy"
+        suzaku_strong = row["Score"] >= 4
+        # 🦒 真の麒麟: 朱雀buy + 白虎B+ + 玄武B+ の3神一致
+        if suzaku_buy and b_rank >= 2 and g_rank >= 2:
+            row["総合"] = "🦒 麒麟（朱雀×白虎×玄武）"
+        # 2神合議: 朱雀buy + 白虎B+ → 準麒麟
+        elif suzaku_strong and b_rank >= 2:
             row["総合"] = "🦒 麒麟（朱雀×白虎）"
-        # 白虎D（幹部売却超過）警告
-        elif byakko_grade == "D":
-            row["総合"] = "⚠️ " + row["総合"] + "（白虎D・幹部売却超過）"
+        # 白虎単独宝 + 玄武A+ → 二神隠れ麒麟
+        elif row["Alert"] == "treasure" and g_rank >= 3:
+            row["総合"] = f"💎🐢 二神宝（白虎{byakko_grade}×玄武{genbu_grade}）"
+        # 警告系
+        elif byakko_grade == "D" and suzaku_buy:
+            row["総合"] = "⚠️ " + row["総合"] + "（白虎D・幹部売却）"
+        elif genbu_grade == "D" and suzaku_buy:
+            row["総合"] = "⚠️ " + row["総合"] + "（玄武D・減収）"
 
     # rowsを更新後、outを再構築
     out = pd.DataFrame(rows).sort_values(["Score"], ascending=False)
