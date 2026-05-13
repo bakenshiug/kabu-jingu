@@ -10,9 +10,10 @@ const THEME_LABELS = {
 };
 
 const ALERT_LABELS = {
-  buy:  "🟢 買い",
-  sell: "🔴 売り",
-  skip: "⚪ 見送り",
+  buy:      "🟢 買い",
+  treasure: "💎 白虎単独宝",
+  sell:     "🔴 売り",
+  skip:     "⚪ 見送り",
 };
 
 const MARKET_LABELS = {
@@ -92,7 +93,7 @@ function renderAlertTabs(data) {
   const el = document.querySelector("#alert-tabs");
   if (!el) return;
   const a = data.alerts || {buy:0, sell:0, skip:0};
-  el.innerHTML = ["buy","sell","skip"].map(k => {
+  el.innerHTML = ["buy","treasure","sell","skip"].map(k => {
     const cls = k === CURRENT_ALERT ? "alert-tab active alert-" + k : "alert-tab alert-" + k;
     return `<button class="${cls}" data-alert="${k}">
       ${ALERT_LABELS[k]}<span class="theme-count">${a[k] || 0}</span>
@@ -170,6 +171,8 @@ function updateLegend() {
       <span class="tag strong">★★★ 強い買い</span>
       <span class="tag buy">★★ 買い</span>
       <span class="tag weak">★ 弱い買い</span>`;
+  } else if (CURRENT_ALERT === "treasure") {
+    el.innerHTML = `<span class="tag treasure">💎 朱雀-シグナル × 白虎B以上 = インサイダー単独宝</span>`;
   } else if (CURRENT_ALERT === "sell") {
     el.innerHTML = `
       <span class="tag sell-strong">💀 全神売り</span>
@@ -187,6 +190,7 @@ function renderTable(el, signals) {
   }
   const rows = signals.map(s => {
     const cls = s["総合"].includes("🦒") ? "row-kirin"
+              : s["Alert"] === "treasure" ? "row-treasure"
               : s["総合"].includes("★★★") ? "row-strong"
               : s["総合"].includes("★★") ? "row-buy"
               : s["Alert"] === "sell" ? "row-sell"

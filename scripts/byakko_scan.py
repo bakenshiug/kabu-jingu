@@ -154,38 +154,48 @@ def grade_byakko(transactions):
 
     return None, "シグナルなし"
 
+def fetch_one(t):
+    """並列化用ワーカー"""
+    try:
+        trans = fetch_insider(t, days=90)
+        grade, note = grade_byakko(trans)
+        return t, {"grade": grade, "note": note}
+    except Exception as e:
+        return t, {"grade": None, "note": f"err: {e}"}
+
 def main():
-    # 朱雀の signals.json から対象ティッカーを取得（買い神託銘柄を優先白虎判定）
+    # filtered_universe.json から全フィルタ通過銘柄を白虎対象に
     here = os.path.dirname(os.path.abspath(__file__))
+    filtered_path = os.path.join(here, "..", "docs", "filtered_universe.json")
     signals_path = os.path.join(here, "..", "docs", "signals.json")
     out_path = os.path.join(here, "..", "docs", "byakko_data.json")
 
-    if not os.path.exists(signals_path):
-        print("⚠️ signals.json なし。先に suzaku_scan.py を実行してください")
+    us_tickers = []
+    if os.path.exists(filtered_path):
+        f = json.load(open(filtered_path, encoding="utf-8"))
+        us_tickers = [r["ticker"] for r in f["tickers"] if r["market"] == "us"]
+        print(f"🐅 白虎全銘柄カバレッジ: {len(us_tickers)} 米国銘柄（filtered_universe）")
+    elif os.path.exists(signals_path):
+        sig = json.load(open(signals_path, encoding="utf-8"))
+        us_tickers = [s["ティッカー"] for s in sig["signals"]
+                      if not s["ティッカー"].endswith(".T")]
+        print(f"🐅 白虎判定対象: {len(us_tickers)} 米国銘柄（signals.jsonフォールバック）")
+    else:
+        print("⚠️ filtered_universe.json も signals.json もなし")
         return
 
-    sig = json.load(open(signals_path, encoding="utf-8"))
-    us_tickers = [s["ティッカー"] for s in sig["signals"]
-                  if not s["ティッカー"].endswith(".T")]
-    print(f"🐅 白虎判定対象: {len(us_tickers)} 米国銘柄")
-
     results = {}
-    for i, t in enumerate(us_tickers):
-        print(f"  [{i+1}/{len(us_tickers)}] {t} ...", end=" ", flush=True)
-        trans = fetch_insider(t, days=90)
-        grade, note = grade_byakko(trans)
-        results[t] = {
-            "grade": grade,
-            "note": note,
-            "buy_count_30d": sum(1 for tr in trans if tr["is_buy"]
-                                  and (datetime.date.today() - datetime.date.fromisoformat(tr["date"])).days <= 30
-                                  if tr["date"]),
-        } if False else {  # 上の式が壊れるリスク回避
-            "grade": grade,
-            "note": note,
-        }
-        print(f"{grade or '-'} ({note})")
-        time.sleep(1.2)  # openinsider 礼儀
+    from concurrent.futures import ThreadPoolExecutor, as_completed
+    # openinsider 礼儀: 並列度4・各リクエスト間に少し間隔
+    done = 0
+    with ThreadPoolExecutor(max_workers=4) as ex:
+        futures = {ex.submit(fetch_one, t): t for t in us_tickers}
+        for fut in as_completed(futures):
+            t, info = fut.result()
+            results[t] = info
+            done += 1
+            if done % 10 == 0 or done == len(us_tickers):
+                print(f"  進捗 {done}/{len(us_tickers)} ...")
 
     payload = {
         "generated_at": datetime.datetime.now(datetime.timezone.utc).isoformat(),

@@ -527,6 +527,22 @@ def main():
     filtered = universe[mask].reset_index(drop=True)
     print(f"  対象銘柄: {len(filtered)}")
 
+    # filtered一覧をJSONで保存（白虎が母集団として使う）
+    import os as _os, json as _json
+    _here = _os.path.dirname(_os.path.abspath(__file__))
+    _filtered_path = _os.path.join(_here, "..", "docs", "filtered_universe.json")
+    _os.makedirs(_os.path.dirname(_filtered_path), exist_ok=True)
+    _records = []
+    for _, _r in filtered.iterrows():
+        _records.append({
+            "ticker": str(_r["ticker"]),
+            "name": str(_r.get("name", "")),
+            "sector": str(_r.get("sector", "")),
+            "market": "jp" if str(_r["ticker"]).endswith(".T") else "us",
+        })
+    with open(_filtered_path, "w", encoding="utf-8") as _f:
+        _json.dump({"tickers": _records}, _f, ensure_ascii=False, indent=2)
+
     if filtered.empty:
         print("該当銘柄なし"); return
 
@@ -555,14 +571,34 @@ def main():
             print(f"  batch {i} error: {e}")
         print(f"  progress: {min(i+BATCH, len(tickers))}/{len(tickers)}")
 
-    print(f"\n[4/4] 総合シグナル合議判定（買い/売り/見送り） ...")
+    # 白虎データ事前読込（朱雀シグナル外の銘柄も拾うため）
+    import os as _os2, json as _json2
+    _byakko_path2 = _os2.path.abspath(_os2.path.join(_os2.path.dirname(__file__), "..", "docs", "byakko_data.json"))
+    _byakko_pre = {}
+    if _os2.path.exists(_byakko_path2):
+        try:
+            _byakko_pre = _json2.load(open(_byakko_path2, encoding="utf-8")).get("byakko", {})
+        except Exception:
+            _byakko_pre = {}
+
+    print(f"\n[4/4] 総合シグナル合議判定（買い/売り/見送り＋白虎単独宝） ...")
     rows = []
     for _, r in filtered.iterrows():
         t = r["ticker"]
         if t not in results: continue
         price, scores = results[t]
         label, total, buys, sells, alert_type = consensus(scores)
-        if label is None: continue
+
+        # 白虎単独宝: 朱雀がbuyでない（None/sell/skip）& 白虎B以上 → treasure昇格
+        b_pre = _byakko_pre.get(t, {})
+        b_grade = b_pre.get("grade")
+        GRADE_RANK_PRE = {"S": 4, "A": 3, "B": 2, "C": 1}
+        if alert_type != "buy" and GRADE_RANK_PRE.get(b_grade, 0) >= 2:
+            label = f"💎 白虎単独宝({b_grade})"
+            alert_type = "treasure"
+            total = total or 0
+        elif label is None:
+            continue
         theme = assign_theme(r)
         market = "jp" if t.endswith(".T") else "us"
         rows.append({
@@ -641,9 +677,10 @@ def main():
             "weak":   int(sum(1 for x in rows if x["総合"] == "★   弱い買い")),
         },
         "alerts": {
-            "buy":  int(sum(1 for x in rows if x["Alert"] == "buy")),
-            "sell": int(sum(1 for x in rows if x["Alert"] == "sell")),
-            "skip": int(sum(1 for x in rows if x["Alert"] == "skip")),
+            "buy":      int(sum(1 for x in rows if x["Alert"] == "buy")),
+            "sell":     int(sum(1 for x in rows if x["Alert"] == "sell")),
+            "skip":     int(sum(1 for x in rows if x["Alert"] == "skip")),
+            "treasure": int(sum(1 for x in rows if x["Alert"] == "treasure")),
         },
         "markets": {
             "us": int(sum(1 for x in rows if x["市場"] == "us")),

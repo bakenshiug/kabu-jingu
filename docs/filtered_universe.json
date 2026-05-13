@@ -1,0 +1,982 @@
+{
+  "tickers": [
+    {
+      "ticker": "AMD",
+      "name": "Advanced Micro Devices",
+      "sector": "Information Technology",
+      "market": "us"
+    },
+    {
+      "ticker": "AES",
+      "name": "AES Corporation",
+      "sector": "Utilities",
+      "market": "us"
+    },
+    {
+      "ticker": "APD",
+      "name": "Air Products",
+      "sector": "Materials",
+      "market": "us"
+    },
+    {
+      "ticker": "ALB",
+      "name": "Albemarle Corporation",
+      "sector": "Materials",
+      "market": "us"
+    },
+    {
+      "ticker": "LNT",
+      "name": "Alliant Energy",
+      "sector": "Utilities",
+      "market": "us"
+    },
+    {
+      "ticker": "AMCR",
+      "name": "Amcor",
+      "sector": "Materials",
+      "market": "us"
+    },
+    {
+      "ticker": "ADI",
+      "name": "Analog Devices",
+      "sector": "Information Technology",
+      "market": "us"
+    },
+    {
+      "ticker": "APA",
+      "name": "APA Corporation",
+      "sector": "Energy",
+      "market": "us"
+    },
+    {
+      "ticker": "AMAT",
+      "name": "Applied Materials",
+      "sector": "Information Technology",
+      "market": "us"
+    },
+    {
+      "ticker": "ATO",
+      "name": "Atmos Energy",
+      "sector": "Utilities",
+      "market": "us"
+    },
+    {
+      "ticker": "AVY",
+      "name": "Avery Dennison",
+      "sector": "Materials",
+      "market": "us"
+    },
+    {
+      "ticker": "AXON",
+      "name": "Axon Enterprise",
+      "sector": "Industrials",
+      "market": "us"
+    },
+    {
+      "ticker": "BKR",
+      "name": "Baker Hughes",
+      "sector": "Energy",
+      "market": "us"
+    },
+    {
+      "ticker": "BALL",
+      "name": "Ball Corporation",
+      "sector": "Materials",
+      "market": "us"
+    },
+    {
+      "ticker": "BA",
+      "name": "Boeing",
+      "sector": "Industrials",
+      "market": "us"
+    },
+    {
+      "ticker": "AVGO",
+      "name": "Broadcom",
+      "sector": "Information Technology",
+      "market": "us"
+    },
+    {
+      "ticker": "CNP",
+      "name": "CenterPoint Energy",
+      "sector": "Utilities",
+      "market": "us"
+    },
+    {
+      "ticker": "CF",
+      "name": "CF Industries",
+      "sector": "Materials",
+      "market": "us"
+    },
+    {
+      "ticker": "CVX",
+      "name": "Chevron Corporation",
+      "sector": "Energy",
+      "market": "us"
+    },
+    {
+      "ticker": "CMG",
+      "name": "Chipotle Mexican Grill",
+      "sector": "Consumer Discretionary",
+      "market": "us"
+    },
+    {
+      "ticker": "CMS",
+      "name": "CMS Energy",
+      "sector": "Utilities",
+      "market": "us"
+    },
+    {
+      "ticker": "COP",
+      "name": "ConocoPhillips",
+      "sector": "Energy",
+      "market": "us"
+    },
+    {
+      "ticker": "CEG",
+      "name": "Constellation Energy",
+      "sector": "Utilities",
+      "market": "us"
+    },
+    {
+      "ticker": "CTVA",
+      "name": "Corteva",
+      "sector": "Materials",
+      "market": "us"
+    },
+    {
+      "ticker": "CRH",
+      "name": "CRH plc",
+      "sector": "Materials",
+      "market": "us"
+    },
+    {
+      "ticker": "DVN",
+      "name": "Devon Energy",
+      "sector": "Energy",
+      "market": "us"
+    },
+    {
+      "ticker": "FANG",
+      "name": "Diamondback Energy",
+      "sector": "Energy",
+      "market": "us"
+    },
+    {
+      "ticker": "D",
+      "name": "Dominion Energy",
+      "sector": "Utilities",
+      "market": "us"
+    },
+    {
+      "ticker": "DOW",
+      "name": "Dow Inc.",
+      "sector": "Materials",
+      "market": "us"
+    },
+    {
+      "ticker": "DTE",
+      "name": "DTE Energy",
+      "sector": "Utilities",
+      "market": "us"
+    },
+    {
+      "ticker": "DUK",
+      "name": "Duke Energy",
+      "sector": "Utilities",
+      "market": "us"
+    },
+    {
+      "ticker": "DD",
+      "name": "DuPont",
+      "sector": "Materials",
+      "market": "us"
+    },
+    {
+      "ticker": "ECL",
+      "name": "Ecolab",
+      "sector": "Materials",
+      "market": "us"
+    },
+    {
+      "ticker": "EOG",
+      "name": "EOG Resources",
+      "sector": "Energy",
+      "market": "us"
+    },
+    {
+      "ticker": "EQT",
+      "name": "EQT Corporation",
+      "sector": "Energy",
+      "market": "us"
+    },
+    {
+      "ticker": "ES",
+      "name": "Eversource Energy",
+      "sector": "Utilities",
+      "market": "us"
+    },
+    {
+      "ticker": "EXE",
+      "name": "Expand Energy",
+      "sector": "Energy",
+      "market": "us"
+    },
+    {
+      "ticker": "XOM",
+      "name": "ExxonMobil",
+      "sector": "Energy",
+      "market": "us"
+    },
+    {
+      "ticker": "FSLR",
+      "name": "First Solar",
+      "sector": "Information Technology",
+      "market": "us"
+    },
+    {
+      "ticker": "FE",
+      "name": "FirstEnergy",
+      "sector": "Utilities",
+      "market": "us"
+    },
+    {
+      "ticker": "FCX",
+      "name": "Freeport-McMoRan",
+      "sector": "Materials",
+      "market": "us"
+    },
+    {
+      "ticker": "GE",
+      "name": "GE Aerospace",
+      "sector": "Industrials",
+      "market": "us"
+    },
+    {
+      "ticker": "GD",
+      "name": "General Dynamics",
+      "sector": "Industrials",
+      "market": "us"
+    },
+    {
+      "ticker": "HAL",
+      "name": "Halliburton",
+      "sector": "Energy",
+      "market": "us"
+    },
+    {
+      "ticker": "HWM",
+      "name": "Howmet Aerospace",
+      "sector": "Industrials",
+      "market": "us"
+    },
+    {
+      "ticker": "HII",
+      "name": "Huntington Ingalls Industries",
+      "sector": "Industrials",
+      "market": "us"
+    },
+    {
+      "ticker": "INTC",
+      "name": "Intel",
+      "sector": "Information Technology",
+      "market": "us"
+    },
+    {
+      "ticker": "IFF",
+      "name": "International Flavors & Fragrances",
+      "sector": "Materials",
+      "market": "us"
+    },
+    {
+      "ticker": "IP",
+      "name": "International Paper",
+      "sector": "Materials",
+      "market": "us"
+    },
+    {
+      "ticker": "KMI",
+      "name": "Kinder Morgan",
+      "sector": "Energy",
+      "market": "us"
+    },
+    {
+      "ticker": "KLAC",
+      "name": "KLA Corporation",
+      "sector": "Information Technology",
+      "market": "us"
+    },
+    {
+      "ticker": "LHX",
+      "name": "L3Harris",
+      "sector": "Industrials",
+      "market": "us"
+    },
+    {
+      "ticker": "LRCX",
+      "name": "Lam Research",
+      "sector": "Information Technology",
+      "market": "us"
+    },
+    {
+      "ticker": "LIN",
+      "name": "Linde plc",
+      "sector": "Materials",
+      "market": "us"
+    },
+    {
+      "ticker": "LMT",
+      "name": "Lockheed Martin",
+      "sector": "Industrials",
+      "market": "us"
+    },
+    {
+      "ticker": "LYB",
+      "name": "LyondellBasell",
+      "sector": "Materials",
+      "market": "us"
+    },
+    {
+      "ticker": "MPC",
+      "name": "Marathon Petroleum",
+      "sector": "Energy",
+      "market": "us"
+    },
+    {
+      "ticker": "MLM",
+      "name": "Martin Marietta Materials",
+      "sector": "Materials",
+      "market": "us"
+    },
+    {
+      "ticker": "MCHP",
+      "name": "Microchip Technology",
+      "sector": "Information Technology",
+      "market": "us"
+    },
+    {
+      "ticker": "MU",
+      "name": "Micron Technology",
+      "sector": "Information Technology",
+      "market": "us"
+    },
+    {
+      "ticker": "MPWR",
+      "name": "Monolithic Power Systems",
+      "sector": "Information Technology",
+      "market": "us"
+    },
+    {
+      "ticker": "MOS",
+      "name": "Mosaic Company (The)",
+      "sector": "Materials",
+      "market": "us"
+    },
+    {
+      "ticker": "NEM",
+      "name": "Newmont",
+      "sector": "Materials",
+      "market": "us"
+    },
+    {
+      "ticker": "NEE",
+      "name": "NextEra Energy",
+      "sector": "Utilities",
+      "market": "us"
+    },
+    {
+      "ticker": "NOC",
+      "name": "Northrop Grumman",
+      "sector": "Industrials",
+      "market": "us"
+    },
+    {
+      "ticker": "NRG",
+      "name": "NRG Energy",
+      "sector": "Utilities",
+      "market": "us"
+    },
+    {
+      "ticker": "NUE",
+      "name": "Nucor",
+      "sector": "Materials",
+      "market": "us"
+    },
+    {
+      "ticker": "NVDA",
+      "name": "Nvidia",
+      "sector": "Information Technology",
+      "market": "us"
+    },
+    {
+      "ticker": "NXPI",
+      "name": "NXP Semiconductors",
+      "sector": "Information Technology",
+      "market": "us"
+    },
+    {
+      "ticker": "OXY",
+      "name": "Occidental Petroleum",
+      "sector": "Energy",
+      "market": "us"
+    },
+    {
+      "ticker": "ON",
+      "name": "ON Semiconductor",
+      "sector": "Information Technology",
+      "market": "us"
+    },
+    {
+      "ticker": "OKE",
+      "name": "Oneok",
+      "sector": "Energy",
+      "market": "us"
+    },
+    {
+      "ticker": "PKG",
+      "name": "Packaging Corporation of America",
+      "sector": "Materials",
+      "market": "us"
+    },
+    {
+      "ticker": "PSX",
+      "name": "Phillips 66",
+      "sector": "Energy",
+      "market": "us"
+    },
+    {
+      "ticker": "PPG",
+      "name": "PPG Industries",
+      "sector": "Materials",
+      "market": "us"
+    },
+    {
+      "ticker": "QCOM",
+      "name": "Qualcomm",
+      "sector": "Information Technology",
+      "market": "us"
+    },
+    {
+      "ticker": "Q",
+      "name": "Qnity Electronics",
+      "sector": "Information Technology",
+      "market": "us"
+    },
+    {
+      "ticker": "RTX",
+      "name": "RTX Corporation",
+      "sector": "Industrials",
+      "market": "us"
+    },
+    {
+      "ticker": "SLB",
+      "name": "Schlumberger",
+      "sector": "Energy",
+      "market": "us"
+    },
+    {
+      "ticker": "SHW",
+      "name": "Sherwin-Williams",
+      "sector": "Materials",
+      "market": "us"
+    },
+    {
+      "ticker": "SWKS",
+      "name": "Skyworks Solutions",
+      "sector": "Information Technology",
+      "market": "us"
+    },
+    {
+      "ticker": "SW",
+      "name": "Smurfit Westrock",
+      "sector": "Materials",
+      "market": "us"
+    },
+    {
+      "ticker": "STLD",
+      "name": "Steel Dynamics",
+      "sector": "Materials",
+      "market": "us"
+    },
+    {
+      "ticker": "TRGP",
+      "name": "Targa Resources",
+      "sector": "Energy",
+      "market": "us"
+    },
+    {
+      "ticker": "TER",
+      "name": "Teradyne",
+      "sector": "Information Technology",
+      "market": "us"
+    },
+    {
+      "ticker": "TXN",
+      "name": "Texas Instruments",
+      "sector": "Information Technology",
+      "market": "us"
+    },
+    {
+      "ticker": "TPL",
+      "name": "Texas Pacific Land Corporation",
+      "sector": "Energy",
+      "market": "us"
+    },
+    {
+      "ticker": "TXT",
+      "name": "Textron",
+      "sector": "Industrials",
+      "market": "us"
+    },
+    {
+      "ticker": "TDG",
+      "name": "TransDigm Group",
+      "sector": "Industrials",
+      "market": "us"
+    },
+    {
+      "ticker": "VLO",
+      "name": "Valero Energy",
+      "sector": "Energy",
+      "market": "us"
+    },
+    {
+      "ticker": "VMC",
+      "name": "Vulcan Materials Company",
+      "sector": "Materials",
+      "market": "us"
+    },
+    {
+      "ticker": "WEC",
+      "name": "WEC Energy Group",
+      "sector": "Utilities",
+      "market": "us"
+    },
+    {
+      "ticker": "WMB",
+      "name": "Williams Companies",
+      "sector": "Energy",
+      "market": "us"
+    },
+    {
+      "ticker": "XEL",
+      "name": "Xcel Energy",
+      "sector": "Utilities",
+      "market": "us"
+    },
+    {
+      "ticker": "ARM",
+      "name": "Arm Holdings",
+      "sector": "Semiconductors",
+      "market": "us"
+    },
+    {
+      "ticker": "MRVL",
+      "name": "Marvell Technology",
+      "sector": "Semiconductors",
+      "market": "us"
+    },
+    {
+      "ticker": "IONQ",
+      "name": "IonQ Inc",
+      "sector": "Quantum",
+      "market": "us"
+    },
+    {
+      "ticker": "RGTI",
+      "name": "Rigetti Computing",
+      "sector": "Quantum",
+      "market": "us"
+    },
+    {
+      "ticker": "QBTS",
+      "name": "D-Wave Quantum",
+      "sector": "Quantum",
+      "market": "us"
+    },
+    {
+      "ticker": "QUBT",
+      "name": "Quantum Computing Inc",
+      "sector": "Quantum",
+      "market": "us"
+    },
+    {
+      "ticker": "ARQQ",
+      "name": "Arqit Quantum",
+      "sector": "Quantum",
+      "market": "us"
+    },
+    {
+      "ticker": "RKLB",
+      "name": "Rocket Lab USA",
+      "sector": "Aerospace",
+      "market": "us"
+    },
+    {
+      "ticker": "ASTS",
+      "name": "AST SpaceMobile",
+      "sector": "Aerospace",
+      "market": "us"
+    },
+    {
+      "ticker": "LUNR",
+      "name": "Intuitive Machines",
+      "sector": "Aerospace",
+      "market": "us"
+    },
+    {
+      "ticker": "PL",
+      "name": "Planet Labs",
+      "sector": "Aerospace",
+      "market": "us"
+    },
+    {
+      "ticker": "SPIR",
+      "name": "Spire Global",
+      "sector": "Aerospace",
+      "market": "us"
+    },
+    {
+      "ticker": "RDW",
+      "name": "Redwire Corp",
+      "sector": "Aerospace",
+      "market": "us"
+    },
+    {
+      "ticker": "BKSY",
+      "name": "BlackSky Technology",
+      "sector": "Aerospace",
+      "market": "us"
+    },
+    {
+      "ticker": "ACHR",
+      "name": "Archer Aviation",
+      "sector": "Aerospace",
+      "market": "us"
+    },
+    {
+      "ticker": "JOBY",
+      "name": "Joby Aviation",
+      "sector": "Aerospace",
+      "market": "us"
+    },
+    {
+      "ticker": "KTOS",
+      "name": "Kratos Defense",
+      "sector": "Aerospace",
+      "market": "us"
+    },
+    {
+      "ticker": "QS",
+      "name": "QuantumScape",
+      "sector": "Battery",
+      "market": "us"
+    },
+    {
+      "ticker": "MVST",
+      "name": "Microvast",
+      "sector": "Battery",
+      "market": "us"
+    },
+    {
+      "ticker": "ENVX",
+      "name": "Enovix",
+      "sector": "Battery",
+      "market": "us"
+    },
+    {
+      "ticker": "SLDP",
+      "name": "Solid Power",
+      "sector": "Battery",
+      "market": "us"
+    },
+    {
+      "ticker": "AMPX",
+      "name": "Amprius Technologies",
+      "sector": "Battery",
+      "market": "us"
+    },
+    {
+      "ticker": "FREY",
+      "name": "FREYR Battery",
+      "sector": "Battery",
+      "market": "us"
+    },
+    {
+      "ticker": "STEM",
+      "name": "Stem Inc",
+      "sector": "Battery/Energy",
+      "market": "us"
+    },
+    {
+      "ticker": "ATOM",
+      "name": "Atomera",
+      "sector": "Semiconductor",
+      "market": "us"
+    },
+    {
+      "ticker": "POET",
+      "name": "POET Technologies",
+      "sector": "Semiconductor",
+      "market": "us"
+    },
+    {
+      "ticker": "NVTS",
+      "name": "Navitas Semiconductor",
+      "sector": "Semiconductor",
+      "market": "us"
+    },
+    {
+      "ticker": "ACMR",
+      "name": "ACM Research",
+      "sector": "Semiconductor",
+      "market": "us"
+    },
+    {
+      "ticker": "AEHR",
+      "name": "Aehr Test Systems",
+      "sector": "Semiconductor",
+      "market": "us"
+    },
+    {
+      "ticker": "INDI",
+      "name": "indie Semiconductor",
+      "sector": "Semiconductor",
+      "market": "us"
+    },
+    {
+      "ticker": "LWLG",
+      "name": "Lightwave Logic",
+      "sector": "Semiconductor",
+      "market": "us"
+    },
+    {
+      "ticker": "OKLO",
+      "name": "Oklo Inc",
+      "sector": "Energy/Nuclear",
+      "market": "us"
+    },
+    {
+      "ticker": "SMR",
+      "name": "NuScale Power",
+      "sector": "Energy/Nuclear",
+      "market": "us"
+    },
+    {
+      "ticker": "NNE",
+      "name": "Nano Nuclear Energy",
+      "sector": "Energy/Nuclear",
+      "market": "us"
+    },
+    {
+      "ticker": "LEU",
+      "name": "Centrus Energy",
+      "sector": "Energy/Nuclear",
+      "market": "us"
+    },
+    {
+      "ticker": "UEC",
+      "name": "Uranium Energy",
+      "sector": "Energy/Nuclear",
+      "market": "us"
+    },
+    {
+      "ticker": "CCJ",
+      "name": "Cameco",
+      "sector": "Energy/Nuclear",
+      "market": "us"
+    },
+    {
+      "ticker": "BWXT",
+      "name": "BWX Technologies",
+      "sector": "Energy/Nuclear",
+      "market": "us"
+    },
+    {
+      "ticker": "MP",
+      "name": "MP Materials",
+      "sector": "Material/Rare Earth",
+      "market": "us"
+    },
+    {
+      "ticker": "REE",
+      "name": "REE Automotive",
+      "sector": "Material",
+      "market": "us"
+    },
+    {
+      "ticker": "PLUG",
+      "name": "Plug Power",
+      "sector": "Energy/Hydrogen",
+      "market": "us"
+    },
+    {
+      "ticker": "BE",
+      "name": "Bloom Energy",
+      "sector": "Energy",
+      "market": "us"
+    },
+    {
+      "ticker": "BLDP",
+      "name": "Ballard Power",
+      "sector": "Energy/Hydrogen",
+      "market": "us"
+    },
+    {
+      "ticker": "6890.T",
+      "name": "フェローテック",
+      "sector": "半導体",
+      "market": "jp"
+    },
+    {
+      "ticker": "8036.T",
+      "name": "日立ハイテク",
+      "sector": "半導体",
+      "market": "jp"
+    },
+    {
+      "ticker": "6707.T",
+      "name": "サンケン電気",
+      "sector": "半導体",
+      "market": "jp"
+    },
+    {
+      "ticker": "4185.T",
+      "name": "JSR",
+      "sector": "半導体素材",
+      "market": "jp"
+    },
+    {
+      "ticker": "4186.T",
+      "name": "東京応化工業",
+      "sector": "半導体素材",
+      "market": "jp"
+    },
+    {
+      "ticker": "6674.T",
+      "name": "ジーエス・ユアサ コーポレーション",
+      "sector": "蓄電池",
+      "market": "jp"
+    },
+    {
+      "ticker": "4204.T",
+      "name": "積水化学工業",
+      "sector": "素材・エネルギー",
+      "market": "jp"
+    },
+    {
+      "ticker": "1662.T",
+      "name": "石油資源開発",
+      "sector": "エネルギー",
+      "market": "jp"
+    },
+    {
+      "ticker": "9513.T",
+      "name": "Jパワー",
+      "sector": "エネルギー",
+      "market": "jp"
+    },
+    {
+      "ticker": "9508.T",
+      "name": "九州電力",
+      "sector": "エネルギー",
+      "market": "jp"
+    },
+    {
+      "ticker": "9504.T",
+      "name": "中国電力",
+      "sector": "エネルギー",
+      "market": "jp"
+    },
+    {
+      "ticker": "9505.T",
+      "name": "北陸電力",
+      "sector": "エネルギー",
+      "market": "jp"
+    },
+    {
+      "ticker": "9506.T",
+      "name": "東北電力",
+      "sector": "エネルギー",
+      "market": "jp"
+    },
+    {
+      "ticker": "9507.T",
+      "name": "四国電力",
+      "sector": "エネルギー",
+      "market": "jp"
+    },
+    {
+      "ticker": "9509.T",
+      "name": "北海道電力",
+      "sector": "エネルギー",
+      "market": "jp"
+    },
+    {
+      "ticker": "9511.T",
+      "name": "沖縄電力",
+      "sector": "エネルギー",
+      "market": "jp"
+    },
+    {
+      "ticker": "6521.T",
+      "name": "オキサイド",
+      "sector": "量子・光半導体",
+      "market": "jp"
+    },
+    {
+      "ticker": "186A.T",
+      "name": "アストロスケールホールディングス",
+      "sector": "航空宇宙",
+      "market": "jp"
+    },
+    {
+      "ticker": "9348.T",
+      "name": "ispace",
+      "sector": "航空宇宙",
+      "market": "jp"
+    },
+    {
+      "ticker": "5595.T",
+      "name": "QPS研究所",
+      "sector": "航空宇宙",
+      "market": "jp"
+    },
+    {
+      "ticker": "4880.T",
+      "name": "セルソース",
+      "sector": "素材",
+      "market": "jp"
+    },
+    {
+      "ticker": "6525.T",
+      "name": "KOKUSAI ELECTRIC",
+      "sector": "半導体",
+      "market": "jp"
+    },
+    {
+      "ticker": "9519.T",
+      "name": "レノバ",
+      "sector": "エネルギー・再エネ",
+      "market": "jp"
+    },
+    {
+      "ticker": "1407.T",
+      "name": "ウエストホールディングス",
+      "sector": "エネルギー・太陽光",
+      "market": "jp"
+    },
+    {
+      "ticker": "9514.T",
+      "name": "エフオン",
+      "sector": "エネルギー",
+      "market": "jp"
+    },
+    {
+      "ticker": "7240.T",
+      "name": "NOK",
+      "sector": "素材",
+      "market": "jp"
+    }
+  ]
+}

@@ -175,6 +175,12 @@ section h2 {
   border-color: #991b1b;
   box-shadow: 0 2px 6px rgba(220,38,38,0.3);
 }
+.alert-tab.active.alert-treasure {
+  background: linear-gradient(135deg, #b8860b, #8b6914);
+  color: #fff;
+  border-color: #8b6914;
+  box-shadow: 0 2px 8px rgba(184,134,11,0.4);
+}
 .alert-tab.active.alert-skip {
   background: linear-gradient(135deg, #6b7280, #4b5563);
   color: #fff;
@@ -284,6 +290,8 @@ section h2 {
 .tag.sell        { background: rgba(220,38,38,0.10); color: #dc2626; border: 1px solid #dc2626; }
 .tag.sell-weak   { background: rgba(220,38,38,0.05); color: #ef4444; border: 1px solid #ef4444; }
 .tag.skip        { background: rgba(107,114,128,0.10); color: #4b5563; border: 1px solid #6b7280; }
+.tag.treasure    { background: linear-gradient(135deg, #fff3c2, #ffd97a); color: var(--shu-deep); border: 1.5px solid var(--gold); font-weight: 900; }
+.row-treasure td { background: linear-gradient(90deg, rgba(255,217,122,0.20), rgba(255,243,194,0.08)); }
 
 td.flag { text-align: center; font-size: 14px; }
 .row-sell td { background: rgba(220,38,38,0.04); }
