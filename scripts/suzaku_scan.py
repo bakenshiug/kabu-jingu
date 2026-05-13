@@ -104,6 +104,61 @@ def get_nikkei225_wiki():
     except Exception as e:
         print("N225 wiki fetch failed:", e); return pd.DataFrame()
 
+# 米国小型成長銘柄（量子・宇宙・次世代電池・原子力・AI・先端半導体）
+US_VENTURE = [
+    # 量子コンピュータ
+    ("IONQ", "IonQ Inc", "Quantum"),
+    ("RGTI", "Rigetti Computing", "Quantum"),
+    ("QBTS", "D-Wave Quantum", "Quantum"),
+    ("QUBT", "Quantum Computing Inc", "Quantum"),
+    ("ARQQ", "Arqit Quantum", "Quantum"),
+    # 宇宙・航空
+    ("RKLB", "Rocket Lab USA", "Aerospace"),
+    ("ASTS", "AST SpaceMobile", "Aerospace"),
+    ("LUNR", "Intuitive Machines", "Aerospace"),
+    ("PL", "Planet Labs", "Aerospace"),
+    ("SPIR", "Spire Global", "Aerospace"),
+    ("RDW", "Redwire Corp", "Aerospace"),
+    ("BKSY", "BlackSky Technology", "Aerospace"),
+    ("ACHR", "Archer Aviation", "Aerospace"),
+    ("JOBY", "Joby Aviation", "Aerospace"),
+    ("KTOS", "Kratos Defense", "Aerospace"),
+    # 次世代電池・蓄電池
+    ("QS", "QuantumScape", "Battery"),
+    ("MVST", "Microvast", "Battery"),
+    ("ENVX", "Enovix", "Battery"),
+    ("SLDP", "Solid Power", "Battery"),
+    ("AMPX", "Amprius Technologies", "Battery"),
+    ("FREY", "FREYR Battery", "Battery"),
+    ("STEM", "Stem Inc", "Battery/Energy"),
+    # 先端半導体・フォトニクス
+    ("ATOM", "Atomera", "Semiconductor"),
+    ("POET", "POET Technologies", "Semiconductor"),
+    ("NVTS", "Navitas Semiconductor", "Semiconductor"),
+    ("ACMR", "ACM Research", "Semiconductor"),
+    ("AEHR", "Aehr Test Systems", "Semiconductor"),
+    ("INDI", "indie Semiconductor", "Semiconductor"),
+    ("LWLG", "Lightwave Logic", "Semiconductor"),
+    # 小型原子力・核融合
+    ("OKLO", "Oklo Inc", "Energy/Nuclear"),
+    ("SMR", "NuScale Power", "Energy/Nuclear"),
+    ("NNE", "Nano Nuclear Energy", "Energy/Nuclear"),
+    ("LEU", "Centrus Energy", "Energy/Nuclear"),
+    ("UEC", "Uranium Energy", "Energy/Nuclear"),
+    ("CCJ", "Cameco", "Energy/Nuclear"),
+    ("BWXT", "BWX Technologies", "Energy/Nuclear"),
+    # AI/量子隣接
+    ("SOUN", "SoundHound AI", "AI/Tech"),
+    ("BBAI", "BigBear.ai", "AI/Tech"),
+    ("AI", "C3.ai", "AI/Tech"),
+    # 素材・水素
+    ("MP", "MP Materials", "Material/Rare Earth"),
+    ("REE", "REE Automotive", "Material"),
+    ("PLUG", "Plug Power", "Energy/Hydrogen"),
+    ("BE", "Bloom Energy", "Energy"),
+    ("BLDP", "Ballard Power", "Energy/Hydrogen"),
+]
+
 # 主要セクター銘柄（日本株キュレーション。Wikipedia取得失敗時の保険＆カバレッジ補完）
 JP_CURATED = [
     # 半導体
@@ -203,21 +258,135 @@ def get_japan_curated():
             for t, n, s in JP_CURATED if n]
     return pd.DataFrame(rows)
 
+# 日本グロース・スタンダード市場の量子/宇宙/電池/半導体ベンチャー
+JP_GROWTH = [
+    # 量子・光・先端デバイス
+    ("6521.T", "オキサイド", "量子・光半導体"),
+    ("4393.T", "バンク・オブ・イノベーション", "テック"),
+    ("6areas.T", "", ""),
+    # 宇宙・航空
+    ("186A.T", "アストロスケールホールディングス", "航空宇宙"),
+    ("9348.T", "ispace", "航空宇宙"),
+    ("5595.T", "QPS研究所", "航空宇宙"),
+    ("7741b.T", "", ""),
+    # 蓄電池・電池素材ベンチャー
+    ("4880.T", "セルソース", "素材"),
+    ("4598.T", "Delta-Fly Pharma", ""),
+    ("6areas2.T", "", ""),
+    ("3volt.T", "", ""),
+    ("4395.T", "アクリート", ""),
+    # 半導体製造装置・部材ベンチャー
+    ("6525.T", "KOKUSAI ELECTRIC", "半導体"),
+    ("6areas3.T", "", ""),
+    ("6areas4.T", "", ""),
+    ("4218.T", "ニチバン", ""),
+    ("6areas5.T", "", ""),
+    ("3awg.T", "", ""),
+    # エネルギー・水素・再エネ
+    ("9519.T", "レノバ", "エネルギー・再エネ"),
+    ("1407.T", "ウエストホールディングス", "エネルギー・太陽光"),
+    ("9514.T", "エフオン", "エネルギー"),
+    ("1377.T", "サカタのタネ", ""),
+    # 素材・新素材
+    ("4395b.T", "", ""),
+    ("4ferro.T", "", ""),
+    # 防衛・航空関連ミッドキャップ
+    ("6insouken.T", "", ""),
+    ("7240.T", "NOK", "素材"),
+    # AI・量子隣接日本
+    ("3993.T", "PKSHA Technology", "AI/テック"),
+    ("4475.T", "HENNGE", "テック"),
+    ("4382.T", "HEROZ", "AI"),
+    # 核融合・原子力
+    ("1928.T", "積水ハウス", ""),
+    ("1719.T", "安藤・間", ""),
+    ("6areas6.T", "", ""),
+]
+
+def get_japan_growth():
+    rows = [{"ticker": t, "name": n, "sector": s, "industry": "", "market": "JP-GROWTH"}
+            for t, n, s in JP_GROWTH if n]
+    return pd.DataFrame(rows)
+
 def get_japan():
     parts = []
     w = get_nikkei225_wiki()
     print(f"  Nikkei225(wiki): {len(w)} 銘柄")
     if not w.empty: parts.append(w)
     c = get_japan_curated()
-    print(f"  日本キュレーション: {len(c)} 銘柄")
+    print(f"  日本プライムキュレーション: {len(c)} 銘柄")
     parts.append(c)
+    g = get_japan_growth()
+    print(f"  日本グロース/小型: {len(g)} 銘柄")
+    parts.append(g)
     df = pd.concat(parts, ignore_index=True).drop_duplicates(subset=["ticker"])
     return df
+
+def get_us_venture():
+    rows = [{"ticker": t, "name": n, "sector": s, "industry": "", "market": "US-VENTURE"}
+            for t, n, s in US_VENTURE if n]
+    return pd.DataFrame(rows)
 
 def matches_keyword(row):
     blob = " ".join([str(row.get("sector", "")), str(row.get("industry", "")),
                      str(row.get("name", ""))]).lower()
     return any(k in blob for k in KEYWORDS)
+
+# テーマタグ判定（X人気4本柱）
+THEME_RULES = [
+    ("quantum",  ["quantum", "量子", "ionq", "rigetti", "d-wave", "qubit", "qbts", "qubt", "arqq", "oxide", "オキサイド"]),
+    ("space",    ["aerospace", "space", "satellite", "航空宇宙", "宇宙", "rocket", "rkla", "rklb", "rocket lab",
+                  "asts", "spacemobile", "intuitive machines", "lunr", "planet labs", "spire", "redwire",
+                  "blacksky", "kratos", "northrop", "lockheed", "rtx", "general dynamics", "boeing",
+                  "三菱重工", "川崎重工", "ihi", "アストロスケール", "ispace", "qps", "axon",
+                  "archer", "joby", "bwx"]),
+    ("semi",     ["semiconductor", "半導体", "chip", "wafer", "lithography", "fab",
+                  "atomera", "atom", "poet", "navitas", "acm research", "aehr", "indie semi",
+                  "lightwave", "東京エレクトロン", "アドバンテスト", "レーザーテック", "sumco",
+                  "信越化学", "ローム", "ソシオネクスト", "フェローテック", "screen", "kokusai",
+                  "hoya", "日立ハイテク", "jsr", "東京応化", "klac", "kla", "applied materials",
+                  "lam research", "tsm", "nvidia", "amd", "intel", "micron", "analog devices",
+                  "marvell", "broadcom", "asml", "qualcomm", "テキサス", "qnity"]),
+    ("battery",  ["battery", "蓄電", "lithium", "電池", "全固体",
+                  "quantumscape", "qs", "solid power", "sldp", "enovix", "envx",
+                  "amprius", "ampx", "microvast", "mvst", "freyr", "frey",
+                  "ジーエス", "ユアサ", "gs yuasa", "セルソース", "stem",
+                  "panasonic", "パナソニック", "ev", "electric vehicle"]),
+    ("energy",   ["energy", "エネルギー", "nuclear", "uranium", "原子力", "core",
+                  "oklo", "nuscale", "smr", "nano nuclear", "nne", "centrus", "leu",
+                  "uec", "cameco", "ccj", "plug power", "bloom energy", "ballard",
+                  "電力", "ガス", "電気", "再エネ", "太陽光", "hydrogen", "水素",
+                  "constellation", "exxon", "chevron", "marathon", "eqt", "duke",
+                  "schlumberger", "halliburton", "valero", "phillips", "occidental",
+                  "kinder", "williams", "oneok", "leno", "inpex", "出光"]),
+    ("material", ["material", "素材", "rare earth", "希土類", "mp materials", "ree",
+                  "linde", "ecolab", "sherwin", "ppg", "vulcan", "martin marietta",
+                  "ball corp", "avery", "crh", "mosaic", "steel dynamics", "cf industries",
+                  "nucor", "freeport", "dow", "lyondell", "dupont", "albemarle",
+                  "東レ", "三菱ケミカル", "東ソー", "デンカ", "積水化学", "ブリヂストン",
+                  "住友化学", "旭化成", "三井化学", "日産化学", "日本製鉄", "jfe",
+                  "住友金属", "dowa", "住友電気", "フジクラ", "帝人", "レゾナック",
+                  "日本ガイシ"]),
+]
+
+def assign_theme(row):
+    """銘柄のテーマタグを判定。複数候補から最優先1つを返す（量子>宇宙>半導体>電池>原子力エネ>素材）"""
+    blob = " ".join([str(row.get("sector", "")), str(row.get("industry", "")),
+                     str(row.get("name", "")), str(row.get("ticker", ""))]).lower()
+    for theme, kws in THEME_RULES:
+        if any(k in blob for k in kws):
+            return theme
+    return "other"
+
+THEME_LABELS = {
+    "quantum":  "🧮 量子",
+    "space":    "🛰 防衛宇宙",
+    "semi":     "⚡ 半導体",
+    "battery":  "🔋 次世代電池",
+    "energy":   "⛽ エネルギー",
+    "material": "🧱 素材",
+    "other":    "その他",
+}
 
 def williams_r(high, low, close, period=14):
     hh = high.rolling(period).max()
@@ -305,10 +474,18 @@ def consensus(scores):
     total = sum(v for v, _ in scores.values())
     buys = sum(1 for v, _ in scores.values() if v > 0)
     sells = sum(1 for v, _ in scores.values() if v < 0)
-    if total >= 7 and sells == 0: label = "★★★ 強い買い"
-    elif total >= 4 and sells <= 1: label = "★★  買い"
-    elif total >= 2 and sells <= 1: label = "★   弱い買い"
-    else: label = None
+    # 🦒 麒麟ボーナス: 全5神が買い(+1以上)で全神一致なら強制★★★
+    all_aligned = all(v >= 1 for v, _ in scores.values())
+    if all_aligned:
+        label = "🦒 麒麟（全神一致）"
+    elif total >= 7 and sells == 0:
+        label = "★★★ 強い買い"
+    elif total >= 4 and sells <= 1:
+        label = "★★  買い"
+    elif total >= 2 and sells <= 1:
+        label = "★   弱い買い"
+    else:
+        label = None
     return label, total, buys, sells
 
 def main():
@@ -319,6 +496,7 @@ def main():
     print("\n[1/4] 母集団取得中 ...")
     parts = []
     for fn, name in [(get_sp500, "S&P500"), (get_nasdaq100, "NASDAQ100"),
+                     (get_us_venture, "US-Venture"),
                      (get_japan, "Japan")]:
         df = fn()
         print(f"  {name}: {len(df)} 銘柄")
@@ -367,9 +545,12 @@ def main():
         price, scores = results[t]
         label, total, buys, sells = consensus(scores)
         if label is None: continue
+        theme = assign_theme(r)
         rows.append({
             "総合": label,
             "Score": total,
+            "テーマ": theme,
+            "テーマ表示": THEME_LABELS.get(theme, theme),
             "セクター": (str(r.get("sector", "")) or "-")[:24],
             "ティッカー": t,
             "社名": str(r.get("name", ""))[:28],
@@ -406,9 +587,14 @@ def main():
         "filtered_total": int(len(filtered)),
         "signal_total": int(len(out)),
         "counts": {
+            "kirin":  int(sum(1 for x in rows if "🦒" in x["総合"])),
             "strong": int(sum(1 for x in rows if "★★★" in x["総合"])),
             "buy":    int(sum(1 for x in rows if x["総合"] == "★★  買い")),
             "weak":   int(sum(1 for x in rows if x["総合"] == "★   弱い買い")),
+        },
+        "themes": {
+            k: int(sum(1 for x in rows if x.get("テーマ") == k))
+            for k in ["quantum", "space", "semi", "battery", "energy", "material", "other"]
         },
         "signals": out.to_dict(orient="records"),
     }
