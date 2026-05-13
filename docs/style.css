@@ -129,6 +129,86 @@ section h2 {
   font-family: "Yu Mincho", serif;
 }
 
+.control-bar {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.alert-tabs, .market-toggle {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.alert-tab, .market-btn {
+  background: var(--paper);
+  border: 1.5px solid rgba(184,134,11,0.4);
+  color: var(--sumi);
+  padding: 10px 18px;
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 800;
+  cursor: pointer;
+  border-radius: 2px;
+  transition: all 0.15s;
+  letter-spacing: 0.05em;
+}
+
+.alert-tab:hover, .market-btn:hover {
+  background: rgba(184,134,11,0.08);
+  border-color: var(--gold);
+}
+
+.alert-tab.active.alert-buy {
+  background: linear-gradient(135deg, #16a34a, #0f7e36);
+  color: #fff;
+  border-color: #0f7e36;
+  box-shadow: 0 2px 6px rgba(22,163,74,0.3);
+}
+.alert-tab.active.alert-sell {
+  background: linear-gradient(135deg, #dc2626, #991b1b);
+  color: #fff;
+  border-color: #991b1b;
+  box-shadow: 0 2px 6px rgba(220,38,38,0.3);
+}
+.alert-tab.active.alert-skip {
+  background: linear-gradient(135deg, #6b7280, #4b5563);
+  color: #fff;
+  border-color: #4b5563;
+}
+
+.market-btn.active {
+  background: linear-gradient(135deg, var(--shu), var(--shu-deep));
+  color: #fff;
+  border-color: var(--shu-deep);
+}
+
+.search-box {
+  margin-bottom: 16px;
+}
+
+.search-box input {
+  width: 100%;
+  padding: 12px 16px;
+  font-family: inherit;
+  font-size: 15px;
+  border: 1.5px solid rgba(184,134,11,0.4);
+  border-radius: 2px;
+  background: var(--paper);
+  color: var(--sumi);
+  transition: border-color 0.15s;
+}
+
+.search-box input:focus {
+  outline: none;
+  border-color: var(--shu);
+  box-shadow: 0 0 0 3px rgba(200,16,46,0.1);
+}
+
 .theme-tabs {
   display: flex;
   gap: 8px;
@@ -200,6 +280,14 @@ section h2 {
 .tag.strong { background: rgba(200,16,46,0.12); color: var(--strong); border: 1px solid var(--strong); }
 .tag.buy    { background: rgba(217,119,6,0.12); color: var(--buy); border: 1px solid var(--buy); }
 .tag.weak   { background: rgba(184,134,11,0.12); color: var(--weak); border: 1px solid var(--weak); }
+.tag.sell-strong { background: rgba(220,38,38,0.15); color: #991b1b; border: 1px solid #991b1b; }
+.tag.sell        { background: rgba(220,38,38,0.10); color: #dc2626; border: 1px solid #dc2626; }
+.tag.sell-weak   { background: rgba(220,38,38,0.05); color: #ef4444; border: 1px solid #ef4444; }
+.tag.skip        { background: rgba(107,114,128,0.10); color: #4b5563; border: 1px solid #6b7280; }
+
+td.flag { text-align: center; font-size: 14px; }
+.row-sell td { background: rgba(220,38,38,0.04); }
+.row-skip td { background: rgba(107,114,128,0.04); }
 
 table {
   width: 100%;
@@ -229,6 +317,13 @@ tbody tr:hover {
 }
 
 td.ticker { font-weight: bold; color: var(--shu-deep); }
+td.byakko { text-align: center; font-weight: 900; font-size: 14px; }
+td.byakko-s { color: #fff; background: linear-gradient(135deg, #c8102e, #9b1027); }
+td.byakko-a { color: var(--shu-deep); background: rgba(200,16,46,0.18); }
+td.byakko-b { color: var(--gold-dark); background: rgba(184,134,11,0.18); }
+td.byakko-c { color: var(--muted); background: rgba(184,134,11,0.08); }
+td.byakko-d { color: #fff; background: #555; }
+td.byakko-none { color: #ccc; }
 td.price { text-align: right; font-variant-numeric: tabular-nums; font-weight: 600; }
 td.score { text-align: center; font-weight: bold; color: var(--shu); }
 

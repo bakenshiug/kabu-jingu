@@ -471,22 +471,40 @@ def score_signals(high, low, close):
     return out
 
 def consensus(scores):
+    """3アラート判定: buy / sell / skip / None"""
     total = sum(v for v, _ in scores.values())
     buys = sum(1 for v, _ in scores.values() if v > 0)
     sells = sum(1 for v, _ in scores.values() if v < 0)
-    # 🦒 麒麟ボーナス: 全5神が買い(+1以上)で全神一致なら強制★★★
-    all_aligned = all(v >= 1 for v, _ in scores.values())
-    if all_aligned:
-        label = "🦒 麒麟（全神一致）"
-    elif total >= 7 and sells == 0:
-        label = "★★★ 強い買い"
-    elif total >= 4 and sells <= 1:
-        label = "★★  買い"
-    elif total >= 2 and sells <= 1:
-        label = "★   弱い買い"
-    else:
-        label = None
-    return label, total, buys, sells
+    all_buy_aligned = all(v >= 1 for v, _ in scores.values())
+    all_sell_aligned = all(v <= -1 for v, _ in scores.values())
+
+    # 買いアラート
+    if all_buy_aligned:
+        return "🦒 麒麟（全神一致）", total, buys, sells, "buy"
+    if total >= 7 and sells == 0:
+        return "★★★ 強い買い", total, buys, sells, "buy"
+    if total >= 4 and sells <= 1:
+        return "★★  買い", total, buys, sells, "buy"
+    if total >= 2 and sells <= 1:
+        return "★   弱い買い", total, buys, sells, "buy"
+
+    # 売りアラート（買われすぎ・トレンド崩壊）
+    if all_sell_aligned:
+        return "💀 全神売り", total, buys, sells, "sell"
+    if total <= -7 and buys == 0:
+        return "🔴 強い売り", total, buys, sells, "sell"
+    if total <= -4 and buys <= 1:
+        return "🔴 売り", total, buys, sells, "sell"
+    if total <= -2 and buys <= 1:
+        return "🔴 弱い売り", total, buys, sells, "sell"
+
+    # 見送り賢明（シグナル混在・判定割れ）
+    if buys >= 2 and sells >= 2:
+        return "⚪ 判定割れ", total, buys, sells, "skip"
+    if buys >= 1 and sells >= 1:
+        return "⚪ 混在", total, buys, sells, "skip"
+
+    return None, total, buys, sells, None
 
 def main():
     print("=" * 70)
@@ -537,18 +555,21 @@ def main():
             print(f"  batch {i} error: {e}")
         print(f"  progress: {min(i+BATCH, len(tickers))}/{len(tickers)}")
 
-    print(f"\n[4/4] 総合シグナル合議判定（買いのみ抽出） ...")
+    print(f"\n[4/4] 総合シグナル合議判定（買い/売り/見送り） ...")
     rows = []
     for _, r in filtered.iterrows():
         t = r["ticker"]
         if t not in results: continue
         price, scores = results[t]
-        label, total, buys, sells = consensus(scores)
+        label, total, buys, sells, alert_type = consensus(scores)
         if label is None: continue
         theme = assign_theme(r)
+        market = "jp" if t.endswith(".T") else "us"
         rows.append({
             "総合": label,
+            "Alert": alert_type,
             "Score": total,
+            "市場": market,
             "テーマ": theme,
             "テーマ表示": THEME_LABELS.get(theme, theme),
             "セクター": (str(r.get("sector", "")) or "-")[:24],
@@ -579,6 +600,33 @@ def main():
 
     # JSON出力（GitHub Pages用）
     import json, os, datetime
+    # 白虎データを読み込んで合議
+    byakko_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "docs", "byakko_data.json"))
+    byakko = {}
+    if os.path.exists(byakko_path):
+        try:
+            byakko = json.load(open(byakko_path, encoding="utf-8")).get("byakko", {})
+        except Exception:
+            byakko = {}
+    # 麒麟判定を朱雀×白虎の2神合議に拡張
+    GRADE_RANK = {"S": 4, "A": 3, "B": 2, "C": 1, None: 0, "D": -2}
+    for row in rows:
+        t = row["ティッカー"]
+        b = byakko.get(t, {})
+        row["白虎"] = b.get("grade") or "-"
+        row["白虎詳細"] = b.get("note", "")
+        # 2神合議: 朱雀★★以上 + 白虎B以上 → 🦒麒麟昇格
+        suzaku_strong = row["Score"] >= 4
+        byakko_grade = b.get("grade")
+        if suzaku_strong and GRADE_RANK.get(byakko_grade, 0) >= 2:
+            row["総合"] = "🦒 麒麟（朱雀×白虎）"
+        # 白虎D（幹部売却超過）警告
+        elif byakko_grade == "D":
+            row["総合"] = "⚠️ " + row["総合"] + "（白虎D・幹部売却超過）"
+
+    # rowsを更新後、outを再構築
+    out = pd.DataFrame(rows).sort_values(["Score"], ascending=False)
+
     payload = {
         "generated_at": datetime.datetime.now(datetime.timezone.utc).isoformat(),
         "generated_jst": (datetime.datetime.now(datetime.timezone.utc)
@@ -591,6 +639,15 @@ def main():
             "strong": int(sum(1 for x in rows if "★★★" in x["総合"])),
             "buy":    int(sum(1 for x in rows if x["総合"] == "★★  買い")),
             "weak":   int(sum(1 for x in rows if x["総合"] == "★   弱い買い")),
+        },
+        "alerts": {
+            "buy":  int(sum(1 for x in rows if x["Alert"] == "buy")),
+            "sell": int(sum(1 for x in rows if x["Alert"] == "sell")),
+            "skip": int(sum(1 for x in rows if x["Alert"] == "skip")),
+        },
+        "markets": {
+            "us": int(sum(1 for x in rows if x["市場"] == "us")),
+            "jp": int(sum(1 for x in rows if x["市場"] == "jp")),
         },
         "themes": {
             k: int(sum(1 for x in rows if x.get("テーマ") == k))
