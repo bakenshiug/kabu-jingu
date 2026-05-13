@@ -29,10 +29,48 @@ import warnings
 warnings.filterwarnings("ignore")
 
 KEYWORDS = [
-    "semiconductor", "quantum", "aerospace", "battery", "energy", "material",
-    "半導体", "量子", "航空宇宙", "蓄電", "エネルギー", "素材",
-    "chip", "lithium", "solar", "nuclear", "ev ", "electric vehicle",
+    # 半導体
+    "semiconductor", "半導体", "chip", "wafer", "lithography", "fab", "foundry",
+    "photonic", "photonics", "電子部品",
+    # 量子
+    "quantum", "量子", "qubit",
+    # 宇宙・航空・防衛
+    "aerospace", "航空宇宙", "宇宙", "space ", "spacemobile", "satellite", "衛星",
+    "rocket", "ロケット", "drone", "ドローン", "defense", "防衛", "lunar",
+    "orbital", "spacecraft", "ionq", "rigetti",
+    # 電池・蓄電池
+    "battery", "蓄電", "電池", "lithium", "リチウム", "全固体", "solid-state",
+    # エネルギー
+    "energy", "エネルギー", "nuclear", "原子力", "fusion", "核融合",
+    "uranium", "ウラン", "solar", "太陽光", "wind", "風力", "再エネ", "renewable",
+    "hydrogen", "水素", "fuel cell", "燃料電池", "geothermal", "地熱",
+    "電力", "ガス", "石油", "lng",
+    # 素材
+    "material", "素材", "rare earth", "希土類", "chemical", "化学",
+    "polymer", "ceramic", "metal", "金属", "鉱業", "mining", "rare metals",
+    # EV・モビリティ
+    "ev ", "electric vehicle", "automotive", "自動車", "evtol", "evtol",
+    # AI・ロボット
+    "ai ", "artificial intelligence", "人工知能", "robot", "ロボット", "ロボ",
+    "automation", "オートメーション", "machine learning",
+    # 新興・テンバガー領域
+    "biotech", "バイオ", "gene", "cell ", "細胞",
+    "blockchain", "crypto", "fintech", "saas", "cloud",
+    # テック系（IPO銘柄を網羅）
+    "テック", "tech",
 ]
+
+# 特定銘柄ホワイトリスト（キーワード漏れ救済）
+WHITELIST_TICKERS = {
+    "464A.T",   # QPSホールディングス（衛星）
+    "278A.T",   # Terra Drone（ドローン）
+    "186A.T",   # アストロスケール
+    "9348.T",   # ispace
+    "5595.T",   # QPS研究所（旧コード）
+    "4475.T",   # HENNGE
+    "3993.T",   # PKSHA
+    "4382.T",   # HEROZ
+}
 
 HEADERS = {"User-Agent": "Mozilla/5.0"}
 
@@ -327,7 +365,92 @@ def get_us_venture():
             for t, n, s in US_VENTURE if n]
     return pd.DataFrame(rows)
 
+def get_nasdaq_all():
+    """NASDAQ trader からNYSE/NASDAQ全上場銘柄を取得。約7000銘柄。"""
+    rows = []
+    sources = [
+        ("https://www.nasdaqtrader.com/dynamic/SymDir/nasdaqlisted.txt", "NASDAQ"),
+        ("https://www.nasdaqtrader.com/dynamic/SymDir/otherlisted.txt", "NYSE/AMEX"),
+    ]
+    for url, market in sources:
+        try:
+            r = requests.get(url, headers=HEADERS, timeout=30)
+            if r.status_code != 200: continue
+            for line in r.text.splitlines()[1:]:  # スキップヘッダ
+                if not line or line.startswith("File Creation"): continue
+                parts = line.split("|")
+                if len(parts) < 2: continue
+                ticker = parts[0].strip()
+                name = parts[1].strip()
+                # ETF・テスト銘柄・SPAC等の除外
+                if not ticker or "$" in ticker or ticker.endswith("W") or ticker.endswith("U"):
+                    continue
+                # Y, R, P等の優先株/ワラント記号で終わるものは除外
+                if len(ticker) >= 5 and ticker[-1] in "WURP" and "." not in ticker:
+                    continue
+                # 名前にETF/Fund/Trust/SPAC等が含まれるものを除外
+                low = name.lower()
+                if any(k in low for k in [" etf", "exchange-traded", " fund ", " trust ",
+                                           "warrant", "depositary", "preferred shares",
+                                           "acquisition corp", "acquisition inc",
+                                           "blank check"]):
+                    continue
+                rows.append({
+                    "ticker": ticker,
+                    "name": name,
+                    "sector": "",
+                    "industry": "",
+                    "market": f"US-{market}",
+                })
+        except Exception as e:
+            print(f"  NASDAQ {market} fetch error: {e}")
+    return pd.DataFrame(rows)
+
+def get_jpx_all():
+    """JPX 上場会社一覧（Excel）を取得。約3800銘柄。"""
+    url = "https://www.jpx.co.jp/markets/statistics-equities/misc/tvdivq0000001vg2-att/data_j.xls"
+    try:
+        r = requests.get(url, headers=HEADERS, timeout=30)
+        if r.status_code != 200: return pd.DataFrame()
+        # xlsバイナリ → pandas
+        try: importlib.import_module("xlrd")
+        except ImportError:
+            subprocess.check_call([sys.executable, "-m", "pip", "install",
+                                   "--break-system-packages", "--quiet", "xlrd"])
+        df = pd.read_excel(io.BytesIO(r.content))
+        # 列名候補
+        code_col = next((c for c in df.columns if "コード" in str(c) or "Code" in str(c)), None)
+        name_col = next((c for c in df.columns if "銘柄名" in str(c) or "会社名" in str(c) or "Name" in str(c)), None)
+        sec_col  = next((c for c in df.columns if "業種" in str(c) or "Sector" in str(c)), None)
+        mkt_col  = next((c for c in df.columns if "市場" in str(c) and "区分" in str(c)), None)
+        if code_col is None or name_col is None:
+            return pd.DataFrame()
+        rows = []
+        for _, r in df.iterrows():
+            code = str(r[code_col]).strip()
+            # 4文字コード採用（4桁数字 or 3桁数字+1英字 例: 278A, 464A, 186A）
+            if len(code) != 4: continue
+            if not (code.isdigit() or (code[:3].isdigit() and code[3].isalpha())):
+                continue
+            mkt = str(r[mkt_col]) if mkt_col else ""
+            # ETF/REIT除外
+            if "ETF" in mkt or "REIT" in mkt or "ETN" in mkt:
+                continue
+            rows.append({
+                "ticker": f"{code}.T",
+                "name": str(r[name_col]),
+                "sector": str(r[sec_col]) if sec_col else "",
+                "industry": mkt,
+                "market": f"JP-{mkt}" if mkt_col else "JP",
+            })
+        return pd.DataFrame(rows)
+    except Exception as e:
+        print(f"  JPX fetch error: {e}")
+        return pd.DataFrame()
+
 def matches_keyword(row):
+    if str(row.get("ticker", "")) in WHITELIST_TICKERS:
+        return True
     blob = " ".join([str(row.get("sector", "")), str(row.get("industry", "")),
                      str(row.get("name", ""))]).lower()
     return any(k in blob for k in KEYWORDS)
@@ -513,9 +636,11 @@ def main():
 
     print("\n[1/4] 母集団取得中 ...")
     parts = []
-    for fn, name in [(get_sp500, "S&P500"), (get_nasdaq100, "NASDAQ100"),
-                     (get_us_venture, "US-Venture"),
-                     (get_japan, "Japan")]:
+    # キュレーション系を先に → 全銘柄。drop_duplicatesで先勝ちにすることでセクター情報温存
+    for fn, name in [(get_us_venture, "US-Ventureキュレーション"),
+                     (get_japan, "Japanキュレーション"),
+                     (get_nasdaq_all, "NASDAQ+NYSE全銘柄"),
+                     (get_jpx_all, "JPX全上場")]:
         df = fn()
         print(f"  {name}: {len(df)} 銘柄")
         if not df.empty: parts.append(df)
