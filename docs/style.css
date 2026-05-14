@@ -314,6 +314,69 @@ section h2 {
   border-radius: 1px;
 }
 
+/* ====== 競馬印 & 時間軸タグ ====== */
+.keiba-mark {
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 900;
+  color: var(--shu);
+  font-family: "Yu Mincho", serif;
+  margin-right: 4px;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.8);
+}
+
+.keiba-cell {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 900;
+  color: var(--shu-deep);
+  font-family: "Yu Mincho", serif;
+}
+
+.tf-tag {
+  display: inline-block;
+  padding: 2px 8px;
+  background: rgba(184,134,11,0.12);
+  border: 1px solid rgba(184,134,11,0.3);
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--gold-dark);
+  margin-right: 4px;
+  margin-top: 2px;
+}
+
+.tf-tag-small {
+  display: inline-block;
+  padding: 1px 6px;
+  background: rgba(184,134,11,0.10);
+  border: 1px solid rgba(184,134,11,0.25);
+  border-radius: 999px;
+  font-size: 10px;
+  font-weight: 700;
+  color: var(--gold-dark);
+}
+
+.row-tf { margin-top: 4px; line-height: 1.8; }
+
+.pick-tf { margin: 4px 0 6px; }
+
+.pick-humor {
+  font-size: 12px;
+  color: var(--shu-deep);
+  margin: 6px 0;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.picks-sub {
+  color: var(--muted);
+  font-size: 13px;
+  margin-bottom: 16px;
+  margin-top: -10px;
+}
+
 /* ====== 行内推奨理由 ====== */
 .row-reason {
   font-size: 11px;

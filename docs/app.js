@@ -65,6 +65,77 @@ function setupIntroPanel() {
   });
 }
 
+function getKeibaMark(s) {
+  const t = s["総合"];
+  if (t.includes("⚠️") || t.includes("💀") || t.includes("🔴")) return {mark: "✕", label: "消し"};
+  if (t.includes("真麒麟")) return {mark: "◎◎", label: "絶対本命"};
+  if (t.includes("🦒")) return {mark: "◎", label: "本命"};
+  if (t.includes("💎🐢") || t.includes("💎🐉")) return {mark: "○", label: "対抗"};
+  if (t.includes("💎")) {
+    if (s["白虎"] === "S") return {mark: "▲", label: "抑え"};
+    return {mark: "△", label: "連下"};
+  }
+  if (t.includes("★★★")) return {mark: "▲", label: "抑え"};
+  if (t.includes("★★")) return {mark: "△", label: "連下"};
+  if (t.includes("★")) {
+    const price = parseFloat(s["現在値"]);
+    // 低位株（$5以下 or ¥500以下）& 朱雀シグナル = 大穴枠
+    if ((s["市場"] === "us" && price < 5) || (s["市場"] === "jp" && price < 500)) {
+      return {mark: "☆", label: "大穴（テンバガー枠）"};
+    }
+    return {mark: "△", label: "連下"};
+  }
+  return {mark: "", label: ""};
+}
+
+function getTimeframes(s) {
+  const tags = [];
+  const w = parseFloat(s["W%R"]);
+  const rsi = parseFloat(s["RSI"]);
+  const byakko = s["白虎"];
+  const genbu = s["玄武"];
+  const seiryu = s["青龍"];
+  // 短期：テクニカル売られすぎ反発狙い
+  if (s["Alert"] === "buy" && (w <= -80 || rsi < 30 || s["総合"].includes("★★★"))) {
+    tags.push({tag: "⏱ 短期", title: "テクニカル売られすぎ反発・数日〜2週間"});
+  }
+  // 中期：業績モメンタム＋アナリスト
+  if (["S","A","B"].includes(genbu) || ["S","A"].includes(seiryu)) {
+    tags.push({tag: "📅 中期", title: "業績モメンタム×アナリスト評価・1〜3ヶ月"});
+  }
+  // 長期：インサイダー×成長
+  if (["S","A","B"].includes(byakko) && ["S","A","B"].includes(genbu)) {
+    tags.push({tag: "🌳 長期", title: "インサイダー買い×高成長・3ヶ月〜1年"});
+  }
+  return tags;
+}
+
+function getHumorTagline(s) {
+  const t = s["総合"];
+  if (t.includes("真麒麟")) return "🦒 4神全一致、神宮で年数回の現象。これは買わない理由を探す方が難しい";
+  if (t.includes("🦒")) return "🦒 神獣3柱が「これだ」と頷いた。神宮の本命降臨";
+  if (t.includes("💎🐢")) return "💎🐢 白虎の鼻と玄武の数字がガッチリ握手";
+  if (t.includes("💎🐉")) return "💎🐉 白虎の動きにアナリストも黙ってない";
+  if (t.includes("💎")) {
+    if (s["白虎"] === "S") return "🐅 CEO/CFOが自腹で参戦、中の人は何かに気づいてる";
+    if (s["白虎"] === "A") return "🐅 役員が動いてる。神宮の触覚がピクッと反応";
+    if (s["白虎"] === "B") return "🐅 内部で小さな動き。様子見の打診価値あり";
+    return "💎 隠れ宝の匂い";
+  }
+  if (t.includes("⚠️")) {
+    if (t.includes("白虎D")) return "⚠️ 表は買いの顔、裏で幹部がドル箱抱えて逃走中";
+    if (t.includes("玄武D")) return "⚠️ テクニカル○だが売上は減少。罠の予感";
+    if (t.includes("青龍D")) return "⚠️ チャートは買いだがアナリストはそっぽ向き";
+    return "⚠️ 何かがおかしい";
+  }
+  if (t.includes("★★★")) return "🔥 テクニカル鉄板、押し目の極上タイミング";
+  if (t.includes("★★")) return "🔥 売られすぎ圏、神宮の打診買い候補";
+  if (t.includes("★")) return "🔥 ちょっとだけ買いシグナル";
+  if (t.includes("💀")) return "💀 全神が手を引いた。逃げ時の鐘";
+  if (t.includes("🔴")) return "🔴 売りシグナル、利確の検討時";
+  return "";
+}
+
 function buildRecommendReason(s) {
   const parts = [];
   // 朱雀
@@ -94,34 +165,61 @@ function buildRecommendReason(s) {
   return parts.join(" × ");
 }
 
+function renderPickCard(s, i) {
+  const medal = i === 0 ? "🥇" : i === 1 ? "🥈" : i === 2 ? "🥉" : `${i+1}`;
+  const reason = buildRecommendReason(s);
+  const humor = getHumorTagline(s);
+  const km = getKeibaMark(s);
+  const flag = s["市場"] === "jp" ? "🇯🇵" : "🇺🇸";
+  const tfs = getTimeframes(s);
+  const tfHtml = tfs.map(t => `<span class="tf-tag" title="${esc(t.title)}">${t.tag}</span>`).join("");
+  const markHtml = km.mark ? `<span class="keiba-mark" title="${km.label}">${km.mark}</span>` : "";
+  return `<div class="pick-card pick-rank-${i+1}">
+    <div class="pick-rank">${medal}</div>
+    <div class="pick-main">
+      <div class="pick-head">
+        ${markHtml}
+        <span class="pick-ticker">${esc(s["ティッカー"])}</span>
+        <span class="pick-flag">${flag}</span>
+        <span class="pick-theme">${esc(s["テーマ表示"] || "")}</span>
+      </div>
+      <div class="pick-name">${esc(s["社名"])}</div>
+      <div class="pick-price">${s["現在値"]} <span class="pick-judgement">${esc(s["総合"])}</span></div>
+      ${tfHtml ? `<div class="pick-tf">${tfHtml}</div>` : ""}
+      ${humor ? `<div class="pick-humor">${humor}</div>` : ""}
+      <div class="pick-reason">${reason}</div>
+    </div>
+  </div>`;
+}
+
 function renderTopPicks(data) {
-  const el = document.querySelector("#picks-grid");
-  if (!el) return;
-  const tops = (data.signals || []).filter(s =>
+  const honmei = document.querySelector("#picks-grid");
+  const treasures = document.querySelector("#treasures-grid");
+  if (!honmei || !treasures) return;
+  const signals = data.signals || [];
+  // 本命枠: 🦒麒麟 + 💎🐢/💎🐉 二神宝
+  const tops = signals.filter(s =>
     s["総合"].includes("🦒") || s["総合"].includes("💎🐢") || s["総合"].includes("💎🐉")
   ).slice(0, 5);
+  // 隠れ宝枠: 💎 単独宝（S/A）
+  const treas = signals.filter(s =>
+    s["Alert"] === "treasure"
+    && !s["総合"].includes("🦒")
+    && !s["総合"].includes("💎🐢") && !s["総合"].includes("💎🐉")
+    && ["S","A"].includes(s["白虎"])
+  ).slice(0, 5);
+
   if (tops.length === 0) {
-    el.innerHTML = '<p class="picks-empty">本日 麒麟・二神宝 該当銘柄なし。★★★/★★ を確認してください。</p>';
-    return;
+    honmei.innerHTML = '<p class="picks-empty">本日 本命・対抗該当なし。★★★/★★ を確認してください</p>';
+  } else {
+    honmei.innerHTML = tops.map((s, i) => renderPickCard(s, i)).join("");
   }
-  el.innerHTML = tops.map((s, i) => {
-    const medal = i === 0 ? "🥇" : i === 1 ? "🥈" : i === 2 ? "🥉" : `${i+1}`;
-    const reason = buildRecommendReason(s);
-    const flag = s["市場"] === "jp" ? "🇯🇵" : "🇺🇸";
-    return `<div class="pick-card pick-rank-${i+1}">
-      <div class="pick-rank">${medal}</div>
-      <div class="pick-main">
-        <div class="pick-head">
-          <span class="pick-ticker">${esc(s["ティッカー"])}</span>
-          <span class="pick-flag">${flag}</span>
-          <span class="pick-theme">${esc(s["テーマ表示"] || "")}</span>
-        </div>
-        <div class="pick-name">${esc(s["社名"])}</div>
-        <div class="pick-price">${s["現在値"]} <span class="pick-judgement">${esc(s["総合"])}</span></div>
-        <div class="pick-reason">${reason}</div>
-      </div>
-    </div>`;
-  }).join("");
+
+  if (treas.length === 0) {
+    treasures.innerHTML = '<p class="picks-empty">本日 隠れ宝該当なし</p>';
+  } else {
+    treasures.innerHTML = treas.map((s, i) => renderPickCard(s, i)).join("");
+  }
 }
 
 function rerender() {
@@ -294,9 +392,16 @@ function renderTable(el, signals) {
                     : seiryuGrade === "D" ? "seiryu-d" : "seiryu-none";
     const marketFlag = s["市場"] === "jp" ? "🇯🇵" : "🇺🇸";
     const reason = buildRecommendReason(s);
+    const km = getKeibaMark(s);
+    const tfs = getTimeframes(s);
+    const tfHtml = tfs.map(t => `<span class="tf-tag-small" title="${esc(t.title)}">${t.tag}</span>`).join(" ");
     return `<tr class="${cls}">
       <td class="rank">${rankMark}</td>
-      <td>${s["総合"]}</td>
+      <td class="keiba-cell" title="${km.label}">${km.mark}</td>
+      <td>
+        <div>${s["総合"]}</div>
+        ${tfHtml ? `<div class="row-tf">${tfHtml}</div>` : ""}
+      </td>
       <td class="score">${s["Score"]}</td>
       <td class="flag">${marketFlag}</td>
       <td>${esc(s["テーマ表示"] || "")}</td>
@@ -318,7 +423,7 @@ function renderTable(el, signals) {
   }).join("");
   el.innerHTML = `<table>
     <thead><tr>
-      <th>順位</th><th>総合</th><th>Score</th><th>市場</th><th>テーマ</th><th>ティッカー</th><th>社名</th>
+      <th>順位</th><th title="競馬印">印</th><th>総合</th><th>Score</th><th>市場</th><th>テーマ</th><th>ティッカー</th><th>社名</th>
       <th>現在値</th>
       <th title="インサイダー買い">🐅白虎</th>
       <th title="売上YoY成長率＋加速度">🐢玄武</th>
