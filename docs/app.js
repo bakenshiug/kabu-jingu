@@ -1,7 +1,8 @@
 const THEME_LABELS = {
   all:      "⛩️ すべて",
+  geopol:   "🌐 地政学",
   quantum:  "🧮 量子",
-  space:    "🛰 防衛宇宙",
+  space:    "🛰 宇宙",
   semi:     "⚡ 半導体",
   battery:  "🔋 次世代電池",
   energy:   "⛽ エネルギー",
@@ -403,7 +404,7 @@ function renderTabs(data) {
     (CURRENT_MARKET === "all" || s["市場"] === CURRENT_MARKET));
   const themeCounts = {};
   subset.forEach(s => { themeCounts[s["テーマ"]] = (themeCounts[s["テーマ"]] || 0) + 1; });
-  const order = ["all", "quantum", "space", "semi", "battery", "energy", "material", "other"];
+  const order = ["all", "geopol", "semi", "quantum", "space", "battery", "energy", "material", "other"];
   el.innerHTML = order.map(k => {
     const count = k === "all" ? subset.length : (themeCounts[k] || 0);
     if (k !== "all" && count === 0) return "";

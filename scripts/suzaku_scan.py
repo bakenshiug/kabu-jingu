@@ -70,6 +70,9 @@ WHITELIST_TICKERS = {
     "4475.T",   # HENNGE
     "3993.T",   # PKSHA
     "4382.T",   # HEROZ
+    "285A.T",   # キオクシアホールディングス（半導体メモリ）
+    "5016.T",   # JX金属（半導体素材・希少金属）
+    "6758.T",   # ソニーグループ
 }
 
 HEADERS = {"User-Agent": "Mozilla/5.0"}
@@ -462,19 +465,26 @@ def matches_keyword(row):
 
 # テーマタグ判定（X人気4本柱）
 THEME_RULES = [
+    ("geopol",   ["northrop", "lockheed", "rtx", "general dynamics", "kratos", "axon", "bwx",
+                  "三菱重工", "川崎重工", "ihi", "防衛", "defense",
+                  "mp materials", "ree ", "rare earth", "希土類", "希少金属",
+                  "jx金属", "ｊｘ金属", "ＪＸ金属", "住友金属鉱山", "dowa", "uec", "cameco", "uranium",
+                  "oklo", "nuscale", "smr", "原子力", "nuclear",
+                  "starlink", "globalstar", "iridium", "viasat",
+                  "palantir", "anduril"]),
     ("quantum",  ["quantum", "量子", "ionq", "rigetti", "d-wave", "qubit", "qbts", "qubt", "arqq", "oxide", "オキサイド"]),
     ("space",    ["aerospace", "space", "satellite", "航空宇宙", "宇宙", "rocket", "rkla", "rklb", "rocket lab",
                   "asts", "spacemobile", "intuitive machines", "lunr", "planet labs", "spire", "redwire",
-                  "blacksky", "kratos", "northrop", "lockheed", "rtx", "general dynamics", "boeing",
-                  "三菱重工", "川崎重工", "ihi", "アストロスケール", "ispace", "qps", "axon",
-                  "archer", "joby", "bwx"]),
+                  "blacksky", "アストロスケール", "ispace", "qps",
+                  "archer", "joby"]),
     ("semi",     ["semiconductor", "半導体", "chip", "wafer", "lithography", "fab",
                   "atomera", "atom", "poet", "navitas", "acm research", "aehr", "indie semi",
                   "lightwave", "東京エレクトロン", "アドバンテスト", "レーザーテック", "sumco",
                   "信越化学", "ローム", "ソシオネクスト", "フェローテック", "screen", "kokusai",
                   "hoya", "日立ハイテク", "jsr", "東京応化", "klac", "kla", "applied materials",
                   "lam research", "tsm", "nvidia", "amd", "intel", "micron", "analog devices",
-                  "marvell", "broadcom", "asml", "qualcomm", "テキサス", "qnity"]),
+                  "marvell", "broadcom", "asml", "qualcomm", "テキサス", "qnity",
+                  "キオクシア", "kioxia", "ソニーグループ"]),
     ("battery",  ["battery", "蓄電", "lithium", "電池", "全固体",
                   "quantumscape", "qs", "solid power", "sldp", "enovix", "envx",
                   "amprius", "ampx", "microvast", "mvst", "freyr", "frey",
@@ -507,8 +517,9 @@ def assign_theme(row):
     return "other"
 
 THEME_LABELS = {
+    "geopol":   "🌐 地政学",
     "quantum":  "🧮 量子",
-    "space":    "🛰 防衛宇宙",
+    "space":    "🛰 宇宙",
     "semi":     "⚡ 半導体",
     "battery":  "🔋 次世代電池",
     "energy":   "⛽ エネルギー",
@@ -888,7 +899,7 @@ def main():
         },
         "themes": {
             k: int(sum(1 for x in rows if x.get("テーマ") == k))
-            for k in ["quantum", "space", "semi", "battery", "energy", "material", "other"]
+            for k in ["geopol", "quantum", "space", "semi", "battery", "energy", "material", "other"]
         },
         "signals": out.to_dict(orient="records"),
     }
