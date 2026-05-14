@@ -104,6 +104,51 @@ section h2 {
   font-weight: 900;
 }
 
+/* ====== 折りたたみセクション ====== */
+section details > summary {
+  cursor: pointer;
+  list-style: none;
+  position: relative;
+  padding-right: 32px;
+  user-select: none;
+}
+
+section details > summary::-webkit-details-marker { display: none; }
+
+section details > summary h2 {
+  display: inline-block;
+  margin-bottom: 0;
+  width: calc(100% - 24px);
+  vertical-align: middle;
+  transition: color 0.15s;
+}
+
+section details > summary::after {
+  content: "▼";
+  position: absolute;
+  right: 4px;
+  top: 8px;
+  font-size: 14px;
+  color: var(--gold-dark);
+  transition: transform 0.2s;
+}
+
+section details[open] > summary::after {
+  transform: rotate(180deg);
+}
+
+section details > summary:hover h2 { color: var(--shu); }
+
+section details > *:not(summary) {
+  margin-top: 16px;
+  animation: section-fade 0.2s ease-out;
+}
+
+@keyframes section-fade {
+  from { opacity: 0; transform: translateY(-4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
 .summary .meta {
   font-size: 14px;
   color: var(--muted);
