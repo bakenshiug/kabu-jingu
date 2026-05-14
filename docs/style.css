@@ -109,28 +109,29 @@ section details > summary {
   cursor: pointer;
   list-style: none;
   position: relative;
-  padding-right: 32px;
   user-select: none;
 }
 
 section details > summary::-webkit-details-marker { display: none; }
 
 section details > summary h2 {
-  display: inline-block;
+  display: block;
   margin-bottom: 0;
-  width: calc(100% - 24px);
-  vertical-align: middle;
+  width: 100%;
   transition: color 0.15s;
 }
 
 section details > summary::after {
   content: "▼";
   position: absolute;
-  right: 4px;
-  top: 8px;
+  right: 0;
+  top: 4px;
   font-size: 14px;
   color: var(--gold-dark);
   transition: transform 0.2s;
+  background: var(--paper);
+  padding: 0 4px;
+  z-index: 1;
 }
 
 section details[open] > summary::after {
@@ -582,7 +583,7 @@ section details > *:not(summary) {
   color: var(--muted);
   font-size: 13px;
   margin-bottom: 16px;
-  margin-top: -10px;
+  margin-top: 12px;
 }
 
 /* ====== 行内推奨理由 ====== */
