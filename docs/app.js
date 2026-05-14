@@ -479,9 +479,9 @@ function renderTable(el, signals) {
     <thead><tr>
       <th>順位</th><th title="競馬印">印</th><th>総合</th><th>Score</th><th>市場</th><th>テーマ</th><th>ティッカー</th><th>社名</th>
       <th>現在値</th>
-      <th title="インサイダー買い">🐅白虎</th>
-      <th title="売上YoY成長率＋加速度">🐢玄武</th>
-      <th title="アナリスト推奨×目標株価×EPS">🐉青龍</th>
+      <th class="god-th" title="米SEC Form 4 / インサイダー買い">🐅 白虎<br><span class="god-sub">インサイダー</span></th>
+      <th class="god-th" title="売上YoY成長率＋加速度">🐢 玄武<br><span class="god-sub">業績</span></th>
+      <th class="god-th" title="アナリスト推奨×目標株価×EPSサプライズ">🐉 青龍<br><span class="god-sub">評価</span></th>
       <th>W%R</th><th>RSI</th><th>MACD</th><th>Stoch</th><th>MA</th>
     </tr></thead>
     <tbody>${rows}</tbody>

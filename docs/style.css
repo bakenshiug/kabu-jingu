@@ -651,6 +651,20 @@ th {
   border-bottom: 2px solid var(--gold);
 }
 
+th.god-th {
+  text-align: center;
+  line-height: 1.4;
+}
+
+th .god-sub {
+  display: block;
+  font-size: 10px;
+  font-weight: 500;
+  color: var(--muted);
+  letter-spacing: 0.02em;
+  margin-top: 2px;
+}
+
 tbody tr:hover {
   background: rgba(184,134,11,0.06);
 }
