@@ -836,14 +836,14 @@ def main():
         elif seiryu_grade == "D" and suzaku_buy:
             row["総合"] = "⚠️ " + row["総合"] + "（青龍D・アナリスト弱気）"
 
-    # 階層優先ソート（麒麟>二神宝>★★★>★★>★ の順）+ 神獣grade副次ソート
+    # 階層優先ソート（麒麟>★★★>★★>★ の順）+ 神獣grade副次ソート
+    # 二神宝/単独宝（💎系）は treasure タブ内で白虎grade順に並ぶよう同じ階層に統合
     def tier_priority(row):
         t = row["総合"]
         if "⚠️" in t: return 90  # 警告は最後尾
         if "真麒麟" in t: return 1
         if "🦒" in t: return 2
-        if "💎🐢" in t or "💎🐉" in t: return 3
-        if "💎" in t: return 4
+        if "💎" in t: return 3  # 二神宝・単独宝とも同階層
         if "★★★" in t: return 5
         if "★★" in t: return 6
         if "★" in t: return 7
