@@ -417,9 +417,11 @@ function renderTable(el, signals) {
     el.innerHTML = '<p style="color:var(--muted); padding: 20px 0;">該当銘柄なし</p>';
     return;
   }
+  const isSearching = !!CURRENT_SEARCH;
   const rows = signals.map((s, i) => {
     const rank = i + 1;
-    const rankMark = rank === 1 ? "🥇" : rank === 2 ? "🥈" : rank === 3 ? "🥉" : rank;
+    const rankMark = isSearching ? "—"
+                    : rank === 1 ? "🥇" : rank === 2 ? "🥈" : rank === 3 ? "🥉" : rank;
     const cls = s["総合"].includes("🦒") ? "row-kirin"
               : s["Alert"] === "treasure" ? "row-treasure"
               : s["総合"].includes("★★★") ? "row-strong"
