@@ -129,6 +129,201 @@ section h2 {
   font-family: "Yu Mincho", serif;
 }
 
+/* ====== 初めての方へパネル ====== */
+.intro-panel {
+  background: linear-gradient(135deg, #fff8e1, #fff3c2);
+  border: 2px solid var(--gold);
+  border-radius: 4px;
+  padding: 24px 28px 28px;
+  margin-bottom: 32px;
+  position: relative;
+  box-shadow: 0 2px 8px rgba(184,134,11,0.15);
+}
+
+.intro-panel h2 {
+  font-size: 20px;
+  color: var(--shu-deep);
+  border: none;
+  padding: 0;
+  margin-bottom: 16px;
+}
+
+.intro-close {
+  position: absolute;
+  top: 8px;
+  right: 12px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  color: var(--muted);
+  cursor: pointer;
+  padding: 4px 8px;
+}
+
+.intro-close:hover { color: var(--shu); }
+
+.intro-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+}
+
+.intro-step {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+}
+
+.intro-num {
+  background: linear-gradient(135deg, var(--shu), var(--shu-deep));
+  color: #fff;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 900;
+  flex-shrink: 0;
+  font-family: -apple-system, sans-serif;
+}
+
+.intro-body {
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--sumi);
+}
+
+.intro-body strong { color: var(--shu-deep); display: block; margin-bottom: 4px; }
+.intro-body a { color: var(--shu); font-weight: bold; text-decoration: none; }
+.intro-body a:hover { text-decoration: underline; }
+
+/* ====== 今日の一推しカード ====== */
+.top-picks h2 {
+  font-size: 22px;
+  color: var(--shu-deep);
+  border-bottom: 2px solid var(--gold);
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+  letter-spacing: 0.1em;
+}
+
+.picks-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 14px;
+}
+
+.picks-empty {
+  color: var(--muted);
+  padding: 20px;
+  font-style: italic;
+  text-align: center;
+}
+
+.pick-card {
+  display: flex;
+  gap: 14px;
+  padding: 16px;
+  background: var(--paper);
+  border: 1.5px solid rgba(184,134,11,0.3);
+  border-radius: 4px;
+  box-shadow: 0 2px 6px rgba(42,24,16,0.06);
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+
+.pick-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(200,16,46,0.12);
+}
+
+.pick-rank-1 { background: linear-gradient(135deg, #fff8d0, #ffeaa0); border-color: var(--gold); }
+.pick-rank-2 { background: linear-gradient(135deg, #f5f5f5, #e8e8e8); border-color: #b0b0b0; }
+.pick-rank-3 { background: linear-gradient(135deg, #ffe4cc, #f5c89a); border-color: #c08550; }
+
+.pick-rank {
+  font-size: 28px;
+  font-weight: 900;
+  color: var(--shu);
+  font-family: -apple-system, sans-serif;
+  flex-shrink: 0;
+  align-self: center;
+}
+
+.pick-main {
+  flex: 1;
+  min-width: 0;
+}
+
+.pick-head {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  font-size: 13px;
+  margin-bottom: 4px;
+}
+
+.pick-ticker {
+  font-weight: 900;
+  color: var(--shu-deep);
+  font-family: -apple-system, sans-serif;
+  font-size: 15px;
+}
+
+.pick-flag { font-size: 14px; }
+
+.pick-theme {
+  font-size: 12px;
+  color: var(--gold-dark);
+  background: rgba(184,134,11,0.1);
+  padding: 1px 6px;
+  border-radius: 2px;
+}
+
+.pick-name {
+  font-weight: 700;
+  color: var(--sumi);
+  font-size: 14px;
+  margin-bottom: 6px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.pick-price {
+  font-weight: 900;
+  color: var(--shu);
+  font-family: -apple-system, sans-serif;
+  font-size: 16px;
+  margin-bottom: 6px;
+}
+
+.pick-judgement {
+  font-size: 11px;
+  color: var(--shu-deep);
+  margin-left: 6px;
+}
+
+.pick-reason {
+  font-size: 12px;
+  color: var(--sumi);
+  line-height: 1.6;
+  background: rgba(255,255,255,0.5);
+  padding: 6px 8px;
+  border-left: 2px solid var(--shu);
+  border-radius: 1px;
+}
+
+/* ====== 行内推奨理由 ====== */
+.row-reason {
+  font-size: 11px;
+  color: var(--muted);
+  margin-top: 3px;
+  font-family: -apple-system, sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
 .control-bar {
   display: flex;
   gap: 16px;

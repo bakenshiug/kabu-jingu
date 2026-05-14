@@ -31,12 +31,14 @@ let CURRENT_SEARCH = "";
 async function loadSignals() {
   const summaryEl = document.querySelector("#summary");
   const tableEl = document.querySelector("#signals-table");
+  setupIntroPanel();
   try {
     const res = await fetch("signals.json?t=" + Date.now());
     if (!res.ok) throw new Error("signals.json not found");
     const data = await res.json();
     CURRENT_DATA = data;
     renderSummary(summaryEl, data);
+    renderTopPicks(data);
     renderAlertTabs(data);
     renderMarketToggle(data);
     renderTabs(data);
@@ -48,6 +50,78 @@ async function loadSignals() {
   }
   document.querySelector("#footer-date").textContent =
     new Date().toLocaleDateString("ja-JP");
+}
+
+function setupIntroPanel() {
+  const panel = document.querySelector("#intro-panel");
+  const closeBtn = document.querySelector("#intro-close");
+  if (!panel || !closeBtn) return;
+  if (localStorage.getItem("intro_closed") === "1") {
+    panel.style.display = "none";
+  }
+  closeBtn.addEventListener("click", () => {
+    panel.style.display = "none";
+    localStorage.setItem("intro_closed", "1");
+  });
+}
+
+function buildRecommendReason(s) {
+  const parts = [];
+  // 朱雀
+  if (s["総合"].includes("🦒")) parts.push("🦒4神合議の最上位");
+  else if (s["総合"].includes("💎")) parts.push("💎複数神獣で確認");
+  else if (s["総合"].includes("★★★")) parts.push("🔥強い買いシグナル");
+  else if (s["総合"].includes("★★")) parts.push("🔥買いシグナル");
+  else if (s["総合"].includes("★")) parts.push("🔥弱い買いシグナル");
+  // 白虎
+  const b = s["白虎"];
+  if (b === "S") parts.push("🐅CEO/CFOクラス買い");
+  else if (b === "A") parts.push("🐅幹部買い");
+  else if (b === "B") parts.push("🐅役員買い");
+  else if (b === "D") parts.push("⚠️幹部売却超過");
+  // 玄武
+  const gn = s["玄武詳細"] || "";
+  if (s["玄武"] === "S") parts.push("🐢業績爆発加速中");
+  else if (s["玄武"] === "A") parts.push(`🐢${gn.replace("(前期", "前期")}`);
+  else if (s["玄武"] === "B") parts.push("🐢売上成長");
+  else if (s["玄武"] === "D") parts.push("⚠️減収");
+  // 青龍
+  const sr = s["青龍詳細"] || "";
+  if (s["青龍"] === "S") parts.push("🐉アナリスト強気＋EPS好調");
+  else if (s["青龍"] === "A") parts.push("🐉アナリスト強気");
+  else if (s["青龍"] === "B") parts.push("🐉アナリストやや強気");
+  else if (s["青龍"] === "D") parts.push("⚠️アナリスト弱気");
+  return parts.join(" × ");
+}
+
+function renderTopPicks(data) {
+  const el = document.querySelector("#picks-grid");
+  if (!el) return;
+  const tops = (data.signals || []).filter(s =>
+    s["総合"].includes("🦒") || s["総合"].includes("💎🐢") || s["総合"].includes("💎🐉")
+  ).slice(0, 5);
+  if (tops.length === 0) {
+    el.innerHTML = '<p class="picks-empty">本日 麒麟・二神宝 該当銘柄なし。★★★/★★ を確認してください。</p>';
+    return;
+  }
+  el.innerHTML = tops.map((s, i) => {
+    const medal = i === 0 ? "🥇" : i === 1 ? "🥈" : i === 2 ? "🥉" : `${i+1}`;
+    const reason = buildRecommendReason(s);
+    const flag = s["市場"] === "jp" ? "🇯🇵" : "🇺🇸";
+    return `<div class="pick-card pick-rank-${i+1}">
+      <div class="pick-rank">${medal}</div>
+      <div class="pick-main">
+        <div class="pick-head">
+          <span class="pick-ticker">${esc(s["ティッカー"])}</span>
+          <span class="pick-flag">${flag}</span>
+          <span class="pick-theme">${esc(s["テーマ表示"] || "")}</span>
+        </div>
+        <div class="pick-name">${esc(s["社名"])}</div>
+        <div class="pick-price">${s["現在値"]} <span class="pick-judgement">${esc(s["総合"])}</span></div>
+        <div class="pick-reason">${reason}</div>
+      </div>
+    </div>`;
+  }).join("");
 }
 
 function rerender() {
@@ -219,6 +293,7 @@ function renderTable(el, signals) {
                     : seiryuGrade === "C" ? "seiryu-c"
                     : seiryuGrade === "D" ? "seiryu-d" : "seiryu-none";
     const marketFlag = s["市場"] === "jp" ? "🇯🇵" : "🇺🇸";
+    const reason = buildRecommendReason(s);
     return `<tr class="${cls}">
       <td class="rank">${rankMark}</td>
       <td>${s["総合"]}</td>
@@ -226,7 +301,10 @@ function renderTable(el, signals) {
       <td class="flag">${marketFlag}</td>
       <td>${esc(s["テーマ表示"] || "")}</td>
       <td class="ticker">${esc(s["ティッカー"])}</td>
-      <td>${esc(s["社名"])}</td>
+      <td>
+        <div>${esc(s["社名"])}</div>
+        ${reason ? `<div class="row-reason">${reason}</div>` : ""}
+      </td>
       <td class="price">${s["現在値"]}</td>
       <td class="byakko ${byakkoCls}" title="${esc(s["白虎詳細"] || "")}">${byakkoGrade}</td>
       <td class="genbu ${genbuCls}" title="${esc(s["玄武詳細"] || "")}">${genbuGrade}</td>
