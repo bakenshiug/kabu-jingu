@@ -243,6 +243,133 @@ section details > *:not(summary) {
 .intro-body a { color: var(--shu); font-weight: bold; text-decoration: none; }
 .intro-body a:hover { text-decoration: underline; }
 
+/* ====== 今日の開運日本株 ====== */
+.lucky-jp-section {
+  background: linear-gradient(135deg, #fff5f0, #ffe8d8);
+  border: 2px solid var(--shu);
+  border-radius: 4px;
+  position: relative;
+}
+
+.lucky-jp-section::before {
+  content: "";
+  position: absolute;
+  inset: 4px;
+  border: 1px solid rgba(200,16,46,0.2);
+  border-radius: 2px;
+  pointer-events: none;
+}
+
+.lucky-jp-section h2 { color: var(--shu); border-color: var(--shu); }
+
+.lucky-empty {
+  color: var(--muted);
+  padding: 24px;
+  text-align: center;
+  font-style: italic;
+}
+
+.lucky-card {
+  display: flex;
+  gap: 18px;
+  padding: 20px;
+  background: rgba(255,255,255,0.6);
+  border-radius: 4px;
+  position: relative;
+}
+
+.lucky-omikuji {
+  font-size: 56px;
+  align-self: flex-start;
+  filter: drop-shadow(0 2px 8px rgba(200,16,46,0.3));
+  animation: omikuji-sway 3s ease-in-out infinite;
+}
+
+@keyframes omikuji-sway {
+  0%, 100% { transform: rotate(-3deg); }
+  50% { transform: rotate(3deg); }
+}
+
+.lucky-body { flex: 1; min-width: 0; }
+
+.lucky-head {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 6px;
+}
+
+.lucky-ticker {
+  font-size: 22px;
+  font-weight: 900;
+  color: var(--shu-deep);
+  font-family: -apple-system, sans-serif;
+  letter-spacing: 0.05em;
+}
+
+.lucky-theme {
+  font-size: 12px;
+  color: var(--gold-dark);
+  background: rgba(184,134,11,0.1);
+  padding: 2px 8px;
+  border-radius: 2px;
+}
+
+.lucky-name {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--sumi);
+  margin-bottom: 8px;
+}
+
+.lucky-price {
+  font-size: 28px;
+  font-weight: 900;
+  color: var(--shu);
+  font-family: -apple-system, sans-serif;
+  margin-bottom: 8px;
+}
+
+.lucky-judgement {
+  font-size: 13px;
+  color: var(--shu-deep);
+  margin-left: 10px;
+  font-weight: 700;
+}
+
+.lucky-tf { margin: 8px 0; }
+
+.lucky-humor {
+  font-size: 14px;
+  color: var(--shu-deep);
+  font-style: italic;
+  font-weight: 600;
+  margin: 10px 0;
+  padding: 10px 14px;
+  background: rgba(200,16,46,0.06);
+  border-left: 3px solid var(--shu);
+  border-radius: 2px;
+  line-height: 1.6;
+}
+
+.lucky-reason {
+  font-size: 13px;
+  color: var(--sumi);
+  line-height: 1.6;
+  background: rgba(255,255,255,0.7);
+  padding: 8px 12px;
+  border-radius: 2px;
+}
+
+.lucky-fortune {
+  margin-top: 12px;
+  text-align: right;
+  font-size: 11px;
+  color: var(--gold-dark);
+  letter-spacing: 0.1em;
+}
+
 /* ====== 今日の一推しカード ====== */
 .top-picks h2 {
   font-size: 22px;

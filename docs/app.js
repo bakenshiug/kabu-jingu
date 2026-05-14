@@ -47,6 +47,7 @@ async function loadSignals() {
     const data = await res.json();
     CURRENT_DATA = data;
     renderSummary(summaryEl, data);
+    renderLuckyJP(data);
     renderTopPicks(data);
     renderAlertTabs(data);
     renderMarketToggle(data);
@@ -172,6 +173,43 @@ function buildRecommendReason(s) {
   else if (s["青龍"] === "B") parts.push("🐉アナリストやや強気");
   else if (s["青龍"] === "D") parts.push("⚠️アナリスト弱気");
   return parts.join(" × ");
+}
+
+function renderLuckyJP(data) {
+  const el = document.querySelector("#lucky-jp-card");
+  if (!el) return;
+  const jp = (data.signals || []).filter(s =>
+    s["市場"] === "jp" && (s["Alert"] === "buy" || s["Alert"] === "treasure")
+  );
+  // 既に階層優先ソート済 → 先頭が最有力
+  const pick = jp[0];
+  if (!pick) {
+    el.innerHTML = '<div class="lucky-empty">📭 本日の開運日本株なし。市場が静かな日です。</div>';
+    return;
+  }
+  const reason = buildRecommendReason(pick);
+  const humor = getHumorTagline(pick);
+  const km = getKeibaMark(pick);
+  const tfs = getTimeframes(pick);
+  const tfHtml = tfs.map(t => `<span class="tf-tag" title="${esc(t.title)}">${t.tag}</span>`).join("");
+  const ticker = esc(pick["ティッカー"]);
+  el.innerHTML = `<div class="lucky-card">
+    <div class="lucky-omikuji">🎴</div>
+    <div class="lucky-body">
+      <div class="lucky-head">
+        ${km.mark ? `<span class="keiba-mark">${km.mark}</span>` : ""}
+        <span class="lucky-ticker">${ticker}</span>
+        <button class="copy-btn" data-copy="${ticker}" title="ティッカーをコピー">📋</button>
+        <span class="lucky-theme">${esc(pick["テーマ表示"] || "")}</span>
+      </div>
+      <div class="lucky-name">${esc(pick["社名"])}</div>
+      <div class="lucky-price">¥${pick["現在値"]}<span class="lucky-judgement">${esc(pick["総合"])}</span></div>
+      ${tfHtml ? `<div class="lucky-tf">${tfHtml}</div>` : ""}
+      ${humor ? `<div class="lucky-humor">${humor}</div>` : ""}
+      <div class="lucky-reason">${reason}</div>
+      <div class="lucky-fortune">⛩️ 今日の神宮の託宣でした</div>
+    </div>
+  </div>`;
 }
 
 function renderPickCard(s, i) {
