@@ -22,10 +22,19 @@ const MARKET_LABELS = {
   jp:  "🇯🇵 日本",
 };
 
+const TIMEFRAME_LABELS = {
+  all:       "🌐 すべて",
+  short:     "⏱ 短期",
+  mid:       "📅 中期",
+  long:      "🌳 長期",
+  tenbagger: "🚀 テンバガー狙い",
+};
+
 let CURRENT_DATA = null;
 let CURRENT_THEME = "all";
 let CURRENT_ALERT = "buy";
 let CURRENT_MARKET = "all";
+let CURRENT_TIMEFRAME = "all";
 let CURRENT_SEARCH = "";
 
 async function loadSignals() {
@@ -228,8 +237,20 @@ function rerender() {
   renderTabs(CURRENT_DATA);
   renderAlertTabs(CURRENT_DATA);
   renderMarketToggle(CURRENT_DATA);
+  renderTimeframeTabs(CURRENT_DATA);
   renderTable(tableEl, filtered);
   updateLegend();
+}
+
+function hasTimeframe(s, tf) {
+  if (tf === "all") return true;
+  const km = getKeibaMark(s);
+  if (tf === "tenbagger") return km.mark === "☆";
+  const tfs = getTimeframes(s).map(t => t.tag);
+  if (tf === "short") return tfs.some(t => t.includes("短期"));
+  if (tf === "mid") return tfs.some(t => t.includes("中期"));
+  if (tf === "long") return tfs.some(t => t.includes("長期"));
+  return false;
 }
 
 function applyFilters(signals) {
@@ -245,6 +266,7 @@ function applyFilters(signals) {
     if (s["Alert"] !== CURRENT_ALERT) return false;
     if (CURRENT_MARKET !== "all" && s["市場"] !== CURRENT_MARKET) return false;
     if (CURRENT_THEME !== "all" && s["テーマ"] !== CURRENT_THEME) return false;
+    if (!hasTimeframe(s, CURRENT_TIMEFRAME)) return false;
     return true;
   });
 }
@@ -297,6 +319,36 @@ function renderMarketToggle(data) {
   el.querySelectorAll(".market-btn").forEach(b => {
     b.addEventListener("click", () => {
       CURRENT_MARKET = b.dataset.market;
+      rerender();
+    });
+  });
+}
+
+function renderTimeframeTabs(data) {
+  const el = document.querySelector("#timeframe-tabs");
+  if (!el) return;
+  // 朱雀alert × 市場フィルタ通過後のサブセットで件数算出
+  const subset = (data.signals || []).filter(s =>
+    s["Alert"] === CURRENT_ALERT &&
+    (CURRENT_MARKET === "all" || s["市場"] === CURRENT_MARKET) &&
+    (CURRENT_THEME === "all" || s["テーマ"] === CURRENT_THEME));
+  const counts = {
+    all: subset.length,
+    short: subset.filter(s => hasTimeframe(s, "short")).length,
+    mid: subset.filter(s => hasTimeframe(s, "mid")).length,
+    long: subset.filter(s => hasTimeframe(s, "long")).length,
+    tenbagger: subset.filter(s => hasTimeframe(s, "tenbagger")).length,
+  };
+  const order = ["all", "short", "mid", "long", "tenbagger"];
+  el.innerHTML = order.map(k => {
+    const active = k === CURRENT_TIMEFRAME ? " active" : "";
+    return `<button class="tf-btn tf-${k}${active}" data-tf="${k}">
+      ${TIMEFRAME_LABELS[k]}<span class="theme-count">${counts[k] || 0}</span>
+    </button>`;
+  }).join("");
+  el.querySelectorAll(".tf-btn").forEach(b => {
+    b.addEventListener("click", () => {
+      CURRENT_TIMEFRAME = b.dataset.tf;
       rerender();
     });
   });
