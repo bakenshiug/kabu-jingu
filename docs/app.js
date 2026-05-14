@@ -13,6 +13,7 @@ const THEME_LABELS = {
 const ALERT_LABELS = {
   buy:      "🟢 買い",
   treasure: "💎 白虎単独宝",
+  surge:    "🔥 出来高急増",
   sell:     "🔴 売り",
   skip:     "⚪ 見送り",
 };
@@ -37,6 +38,16 @@ let CURRENT_ALERT = "buy";
 let CURRENT_MARKET = "all";
 let CURRENT_TIMEFRAME = "all";
 let CURRENT_SEARCH = "";
+let CURRENT_LIQUID_ONLY = false;
+
+function getSurgeMark(s) {
+  const r = parseFloat(s["出来高倍率"]);
+  if (isNaN(r)) return "";
+  if (r >= 3) return "🔥🔥🔥";
+  if (r >= 2) return "🔥🔥";
+  if (r >= 1.5) return "🔥";
+  return "";
+}
 
 async function loadSignals() {
   const summaryEl = document.querySelector("#summary");
@@ -304,10 +315,17 @@ function applyFilters(signals) {
     });
   }
   return signals.filter(s => {
-    if (s["Alert"] !== CURRENT_ALERT) return false;
+    // 「🔥出来高急増」タブ：alert横断で出来高2倍以上を抽出
+    if (CURRENT_ALERT === "surge") {
+      const r = parseFloat(s["出来高倍率"]);
+      if (isNaN(r) || r < 2.0) return false;
+    } else {
+      if (s["Alert"] !== CURRENT_ALERT) return false;
+    }
     if (CURRENT_MARKET !== "all" && s["市場"] !== CURRENT_MARKET) return false;
     if (CURRENT_THEME !== "all" && s["テーマ"] !== CURRENT_THEME) return false;
     if (!hasTimeframe(s, CURRENT_TIMEFRAME)) return false;
+    if (CURRENT_LIQUID_ONLY && s["流動性"] !== "高") return false;
     return true;
   });
 }
@@ -331,10 +349,16 @@ function renderAlertTabs(data) {
   const el = document.querySelector("#alert-tabs");
   if (!el) return;
   const a = data.alerts || {buy:0, sell:0, skip:0};
-  el.innerHTML = ["buy","treasure","sell","skip"].map(k => {
+  // 出来高急増タブの件数を別計算
+  const surgeCount = (data.signals || []).filter(s => {
+    const r = parseFloat(s["出来高倍率"]);
+    return !isNaN(r) && r >= 2.0;
+  }).length;
+  const countMap = {...(a || {}), surge: surgeCount};
+  el.innerHTML = ["buy","treasure","surge","sell","skip"].map(k => {
     const cls = k === CURRENT_ALERT ? "alert-tab active alert-" + k : "alert-tab alert-" + k;
     return `<button class="${cls}" data-alert="${k}">
-      ${ALERT_LABELS[k]}<span class="theme-count">${a[k] || 0}</span>
+      ${ALERT_LABELS[k]}<span class="theme-count">${countMap[k] || 0}</span>
     </button>`;
   }).join("");
   el.querySelectorAll(".alert-tab").forEach(b => {
@@ -369,10 +393,15 @@ function renderTimeframeTabs(data) {
   const el = document.querySelector("#timeframe-tabs");
   if (!el) return;
   // 朱雀alert × 市場フィルタ通過後のサブセットで件数算出
-  const subset = (data.signals || []).filter(s =>
-    s["Alert"] === CURRENT_ALERT &&
-    (CURRENT_MARKET === "all" || s["市場"] === CURRENT_MARKET) &&
-    (CURRENT_THEME === "all" || s["テーマ"] === CURRENT_THEME));
+  const subset = (data.signals || []).filter(s => {
+    if (CURRENT_ALERT === "surge") {
+      const r = parseFloat(s["出来高倍率"]);
+      if (isNaN(r) || r < 2.0) return false;
+    } else if (s["Alert"] !== CURRENT_ALERT) return false;
+    if (CURRENT_MARKET !== "all" && s["市場"] !== CURRENT_MARKET) return false;
+    if (CURRENT_THEME !== "all" && s["テーマ"] !== CURRENT_THEME) return false;
+    return true;
+  });
   const counts = {
     all: subset.length,
     short: subset.filter(s => hasTimeframe(s, "short")).length,
@@ -399,9 +428,14 @@ function renderTabs(data) {
   const el = document.querySelector("#theme-tabs");
   if (!el) return;
   // CURRENT_ALERT × CURRENT_MARKET でテーマ別件数を再計算
-  const subset = data.signals.filter(s =>
-    s["Alert"] === CURRENT_ALERT &&
-    (CURRENT_MARKET === "all" || s["市場"] === CURRENT_MARKET));
+  const subset = data.signals.filter(s => {
+    if (CURRENT_ALERT === "surge") {
+      const r = parseFloat(s["出来高倍率"]);
+      if (isNaN(r) || r < 2.0) return false;
+    } else if (s["Alert"] !== CURRENT_ALERT) return false;
+    if (CURRENT_MARKET !== "all" && s["市場"] !== CURRENT_MARKET) return false;
+    return true;
+  });
   const themeCounts = {};
   subset.forEach(s => { themeCounts[s["テーマ"]] = (themeCounts[s["テーマ"]] || 0) + 1; });
   const order = ["all", "geopol", "semi", "quantum", "space", "battery", "energy", "material", "other"];
@@ -428,6 +462,13 @@ function bindSearch() {
     CURRENT_SEARCH = e.target.value;
     rerender();
   });
+  const liquid = document.querySelector("#liquid-only");
+  if (liquid) {
+    liquid.addEventListener("change", e => {
+      CURRENT_LIQUID_ONLY = e.target.checked;
+      rerender();
+    });
+  }
 }
 
 function updateLegend() {
@@ -500,7 +541,12 @@ function renderTable(el, signals) {
       <td class="score">${s["Score"]}</td>
       <td class="flag">${marketFlag}</td>
       <td>${esc(s["テーマ表示"] || "")}</td>
-      <td class="ticker">${esc(s["ティッカー"])} <button class="copy-btn-small" data-copy="${esc(s["ティッカー"])}" title="コピー">📋</button></td>
+      <td class="ticker">
+        ${esc(s["ティッカー"])}
+        <button class="copy-btn-small" data-copy="${esc(s["ティッカー"])}" title="コピー">📋</button>
+        ${getSurgeMark(s) ? `<span class="surge-badge" title="出来高 ${s["出来高倍率"]}x">${getSurgeMark(s)}</span>` : ""}
+        ${s["流動性"] === "低" ? `<span class="liq-badge liq-low" title="流動性低">💧低</span>` : ""}
+      </td>
       <td>
         <div>${esc(s["社名"])}</div>
         ${reason ? `<div class="row-reason">${reason}</div>` : ""}

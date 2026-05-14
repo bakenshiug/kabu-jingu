@@ -642,6 +642,12 @@ section details > *:not(summary) {
   border-color: #991b1b;
   box-shadow: 0 2px 6px rgba(220,38,38,0.3);
 }
+.alert-tab.active.alert-surge {
+  background: linear-gradient(135deg, #f97316, #c2410c);
+  color: #fff;
+  border-color: #c2410c;
+  box-shadow: 0 2px 8px rgba(249,115,22,0.4);
+}
 .alert-tab.active.alert-treasure {
   background: linear-gradient(135deg, #b8860b, #8b6914);
   color: #fff;
@@ -696,6 +702,64 @@ section details > *:not(summary) {
 .tf-btn.tf-mid.active     { background: linear-gradient(135deg, #16a34a, #15803d); border-color: #15803d; }
 .tf-btn.tf-long.active    { background: linear-gradient(135deg, #b8860b, #8b6914); border-color: #8b6914; }
 .tf-btn.tf-tenbagger.active { background: linear-gradient(135deg, #c8102e, #9b1027); border-color: #9b1027; }
+
+.surge-badge {
+  display: inline-block;
+  margin-left: 4px;
+  font-size: 11px;
+  padding: 1px 4px;
+  background: rgba(249,115,22,0.15);
+  border: 1px solid rgba(249,115,22,0.4);
+  border-radius: 3px;
+  vertical-align: middle;
+}
+
+.liq-badge {
+  display: inline-block;
+  margin-left: 4px;
+  font-size: 10px;
+  padding: 1px 6px;
+  border-radius: 3px;
+  font-weight: 700;
+  vertical-align: middle;
+}
+
+.liq-badge.liq-low {
+  background: rgba(107,114,128,0.12);
+  color: #6b7280;
+  border: 1px solid #9ca3af;
+}
+
+.liquid-toggle-row {
+  margin-bottom: 14px;
+}
+
+.liquid-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--sumi);
+  padding: 8px 14px;
+  background: var(--paper);
+  border: 1.5px solid rgba(184,134,11,0.4);
+  border-radius: 2px;
+  user-select: none;
+  transition: all 0.15s;
+}
+
+.liquid-toggle:hover {
+  background: rgba(184,134,11,0.08);
+  border-color: var(--gold);
+}
+
+.liquid-toggle input { cursor: pointer; }
+
+.liquid-toggle input:checked + span {
+  color: var(--shu-deep);
+}
 
 .search-box {
   margin-bottom: 16px;

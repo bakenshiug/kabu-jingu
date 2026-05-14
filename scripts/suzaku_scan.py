@@ -554,6 +554,27 @@ def stochastic(high, low, close, k=14, d=3):
     dline = kline.rolling(d).mean()
     return kline, dline
 
+def volume_metrics(close, volume):
+    """出来高急増倍率・流動性ドル出来高を返す"""
+    import math
+    try:
+        if volume is None or len(volume) < 20: return None, None
+        v = volume.dropna()
+        c = close.dropna()
+        if len(v) < 20: return None, None
+        today_v = float(v.iloc[-1])
+        avg_v_20 = float(v.iloc[-20:].mean())
+        today_c = float(c.iloc[-1])
+        if avg_v_20 <= 0 or math.isnan(today_v) or math.isnan(avg_v_20) or math.isnan(today_c):
+            return None, None
+        surge_ratio = today_v / avg_v_20
+        dollar_vol = today_c * today_v
+        if math.isnan(surge_ratio) or math.isnan(dollar_vol):
+            return None, None
+        return round(surge_ratio, 2), int(dollar_vol)
+    except Exception:
+        return None, None
+
 def score_signals(high, low, close):
     """5指標の買いスコアを返す。各 +2(強い買い) / +1(買い) / 0(中立) / -1/-2(売り)。"""
     out = {}
@@ -701,13 +722,14 @@ def main():
             for t in chunk:
                 try:
                     if len(chunk) == 1:
-                        h, l, c = data["High"], data["Low"], data["Close"]
+                        h, l, c, v = data["High"], data["Low"], data["Close"], data["Volume"]
                     else:
-                        h = data["High"][t]; l = data["Low"][t]; c = data["Close"][t]
+                        h = data["High"][t]; l = data["Low"][t]; c = data["Close"][t]; v = data["Volume"][t]
                     h = h.dropna(); l = l.dropna(); c = c.dropna()
                     if len(c) < 30: continue
                     scores = score_signals(h, l, c)
-                    results[t] = (float(c.iloc[-1]), scores)
+                    surge, dollar_vol = volume_metrics(c, v)
+                    results[t] = (float(c.iloc[-1]), scores, surge, dollar_vol)
                 except Exception:
                     continue
         except Exception as e:
@@ -729,7 +751,7 @@ def main():
     for _, r in filtered.iterrows():
         t = r["ticker"]
         if t not in results: continue
-        price, scores = results[t]
+        price, scores, surge, dollar_vol = results[t]
         label, total, buys, sells, alert_type = consensus(scores)
 
         # 白虎単独宝: 朱雀がbuyでない（None/sell/skip）& 白虎B以上 → treasure昇格
@@ -744,6 +766,9 @@ def main():
             continue
         theme = assign_theme(r)
         market = "jp" if t.endswith(".T") else "us"
+        # 流動性判定（ドル/円出来高）
+        liq_threshold = 1_000_000_000 if market == "jp" else 1_000_000  # 日本: 10億円, 米国: $1M
+        is_liquid = (dollar_vol or 0) >= liq_threshold
         rows.append({
             "総合": label,
             "Alert": alert_type,
@@ -755,6 +780,9 @@ def main():
             "ティッカー": t,
             "社名": str(r.get("name", ""))[:28],
             "現在値": round(price, 2),
+            "出来高倍率": surge,
+            "流動性": "高" if is_liquid else "低",
+            "ドル出来高": dollar_vol,
             "W%R": scores["Williams%R"][1],
             "RSI": scores["RSI"][1],
             "MACD": scores["MACD"][1],
@@ -906,8 +934,17 @@ def main():
     out_path = os.path.join(os.path.dirname(__file__), "..", "docs", "signals.json")
     out_path = os.path.abspath(out_path)
     os.makedirs(os.path.dirname(out_path), exist_ok=True)
+    # NaN混入対策：再帰的にNaN/Infをnullに変換
+    import math as _math
+    def _clean(o):
+        if isinstance(o, dict): return {k: _clean(v) for k, v in o.items()}
+        if isinstance(o, list): return [_clean(x) for x in o]
+        if isinstance(o, float):
+            if _math.isnan(o) or _math.isinf(o): return None
+        return o
+    payload = _clean(payload)
     with open(out_path, "w", encoding="utf-8") as f:
-        json.dump(payload, f, ensure_ascii=False, indent=2)
+        json.dump(payload, f, ensure_ascii=False, indent=2, allow_nan=False)
     print(f"\n📜 神託書出: {out_path}")
 
 if __name__ == "__main__":
