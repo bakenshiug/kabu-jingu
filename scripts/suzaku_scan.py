@@ -777,36 +777,57 @@ def main():
             genbu = json.load(open(genbu_path, encoding="utf-8")).get("genbu", {})
         except Exception:
             genbu = {}
+    # 青龍データを読み込んで4神合議
+    seiryu_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "docs", "seiryu_data.json"))
+    seiryu = {}
+    if os.path.exists(seiryu_path):
+        try:
+            seiryu = json.load(open(seiryu_path, encoding="utf-8")).get("seiryu", {})
+        except Exception:
+            seiryu = {}
 
     GRADE_RANK = {"S": 4, "A": 3, "B": 2, "C": 1, None: 0, "D": -2}
     for row in rows:
         t = row["ティッカー"]
         b = byakko.get(t, {})
         gn = genbu.get(t, {})
+        sr = seiryu.get(t, {})
         row["白虎"] = b.get("grade") or "-"
         row["白虎詳細"] = b.get("note", "")
         row["玄武"] = gn.get("grade") or "-"
         row["玄武詳細"] = gn.get("note", "")
+        row["青龍"] = sr.get("grade") or "-"
+        row["青龍詳細"] = sr.get("note", "")
         byakko_grade = b.get("grade")
         genbu_grade = gn.get("grade")
+        seiryu_grade = sr.get("grade")
         b_rank = GRADE_RANK.get(byakko_grade, 0)
         g_rank = GRADE_RANK.get(genbu_grade, 0)
+        s_rank = GRADE_RANK.get(seiryu_grade, 0)
         suzaku_buy = row["Alert"] == "buy"
         suzaku_strong = row["Score"] >= 4
-        # 🦒 真の麒麟: 朱雀buy + 白虎B+ + 玄武B+ の3神一致
-        if suzaku_buy and b_rank >= 2 and g_rank >= 2:
+        # 🦒 真の麒麟（フル4神一致）
+        if suzaku_buy and b_rank >= 2 and g_rank >= 2 and s_rank >= 2:
+            row["総合"] = "🦒 真麒麟（4神全一致）"
+        # 3神合議
+        elif suzaku_buy and b_rank >= 2 and g_rank >= 2:
             row["総合"] = "🦒 麒麟（朱雀×白虎×玄武）"
-        # 2神合議: 朱雀buy + 白虎B+ → 準麒麟
+        elif suzaku_buy and g_rank >= 2 and s_rank >= 2:
+            row["総合"] = "🦒 麒麟（朱雀×玄武×青龍）"
         elif suzaku_strong and b_rank >= 2:
             row["総合"] = "🦒 麒麟（朱雀×白虎）"
-        # 白虎単独宝 + 玄武A+ → 二神隠れ麒麟
+        # 二神宝
         elif row["Alert"] == "treasure" and g_rank >= 3:
             row["総合"] = f"💎🐢 二神宝（白虎{byakko_grade}×玄武{genbu_grade}）"
+        elif row["Alert"] == "treasure" and s_rank >= 3:
+            row["総合"] = f"💎🐉 二神宝（白虎{byakko_grade}×青龍{seiryu_grade}）"
         # 警告系
         elif byakko_grade == "D" and suzaku_buy:
             row["総合"] = "⚠️ " + row["総合"] + "（白虎D・幹部売却）"
         elif genbu_grade == "D" and suzaku_buy:
             row["総合"] = "⚠️ " + row["総合"] + "（玄武D・減収）"
+        elif seiryu_grade == "D" and suzaku_buy:
+            row["総合"] = "⚠️ " + row["総合"] + "（青龍D・アナリスト弱気）"
 
     # rowsを更新後、outを再構築
     out = pd.DataFrame(rows).sort_values(["Score"], ascending=False)

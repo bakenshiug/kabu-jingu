@@ -207,6 +207,12 @@ function renderTable(el, signals) {
                    : genbuGrade === "B" ? "genbu-b"
                    : genbuGrade === "C" ? "genbu-c"
                    : genbuGrade === "D" ? "genbu-d" : "genbu-none";
+    const seiryuGrade = s["青龍"] || "-";
+    const seiryuCls = seiryuGrade === "S" ? "seiryu-s"
+                    : seiryuGrade === "A" ? "seiryu-a"
+                    : seiryuGrade === "B" ? "seiryu-b"
+                    : seiryuGrade === "C" ? "seiryu-c"
+                    : seiryuGrade === "D" ? "seiryu-d" : "seiryu-none";
     const marketFlag = s["市場"] === "jp" ? "🇯🇵" : "🇺🇸";
     return `<tr class="${cls}">
       <td>${s["総合"]}</td>
@@ -218,6 +224,7 @@ function renderTable(el, signals) {
       <td class="price">${s["現在値"]}</td>
       <td class="byakko ${byakkoCls}" title="${esc(s["白虎詳細"] || "")}">${byakkoGrade}</td>
       <td class="genbu ${genbuCls}" title="${esc(s["玄武詳細"] || "")}">${genbuGrade}</td>
+      <td class="seiryu ${seiryuCls}" title="${esc(s["青龍詳細"] || "")}">${seiryuGrade}</td>
       <td>${esc(s["W%R"])}</td>
       <td>${esc(s["RSI"])}</td>
       <td>${esc(s["MACD"])}</td>
@@ -231,6 +238,7 @@ function renderTable(el, signals) {
       <th>現在値</th>
       <th title="インサイダー買い">🐅白虎</th>
       <th title="売上YoY成長率＋加速度">🐢玄武</th>
+      <th title="アナリスト推奨×目標株価×EPS">🐉青龍</th>
       <th>W%R</th><th>RSI</th><th>MACD</th><th>Stoch</th><th>MA</th>
     </tr></thead>
     <tbody>${rows}</tbody>
