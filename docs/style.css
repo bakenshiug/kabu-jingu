@@ -314,6 +314,42 @@ section h2 {
   border-radius: 1px;
 }
 
+/* ====== 免責事項セクション ====== */
+.disclaimer-section {
+  background: linear-gradient(180deg, rgba(200,16,46,0.06), rgba(200,16,46,0.02));
+  border: 2px solid var(--shu);
+  border-radius: 4px;
+  padding: 24px 28px;
+  margin-top: 32px;
+  margin-bottom: 24px;
+}
+
+.disclaimer-section h2 {
+  font-size: 20px;
+  color: var(--shu);
+  border-bottom: 2px solid var(--shu);
+  padding-bottom: 12px;
+  margin-bottom: 16px;
+  letter-spacing: 0.08em;
+}
+
+.disclaimer-section ul {
+  margin: 0;
+  padding-left: 24px;
+}
+
+.disclaimer-section li {
+  margin-bottom: 8px;
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--sumi);
+}
+
+.disclaimer-section strong {
+  color: var(--shu-deep);
+  font-weight: 900;
+}
+
 /* ====== 競馬印 & 時間軸タグ ====== */
 .keiba-mark {
   display: inline-block;
