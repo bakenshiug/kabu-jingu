@@ -324,6 +324,7 @@ tbody tr:hover {
   background: rgba(184,134,11,0.06);
 }
 
+td.rank { text-align: center; font-weight: 900; color: var(--shu); font-size: 14px; }
 td.ticker { font-weight: bold; color: var(--shu-deep); }
 td.byakko { text-align: center; font-weight: 900; font-size: 14px; }
 td.byakko-s { color: #fff; background: linear-gradient(135deg, #c8102e, #9b1027); }

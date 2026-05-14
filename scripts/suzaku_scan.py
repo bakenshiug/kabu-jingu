@@ -829,8 +829,26 @@ def main():
         elif seiryu_grade == "D" and suzaku_buy:
             row["総合"] = "⚠️ " + row["総合"] + "（青龍D・アナリスト弱気）"
 
-    # rowsを更新後、outを再構築
-    out = pd.DataFrame(rows).sort_values(["Score"], ascending=False)
+    # 階層優先ソート（麒麟>二神宝>★★★>★★>★ の順）
+    def tier_priority(row):
+        t = row["総合"]
+        if "⚠️" in t: return 90  # 警告は最後尾
+        if "真麒麟" in t: return 1
+        if "🦒" in t: return 2
+        if "💎🐢" in t or "💎🐉" in t: return 3
+        if "💎" in t: return 4
+        if "★★★" in t: return 5
+        if "★★" in t: return 6
+        if "★" in t: return 7
+        if "💀" in t: return 10
+        if "🔴 強い売り" in t: return 11
+        if "🔴 売り" in t: return 12
+        if "🔴" in t: return 13
+        return 50
+    for row in rows:
+        row["_priority"] = tier_priority(row)
+    out = pd.DataFrame(rows).sort_values(["_priority", "Score"],
+                                          ascending=[True, False]).drop(columns=["_priority"])
 
     payload = {
         "generated_at": datetime.datetime.now(datetime.timezone.utc).isoformat(),

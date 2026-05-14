@@ -188,7 +188,9 @@ function renderTable(el, signals) {
     el.innerHTML = '<p style="color:var(--muted); padding: 20px 0;">該当銘柄なし</p>';
     return;
   }
-  const rows = signals.map(s => {
+  const rows = signals.map((s, i) => {
+    const rank = i + 1;
+    const rankMark = rank === 1 ? "🥇" : rank === 2 ? "🥈" : rank === 3 ? "🥉" : rank;
     const cls = s["総合"].includes("🦒") ? "row-kirin"
               : s["Alert"] === "treasure" ? "row-treasure"
               : s["総合"].includes("★★★") ? "row-strong"
@@ -215,6 +217,7 @@ function renderTable(el, signals) {
                     : seiryuGrade === "D" ? "seiryu-d" : "seiryu-none";
     const marketFlag = s["市場"] === "jp" ? "🇯🇵" : "🇺🇸";
     return `<tr class="${cls}">
+      <td class="rank">${rankMark}</td>
       <td>${s["総合"]}</td>
       <td class="score">${s["Score"]}</td>
       <td class="flag">${marketFlag}</td>
@@ -234,7 +237,7 @@ function renderTable(el, signals) {
   }).join("");
   el.innerHTML = `<table>
     <thead><tr>
-      <th>総合</th><th>Score</th><th>市場</th><th>テーマ</th><th>ティッカー</th><th>社名</th>
+      <th>順位</th><th>総合</th><th>Score</th><th>市場</th><th>テーマ</th><th>ティッカー</th><th>社名</th>
       <th>現在値</th>
       <th title="インサイダー買い">🐅白虎</th>
       <th title="売上YoY成長率＋加速度">🐢玄武</th>
