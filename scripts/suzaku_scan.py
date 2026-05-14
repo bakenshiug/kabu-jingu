@@ -836,7 +836,7 @@ def main():
         elif seiryu_grade == "D" and suzaku_buy:
             row["総合"] = "⚠️ " + row["総合"] + "（青龍D・アナリスト弱気）"
 
-    # 階層優先ソート（麒麟>二神宝>★★★>★★>★ の順）
+    # 階層優先ソート（麒麟>二神宝>★★★>★★>★ の順）+ 神獣grade副次ソート
     def tier_priority(row):
         t = row["総合"]
         if "⚠️" in t: return 90  # 警告は最後尾
@@ -852,10 +852,16 @@ def main():
         if "🔴 売り" in t: return 12
         if "🔴" in t: return 13
         return 50
+    GRADE_TO_NUM = {"S": 4, "A": 3, "B": 2, "C": 1, "D": -2, "-": 0, None: 0}
     for row in rows:
         row["_priority"] = tier_priority(row)
-    out = pd.DataFrame(rows).sort_values(["_priority", "Score"],
-                                          ascending=[True, False]).drop(columns=["_priority"])
+        row["_byakko_rank"] = GRADE_TO_NUM.get(row.get("白虎"), 0)
+        row["_genbu_rank"] = GRADE_TO_NUM.get(row.get("玄武"), 0)
+        row["_seiryu_rank"] = GRADE_TO_NUM.get(row.get("青龍"), 0)
+    out = pd.DataFrame(rows).sort_values(
+        ["_priority", "_byakko_rank", "_genbu_rank", "_seiryu_rank", "Score"],
+        ascending=[True, False, False, False, False]
+    ).drop(columns=["_priority", "_byakko_rank", "_genbu_rank", "_seiryu_rank"])
 
     payload = {
         "generated_at": datetime.datetime.now(datetime.timezone.utc).isoformat(),
