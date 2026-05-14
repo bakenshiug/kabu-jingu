@@ -61,15 +61,18 @@ function rerender() {
 }
 
 function applyFilters(signals) {
+  // 検索時はタブ・市場・テーマフィルタを無視して全銘柄から探す
+  if (CURRENT_SEARCH) {
+    const q = CURRENT_SEARCH.toLowerCase();
+    return signals.filter(s => {
+      const blob = (s["ティッカー"] + " " + s["社名"]).toLowerCase();
+      return blob.includes(q);
+    });
+  }
   return signals.filter(s => {
     if (s["Alert"] !== CURRENT_ALERT) return false;
     if (CURRENT_MARKET !== "all" && s["市場"] !== CURRENT_MARKET) return false;
     if (CURRENT_THEME !== "all" && s["テーマ"] !== CURRENT_THEME) return false;
-    if (CURRENT_SEARCH) {
-      const q = CURRENT_SEARCH.toLowerCase();
-      const blob = (s["ティッカー"] + " " + s["社名"]).toLowerCase();
-      if (!blob.includes(q)) return false;
-    }
     return true;
   });
 }

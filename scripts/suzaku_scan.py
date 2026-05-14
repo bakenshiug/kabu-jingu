@@ -449,7 +449,12 @@ def get_jpx_all():
         return pd.DataFrame()
 
 def matches_keyword(row):
-    if str(row.get("ticker", "")) in WHITELIST_TICKERS:
+    ticker = str(row.get("ticker", ""))
+    market = str(row.get("market", ""))
+    if ticker in WHITELIST_TICKERS:
+        return True
+    # 主要指数構成銘柄は無条件で通す（Nikkei225/SP500/NDX100/Venture/Curated）
+    if any(idx in market for idx in ["N225", "SP500", "NDX100", "VENTURE", "CURATED", "GROWTH"]):
         return True
     blob = " ".join([str(row.get("sector", "")), str(row.get("industry", "")),
                      str(row.get("name", ""))]).lower()
@@ -636,8 +641,10 @@ def main():
 
     print("\n[1/4] 母集団取得中 ...")
     parts = []
-    # キュレーション系を先に → 全銘柄。drop_duplicatesで先勝ちにすることでセクター情報温存
-    for fn, name in [(get_us_venture, "US-Ventureキュレーション"),
+    # キュレーション系・指数系を先に → 全銘柄。drop_duplicatesで先勝ちで指数タグ温存
+    for fn, name in [(get_sp500, "S&P500"),
+                     (get_nasdaq100, "NASDAQ100"),
+                     (get_us_venture, "US-Ventureキュレーション"),
                      (get_japan, "Japanキュレーション"),
                      (get_nasdaq_all, "NASDAQ+NYSE全銘柄"),
                      (get_jpx_all, "JPX全上場")]:
