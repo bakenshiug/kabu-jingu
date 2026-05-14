@@ -834,7 +834,130 @@ footer {
 
 @media (max-width: 640px) {
   .hero h1 { font-size: 32px; letter-spacing: 0.2em; }
-  table { font-size: 11px; }
-  th, td { padding: 6px 4px; }
   section { padding: 20px 16px; }
+
+  /* === スマホ版：表をカード型に再構築 === */
+  #signals-table table { display: block; background: transparent; }
+  #signals-table thead { display: none; }
+  #signals-table tbody { display: block; }
+  #signals-table tr {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 6px 8px;
+    padding: 14px;
+    margin-bottom: 10px;
+    background: var(--paper);
+    border: 1px solid rgba(184,134,11,0.25);
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(42,24,16,0.06);
+    border-bottom: none;
+  }
+  #signals-table tr.row-kirin { background: linear-gradient(135deg, #fff8d0, #ffeaa0); border-color: var(--gold); }
+  #signals-table tr.row-treasure { background: linear-gradient(135deg, #fff3c2, #ffe4a0); }
+  #signals-table tr.row-strong, #signals-table tr.row-buy { background: linear-gradient(180deg, var(--paper), #fff8e8); }
+
+  #signals-table td {
+    border: none;
+    padding: 0;
+    background: transparent !important;
+    display: inline-flex;
+    align-items: center;
+  }
+
+  /* 順番: rank / mark / ticker / flag / theme / price / 総合 / 社名+reason / gods */
+  #signals-table td:nth-child(1) { /* rank */
+    order: 1;
+    font-size: 20px;
+    font-weight: 900;
+    color: var(--shu);
+  }
+  #signals-table td:nth-child(2) { /* keiba mark */
+    order: 2;
+    font-size: 24px;
+    color: var(--shu);
+    font-family: "Yu Mincho", serif;
+    line-height: 1;
+  }
+  #signals-table td:nth-child(7) { /* ticker */
+    order: 3;
+    font-size: 17px;
+    font-weight: 900;
+    color: var(--shu-deep);
+  }
+  #signals-table td:nth-child(5) { /* market flag */
+    order: 4;
+    font-size: 14px;
+  }
+  #signals-table td:nth-child(6) { /* theme */
+    order: 5;
+    font-size: 11px;
+    color: var(--gold-dark);
+    background: rgba(184,134,11,0.1) !important;
+    padding: 2px 8px !important;
+    border-radius: 2px;
+  }
+  #signals-table td:nth-child(9) { /* 現在値 */
+    order: 6;
+    font-size: 18px;
+    font-weight: 900;
+    color: var(--shu);
+    margin-left: auto;
+  }
+  /* 2行目: 総合判定 */
+  #signals-table td:nth-child(3) { /* 総合 */
+    order: 7;
+    flex-basis: 100%;
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--shu-deep);
+    display: block;
+    padding-top: 6px;
+    border-top: 1px dashed rgba(184,134,11,0.2);
+  }
+  /* 3行目: 社名 + 推奨理由 */
+  #signals-table td:nth-child(8) { /* 社名 + reason */
+    order: 8;
+    flex-basis: 100%;
+    font-size: 12px;
+    line-height: 1.5;
+    color: var(--sumi);
+    display: block;
+  }
+  /* 4行目: 神獣grades */
+  #signals-table td:nth-child(10),
+  #signals-table td:nth-child(11),
+  #signals-table td:nth-child(12) {
+    order: 9;
+    width: auto;
+    min-width: 36px;
+    padding: 2px 8px !important;
+    border-radius: 3px;
+    font-size: 11px;
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #signals-table td:nth-child(10):before { content: "🐅"; margin-right: 3px; }
+  #signals-table td:nth-child(11):before { content: "🐢"; margin-right: 3px; }
+  #signals-table td:nth-child(12):before { content: "🐉"; margin-right: 3px; }
+
+  /* score列とテクニカル詳細列はスマホで隠す */
+  #signals-table td:nth-child(4),
+  #signals-table td:nth-child(n+13) {
+    display: none;
+  }
+
+  /* タブのバッジを少し小さく */
+  .alert-tab, .market-btn, .theme-tab, .tf-btn {
+    font-size: 13px;
+    padding: 7px 12px;
+  }
+
+  /* picksカードを縦並びに */
+  .picks-grid { grid-template-columns: 1fr; }
+
+  /* ヒーロー部リンクテキスト */
+  .god-line { font-size: 14px; }
 }
