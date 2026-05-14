@@ -656,7 +656,57 @@ tbody tr:hover {
 }
 
 td.rank { text-align: center; font-weight: 900; color: var(--shu); font-size: 14px; }
-td.ticker { font-weight: bold; color: var(--shu-deep); }
+td.ticker { font-weight: bold; color: var(--shu-deep); white-space: nowrap; }
+
+/* ====== コピーボタン & トースト ====== */
+.copy-btn, .copy-btn-small {
+  background: rgba(184,134,11,0.12);
+  border: 1px solid rgba(184,134,11,0.3);
+  border-radius: 3px;
+  cursor: pointer;
+  padding: 2px 6px;
+  font-size: 12px;
+  line-height: 1;
+  transition: all 0.15s;
+  margin-left: 4px;
+  vertical-align: middle;
+}
+
+.copy-btn { font-size: 13px; padding: 3px 7px; }
+
+.copy-btn:hover, .copy-btn-small:hover {
+  background: var(--gold);
+  border-color: var(--gold-dark);
+  transform: scale(1.1);
+}
+
+.copy-btn:active, .copy-btn-small:active {
+  transform: scale(0.95);
+}
+
+#copy-toast {
+  position: fixed;
+  bottom: 32px;
+  left: 50%;
+  transform: translateX(-50%) translateY(20px);
+  background: linear-gradient(135deg, var(--shu), var(--shu-deep));
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 14px;
+  box-shadow: 0 4px 16px rgba(200,16,46,0.4);
+  z-index: 9999;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s, transform 0.2s;
+  letter-spacing: 0.05em;
+}
+
+#copy-toast.show {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
 td.byakko { text-align: center; font-weight: 900; font-size: 14px; }
 td.byakko-s { color: #fff; background: linear-gradient(135deg, #c8102e, #9b1027); }
 td.byakko-a { color: var(--shu-deep); background: rgba(200,16,46,0.18); }

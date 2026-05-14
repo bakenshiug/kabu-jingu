@@ -183,12 +183,14 @@ function renderPickCard(s, i) {
   const tfs = getTimeframes(s);
   const tfHtml = tfs.map(t => `<span class="tf-tag" title="${esc(t.title)}">${t.tag}</span>`).join("");
   const markHtml = km.mark ? `<span class="keiba-mark" title="${km.label}">${km.mark}</span>` : "";
+  const ticker = esc(s["ティッカー"]);
   return `<div class="pick-card pick-rank-${i+1}">
     <div class="pick-rank">${medal}</div>
     <div class="pick-main">
       <div class="pick-head">
         ${markHtml}
-        <span class="pick-ticker">${esc(s["ティッカー"])}</span>
+        <span class="pick-ticker">${ticker}</span>
+        <button class="copy-btn" data-copy="${ticker}" title="ティッカーをコピー">📋</button>
         <span class="pick-flag">${flag}</span>
         <span class="pick-theme">${esc(s["テーマ表示"] || "")}</span>
       </div>
@@ -457,7 +459,7 @@ function renderTable(el, signals) {
       <td class="score">${s["Score"]}</td>
       <td class="flag">${marketFlag}</td>
       <td>${esc(s["テーマ表示"] || "")}</td>
-      <td class="ticker">${esc(s["ティッカー"])}</td>
+      <td class="ticker">${esc(s["ティッカー"])} <button class="copy-btn-small" data-copy="${esc(s["ティッカー"])}" title="コピー">📋</button></td>
       <td>
         <div>${esc(s["社名"])}</div>
         ${reason ? `<div class="row-reason">${reason}</div>` : ""}
@@ -489,6 +491,42 @@ function renderTable(el, signals) {
 function esc(s) {
   return String(s ?? "").replace(/[<>&"]/g, c =>
     ({"<":"&lt;",">":"&gt;","&":"&amp;",'"':"&quot;"}[c]));
+}
+
+// ティッカーコピー機能（全体イベント委譲）
+document.addEventListener("click", async (e) => {
+  const btn = e.target.closest(".copy-btn, .copy-btn-small");
+  if (!btn) return;
+  e.preventDefault();
+  e.stopPropagation();
+  const text = btn.dataset.copy;
+  try {
+    await navigator.clipboard.writeText(text);
+    showToast(`📋 ${text} をコピーしました`);
+  } catch (err) {
+    // フォールバック
+    const ta = document.createElement("textarea");
+    ta.value = text;
+    document.body.appendChild(ta);
+    ta.select();
+    try { document.execCommand("copy"); showToast(`📋 ${text} をコピーしました`); }
+    catch { showToast("❌ コピーに失敗しました"); }
+    document.body.removeChild(ta);
+  }
+});
+
+let toastTimer = null;
+function showToast(msg) {
+  let el = document.querySelector("#copy-toast");
+  if (!el) {
+    el = document.createElement("div");
+    el.id = "copy-toast";
+    document.body.appendChild(el);
+  }
+  el.textContent = msg;
+  el.classList.add("show");
+  if (toastTimer) clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => el.classList.remove("show"), 1800);
 }
 
 loadSignals();
