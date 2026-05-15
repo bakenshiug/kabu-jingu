@@ -664,7 +664,8 @@ def consensus(scores):
     if buys >= 1 and sells >= 1:
         return "⚪ 混在", total, buys, sells, "skip"
 
-    return None, total, buys, sells, None
+    # 中立（すべて0付近）も見送りタブに含める（検索性のため）
+    return "⚪ 中立", total, buys, sells, "skip"
 
 def main():
     print("=" * 70)
