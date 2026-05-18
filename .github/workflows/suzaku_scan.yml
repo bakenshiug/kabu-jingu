@@ -26,8 +26,12 @@ jobs:
       - name: 朱雀降臨（テクニカル合議）
         run: python scripts/suzaku_scan.py
 
-      - name: 白虎降臨（インサイダー判定）
+      - name: 白虎降臨（米国インサイダー判定）
         run: python scripts/byakko_scan.py
+        continue-on-error: true
+
+      - name: 🇯🇵 日本版白虎降臨（半導体テーマ株）
+        run: python scripts/jp_byakko_scan.py
         continue-on-error: true
 
       - name: 玄武降臨（業績モメンタム）
@@ -45,7 +49,7 @@ jobs:
         run: |
           git config user.name "Jingu Bot"
           git config user.email "jingu@kabu-jingu.bot"
-          git add docs/signals.json docs/byakko_data.json docs/genbu_data.json docs/seiryu_data.json docs/filtered_universe.json
+          git add docs/signals.json docs/byakko_data.json docs/jp_byakko_data.json docs/genbu_data.json docs/seiryu_data.json docs/filtered_universe.json
           if git diff --cached --quiet; then
             echo "変更なし"
           else

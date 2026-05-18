@@ -60,6 +60,7 @@ async function loadSignals() {
     const data = await res.json();
     CURRENT_DATA = data;
     renderSummary(summaryEl, data);
+    renderJpSemiTop(data);
     renderLuckyJP(data);
     renderTopPicks(data);
     renderAlertTabs(data);
@@ -186,6 +187,57 @@ function buildRecommendReason(s) {
   else if (s["青龍"] === "B") parts.push("🐉アナリストやや強気");
   else if (s["青龍"] === "D") parts.push("⚠️アナリスト弱気");
   return parts.join(" × ");
+}
+
+function renderJpSemiTop(data) {
+  const el = document.querySelector("#jp-semi-grid");
+  if (!el) return;
+  const RANK = {"S":4,"A":3,"B":2,"C":1,"D":-2};
+  // jp_semi 銘柄から優先順位ソート
+  const jpSemi = (data.signals || [])
+    .filter(s => s["テーマ"] === "jp_semi" && s["Alert"] !== "sell")
+    .sort((a, b) => {
+      // 1. 白虎grade降順 2. Alert(buy>treasure>skip) 3. Score降順
+      const ba = RANK[a["白虎"]] || 0;
+      const bb = RANK[b["白虎"]] || 0;
+      if (ba !== bb) return bb - ba;
+      const aOrder = a["Alert"]==="buy"?0 : a["Alert"]==="treasure"?1 : 2;
+      const bOrder = b["Alert"]==="buy"?0 : b["Alert"]==="treasure"?1 : 2;
+      if (aOrder !== bOrder) return aOrder - bOrder;
+      return (b["Score"]||0) - (a["Score"]||0);
+    })
+    .slice(0, 6);
+
+  if (jpSemi.length === 0) {
+    el.innerHTML = '<div class="lucky-empty">📭 本日該当銘柄なし</div>';
+    return;
+  }
+
+  el.innerHTML = '<div class="picks-grid">' + jpSemi.map((s, i) => {
+    const medal = i === 0 ? "🥇" : i === 1 ? "🥈" : i === 2 ? "🥉" : `${i+1}`;
+    const reason = buildRecommendReason(s);
+    const humor = getHumorTagline(s);
+    const km = getKeibaMark(s);
+    const ticker = esc(s["ティッカー"]);
+    const byakkoDetail = s["白虎詳細"] ? `<div class="jp-semi-byakko-note">🇯🇵🐅 ${esc(s["白虎詳細"])}</div>` : "";
+    return `<div class="pick-card pick-rank-${i+1}">
+      <div class="pick-rank">${medal}</div>
+      <div class="pick-main">
+        <div class="pick-head">
+          ${km.mark ? `<span class="keiba-mark">${km.mark}</span>` : ""}
+          <span class="pick-ticker">${ticker}</span>
+          <button class="copy-btn" data-copy="${ticker}" title="コピー">📋</button>
+          <span class="pick-flag">🇯🇵</span>
+          ${s["白虎"] && s["白虎"] !== "-" ? `<span class="jp-byakko-badge byakko-${s["白虎"].toLowerCase()}">🐅${s["白虎"]}</span>` : ""}
+        </div>
+        <div class="pick-name">${esc(s["社名"])}</div>
+        <div class="pick-price">¥${s["現在値"]}<span class="pick-judgement">${esc(s["総合"])}</span></div>
+        ${byakkoDetail}
+        ${humor ? `<div class="pick-humor">${humor}</div>` : ""}
+        <div class="pick-reason">${reason}</div>
+      </div>
+    </div>`;
+  }).join("") + '</div>';
 }
 
 function renderLuckyJP(data) {

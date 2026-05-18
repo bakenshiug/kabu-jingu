@@ -297,6 +297,53 @@ section details > *:not(summary) {
 .intro-body a { color: var(--shu); font-weight: bold; text-decoration: none; }
 .intro-body a:hover { text-decoration: underline; }
 
+/* ====== 今日の半導体テーマ株 ====== */
+.jp-semi-section {
+  background: linear-gradient(135deg, #fff5d0, #ffe9a8);
+  border: 3px solid var(--gold);
+  border-radius: 4px;
+  position: relative;
+}
+
+.jp-semi-section::before {
+  content: "";
+  position: absolute;
+  inset: 4px;
+  border: 1px solid var(--shu);
+  border-radius: 2px;
+  pointer-events: none;
+}
+
+.jp-semi-section h2 {
+  color: var(--shu-deep);
+  border-color: var(--shu);
+}
+
+.jp-byakko-badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 3px;
+  font-size: 12px;
+  font-weight: 900;
+  margin-left: 4px;
+}
+
+.jp-byakko-badge.byakko-s { background: linear-gradient(135deg, #c8102e, #9b1027); color: #fff; }
+.jp-byakko-badge.byakko-a { background: rgba(200,16,46,0.18); color: var(--shu-deep); border: 1px solid var(--shu); }
+.jp-byakko-badge.byakko-b { background: rgba(184,134,11,0.18); color: var(--gold-dark); border: 1px solid var(--gold); }
+.jp-byakko-badge.byakko-c { background: rgba(184,134,11,0.08); color: var(--muted); }
+
+.jp-semi-byakko-note {
+  font-size: 12px;
+  color: var(--shu-deep);
+  background: rgba(200,16,46,0.06);
+  padding: 6px 10px;
+  border-left: 2px solid var(--shu);
+  margin: 6px 0;
+  border-radius: 2px;
+  line-height: 1.5;
+}
+
 /* ====== 今日の開運日本株 ====== */
 .lucky-jp-section {
   background: linear-gradient(135deg, #fff5f0, #ffe8d8);

@@ -861,6 +861,16 @@ def main():
             byakko = json.load(open(byakko_path, encoding="utf-8")).get("byakko", {})
         except Exception:
             byakko = {}
+    # 🇯🇵 日本版白虎データを読み込み（jp_semi銘柄を上書き）
+    jp_byakko_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "docs", "jp_byakko_data.json"))
+    if os.path.exists(jp_byakko_path):
+        try:
+            jp_b = json.load(open(jp_byakko_path, encoding="utf-8")).get("byakko", {})
+            for t, info in jp_b.items():
+                if info.get("grade"):  # gradeあるものだけ統合
+                    byakko[t] = info
+        except Exception:
+            pass
     # 玄武データを読み込んで3神合議
     genbu_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "docs", "genbu_data.json"))
     genbu = {}
