@@ -1,5 +1,6 @@
 const THEME_LABELS = {
   all:      "⛩️ すべて",
+  jp_semi:  "🎌⚡ 日本半導体",
   geopol:   "🌐 地政学",
   quantum:  "🧮 量子",
   space:    "🛰 宇宙",
@@ -438,7 +439,7 @@ function renderTabs(data) {
   });
   const themeCounts = {};
   subset.forEach(s => { themeCounts[s["テーマ"]] = (themeCounts[s["テーマ"]] || 0) + 1; });
-  const order = ["all", "geopol", "semi", "quantum", "space", "battery", "energy", "material", "other"];
+  const order = ["all", "jp_semi", "geopol", "semi", "quantum", "space", "battery", "energy", "material", "other"];
   el.innerHTML = order.map(k => {
     const count = k === "all" ? subset.length : (themeCounts[k] || 0);
     if (k !== "all" && count === 0) return "";

@@ -871,6 +871,22 @@ section details > *:not(summary) {
   box-shadow: 0 2px 6px rgba(200,16,46,0.3);
 }
 
+/* 🎌⚡ 日本半導体特設タブ：常時強調 */
+.theme-tab[data-theme="jp_semi"] {
+  background: linear-gradient(135deg, #fff5d0, #ffe0a0);
+  border-color: var(--gold);
+  font-weight: 900;
+}
+.theme-tab[data-theme="jp_semi"]:hover {
+  background: linear-gradient(135deg, #ffe9a8, #ffd470);
+}
+.theme-tab[data-theme="jp_semi"].active {
+  background: linear-gradient(135deg, #c8102e, #9b1027);
+  color: #fff;
+  border-color: var(--gold);
+  box-shadow: 0 2px 12px rgba(200,16,46,0.5), 0 0 0 2px var(--gold);
+}
+
 .theme-count {
   display: inline-block;
   margin-left: 8px;
