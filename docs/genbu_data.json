@@ -1,9 +1,44 @@
 {
-  "generated_at": "2026-09-24T00:13:53.446924+00:00",
-  "generated_jst": "2026-09-24 09:13 JST",
+  "generated_at": "2026-09-25T00:15:47.011896+00:00",
+  "generated_jst": "2026-09-25 09:15 JST",
   "source": "yfinance quarterly_income_stmt",
   "metric": "売上YoY成長率＋加速度",
   "genbu": {
+    "ABBV": {
+      "grade": "C",
+      "note": "YoY +10.2% ↓",
+      "yoy": 10.2
+    },
+    "AOS": {
+      "grade": "D",
+      "note": "YoY -0.7% ↓",
+      "yoy": -0.7
+    },
+    "MMM": {
+      "grade": "C",
+      "note": "YoY +2.5% ↓",
+      "yoy": 2.5
+    },
+    "ACN": {
+      "grade": "C",
+      "note": "YoY +5.6% ↓",
+      "yoy": 5.6
+    },
+    "ADBE": {
+      "grade": "C",
+      "note": "YoY +12.9% ↓",
+      "yoy": 12.9
+    },
+    "AFL": {
+      "grade": "D",
+      "note": "YoY -0.6% ↓",
+      "yoy": -0.6
+    },
+    "ABT": {
+      "grade": "C",
+      "note": "YoY +7.8% ↓",
+      "yoy": 7.8
+    },
     "AMD": {
       "grade": "A",
       "note": "YoY +50.1% ↓",
@@ -14,102 +49,57 @@
       "note": "YoY +19.9% ↓",
       "yoy": 19.9
     },
-    "ABBV": {
+    "A": {
       "grade": "C",
-      "note": "YoY +10.2% ↓",
-      "yoy": 10.2
-    },
-    "ACN": {
-      "grade": "C",
-      "note": "YoY +5.6% ↓",
-      "yoy": 5.6
-    },
-    "MMM": {
-      "grade": "C",
-      "note": "YoY +2.5% ↓",
-      "yoy": 2.5
-    },
-    "AOS": {
-      "grade": "D",
-      "note": "YoY -0.7% ↓",
-      "yoy": -0.7
-    },
-    "ABT": {
-      "grade": "C",
-      "note": "YoY +7.8% ↓",
-      "yoy": 7.8
-    },
-    "ADBE": {
-      "grade": "C",
-      "note": "YoY +12.9% ↓",
-      "yoy": 12.9
+      "note": "YoY +8.1% ↓",
+      "yoy": 8.1
     },
     "APD": {
       "grade": "C",
       "note": "YoY +4.6% ↓",
       "yoy": 4.6
     },
-    "A": {
-      "grade": "C",
-      "note": "YoY +8.1% ↓",
-      "yoy": 8.1
-    },
-    "ABNB": {
-      "grade": "B",
-      "note": "YoY +16.5% ↓",
-      "yoy": 16.5
-    },
-    "AFL": {
-      "grade": "D",
-      "note": "YoY -0.6% ↓",
-      "yoy": -0.6
-    },
     "AKAM": {
       "grade": "C",
       "note": "YoY +5.4% ↓",
       "yoy": 5.4
-    },
-    "ALLE": {
-      "grade": "C",
-      "note": "YoY +12.7% ↓",
-      "yoy": 12.7
-    },
-    "ALB": {
-      "grade": "A",
-      "note": "YoY +31.1% ↓",
-      "yoy": 31.1
-    },
-    "GOOGL": {
-      "grade": "B",
-      "note": "YoY +24.2% ↓",
-      "yoy": 24.2
     },
     "ARE": {
       "grade": "D",
       "note": "YoY -12.8% ↓",
       "yoy": -12.8
     },
+    "ALB": {
+      "grade": "A",
+      "note": "YoY +31.1% ↓",
+      "yoy": 31.1
+    },
+    "ABNB": {
+      "grade": "B",
+      "note": "YoY +16.5% ↓",
+      "yoy": 16.5
+    },
+    "ALLE": {
+      "grade": "C",
+      "note": "YoY +12.7% ↓",
+      "yoy": 12.7
+    },
     "LNT": {
       "grade": "C",
       "note": "YoY +5.0% ↓",
       "yoy": 5.0
-    },
-    "ALGN": {
-      "grade": "C",
-      "note": "YoY +4.3% ↓",
-      "yoy": 4.3
     },
     "ALL": {
       "grade": "C",
       "note": "YoY +10.8% ↓",
       "yoy": 10.8
     },
-    "MO": {
+    "ALGN": {
       "grade": "C",
-      "note": "YoY +1.2% ↓",
-      "yoy": 1.2
+      "note": "YoY +4.3% ↓",
+      "yoy": 4.3
     },
-    "GOOG": {
+    "GOOGL": {
       "grade": "B",
       "note": "YoY +24.2% ↓",
       "yoy": 24.2
@@ -119,115 +109,105 @@
       "note": "YoY +16.6% ↓",
       "yoy": 16.6
     },
-    "AMCR": {
-      "grade": "B",
-      "note": "YoY +25.9% ↓",
-      "yoy": 25.9
-    },
     "AEE": {
       "grade": "C",
       "note": "YoY +3.8% ↓",
       "yoy": 3.8
     },
-    "AXP": {
+    "MO": {
       "grade": "C",
-      "note": "YoY +10.0% ↓",
-      "yoy": 10.0
+      "note": "YoY +1.2% ↓",
+      "yoy": 1.2
     },
-    "AIG": {
-      "grade": "C",
-      "note": "YoY +0.6% ↓",
-      "yoy": 0.6
+    "AMCR": {
+      "grade": "B",
+      "note": "YoY +25.9% ↓",
+      "yoy": 25.9
     },
     "AEP": {
       "grade": "C",
       "note": "YoY +7.0% ↓",
       "yoy": 7.0
     },
-    "APH": {
-      "grade": "A",
-      "note": "YoY +58.4% ↓",
-      "yoy": 58.4
-    },
-    "AMP": {
-      "grade": "C",
-      "note": "YoY +12.9% ↓",
-      "yoy": 12.9
+    "GOOG": {
+      "grade": "B",
+      "note": "YoY +24.2% ↓",
+      "yoy": 24.2
     },
     "AMT": {
       "grade": "C",
       "note": "YoY +4.7% ↓",
       "yoy": 4.7
     },
+    "AXP": {
+      "grade": "C",
+      "note": "YoY +10.0% ↓",
+      "yoy": 10.0
+    },
     "AWK": {
       "grade": "C",
       "note": "YoY +6.2% ↓",
       "yoy": 6.2
     },
-    "AME": {
+    "AIG": {
       "grade": "C",
-      "note": "YoY +15.0% ↓",
-      "yoy": 15.0
+      "note": "YoY +0.6% ↓",
+      "yoy": 0.6
     },
     "AMGN": {
       "grade": "C",
       "note": "YoY +9.5% ↓",
       "yoy": 9.5
     },
-    "ADI": {
-      "grade": "A",
-      "note": "YoY +39.6% ↓",
-      "yoy": 39.6
-    },
-    "AON": {
+    "AME": {
       "grade": "C",
-      "note": "YoY +2.2% ↓",
-      "yoy": 2.2
+      "note": "YoY +15.0% ↓",
+      "yoy": 15.0
     },
-    "AAPL": {
-      "grade": "B",
-      "note": "YoY +16.4% ↓",
-      "yoy": 16.4
-    },
-    "APTV": {
+    "AMP": {
       "grade": "C",
-      "note": "YoY +2.3% ↓",
-      "yoy": 2.3
+      "note": "YoY +12.9% ↓",
+      "yoy": 12.9
     },
-    "APO": {
+    "APH": {
       "grade": "A",
-      "note": "YoY +63.7% ↓",
-      "yoy": 63.7
-    },
-    "APP": {
-      "grade": "A",
-      "note": "YoY +52.8% ↓",
-      "yoy": 52.8
-    },
-    "AMAT": {
-      "grade": "B",
-      "note": "YoY +24.8% ↓",
-      "yoy": 24.8
-    },
-    "ACGL": {
-      "grade": "D",
-      "note": "YoY -9.7% ↓",
-      "yoy": -9.7
-    },
-    "ADM": {
-      "grade": "C",
-      "note": "YoY +7.2% ↓",
-      "yoy": 7.2
+      "note": "YoY +58.4% ↓",
+      "yoy": 58.4
     },
     "APA": {
       "grade": "C",
       "note": "YoY +9.0% ↓",
       "yoy": 9.0
     },
-    "AJG": {
+    "AAPL": {
       "grade": "B",
-      "note": "YoY +24.2% ↓",
-      "yoy": 24.2
+      "note": "YoY +16.4% ↓",
+      "yoy": 16.4
+    },
+    "AMAT": {
+      "grade": "B",
+      "note": "YoY +24.8% ↓",
+      "yoy": 24.8
+    },
+    "ADI": {
+      "grade": "A",
+      "note": "YoY +39.6% ↓",
+      "yoy": 39.6
+    },
+    "APP": {
+      "grade": "A",
+      "note": "YoY +52.8% ↓",
+      "yoy": 52.8
+    },
+    "AON": {
+      "grade": "C",
+      "note": "YoY +2.2% ↓",
+      "yoy": 2.2
+    },
+    "APO": {
+      "grade": "A",
+      "note": "YoY +63.7% ↓",
+      "yoy": 63.7
     },
     "ARES": {
       "grade": "C",
@@ -239,15 +219,40 @@
       "note": "YoY +37.7% ↓",
       "yoy": 37.7
     },
+    "APTV": {
+      "grade": "C",
+      "note": "YoY +2.3% ↓",
+      "yoy": 2.3
+    },
+    "ACGL": {
+      "grade": "D",
+      "note": "YoY -9.7% ↓",
+      "yoy": -9.7
+    },
+    "ADM": {
+      "grade": "C",
+      "note": "YoY +7.2% ↓",
+      "yoy": 7.2
+    },
+    "AJG": {
+      "grade": "B",
+      "note": "YoY +24.2% ↓",
+      "yoy": 24.2
+    },
+    "AIZ": {
+      "grade": "C",
+      "note": "YoY +9.4% ↓",
+      "yoy": 9.4
+    },
     "T": {
       "grade": "C",
       "note": "YoY +2.3% ↓",
       "yoy": 2.3
     },
-    "AZO": {
+    "ATO": {
       "grade": "C",
-      "note": "YoY +8.4% ↓",
-      "yoy": 8.4
+      "note": "YoY +4.8% ↓",
+      "yoy": 4.8
     },
     "ADP": {
       "grade": "C",
@@ -259,65 +264,60 @@
       "note": "YoY +16.1% ↓",
       "yoy": 16.1
     },
-    "AIZ": {
+    "BKR": {
+      "grade": "D",
+      "note": "YoY -2.4% ↓",
+      "yoy": -2.4
+    },
+    "AZO": {
       "grade": "C",
-      "note": "YoY +9.4% ↓",
-      "yoy": 9.4
-    },
-    "BALL": {
-      "grade": "B",
-      "note": "YoY +19.7% ↓",
-      "yoy": 19.7
-    },
-    "AXON": {
-      "grade": "A",
-      "note": "YoY +35.3% ↓",
-      "yoy": 35.3
+      "note": "YoY +8.4% ↓",
+      "yoy": 8.4
     },
     "AVY": {
       "grade": "C",
       "note": "YoY +10.9% ↓",
       "yoy": 10.9
     },
-    "BKR": {
-      "grade": "D",
-      "note": "YoY -2.4% ↓",
-      "yoy": -2.4
-    },
-    "BAX": {
-      "grade": "C",
-      "note": "YoY +5.3% ↓",
-      "yoy": 5.3
-    },
     "BAC": {
       "grade": "C",
       "note": "YoY +7.2% ↓",
       "yoy": 7.2
     },
-    "BRK-B": {
+    "AXON": {
       "grade": "A",
-      "note": "YoY +41.5% ↓",
-      "yoy": 41.5
-    },
-    "BBY": {
-      "grade": "C",
-      "note": "YoY +3.6% ↓",
-      "yoy": 3.6
+      "note": "YoY +35.3% ↓",
+      "yoy": 35.3
     },
     "BDX": {
       "grade": "C",
       "note": "YoY +5.4% ↓",
       "yoy": 5.4
     },
-    "ATO": {
+    "BALL": {
+      "grade": "B",
+      "note": "YoY +19.7% ↓",
+      "yoy": 19.7
+    },
+    "BAX": {
       "grade": "C",
-      "note": "YoY +4.8% ↓",
-      "yoy": 4.8
+      "note": "YoY +5.3% ↓",
+      "yoy": 5.3
+    },
+    "BRK-B": {
+      "grade": "A",
+      "note": "YoY +41.5% ↓",
+      "yoy": 41.5
     },
     "BIIB": {
       "grade": "C",
       "note": "YoY +3.4% ↓",
       "yoy": 3.4
+    },
+    "BBY": {
+      "grade": "C",
+      "note": "YoY +3.6% ↓",
+      "yoy": 3.6
     },
     "TECH": {
       "grade": "C",
@@ -329,37 +329,52 @@
       "note": "YoY +30.6% ↓",
       "yoy": 30.6
     },
-    "BX": {
-      "grade": "A",
-      "note": "YoY +32.5% ↓",
-      "yoy": 32.5
-    },
     "XYZ": {
       "grade": "C",
       "note": "YoY +9.3% ↓",
       "yoy": 9.3
     },
-    "BNY": {
-      "grade": "C",
-      "note": "YoY +13.8% ↓",
-      "yoy": 13.8
+    "BX": {
+      "grade": "A",
+      "note": "YoY +32.5% ↓",
+      "yoy": 32.5
     },
     "BE": {
       "grade": "A",
       "note": "YoY +165.5% ↓",
       "yoy": 165.5
     },
-    "BMY": {
+    "BNY": {
       "grade": "C",
-      "note": "YoY +5.7% ↓",
-      "yoy": 5.7
+      "note": "YoY +13.8% ↓",
+      "yoy": 13.8
+    },
+    "BSX": {
+      "grade": "C",
+      "note": "YoY +7.5% ↓",
+      "yoy": 7.5
+    },
+    "BKNG": {
+      "grade": "C",
+      "note": "YoY +8.1% ↓",
+      "yoy": 8.1
     },
     "BA": {
       "grade": "C",
       "note": "YoY +14.0% ↓",
       "yoy": 14.0
     },
-    "BSX": {
+    "BMY": {
+      "grade": "C",
+      "note": "YoY +5.7% ↓",
+      "yoy": 5.7
+    },
+    "BRO": {
+      "grade": "A",
+      "note": "YoY +32.4% ↓",
+      "yoy": 32.4
+    },
+    "BR": {
       "grade": "C",
       "note": "YoY +7.5% ↓",
       "yoy": 7.5
@@ -369,25 +384,20 @@
       "note": "YoY +85.5% ↓",
       "yoy": 85.5
     },
-    "BKNG": {
-      "grade": "C",
-      "note": "YoY +8.1% ↓",
-      "yoy": 8.1
-    },
-    "BR": {
-      "grade": "C",
-      "note": "YoY +7.5% ↓",
-      "yoy": 7.5
-    },
     "BF-B": {
       "grade": "D",
       "note": "YoY -1.4% ↓",
       "yoy": -1.4
     },
-    "BRO": {
+    "BG": {
       "grade": "A",
-      "note": "YoY +32.4% ↓",
-      "yoy": 32.4
+      "note": "YoY +88.3% ↓",
+      "yoy": 88.3
+    },
+    "CHRW": {
+      "grade": "D",
+      "note": "YoY -0.8% ↓",
+      "yoy": -0.8
     },
     "BXP": {
       "grade": "C",
@@ -399,50 +409,35 @@
       "note": "YoY +24.2% ↓",
       "yoy": 24.2
     },
-    "CHRW": {
-      "grade": "D",
-      "note": "YoY -0.8% ↓",
-      "yoy": -0.8
-    },
-    "BG": {
-      "grade": "A",
-      "note": "YoY +88.3% ↓",
-      "yoy": 88.3
-    },
-    "CAH": {
-      "grade": "C",
-      "note": "YoY +5.8% ↓",
-      "yoy": 5.8
-    },
     "CPT": {
       "grade": "D",
       "note": "YoY -0.5% ↓",
       "yoy": -0.5
-    },
-    "CCL": {
-      "grade": "C",
-      "note": "YoY +5.3% ↓",
-      "yoy": 5.3
     },
     "COF": {
       "grade": "B",
       "note": "YoY +26.9% ↓",
       "yoy": 26.9
     },
-    "CARR": {
+    "CAH": {
       "grade": "C",
-      "note": "YoY +3.9% ↓",
-      "yoy": 3.9
+      "note": "YoY +5.8% ↓",
+      "yoy": 5.8
+    },
+    "CCL": {
+      "grade": "C",
+      "note": "YoY +5.3% ↓",
+      "yoy": 5.3
     },
     "CAT": {
       "grade": "B",
       "note": "YoY +24.0% ↓",
       "yoy": 24.0
     },
-    "CASY": {
-      "grade": "B",
-      "note": "YoY +24.3% ↓",
-      "yoy": 24.3
+    "CARR": {
+      "grade": "C",
+      "note": "YoY +3.9% ↓",
+      "yoy": 3.9
     },
     "CVNA": {
       "grade": "A",
@@ -454,15 +449,10 @@
       "note": "YoY +22.9% ↓",
       "yoy": 22.9
     },
-    "CBRE": {
+    "CASY": {
       "grade": "B",
-      "note": "YoY +15.5% ↓",
-      "yoy": 15.5
-    },
-    "CNC": {
-      "grade": "C",
-      "note": "YoY +9.9% ↓",
-      "yoy": 9.9
+      "note": "YoY +24.3% ↓",
+      "yoy": 24.3
     },
     "COR": {
       "grade": "C",
@@ -474,50 +464,60 @@
       "note": "YoY +10.0% ↓",
       "yoy": 10.0
     },
-    "CF": {
+    "CBRE": {
       "grade": "B",
-      "note": "YoY +17.6% ↓",
-      "yoy": 17.6
+      "note": "YoY +15.5% ↓",
+      "yoy": 15.5
+    },
+    "CNC": {
+      "grade": "C",
+      "note": "YoY +9.9% ↓",
+      "yoy": 9.9
     },
     "CNP": {
       "grade": "C",
       "note": "YoY +10.7% ↓",
       "yoy": 10.7
     },
-    "CRL": {
-      "grade": "D",
-      "note": "YoY -2.7% ↓",
-      "yoy": -2.7
+    "CF": {
+      "grade": "B",
+      "note": "YoY +17.6% ↓",
+      "yoy": 17.6
     },
     "SCHW": {
       "grade": "B",
       "note": "YoY +20.9% ↓",
       "yoy": 20.9
     },
-    "CHTR": {
+    "CRL": {
       "grade": "D",
-      "note": "YoY -1.7% ↓",
-      "yoy": -1.7
-    },
-    "CB": {
-      "grade": "C",
-      "note": "YoY +7.2% ↓",
-      "yoy": 7.2
+      "note": "YoY -2.7% ↓",
+      "yoy": -2.7
     },
     "CHD": {
       "grade": "C",
       "note": "YoY +0.1% ↓",
       "yoy": 0.1
     },
-    "CINF": {
+    "CB": {
       "grade": "C",
-      "note": "YoY +11.6% ↓",
-      "yoy": 11.6
+      "note": "YoY +7.2% ↓",
+      "yoy": 7.2
     },
     "CVX": {
       "grade": "A",
       "note": "YoY +51.4% ↓",
       "yoy": 51.4
+    },
+    "CIEN": {
+      "grade": "A",
+      "note": "YoY +37.0% ↓",
+      "yoy": 37.0
+    },
+    "CHTR": {
+      "grade": "D",
+      "note": "YoY -1.7% ↓",
+      "yoy": -1.7
     },
     "CMG": {
       "grade": "C",
@@ -529,10 +529,10 @@
       "note": "YoY +6.7% ↓",
       "yoy": 6.7
     },
-    "CIEN": {
-      "grade": "A",
-      "note": "YoY +37.0% ↓",
-      "yoy": 37.0
+    "CINF": {
+      "grade": "C",
+      "note": "YoY +11.6% ↓",
+      "yoy": 11.6
     },
     "CSCO": {
       "grade": "B",
@@ -544,6 +544,11 @@
       "note": "YoY +8.9% ↓",
       "yoy": 8.9
     },
+    "CFG": {
+      "grade": "C",
+      "note": "YoY +12.1% ↓",
+      "yoy": 12.1
+    },
     "C": {
       "grade": "C",
       "note": "YoY +14.3% ↓",
@@ -554,20 +559,20 @@
       "note": "YoY -2.0% ↓",
       "yoy": -2.0
     },
-    "CFG": {
+    "KO": {
       "grade": "C",
-      "note": "YoY +12.1% ↓",
-      "yoy": 12.1
-    },
-    "CMS": {
-      "grade": "D",
-      "note": "YoY -0.5% ↓",
-      "yoy": -0.5
+      "note": "YoY +6.7% ↓",
+      "yoy": 6.7
     },
     "CME": {
       "grade": "C",
       "note": "YoY +0.8% ↓",
       "yoy": 0.8
+    },
+    "CMS": {
+      "grade": "D",
+      "note": "YoY -0.5% ↓",
+      "yoy": -0.5
     },
     "CTSH": {
       "grade": "C",
@@ -579,65 +584,60 @@
       "note": "YoY -18.5% ↓",
       "yoy": -18.5
     },
-    "KO": {
-      "grade": "C",
-      "note": "YoY +6.7% ↓",
-      "yoy": 6.7
-    },
     "COHR": {
       "grade": "A",
       "note": "YoY +33.7% ↓",
       "yoy": 33.7
-    },
-    "CL": {
-      "grade": "C",
-      "note": "YoY +4.9% ↓",
-      "yoy": 4.9
-    },
-    "CMCSA": {
-      "grade": "D",
-      "note": "YoY -1.2% ↓",
-      "yoy": -1.2
-    },
-    "ED": {
-      "grade": "C",
-      "note": "YoY +13.2% ↓",
-      "yoy": 13.2
     },
     "COP": {
       "grade": "A",
       "note": "YoY +36.8% ↓",
       "yoy": 36.8
     },
+    "CMCSA": {
+      "grade": "D",
+      "note": "YoY -1.2% ↓",
+      "yoy": -1.2
+    },
     "FIX": {
       "grade": "A",
       "note": "YoY +50.3% ↓",
       "yoy": 50.3
+    },
+    "CL": {
+      "grade": "C",
+      "note": "YoY +4.9% ↓",
+      "yoy": 4.9
+    },
+    "ED": {
+      "grade": "C",
+      "note": "YoY +13.2% ↓",
+      "yoy": 13.2
     },
     "COO": {
       "grade": "C",
       "note": "YoY +0.6% ↓",
       "yoy": 0.6
     },
-    "CEG": {
-      "grade": "B",
-      "note": "YoY +23.0% ↓",
-      "yoy": 23.0
-    },
     "STZ": {
       "grade": "D",
       "note": "YoY -3.3% ↓",
       "yoy": -3.3
     },
-    "CTVA": {
-      "grade": "C",
-      "note": "YoY +11.0% ↓",
-      "yoy": 11.0
+    "GLW": {
+      "grade": "B",
+      "note": "YoY +16.6% ↓",
+      "yoy": 16.6
     },
     "CPRT": {
       "grade": "C",
       "note": "YoY +2.1% ↓",
       "yoy": 2.1
+    },
+    "CEG": {
+      "grade": "B",
+      "note": "YoY +23.0% ↓",
+      "yoy": 23.0
     },
     "CSGP": {
       "grade": "B",
@@ -649,35 +649,35 @@
       "note": "YoY +21.5% ↓",
       "yoy": 21.5
     },
-    "GLW": {
-      "grade": "B",
-      "note": "YoY +16.6% ↓",
-      "yoy": 16.6
+    "CRH": {
+      "grade": "C",
+      "note": "YoY +5.6% ↓",
+      "yoy": 5.6
+    },
+    "CTVA": {
+      "grade": "C",
+      "note": "YoY +11.0% ↓",
+      "yoy": 11.0
     },
     "COST": {
       "grade": "C",
       "note": "YoY +11.6% ↓",
       "yoy": 11.6
     },
-    "CCI": {
-      "grade": "D",
-      "note": "YoY -4.9% ↓",
-      "yoy": -4.9
+    "CSX": {
+      "grade": "C",
+      "note": "YoY +10.1% ↓",
+      "yoy": 10.1
     },
     "CRWD": {
       "grade": "B",
       "note": "YoY +25.8% ↓",
       "yoy": 25.8
     },
-    "CRH": {
-      "grade": "C",
-      "note": "YoY +5.6% ↓",
-      "yoy": 5.6
-    },
-    "CSX": {
-      "grade": "C",
-      "note": "YoY +10.1% ↓",
-      "yoy": 10.1
+    "CCI": {
+      "grade": "D",
+      "note": "YoY -4.9% ↓",
+      "yoy": -4.9
     },
     "DHR": {
       "grade": "C",
@@ -689,40 +689,50 @@
       "note": "YoY +9.4% ↓",
       "yoy": 9.4
     },
-    "CVS": {
+    "DRI": {
       "grade": "C",
-      "note": "YoY +7.3% ↓",
-      "yoy": 7.3
-    },
-    "DECK": {
-      "grade": "C",
-      "note": "YoY +5.7% ↓",
-      "yoy": 5.7
+      "note": "YoY +13.7% ↓",
+      "yoy": 13.7
     },
     "DDOG": {
       "grade": "A",
       "note": "YoY +35.6% ↓",
       "yoy": 35.6
     },
-    "DVA": {
+    "CVS": {
       "grade": "C",
-      "note": "YoY +5.2% ↓",
-      "yoy": 5.2
-    },
-    "DRI": {
-      "grade": "C",
-      "note": "YoY +13.7% ↓",
-      "yoy": 13.7
+      "note": "YoY +7.3% ↓",
+      "yoy": 7.3
     },
     "DE": {
       "grade": "C",
       "note": "YoY +4.8% ↓",
       "yoy": 4.8
     },
+    "DVA": {
+      "grade": "C",
+      "note": "YoY +5.2% ↓",
+      "yoy": 5.2
+    },
+    "DECK": {
+      "grade": "C",
+      "note": "YoY +5.7% ↓",
+      "yoy": 5.7
+    },
+    "DAL": {
+      "grade": "B",
+      "note": "YoY +18.7% ↓",
+      "yoy": 18.7
+    },
     "DELL": {
       "grade": "A",
       "note": "YoY +57.7% ↓",
       "yoy": 57.7
+    },
+    "FANG": {
+      "grade": "A",
+      "note": "YoY +51.3% ↓",
+      "yoy": 51.3
     },
     "DVN": {
       "grade": "A",
@@ -734,40 +744,40 @@
       "note": "YoY +13.1% ↓",
       "yoy": 13.1
     },
-    "FANG": {
-      "grade": "A",
-      "note": "YoY +51.3% ↓",
-      "yoy": 51.3
-    },
-    "DAL": {
-      "grade": "B",
-      "note": "YoY +18.7% ↓",
-      "yoy": 18.7
+    "DPZ": {
+      "grade": "C",
+      "note": "YoY +4.3% ↓",
+      "yoy": 4.3
     },
     "DLR": {
       "grade": "B",
       "note": "YoY +16.2% ↓",
       "yoy": 16.2
     },
-    "DG": {
-      "grade": "C",
-      "note": "YoY +5.2% ↓",
-      "yoy": 5.2
-    },
     "DLTR": {
       "grade": "C",
       "note": "YoY +7.0% ↓",
       "yoy": 7.0
     },
+    "DG": {
+      "grade": "C",
+      "note": "YoY +5.2% ↓",
+      "yoy": 5.2
+    },
+    "DHI": {
+      "grade": "C",
+      "note": "YoY +0.0% ↓",
+      "yoy": 0.0
+    },
+    "DOW": {
+      "grade": "B",
+      "note": "YoY +19.7% ↓",
+      "yoy": 19.7
+    },
     "DASH": {
       "grade": "A",
       "note": "YoY +35.6% ↓",
       "yoy": 35.6
-    },
-    "DPZ": {
-      "grade": "C",
-      "note": "YoY +4.3% ↓",
-      "yoy": 4.3
     },
     "DOV": {
       "grade": "C",
@@ -779,26 +789,6 @@
       "note": "YoY +17.6% ↓",
       "yoy": 17.6
     },
-    "DOW": {
-      "grade": "B",
-      "note": "YoY +19.7% ↓",
-      "yoy": 19.7
-    },
-    "DHI": {
-      "grade": "C",
-      "note": "YoY +0.0% ↓",
-      "yoy": 0.0
-    },
-    "DTE": {
-      "grade": "B",
-      "note": "YoY +15.8% ↓",
-      "yoy": 15.8
-    },
-    "EBAY": {
-      "grade": "C",
-      "note": "YoY +14.8% ↓",
-      "yoy": 14.8
-    },
     "DUK": {
       "grade": "C",
       "note": "YoY +1.1% ↓",
@@ -809,30 +799,45 @@
       "note": "YoY +4.0% ↓",
       "yoy": 4.0
     },
-    "EW": {
-      "grade": "C",
-      "note": "YoY +13.6% ↓",
-      "yoy": 13.6
-    },
-    "ECHO": {
-      "grade": "D",
-      "note": "YoY -4.0% ↓",
-      "yoy": -4.0
+    "DTE": {
+      "grade": "B",
+      "note": "YoY +15.8% ↓",
+      "yoy": 15.8
     },
     "ETN": {
       "grade": "B",
       "note": "YoY +21.4% ↓",
       "yoy": 21.4
     },
+    "ECL": {
+      "grade": "C",
+      "note": "YoY +9.7% ↓",
+      "yoy": 9.7
+    },
+    "EBAY": {
+      "grade": "C",
+      "note": "YoY +14.8% ↓",
+      "yoy": 14.8
+    },
+    "ECHO": {
+      "grade": "D",
+      "note": "YoY -4.0% ↓",
+      "yoy": -4.0
+    },
     "EIX": {
       "grade": "D",
       "note": "YoY -4.1% ↓",
       "yoy": -4.1
     },
-    "ECL": {
+    "EW": {
       "grade": "C",
-      "note": "YoY +9.7% ↓",
-      "yoy": 9.7
+      "note": "YoY +13.6% ↓",
+      "yoy": 13.6
+    },
+    "ETR": {
+      "grade": "C",
+      "note": "YoY +12.0% ↓",
+      "yoy": 12.0
     },
     "EMR": {
       "grade": "C",
@@ -854,20 +859,15 @@
       "note": "YoY +16.4% ↓",
       "yoy": 16.4
     },
-    "ETR": {
-      "grade": "C",
-      "note": "YoY +12.0% ↓",
-      "yoy": 12.0
+    "EQT": {
+      "grade": "D",
+      "note": "YoY -3.9% ↓",
+      "yoy": -3.9
     },
     "EFX": {
       "grade": "C",
       "note": "YoY +10.6% ↓",
       "yoy": 10.6
-    },
-    "EQT": {
-      "grade": "D",
-      "note": "YoY -3.9% ↓",
-      "yoy": -3.9
     },
     "EOG": {
       "grade": "A",
@@ -884,209 +884,219 @@
       "note": "YoY +4.1% ↓",
       "yoy": 4.1
     },
-    "EL": {
+    "EVRG": {
       "grade": "C",
-      "note": "YoY +6.3% ↓",
-      "yoy": 6.3
-    },
-    "P": {
-      "grade": "A",
-      "note": "YoY +37.7% ↓",
-      "yoy": 37.7
-    },
-    "EXC": {
-      "grade": "C",
-      "note": "YoY +10.0% ↓",
-      "yoy": 10.0
+      "note": "YoY +4.4% ↓",
+      "yoy": 4.4
     },
     "EG": {
       "grade": "D",
       "note": "YoY -11.2% ↓",
       "yoy": -11.2
     },
-    "EXE": {
-      "grade": "D",
-      "note": "YoY -19.7% ↓",
-      "yoy": -19.7
-    },
-    "EVRG": {
+    "EL": {
       "grade": "C",
-      "note": "YoY +4.4% ↓",
-      "yoy": 4.4
+      "note": "YoY +6.3% ↓",
+      "yoy": 6.3
     },
     "ES": {
       "grade": "C",
       "note": "YoY +9.4% ↓",
       "yoy": 9.4
     },
-    "EXPE": {
-      "grade": "C",
-      "note": "YoY +14.0% ↓",
-      "yoy": 14.0
-    },
-    "EXPD": {
+    "P": {
       "grade": "A",
-      "note": "YoY +32.1% ↓",
-      "yoy": 32.1
+      "note": "YoY +37.7% ↓",
+      "yoy": 37.7
     },
-    "FFIV": {
-      "grade": "C",
-      "note": "YoY +10.9% ↓",
-      "yoy": 10.9
+    "EXE": {
+      "grade": "D",
+      "note": "YoY -19.7% ↓",
+      "yoy": -19.7
     },
-    "EXR": {
+    "EXC": {
       "grade": "C",
-      "note": "YoY +4.4% ↓",
-      "yoy": 4.4
+      "note": "YoY +10.0% ↓",
+      "yoy": 10.0
     },
     "XOM": {
       "grade": "A",
       "note": "YoY +44.1% ↓",
       "yoy": 44.1
     },
-    "FICO": {
-      "grade": "B",
-      "note": "YoY +25.7% ↓",
-      "yoy": 25.7
+    "EXPD": {
+      "grade": "A",
+      "note": "YoY +32.1% ↓",
+      "yoy": 32.1
+    },
+    "EXPE": {
+      "grade": "C",
+      "note": "YoY +14.0% ↓",
+      "yoy": 14.0
+    },
+    "EXR": {
+      "grade": "C",
+      "note": "YoY +4.4% ↓",
+      "yoy": 4.4
+    },
+    "FFIV": {
+      "grade": "C",
+      "note": "YoY +10.9% ↓",
+      "yoy": 10.9
     },
     "FDS": {
       "grade": "C",
       "note": "YoY +6.4% ↓",
       "yoy": 6.4
     },
-    "FAST": {
-      "grade": "C",
-      "note": "YoY +14.7% ↓",
-      "yoy": 14.7
-    },
     "FRT": {
       "grade": "C",
       "note": "YoY +7.8% ↓",
       "yoy": 7.8
     },
-    "FDX": {
-      "grade": "C",
-      "note": "YoY +12.5% ↓",
-      "yoy": 12.5
+    "FICO": {
+      "grade": "B",
+      "note": "YoY +25.7% ↓",
+      "yoy": 25.7
     },
     "FERG": {
       "grade": "C",
       "note": "YoY +14.8% ↓",
       "yoy": 14.8
     },
-    "FDXF": {
-      "grade": null,
-      "note": "売上履歴不足"
-    },
-    "FE": {
+    "FDX": {
       "grade": "C",
-      "note": "YoY +8.8% ↓",
-      "yoy": 8.8
-    },
-    "FSLR": {
-      "grade": "D",
-      "note": "YoY -3.7% ↓",
-      "yoy": -3.7
-    },
-    "FITB": {
-      "grade": "A",
-      "note": "YoY +44.4% ↓",
-      "yoy": 44.4
+      "note": "YoY +12.5% ↓",
+      "yoy": 12.5
     },
     "FIS": {
       "grade": "B",
       "note": "YoY +29.1% ↓",
       "yoy": 29.1
     },
+    "FDXF": {
+      "grade": null,
+      "note": "売上履歴不足"
+    },
+    "FITB": {
+      "grade": "A",
+      "note": "YoY +44.4% ↓",
+      "yoy": 44.4
+    },
+    "FAST": {
+      "grade": "C",
+      "note": "YoY +14.7% ↓",
+      "yoy": 14.7
+    },
+    "FSLR": {
+      "grade": "D",
+      "note": "YoY -3.7% ↓",
+      "yoy": -3.7
+    },
+    "FE": {
+      "grade": "C",
+      "note": "YoY +8.8% ↓",
+      "yoy": 8.8
+    },
     "FISV": {
       "grade": "D",
       "note": "YoY -4.1% ↓",
       "yoy": -4.1
-    },
-    "F": {
-      "grade": "D",
-      "note": "YoY -3.8% ↓",
-      "yoy": -3.8
     },
     "FLEX": {
       "grade": "B",
       "note": "YoY +16.9% ↓",
       "yoy": 16.9
     },
-    "BEN": {
-      "grade": "C",
-      "note": "YoY +14.3% ↓",
-      "yoy": 14.3
-    },
-    "FTV": {
-      "grade": "C",
-      "note": "YoY +7.9% ↓",
-      "yoy": 7.9
-    },
     "FTNT": {
       "grade": "B",
       "note": "YoY +25.6% ↓",
       "yoy": 25.6
     },
-    "FOXA": {
-      "grade": "B",
-      "note": "YoY +28.1% ↓",
-      "yoy": 28.1
+    "F": {
+      "grade": "D",
+      "note": "YoY -3.8% ↓",
+      "yoy": -3.8
     },
     "FOX": {
       "grade": "B",
       "note": "YoY +28.1% ↓",
       "yoy": 28.1
     },
-    "GRMN": {
+    "BEN": {
       "grade": "C",
-      "note": "YoY +11.4% ↓",
-      "yoy": 11.4
+      "note": "YoY +14.3% ↓",
+      "yoy": 14.3
     },
-    "IT": {
-      "grade": "D",
-      "note": "YoY -0.6% ↓",
-      "yoy": -0.6
+    "FOXA": {
+      "grade": "B",
+      "note": "YoY +28.1% ↓",
+      "yoy": 28.1
+    },
+    "FTV": {
+      "grade": "C",
+      "note": "YoY +7.9% ↓",
+      "yoy": 7.9
     },
     "FCX": {
       "grade": "D",
       "note": "YoY -7.3% ↓",
       "yoy": -7.3
     },
-    "GE": {
-      "grade": "B",
-      "note": "YoY +21.1% ↓",
-      "yoy": 21.1
+    "GRMN": {
+      "grade": "C",
+      "note": "YoY +11.4% ↓",
+      "yoy": 11.4
     },
     "GEHC": {
       "grade": "C",
       "note": "YoY +5.8% ↓",
       "yoy": 5.8
     },
-    "GEN": {
-      "grade": "C",
-      "note": "YoY +6.3% ↓",
-      "yoy": 6.3
+    "IT": {
+      "grade": "D",
+      "note": "YoY -0.6% ↓",
+      "yoy": -0.6
     },
-    "GEV": {
+    "GE": {
       "grade": "B",
-      "note": "YoY +21.9% ↓",
-      "yoy": 21.9
+      "note": "YoY +21.1% ↓",
+      "yoy": 21.1
     },
     "GIS": {
       "grade": "C",
       "note": "YoY +1.2% ↓",
       "yoy": 1.2
     },
-    "GNRC": {
+    "GEV": {
+      "grade": "B",
+      "note": "YoY +21.9% ↓",
+      "yoy": 21.9
+    },
+    "GEN": {
       "grade": "C",
-      "note": "YoY +10.6% ↓",
-      "yoy": 10.6
+      "note": "YoY +6.3% ↓",
+      "yoy": 6.3
     },
     "GD": {
       "grade": "C",
       "note": "YoY +8.1% ↓",
       "yoy": 8.1
+    },
+    "GPC": {
+      "grade": "C",
+      "note": "YoY +6.0% ↓",
+      "yoy": 6.0
+    },
+    "GNRC": {
+      "grade": "C",
+      "note": "YoY +10.6% ↓",
+      "yoy": 10.6
+    },
+    "GILD": {
+      "grade": "C",
+      "note": "YoY +10.2% ↓",
+      "yoy": 10.2
     },
     "GM": {
       "grade": "C",
@@ -1098,25 +1108,10 @@
       "note": "YoY +68.6% ↓",
       "yoy": 68.6
     },
-    "GILD": {
-      "grade": "C",
-      "note": "YoY +10.2% ↓",
-      "yoy": 10.2
-    },
-    "GPC": {
-      "grade": "C",
-      "note": "YoY +6.0% ↓",
-      "yoy": 6.0
-    },
     "GDDY": {
       "grade": "C",
       "note": "YoY +6.6% ↓",
       "yoy": 6.6
-    },
-    "HAL": {
-      "grade": "C",
-      "note": "YoY +3.7% ↓",
-      "yoy": 3.7
     },
     "GL": {
       "grade": "C",
@@ -1133,25 +1128,30 @@
       "note": "YoY +6.6% ↓",
       "yoy": 6.6
     },
-    "DOC": {
+    "HAL": {
       "grade": "C",
-      "note": "YoY +11.1% ↓",
-      "yoy": 11.1
+      "note": "YoY +3.7% ↓",
+      "yoy": 3.7
     },
     "HAS": {
       "grade": "B",
       "note": "YoY +16.2% ↓",
       "yoy": 16.2
     },
-    "HSIC": {
+    "DOC": {
       "grade": "C",
-      "note": "YoY +6.7% ↓",
-      "yoy": 6.7
+      "note": "YoY +11.1% ↓",
+      "yoy": 11.1
     },
     "HCA": {
       "grade": "C",
       "note": "YoY +8.7% ↓",
       "yoy": 8.7
+    },
+    "HSIC": {
+      "grade": "C",
+      "note": "YoY +6.7% ↓",
+      "yoy": 6.7
     },
     "HSY": {
       "grade": "C",
@@ -1162,11 +1162,6 @@
       "grade": "C",
       "note": "YoY +5.7% ↓",
       "yoy": 5.7
-    },
-    "HON": {
-      "grade": "C",
-      "note": "YoY +4.3% ↓",
-      "yoy": 4.3
     },
     "HLT": {
       "grade": "C",
@@ -1182,130 +1177,140 @@
       "grade": null,
       "note": "売上履歴不足"
     },
-    "HST": {
+    "HON": {
       "grade": "C",
-      "note": "YoY +3.4% ↓",
-      "yoy": 3.4
-    },
-    "HRL": {
-      "grade": "D",
-      "note": "YoY -2.4% ↓",
-      "yoy": -2.4
+      "note": "YoY +4.3% ↓",
+      "yoy": 4.3
     },
     "HWM": {
       "grade": "B",
       "note": "YoY +24.1% ↓",
       "yoy": 24.1
     },
-    "HUBB": {
-      "grade": "B",
-      "note": "YoY +15.3% ↓",
-      "yoy": 15.3
+    "HST": {
+      "grade": "C",
+      "note": "YoY +3.4% ↓",
+      "yoy": 3.4
     },
     "HUM": {
       "grade": "B",
       "note": "YoY +26.2% ↓",
       "yoy": 26.2
     },
-    "HPQ": {
-      "grade": "C",
-      "note": "YoY +12.5% ↓",
-      "yoy": 12.5
+    "HRL": {
+      "grade": "D",
+      "note": "YoY -2.4% ↓",
+      "yoy": -2.4
+    },
+    "HUBB": {
+      "grade": "B",
+      "note": "YoY +15.3% ↓",
+      "yoy": 15.3
     },
     "HBAN": {
       "grade": "A",
       "note": "YoY +46.4% ↓",
       "yoy": 46.4
     },
-    "IEX": {
-      "grade": "C",
-      "note": "YoY +6.4% ↓",
-      "yoy": 6.4
-    },
     "HII": {
       "grade": "C",
       "note": "YoY +10.9% ↓",
       "yoy": 10.9
     },
-    "IDXX": {
+    "HPQ": {
       "grade": "C",
-      "note": "YoY +9.7% ↓",
-      "yoy": 9.7
-    },
-    "IBM": {
-      "grade": "C",
-      "note": "YoY +1.1% ↓",
-      "yoy": 1.1
-    },
-    "IR": {
-      "grade": "C",
-      "note": "YoY +8.5% ↓",
-      "yoy": 8.5
+      "note": "YoY +12.5% ↓",
+      "yoy": 12.5
     },
     "ITW": {
       "grade": "C",
       "note": "YoY +6.1% ↓",
       "yoy": 6.1
     },
+    "IEX": {
+      "grade": "C",
+      "note": "YoY +6.4% ↓",
+      "yoy": 6.4
+    },
+    "IBM": {
+      "grade": "C",
+      "note": "YoY +1.1% ↓",
+      "yoy": 1.1
+    },
+    "IDXX": {
+      "grade": "C",
+      "note": "YoY +9.7% ↓",
+      "yoy": 9.7
+    },
     "PODD": {
       "grade": "B",
       "note": "YoY +23.5% ↓",
       "yoy": 23.5
     },
-    "ILMN": {
+    "IR": {
       "grade": "C",
-      "note": "YoY +4.8% ↓",
-      "yoy": 4.8
+      "note": "YoY +8.5% ↓",
+      "yoy": 8.5
     },
     "INCY": {
       "grade": "A",
       "note": "YoY +37.7% ↓",
       "yoy": 37.7
     },
-    "ICE": {
-      "grade": "C",
-      "note": "YoY +10.7% ↓",
-      "yoy": 10.7
-    },
     "INTC": {
       "grade": "B",
       "note": "YoY +25.4% ↓",
       "yoy": 25.4
     },
-    "IBKR": {
-      "grade": "B",
-      "note": "YoY +21.3% ↓",
-      "yoy": 21.3
-    },
-    "INTU": {
+    "ILMN": {
       "grade": "C",
-      "note": "YoY +13.7% ↓",
-      "yoy": 13.7
+      "note": "YoY +4.8% ↓",
+      "yoy": 4.8
+    },
+    "ICE": {
+      "grade": "C",
+      "note": "YoY +10.7% ↓",
+      "yoy": 10.7
     },
     "IFF": {
       "grade": "C",
       "note": "YoY +1.8% ↓",
       "yoy": 1.8
     },
+    "IBKR": {
+      "grade": "B",
+      "note": "YoY +21.3% ↓",
+      "yoy": 21.3
+    },
     "IP": {
       "grade": "D",
       "note": "YoY -2.2% ↓",
       "yoy": -2.2
-    },
-    "ISRG": {
-      "grade": "B",
-      "note": "YoY +18.5% ↓",
-      "yoy": 18.5
     },
     "IVZ": {
       "grade": "B",
       "note": "YoY +20.5% ↓",
       "yoy": 20.5
     },
+    "INTU": {
+      "grade": "C",
+      "note": "YoY +13.7% ↓",
+      "yoy": 13.7
+    },
     "INVH": {
       "grade": "C",
       "note": "YoY +9.7% ↓",
       "yoy": 9.7
+    },
+    "ISRG": {
+      "grade": "B",
+      "note": "YoY +18.5% ↓",
+      "yoy": 18.5
+    },
+    "IRM": {
+      "grade": "B",
+      "note": "YoY +18.5% ↓",
+      "yoy": 18.5
     },
     "IQV": {
       "grade": "C",
@@ -1317,30 +1322,35 @@
       "note": "YoY +19.4% ↓",
       "yoy": 19.4
     },
+    "JKHY": {
+      "grade": "C",
+      "note": "YoY +4.7% ↓",
+      "yoy": 4.7
+    },
     "JBL": {
       "grade": "C",
       "note": "YoY +11.8% ↓",
       "yoy": 11.8
-    },
-    "IRM": {
-      "grade": "B",
-      "note": "YoY +18.5% ↓",
-      "yoy": 18.5
     },
     "J": {
       "grade": "A",
       "note": "YoY +34.5% ↓",
       "yoy": 34.5
     },
-    "JKHY": {
-      "grade": "C",
-      "note": "YoY +4.7% ↓",
-      "yoy": 4.7
-    },
     "JCI": {
       "grade": "C",
       "note": "YoY +9.3% ↓",
       "yoy": 9.3
+    },
+    "KDP": {
+      "grade": "A",
+      "note": "YoY +75.6% ↓",
+      "yoy": 75.6
+    },
+    "JPM": {
+      "grade": "B",
+      "note": "YoY +17.8% ↓",
+      "yoy": 17.8
     },
     "JNJ": {
       "grade": "C",
@@ -1352,119 +1362,99 @@
       "note": "YoY +3.0% ↓",
       "yoy": 3.0
     },
-    "JPM": {
-      "grade": "B",
-      "note": "YoY +17.8% ↓",
-      "yoy": 17.8
+    "KEY": {
+      "grade": "C",
+      "note": "YoY +7.1% ↓",
+      "yoy": 7.1
+    },
+    "KIM": {
+      "grade": null,
+      "note": "売上履歴不足"
     },
     "KMB": {
       "grade": "C",
       "note": "YoY +0.6% ↓",
       "yoy": 0.6
     },
-    "KDP": {
-      "grade": "A",
-      "note": "YoY +75.6% ↓",
-      "yoy": 75.6
-    },
-    "KIM": {
-      "grade": null,
-      "note": "売上履歴不足"
-    },
-    "KEY": {
-      "grade": "C",
-      "note": "YoY +7.1% ↓",
-      "yoy": 7.1
-    },
-    "KMI": {
-      "grade": "C",
-      "note": "YoY +10.8% ↓",
-      "yoy": 10.8
-    },
     "KEYS": {
       "grade": "A",
       "note": "YoY +36.5% ↓",
       "yoy": 36.5
-    },
-    "KR": {
-      "grade": "C",
-      "note": "YoY +2.0% ↓",
-      "yoy": 2.0
-    },
-    "KKR": {
-      "grade": "C",
-      "note": "YoY +13.1% ↓",
-      "yoy": 13.1
     },
     "KLAC": {
       "grade": "B",
       "note": "YoY +15.2% ↓",
       "yoy": 15.2
     },
-    "LHX": {
+    "KMI": {
       "grade": "C",
-      "note": "YoY +8.4% ↓",
-      "yoy": 8.4
+      "note": "YoY +10.8% ↓",
+      "yoy": 10.8
+    },
+    "KKR": {
+      "grade": "C",
+      "note": "YoY +13.1% ↓",
+      "yoy": 13.1
     },
     "KHC": {
       "grade": "D",
       "note": "YoY -1.4% ↓",
       "yoy": -1.4
     },
-    "LRCX": {
-      "grade": "B",
-      "note": "YoY +30.0% ↓",
-      "yoy": 30.0
-    },
     "LH": {
       "grade": "C",
       "note": "YoY +5.8% ↓",
       "yoy": 5.8
     },
-    "LVS": {
-      "grade": "D",
-      "note": "YoY -0.7% ↓",
-      "yoy": -0.7
+    "LHX": {
+      "grade": "C",
+      "note": "YoY +8.4% ↓",
+      "yoy": 8.4
+    },
+    "LRCX": {
+      "grade": "B",
+      "note": "YoY +30.0% ↓",
+      "yoy": 30.0
+    },
+    "KR": {
+      "grade": "C",
+      "note": "YoY +2.0% ↓",
+      "yoy": 2.0
     },
     "LEN": {
       "grade": "D",
       "note": "YoY -5.2% ↓",
       "yoy": -5.2
     },
-    "LII": {
-      "grade": "C",
-      "note": "YoY +3.0% ↓",
-      "yoy": 3.0
-    },
-    "LDOS": {
-      "grade": "C",
-      "note": "YoY +7.2% ↓",
-      "yoy": 7.2
-    },
-    "LIN": {
-      "grade": "C",
-      "note": "YoY +9.3% ↓",
-      "yoy": 9.3
+    "LVS": {
+      "grade": "D",
+      "note": "YoY -0.7% ↓",
+      "yoy": -0.7
     },
     "LLY": {
       "grade": "A",
       "note": "YoY +47.7% ↓",
       "yoy": 47.7
     },
-    "L": {
+    "LDOS": {
       "grade": "C",
-      "note": "YoY +3.6% ↓",
-      "yoy": 3.6
-    },
-    "LULU": {
-      "grade": "D",
-      "note": "YoY -4.3% ↓",
-      "yoy": -4.3
+      "note": "YoY +7.2% ↓",
+      "yoy": 7.2
     },
     "LYV": {
       "grade": "C",
       "note": "YoY +9.4% ↓",
       "yoy": 9.4
+    },
+    "LIN": {
+      "grade": "C",
+      "note": "YoY +9.3% ↓",
+      "yoy": 9.3
+    },
+    "LII": {
+      "grade": "C",
+      "note": "YoY +3.0% ↓",
+      "yoy": 3.0
     },
     "LMT": {
       "grade": "C",
@@ -1476,25 +1466,30 @@
       "note": "YoY +109.3% ↓",
       "yoy": 109.3
     },
-    "MTB": {
+    "L": {
       "grade": "C",
-      "note": "YoY +4.1% ↓",
-      "yoy": 4.1
+      "note": "YoY +3.6% ↓",
+      "yoy": 3.6
     },
     "LOW": {
       "grade": "C",
       "note": "YoY +8.3% ↓",
       "yoy": 8.3
     },
+    "LULU": {
+      "grade": "D",
+      "note": "YoY -4.3% ↓",
+      "yoy": -4.3
+    },
     "LYB": {
       "grade": "B",
       "note": "YoY +19.8% ↓",
       "yoy": 19.8
     },
-    "MRSH": {
+    "MTB": {
       "grade": "C",
-      "note": "YoY +6.2% ↓",
-      "yoy": 6.2
+      "note": "YoY +4.1% ↓",
+      "yoy": 4.1
     },
     "MPC": {
       "grade": "A",
@@ -1506,85 +1501,100 @@
       "note": "YoY +4.8% ↓",
       "yoy": 4.8
     },
-    "MKC": {
-      "grade": "B",
-      "note": "YoY +16.7% ↓",
-      "yoy": 16.7
-    },
-    "MLM": {
-      "grade": "B",
-      "note": "YoY +21.0% ↓",
-      "yoy": 21.0
-    },
-    "MAS": {
-      "grade": "D",
-      "note": "YoY -2.9% ↓",
-      "yoy": -2.9
-    },
-    "MCK": {
+    "MRSH": {
       "grade": "C",
-      "note": "YoY +7.7% ↓",
-      "yoy": 7.7
-    },
-    "MRVL": {
-      "grade": "A",
-      "note": "YoY +36.5% ↓",
-      "yoy": 36.5
-    },
-    "MDT": {
-      "grade": "C",
-      "note": "YoY +13.7% ↓",
-      "yoy": 13.7
+      "note": "YoY +6.2% ↓",
+      "yoy": 6.2
     },
     "MA": {
       "grade": "C",
       "note": "YoY +14.1% ↓",
       "yoy": 14.1
     },
-    "META": {
+    "MLM": {
       "grade": "B",
-      "note": "YoY +28.0% ↓",
-      "yoy": 28.0
+      "note": "YoY +21.0% ↓",
+      "yoy": 21.0
     },
-    "MCD": {
-      "grade": "C",
-      "note": "YoY +3.8% ↓",
-      "yoy": 3.8
+    "MRVL": {
+      "grade": "A",
+      "note": "YoY +36.5% ↓",
+      "yoy": 36.5
     },
-    "MET": {
-      "grade": "C",
-      "note": "YoY +9.9% ↓",
-      "yoy": 9.9
+    "MAS": {
+      "grade": "D",
+      "note": "YoY -2.9% ↓",
+      "yoy": -2.9
     },
-    "MTD": {
+    "MKC": {
+      "grade": "B",
+      "note": "YoY +16.7% ↓",
+      "yoy": 16.7
+    },
+    "MCK": {
       "grade": "C",
-      "note": "YoY +4.5% ↓",
-      "yoy": 4.5
+      "note": "YoY +7.7% ↓",
+      "yoy": 7.7
     },
     "MRK": {
       "grade": "C",
       "note": "YoY +5.1% ↓",
       "yoy": 5.1
     },
+    "MDT": {
+      "grade": "C",
+      "note": "YoY +13.7% ↓",
+      "yoy": 13.7
+    },
+    "MET": {
+      "grade": "C",
+      "note": "YoY +9.9% ↓",
+      "yoy": 9.9
+    },
+    "MCD": {
+      "grade": "C",
+      "note": "YoY +3.8% ↓",
+      "yoy": 3.8
+    },
+    "MTD": {
+      "grade": "C",
+      "note": "YoY +4.5% ↓",
+      "yoy": 4.5
+    },
+    "META": {
+      "grade": "B",
+      "note": "YoY +28.0% ↓",
+      "yoy": 28.0
+    },
     "MCHP": {
       "grade": "A",
       "note": "YoY +38.0% ↓",
       "yoy": 38.0
-    },
-    "MGM": {
-      "grade": "C",
-      "note": "YoY +1.0% ↓",
-      "yoy": 1.0
     },
     "MU": {
       "grade": "A",
       "note": "YoY +345.7% ↓",
       "yoy": 345.7
     },
+    "MGM": {
+      "grade": "C",
+      "note": "YoY +1.0% ↓",
+      "yoy": 1.0
+    },
     "MSFT": {
       "grade": "B",
       "note": "YoY +17.7% ↓",
       "yoy": 17.7
+    },
+    "MPWR": {
+      "grade": "A",
+      "note": "YoY +47.6% ↓",
+      "yoy": 47.6
+    },
+    "MAA": {
+      "grade": "C",
+      "note": "YoY +1.0% ↓",
+      "yoy": 1.0
     },
     "MRNA": {
       "grade": "C",
@@ -1601,50 +1611,40 @@
       "note": "YoY +8.2% ↓",
       "yoy": 8.2
     },
-    "MNST": {
-      "grade": "B",
-      "note": "YoY +20.2% ↓",
-      "yoy": 20.2
-    },
     "MS": {
       "grade": "B",
       "note": "YoY +27.4% ↓",
       "yoy": 27.4
     },
-    "MAA": {
-      "grade": "C",
-      "note": "YoY +1.0% ↓",
-      "yoy": 1.0
-    },
-    "MPWR": {
-      "grade": "A",
-      "note": "YoY +47.6% ↓",
-      "yoy": 47.6
+    "MNST": {
+      "grade": "B",
+      "note": "YoY +20.2% ↓",
+      "yoy": 20.2
     },
     "MSI": {
       "grade": "C",
       "note": "YoY +13.3% ↓",
       "yoy": 13.3
     },
-    "MOS": {
-      "grade": "D",
-      "note": "YoY -6.0% ↓",
-      "yoy": -6.0
-    },
-    "NTAP": {
-      "grade": "B",
-      "note": "YoY +29.9% ↓",
-      "yoy": 29.9
-    },
     "NDAQ": {
       "grade": "B",
       "note": "YoY +20.5% ↓",
       "yoy": 20.5
     },
+    "MOS": {
+      "grade": "D",
+      "note": "YoY -6.0% ↓",
+      "yoy": -6.0
+    },
     "MSCI": {
       "grade": "C",
       "note": "YoY +12.2% ↓",
       "yoy": 12.2
+    },
+    "NTAP": {
+      "grade": "B",
+      "note": "YoY +29.9% ↓",
+      "yoy": 29.9
     },
     "NFLX": {
       "grade": "C",
@@ -1661,30 +1661,40 @@
       "note": "YoY +15.1% ↓",
       "yoy": 15.1
     },
-    "NI": {
-      "grade": "C",
-      "note": "YoY +4.6% ↓",
-      "yoy": 4.6
-    },
     "NWSA": {
       "grade": "C",
       "note": "YoY +10.8% ↓",
       "yoy": 10.8
+    },
+    "NDSN": {
+      "grade": "C",
+      "note": "YoY +10.3% ↓",
+      "yoy": 10.3
     },
     "NEE": {
       "grade": "C",
       "note": "YoY +12.4% ↓",
       "yoy": 12.4
     },
+    "NSC": {
+      "grade": "C",
+      "note": "YoY +11.4% ↓",
+      "yoy": 11.4
+    },
     "NTRS": {
       "grade": "C",
       "note": "YoY +8.7% ↓",
       "yoy": 8.7
     },
-    "NDSN": {
+    "NKE": {
+      "grade": "D",
+      "note": "YoY -1.1% ↓",
+      "yoy": -1.1
+    },
+    "NI": {
       "grade": "C",
-      "note": "YoY +10.3% ↓",
-      "yoy": 10.3
+      "note": "YoY +4.6% ↓",
+      "yoy": 4.6
     },
     "NOC": {
       "grade": "C",
@@ -1696,30 +1706,35 @@
       "note": "YoY +4.9% ↓",
       "yoy": 4.9
     },
-    "NUE": {
-      "grade": "B",
-      "note": "YoY +23.0% ↓",
-      "yoy": 23.0
-    },
     "NRG": {
       "grade": "C",
       "note": "YoY +11.0% ↓",
       "yoy": 11.0
     },
-    "NXPI": {
+    "NVDA": {
+      "grade": "A",
+      "note": "YoY +105.9% ↓",
+      "yoy": 105.9
+    },
+    "NUE": {
       "grade": "B",
-      "note": "YoY +19.5% ↓",
-      "yoy": 19.5
+      "note": "YoY +23.0% ↓",
+      "yoy": 23.0
     },
     "NVR": {
       "grade": "D",
       "note": "YoY -10.5% ↓",
       "yoy": -10.5
     },
-    "NVDA": {
-      "grade": "A",
-      "note": "YoY +105.9% ↓",
-      "yoy": 105.9
+    "NXPI": {
+      "grade": "B",
+      "note": "YoY +19.5% ↓",
+      "yoy": 19.5
+    },
+    "ODFL": {
+      "grade": "C",
+      "note": "YoY +10.4% ↓",
+      "yoy": 10.4
     },
     "ORLY": {
       "grade": "C",
@@ -1731,55 +1746,30 @@
       "note": "YoY +53.4% ↓",
       "yoy": 53.4
     },
-    "NKE": {
-      "grade": "D",
-      "note": "YoY -1.1% ↓",
-      "yoy": -1.1
-    },
-    "ODFL": {
-      "grade": "C",
-      "note": "YoY +10.4% ↓",
-      "yoy": 10.4
-    },
-    "ORCL": {
-      "grade": "B",
-      "note": "YoY +29.6% ↓",
-      "yoy": 29.6
-    },
-    "NSC": {
-      "grade": "C",
-      "note": "YoY +11.4% ↓",
-      "yoy": 11.4
+    "OMC": {
+      "grade": "A",
+      "note": "YoY +63.4% ↓",
+      "yoy": 63.4
     },
     "ON": {
       "grade": "C",
       "note": "YoY +9.2% ↓",
       "yoy": 9.2
     },
-    "OMC": {
-      "grade": "A",
-      "note": "YoY +63.4% ↓",
-      "yoy": 63.4
-    },
-    "PKG": {
-      "grade": "C",
-      "note": "YoY +14.7% ↓",
-      "yoy": 14.7
-    },
     "OTIS": {
       "grade": "C",
       "note": "YoY +7.3% ↓",
       "yoy": 7.3
     },
+    "ORCL": {
+      "grade": "B",
+      "note": "YoY +29.6% ↓",
+      "yoy": 29.6
+    },
     "OKE": {
       "grade": "A",
       "note": "YoY +52.8% ↓",
       "yoy": 52.8
-    },
-    "PANW": {
-      "grade": "A",
-      "note": "YoY +34.4% ↓",
-      "yoy": 34.4
     },
     "PCAR": {
       "grade": "C",
@@ -1791,20 +1781,50 @@
       "note": "YoY +92.8% ↓",
       "yoy": 92.8
     },
-    "PAYX": {
+    "PANW": {
+      "grade": "A",
+      "note": "YoY +34.4% ↓",
+      "yoy": 34.4
+    },
+    "PKG": {
       "grade": "C",
-      "note": "YoY +12.5% ↓",
-      "yoy": 12.5
+      "note": "YoY +14.7% ↓",
+      "yoy": 14.7
+    },
+    "PYPL": {
+      "grade": "C",
+      "note": "YoY +4.8% ↓",
+      "yoy": 4.8
+    },
+    "PSKY": {
+      "grade": "D",
+      "note": "YoY -13.4% ↓",
+      "yoy": -13.4
     },
     "PH": {
       "grade": "C",
       "note": "YoY +9.8% ↓",
       "yoy": 9.8
     },
-    "PSKY": {
+    "PAYX": {
+      "grade": "C",
+      "note": "YoY +12.5% ↓",
+      "yoy": 12.5
+    },
+    "PEP": {
+      "grade": "C",
+      "note": "YoY +6.4% ↓",
+      "yoy": 6.4
+    },
+    "PNR": {
       "grade": "D",
-      "note": "YoY -13.4% ↓",
-      "yoy": -13.4
+      "note": "YoY -17.0% ↓",
+      "yoy": -17.0
+    },
+    "PM": {
+      "grade": "C",
+      "note": "YoY +10.4% ↓",
+      "yoy": 10.4
     },
     "PFE": {
       "grade": "C",
@@ -1816,80 +1836,50 @@
       "note": "YoY +0.1% ↓",
       "yoy": 0.1
     },
-    "PNR": {
-      "grade": "D",
-      "note": "YoY -17.0% ↓",
-      "yoy": -17.0
-    },
-    "PEP": {
+    "PNC": {
       "grade": "C",
-      "note": "YoY +6.4% ↓",
-      "yoy": 6.4
-    },
-    "PYPL": {
-      "grade": "C",
-      "note": "YoY +4.8% ↓",
-      "yoy": 4.8
+      "note": "YoY +13.7% ↓",
+      "yoy": 13.7
     },
     "PNW": {
       "grade": "C",
       "note": "YoY +7.1% ↓",
       "yoy": 7.1
     },
-    "PM": {
+    "PPL": {
       "grade": "C",
-      "note": "YoY +10.4% ↓",
-      "yoy": 10.4
+      "note": "YoY +4.2% ↓",
+      "yoy": 4.2
     },
     "PSX": {
       "grade": "A",
       "note": "YoY +53.1% ↓",
       "yoy": 53.1
     },
-    "PG": {
-      "grade": "C",
-      "note": "YoY +1.5% ↓",
-      "yoy": 1.5
-    },
-    "PNC": {
-      "grade": "C",
-      "note": "YoY +13.7% ↓",
-      "yoy": 13.7
-    },
     "PPG": {
       "grade": "C",
       "note": "YoY +7.2% ↓",
       "yoy": 7.2
-    },
-    "PPL": {
-      "grade": "C",
-      "note": "YoY +4.2% ↓",
-      "yoy": 4.2
-    },
-    "PFG": {
-      "grade": "C",
-      "note": "YoY +6.4% ↓",
-      "yoy": 6.4
     },
     "PGR": {
       "grade": "C",
       "note": "YoY +7.3% ↓",
       "yoy": 7.3
     },
+    "PFG": {
+      "grade": "C",
+      "note": "YoY +6.4% ↓",
+      "yoy": 6.4
+    },
+    "PG": {
+      "grade": "C",
+      "note": "YoY +1.5% ↓",
+      "yoy": 1.5
+    },
     "PRU": {
       "grade": "C",
       "note": "YoY +13.7% ↓",
       "yoy": 13.7
-    },
-    "PSA": {
-      "grade": "C",
-      "note": "YoY +2.6% ↓",
-      "yoy": 2.6
-    },
-    "PTC": {
-      "grade": "D",
-      "note": "YoY -6.8% ↓",
-      "yoy": -6.8
     },
     "PLD": {
       "grade": "C",
@@ -1901,10 +1891,20 @@
       "note": "YoY -8.9% ↓",
       "yoy": -8.9
     },
+    "PTC": {
+      "grade": "D",
+      "note": "YoY -6.8% ↓",
+      "yoy": -6.8
+    },
     "QCOM": {
       "grade": "D",
       "note": "YoY -4.0% ↓",
       "yoy": -4.0
+    },
+    "PSA": {
+      "grade": "C",
+      "note": "YoY +2.6% ↓",
+      "yoy": 2.6
     },
     "PHM": {
       "grade": "D",
@@ -1916,25 +1916,20 @@
       "note": "YoY +41.1% ↓",
       "yoy": 41.1
     },
-    "Q": {
-      "grade": "B",
-      "note": "YoY +22.1% ↓",
-      "yoy": 22.1
-    },
-    "RDDT": {
-      "grade": "A",
-      "note": "YoY +61.1% ↓",
-      "yoy": 61.1
+    "DGX": {
+      "grade": "C",
+      "note": "YoY +10.2% ↓",
+      "yoy": 10.2
     },
     "RJF": {
       "grade": "B",
       "note": "YoY +15.6% ↓",
       "yoy": 15.6
     },
-    "DGX": {
-      "grade": "C",
-      "note": "YoY +10.2% ↓",
-      "yoy": 10.2
+    "Q": {
+      "grade": "B",
+      "note": "YoY +22.1% ↓",
+      "yoy": 22.1
     },
     "RL": {
       "grade": "C",
@@ -1946,20 +1941,15 @@
       "note": "YoY +14.5% ↓",
       "yoy": 14.5
     },
+    "RDDT": {
+      "grade": "A",
+      "note": "YoY +61.1% ↓",
+      "yoy": 61.1
+    },
     "REG": {
       "grade": "C",
       "note": "YoY +8.3% ↓",
       "yoy": 8.3
-    },
-    "REGN": {
-      "grade": "B",
-      "note": "YoY +16.7% ↓",
-      "yoy": 16.7
-    },
-    "RSG": {
-      "grade": "C",
-      "note": "YoY +4.6% ↓",
-      "yoy": 4.6
     },
     "O": {
       "grade": "C",
@@ -1971,15 +1961,20 @@
       "note": "YoY +0.1% ↓",
       "yoy": 0.1
     },
+    "HOOD": {
+      "grade": "A",
+      "note": "YoY +32.3% ↓",
+      "yoy": 32.3
+    },
     "RMD": {
       "grade": "C",
       "note": "YoY +8.6% ↓",
       "yoy": 8.6
     },
-    "HOOD": {
-      "grade": "A",
-      "note": "YoY +32.3% ↓",
-      "yoy": 32.3
+    "REGN": {
+      "grade": "B",
+      "note": "YoY +16.7% ↓",
+      "yoy": 16.7
     },
     "RVTY": {
       "grade": "C",
@@ -1991,45 +1986,60 @@
       "note": "YoY +7.9% ↓",
       "yoy": 7.9
     },
-    "ROL": {
+    "RSG": {
       "grade": "C",
-      "note": "YoY +7.9% ↓",
-      "yoy": 7.9
-    },
-    "ROP": {
-      "grade": "C",
-      "note": "YoY +8.5% ↓",
-      "yoy": 8.5
-    },
-    "ROST": {
-      "grade": "C",
-      "note": "YoY +13.3% ↓",
-      "yoy": 13.3
+      "note": "YoY +4.6% ↓",
+      "yoy": 4.6
     },
     "RCL": {
       "grade": "C",
       "note": "YoY +6.5% ↓",
       "yoy": 6.5
     },
-    "SNDK": {
-      "grade": "A",
-      "note": "YoY +371.6% ↓",
-      "yoy": 371.6
-    },
-    "SPGI": {
+    "ROL": {
       "grade": "C",
-      "note": "YoY +10.4% ↓",
-      "yoy": 10.4
+      "note": "YoY +7.9% ↓",
+      "yoy": 7.9
+    },
+    "ROST": {
+      "grade": "C",
+      "note": "YoY +13.3% ↓",
+      "yoy": 13.3
+    },
+    "ROP": {
+      "grade": "C",
+      "note": "YoY +8.5% ↓",
+      "yoy": 8.5
     },
     "CRM": {
       "grade": "C",
       "note": "YoY +10.8% ↓",
       "yoy": 10.8
     },
+    "SPGI": {
+      "grade": "C",
+      "note": "YoY +10.4% ↓",
+      "yoy": 10.4
+    },
+    "SBAC": {
+      "grade": "C",
+      "note": "YoY +2.3% ↓",
+      "yoy": 2.3
+    },
     "SLB": {
       "grade": "C",
       "note": "YoY +5.0% ↓",
       "yoy": 5.0
+    },
+    "SNDK": {
+      "grade": "A",
+      "note": "YoY +371.6% ↓",
+      "yoy": 371.6
+    },
+    "SHW": {
+      "grade": "C",
+      "note": "YoY +7.5% ↓",
+      "yoy": 7.5
     },
     "SRE": {
       "grade": "D",
@@ -2041,30 +2051,20 @@
       "note": "YoY +48.5% ↓",
       "yoy": 48.5
     },
-    "NOW": {
-      "grade": "B",
-      "note": "YoY +24.0% ↓",
-      "yoy": 24.0
-    },
-    "SBAC": {
-      "grade": "C",
-      "note": "YoY +2.3% ↓",
-      "yoy": 2.3
-    },
     "SPG": {
       "grade": "B",
       "note": "YoY +19.5% ↓",
       "yoy": 19.5
     },
-    "SHW": {
-      "grade": "C",
-      "note": "YoY +7.5% ↓",
-      "yoy": 7.5
-    },
     "SJM": {
       "grade": "C",
       "note": "YoY +5.0% ↓",
       "yoy": 5.0
+    },
+    "NOW": {
+      "grade": "B",
+      "note": "YoY +24.0% ↓",
+      "yoy": 24.0
     },
     "SW": {
       "grade": "C",
@@ -2076,16 +2076,6 @@
       "note": "YoY -3.1% ↓",
       "yoy": -3.1
     },
-    "SO": {
-      "grade": "C",
-      "note": "YoY +0.1% ↓",
-      "yoy": 0.1
-    },
-    "LUV": {
-      "grade": "B",
-      "note": "YoY +16.4% ↓",
-      "yoy": 16.4
-    },
     "SNA": {
       "grade": "C",
       "note": "YoY +4.2% ↓",
@@ -2096,15 +2086,25 @@
       "note": "YoY +2.2% ↓",
       "yoy": 2.2
     },
-    "STT": {
-      "grade": "B",
-      "note": "YoY +16.7% ↓",
-      "yoy": 16.7
+    "SO": {
+      "grade": "C",
+      "note": "YoY +0.1% ↓",
+      "yoy": 0.1
     },
     "SWK": {
       "grade": "C",
       "note": "YoY +0.4% ↓",
       "yoy": 0.4
+    },
+    "LUV": {
+      "grade": "B",
+      "note": "YoY +16.4% ↓",
+      "yoy": 16.4
+    },
+    "STT": {
+      "grade": "B",
+      "note": "YoY +16.7% ↓",
+      "yoy": 16.7
     },
     "STLD": {
       "grade": "A",
@@ -2121,30 +2121,15 @@
       "note": "YoY +7.3% ↓",
       "yoy": 7.3
     },
-    "SYK": {
-      "grade": "C",
-      "note": "YoY +9.4% ↓",
-      "yoy": 9.4
-    },
-    "SMCI": {
-      "grade": "A",
-      "note": "YoY +93.2% ↓",
-      "yoy": 93.2
-    },
-    "SYY": {
-      "grade": "C",
-      "note": "YoY +4.7% ↓",
-      "yoy": 4.7
-    },
     "SYF": {
       "grade": "C",
       "note": "YoY +1.9% ↓",
       "yoy": 1.9
     },
-    "TROW": {
+    "SYK": {
       "grade": "C",
-      "note": "YoY +10.7% ↓",
-      "yoy": 10.7
+      "note": "YoY +9.4% ↓",
+      "yoy": 9.4
     },
     "SNPS": {
       "grade": "A",
@@ -2156,6 +2141,26 @@
       "note": "YoY +7.9% ↓",
       "yoy": 7.9
     },
+    "SMCI": {
+      "grade": "A",
+      "note": "YoY +93.2% ↓",
+      "yoy": 93.2
+    },
+    "TROW": {
+      "grade": "C",
+      "note": "YoY +10.7% ↓",
+      "yoy": 10.7
+    },
+    "SYY": {
+      "grade": "C",
+      "note": "YoY +4.7% ↓",
+      "yoy": 4.7
+    },
+    "TTWO": {
+      "grade": "C",
+      "note": "YoY +2.0% ↓",
+      "yoy": 2.0
+    },
     "TPR": {
       "grade": "C",
       "note": "YoY +8.9% ↓",
@@ -2165,21 +2170,6 @@
       "grade": "C",
       "note": "YoY +4.2% ↓",
       "yoy": 4.2
-    },
-    "TTWO": {
-      "grade": "C",
-      "note": "YoY +2.0% ↓",
-      "yoy": 2.0
-    },
-    "TDY": {
-      "grade": "C",
-      "note": "YoY +9.8% ↓",
-      "yoy": 9.8
-    },
-    "TER": {
-      "grade": "A",
-      "note": "YoY +103.9% ↓",
-      "yoy": 103.9
     },
     "TGT": {
       "grade": "C",
@@ -2191,85 +2181,85 @@
       "note": "YoY +13.8% ↓",
       "yoy": 13.8
     },
-    "TPL": {
+    "TER": {
       "grade": "A",
-      "note": "YoY +31.2% ↓",
-      "yoy": 31.2
+      "note": "YoY +103.9% ↓",
+      "yoy": 103.9
     },
     "TSLA": {
       "grade": "B",
       "note": "YoY +25.5% ↓",
       "yoy": 25.5
     },
+    "TDY": {
+      "grade": "C",
+      "note": "YoY +9.8% ↓",
+      "yoy": 9.8
+    },
     "TXN": {
       "grade": "B",
       "note": "YoY +22.8% ↓",
       "yoy": 22.8
     },
-    "TXT": {
-      "grade": "C",
-      "note": "YoY +3.0% ↓",
-      "yoy": 3.0
-    },
-    "TSCO": {
-      "grade": "C",
-      "note": "YoY +2.3% ↓",
-      "yoy": 2.3
-    },
-    "TKO": {
-      "grade": "B",
-      "note": "YoY +18.2% ↓",
-      "yoy": 18.2
-    },
-    "TMO": {
-      "grade": "C",
-      "note": "YoY +10.5% ↓",
-      "yoy": 10.5
+    "TPL": {
+      "grade": "A",
+      "note": "YoY +31.2% ↓",
+      "yoy": 31.2
     },
     "TJX": {
       "grade": "C",
       "note": "YoY +5.4% ↓",
       "yoy": 5.4
     },
+    "TKO": {
+      "grade": "B",
+      "note": "YoY +18.2% ↓",
+      "yoy": 18.2
+    },
+    "TXT": {
+      "grade": "C",
+      "note": "YoY +3.0% ↓",
+      "yoy": 3.0
+    },
+    "TMO": {
+      "grade": "C",
+      "note": "YoY +10.5% ↓",
+      "yoy": 10.5
+    },
     "TT": {
       "grade": "C",
       "note": "YoY +10.6% ↓",
       "yoy": 10.6
-    },
-    "TDG": {
-      "grade": "B",
-      "note": "YoY +22.5% ↓",
-      "yoy": 22.5
     },
     "TRV": {
       "grade": "C",
       "note": "YoY +0.3% ↓",
       "yoy": 0.3
     },
+    "TSCO": {
+      "grade": "C",
+      "note": "YoY +2.3% ↓",
+      "yoy": 2.3
+    },
     "TRMB": {
       "grade": "C",
       "note": "YoY +11.0% ↓",
       "yoy": 11.0
     },
-    "TFC": {
-      "grade": "C",
-      "note": "YoY +5.2% ↓",
-      "yoy": 5.2
-    },
-    "UBER": {
-      "grade": "C",
-      "note": "YoY +12.2% ↓",
-      "yoy": 12.2
+    "TSN": {
+      "grade": "D",
+      "note": "YoY -0.1% ↓",
+      "yoy": -0.1
     },
     "TYL": {
       "grade": "C",
       "note": "YoY +8.2% ↓",
       "yoy": 8.2
     },
-    "TSN": {
-      "grade": "D",
-      "note": "YoY -0.1% ↓",
-      "yoy": -0.1
+    "TDG": {
+      "grade": "B",
+      "note": "YoY +22.5% ↓",
+      "yoy": 22.5
     },
     "USB": {
       "grade": "C",
@@ -2286,50 +2276,60 @@
       "note": "YoY +11.5% ↓",
       "yoy": 11.5
     },
-    "ULTA": {
+    "TFC": {
       "grade": "C",
-      "note": "YoY +8.9% ↓",
-      "yoy": 8.9
+      "note": "YoY +5.2% ↓",
+      "yoy": 5.2
+    },
+    "UBER": {
+      "grade": "C",
+      "note": "YoY +12.2% ↓",
+      "yoy": 12.2
     },
     "UAL": {
       "grade": "B",
       "note": "YoY +16.0% ↓",
       "yoy": 16.0
     },
-    "UPS": {
+    "ULTA": {
       "grade": "C",
-      "note": "YoY +7.6% ↓",
-      "yoy": 7.6
-    },
-    "UHS": {
-      "grade": "C",
-      "note": "YoY +8.3% ↓",
-      "yoy": 8.3
+      "note": "YoY +8.9% ↓",
+      "yoy": 8.9
     },
     "URI": {
       "grade": "C",
       "note": "YoY +11.8% ↓",
       "yoy": 11.8
     },
-    "VLO": {
-      "grade": "A",
-      "note": "YoY +48.8% ↓",
-      "yoy": 48.8
+    "VEEV": {
+      "grade": "B",
+      "note": "YoY +17.6% ↓",
+      "yoy": 17.6
     },
     "VTR": {
       "grade": "B",
       "note": "YoY +21.7% ↓",
       "yoy": 21.7
     },
+    "UHS": {
+      "grade": "C",
+      "note": "YoY +8.3% ↓",
+      "yoy": 8.3
+    },
+    "VLO": {
+      "grade": "A",
+      "note": "YoY +48.8% ↓",
+      "yoy": 48.8
+    },
     "UNH": {
       "grade": "C",
       "note": "YoY +0.4% ↓",
       "yoy": 0.4
     },
-    "VEEV": {
-      "grade": "B",
-      "note": "YoY +17.6% ↓",
-      "yoy": 17.6
+    "UPS": {
+      "grade": "C",
+      "note": "YoY +7.6% ↓",
+      "yoy": 7.6
     },
     "VLTO": {
       "grade": "C",
@@ -2341,100 +2341,100 @@
       "note": "YoY +6.0% ↓",
       "yoy": 6.0
     },
-    "VRTX": {
+    "VRSK": {
       "grade": "C",
-      "note": "YoY +12.5% ↓",
-      "yoy": 12.5
-    },
-    "VTRS": {
-      "grade": "C",
-      "note": "YoY +4.9% ↓",
-      "yoy": 4.9
+      "note": "YoY +4.4% ↓",
+      "yoy": 4.4
     },
     "VZ": {
       "grade": "D",
       "note": "YoY -0.7% ↓",
       "yoy": -0.7
     },
-    "V": {
-      "grade": "C",
-      "note": "YoY +14.4% ↓",
-      "yoy": 14.4
-    },
     "VICI": {
       "grade": "C",
       "note": "YoY +5.7% ↓",
       "yoy": 5.7
     },
-    "VST": {
-      "grade": "D",
-      "note": "YoY -5.5% ↓",
-      "yoy": -5.5
-    },
-    "VMC": {
+    "VTRS": {
       "grade": "C",
-      "note": "YoY +2.5% ↓",
-      "yoy": 2.5
+      "note": "YoY +4.9% ↓",
+      "yoy": 4.9
     },
     "VRT": {
       "grade": "B",
       "note": "YoY +24.1% ↓",
       "yoy": 24.1
     },
+    "VRTX": {
+      "grade": "C",
+      "note": "YoY +12.5% ↓",
+      "yoy": 12.5
+    },
+    "V": {
+      "grade": "C",
+      "note": "YoY +14.4% ↓",
+      "yoy": 14.4
+    },
+    "VST": {
+      "grade": "D",
+      "note": "YoY -5.5% ↓",
+      "yoy": -5.5
+    },
     "VMRK": {
       "grade": "C",
       "note": "YoY +2.3% ↓",
       "yoy": 2.3
     },
-    "VRSK": {
+    "VMC": {
       "grade": "C",
-      "note": "YoY +4.4% ↓",
-      "yoy": 4.4
-    },
-    "GWW": {
-      "grade": "C",
-      "note": "YoY +10.3% ↓",
-      "yoy": 10.3
+      "note": "YoY +2.5% ↓",
+      "yoy": 2.5
     },
     "WRB": {
       "grade": "C",
       "note": "YoY +2.7% ↓",
       "yoy": 2.7
     },
-    "DIS": {
+    "GWW": {
       "grade": "C",
-      "note": "YoY +6.8% ↓",
-      "yoy": 6.8
-    },
-    "WMT": {
-      "grade": "C",
-      "note": "YoY +5.9% ↓",
-      "yoy": 5.9
+      "note": "YoY +10.3% ↓",
+      "yoy": 10.3
     },
     "WAB": {
       "grade": "B",
       "note": "YoY +17.5% ↓",
       "yoy": 17.5
     },
+    "WMT": {
+      "grade": "C",
+      "note": "YoY +5.9% ↓",
+      "yoy": 5.9
+    },
     "WBD": {
       "grade": "D",
       "note": "YoY -11.2% ↓",
       "yoy": -11.2
+    },
+    "WM": {
+      "grade": "C",
+      "note": "YoY +4.0% ↓",
+      "yoy": 4.0
     },
     "WAT": {
       "grade": "A",
       "note": "YoY +113.4% ↓",
       "yoy": 113.4
     },
-    "WFC": {
-      "grade": "C",
-      "note": "YoY +10.0% ↓",
-      "yoy": 10.0
+    "WELL": {
+      "grade": "A",
+      "note": "YoY +38.4% ↓",
+      "yoy": 38.4
     },
-    "WM": {
+    "DIS": {
       "grade": "C",
-      "note": "YoY +4.0% ↓",
-      "yoy": 4.0
+      "note": "YoY +6.8% ↓",
+      "yoy": 6.8
     },
     "WST": {
       "grade": "C",
@@ -2446,45 +2446,55 @@
       "note": "YoY +2.6% ↓",
       "yoy": 2.6
     },
+    "WFC": {
+      "grade": "C",
+      "note": "YoY +10.0% ↓",
+      "yoy": 10.0
+    },
     "WDC": {
       "grade": "A",
       "note": "YoY +43.8% ↓",
       "yoy": 43.8
-    },
-    "WY": {
-      "grade": "D",
-      "note": "YoY -0.9% ↓",
-      "yoy": -0.9
     },
     "WSM": {
       "grade": "C",
       "note": "YoY +6.7% ↓",
       "yoy": 6.7
     },
-    "WTW": {
-      "grade": "C",
-      "note": "YoY +9.1% ↓",
-      "yoy": 9.1
+    "WY": {
+      "grade": "D",
+      "note": "YoY -0.9% ↓",
+      "yoy": -0.9
     },
-    "WELL": {
-      "grade": "A",
-      "note": "YoY +38.4% ↓",
-      "yoy": 38.4
-    },
-    "WYNN": {
+    "WMB": {
       "grade": "C",
-      "note": "YoY +6.9% ↓",
-      "yoy": 6.9
+      "note": "YoY +9.8% ↓",
+      "yoy": 9.8
     },
     "WDAY": {
       "grade": "C",
       "note": "YoY +12.8% ↓",
       "yoy": 12.8
     },
-    "WMB": {
+    "WYNN": {
       "grade": "C",
-      "note": "YoY +9.8% ↓",
-      "yoy": 9.8
+      "note": "YoY +6.9% ↓",
+      "yoy": 6.9
+    },
+    "XYL": {
+      "grade": "C",
+      "note": "YoY +1.5% ↓",
+      "yoy": 1.5
+    },
+    "WTW": {
+      "grade": "C",
+      "note": "YoY +9.1% ↓",
+      "yoy": 9.1
+    },
+    "ZBH": {
+      "grade": "C",
+      "note": "YoY +4.8% ↓",
+      "yoy": 4.8
     },
     "XEL": {
       "grade": "D",
@@ -2496,35 +2506,20 @@
       "note": "YoY +12.3% ↓",
       "yoy": 12.3
     },
-    "ZBH": {
-      "grade": "C",
-      "note": "YoY +4.8% ↓",
-      "yoy": 4.8
-    },
-    "XYL": {
-      "grade": "C",
-      "note": "YoY +1.5% ↓",
-      "yoy": 1.5
-    },
     "ZTS": {
       "grade": "D",
       "note": "YoY -0.2% ↓",
       "yoy": -0.2
-    },
-    "IONQ": {
-      "grade": "A",
-      "note": "YoY +286.8% ↓",
-      "yoy": 286.8
     },
     "ZBRA": {
       "grade": "B",
       "note": "YoY +20.4% ↓",
       "yoy": 20.4
     },
-    "QBTS": {
-      "grade": "D",
-      "note": "YoY -0.6% ↓",
-      "yoy": -0.6
+    "IONQ": {
+      "grade": "A",
+      "note": "YoY +286.8% ↓",
+      "yoy": 286.8
     },
     "RGTI": {
       "grade": "A",
@@ -2536,43 +2531,34 @@
       "note": "YoY +9000.0% ↓",
       "yoy": 9000.0
     },
-    "RKLB": {
-      "grade": "A",
-      "note": "YoY +62.0% ↓",
-      "yoy": 62.0
+    "QBTS": {
+      "grade": "D",
+      "note": "YoY -0.6% ↓",
+      "yoy": -0.6
     },
     "ARQQ": {
       "grade": null,
       "note": "データなし"
+    },
+    "RKLB": {
+      "grade": "A",
+      "note": "YoY +62.0% ↓",
+      "yoy": 62.0
     },
     "ASTS": {
       "grade": "A",
       "note": "YoY +2626.6% ↓",
       "yoy": 2626.6
     },
-    "SPIR": {
-      "grade": "D",
-      "note": "YoY -24.4% ↓",
-      "yoy": -24.4
-    },
     "LUNR": {
       "grade": "A",
       "note": "YoY +304.3% ↓",
       "yoy": 304.3
     },
-    "PL": {
-      "grade": "A",
-      "note": "YoY +58.1% ↓",
-      "yoy": 58.1
-    },
-    "ACHR": {
-      "grade": null,
-      "note": "前年Q売上ゼロ"
-    },
-    "JOBY": {
-      "grade": "A",
-      "note": "YoY +257493.3% ↓",
-      "yoy": 257493.3
+    "SPIR": {
+      "grade": "D",
+      "note": "YoY -24.4% ↓",
+      "yoy": -24.4
     },
     "RDW": {
       "grade": "A",
@@ -2584,10 +2570,38 @@
       "note": "YoY +50.1% ↓",
       "yoy": 50.1
     },
+    "ACHR": {
+      "grade": null,
+      "note": "前年Q売上ゼロ"
+    },
+    "PL": {
+      "grade": "A",
+      "note": "YoY +58.1% ↓",
+      "yoy": 58.1
+    },
+    "JOBY": {
+      "grade": "A",
+      "note": "YoY +257493.3% ↓",
+      "yoy": 257493.3
+    },
+    "QS": {
+      "grade": null,
+      "note": "前年Q売上ゼロ"
+    },
     "KTOS": {
       "grade": "A",
       "note": "YoY +30.5% ↓",
       "yoy": 30.5
+    },
+    "MVST": {
+      "grade": "D",
+      "note": "YoY -4.5% ↓",
+      "yoy": -4.5
+    },
+    "SLDP": {
+      "grade": "D",
+      "note": "YoY -115.7% ↓",
+      "yoy": -115.7
     },
     "ENVX": {
       "grade": "B",
@@ -2598,53 +2612,34 @@
       "grade": null,
       "note": "データなし"
     },
-    "MVST": {
-      "grade": "D",
-      "note": "YoY -4.5% ↓",
-      "yoy": -4.5
-    },
-    "QS": {
-      "grade": null,
-      "note": "前年Q売上ゼロ"
-    },
-    "SLDP": {
-      "grade": "D",
-      "note": "YoY -115.7% ↓",
-      "yoy": -115.7
-    },
     "AMPX": {
       "grade": "A",
       "note": "YoY +125.9% ↓",
       "yoy": 125.9
-    },
-    "ATOM": {
-      "grade": null,
-      "note": "前年Q売上ゼロ"
     },
     "STEM": {
       "grade": "D",
       "note": "YoY -12.3% ↓",
       "yoy": -12.3
     },
-    "ACMR": {
-      "grade": "A",
-      "note": "YoY +36.0% ↓",
-      "yoy": 36.0
+    "ATOM": {
+      "grade": null,
+      "note": "前年Q売上ゼロ"
     },
-    "NVTS": {
-      "grade": "D",
-      "note": "YoY -27.3% ↓",
-      "yoy": -27.3
+    "POET": {
+      "grade": "A",
+      "note": "YoY +112.3% ↓",
+      "yoy": 112.3
     },
     "AEHR": {
       "grade": "A",
       "note": "YoY +33.7% ↓",
       "yoy": 33.7
     },
-    "POET": {
-      "grade": "A",
-      "note": "YoY +112.3% ↓",
-      "yoy": 112.3
+    "NVTS": {
+      "grade": "D",
+      "note": "YoY -27.3% ↓",
+      "yoy": -27.3
     },
     "LWLG": {
       "grade": "B",
@@ -2656,30 +2651,16 @@
       "note": "YoY +24.0% ↓",
       "yoy": 24.0
     },
-    "SMR": {
-      "grade": "D",
-      "note": "YoY -99.1% ↓",
-      "yoy": -99.1
-    },
-    "OKLO": {
-      "grade": null,
-      "note": "前年Q売上ゼロ"
+    "ACMR": {
+      "grade": "A",
+      "note": "YoY +36.0% ↓",
+      "yoy": 36.0
     },
     "NNE": {
       "grade": null,
       "note": "前年Q売上ゼロ"
     },
-    "CCJ": {
-      "grade": "D",
-      "note": "YoY -7.2% ↓",
-      "yoy": -7.2
-    },
-    "SOUN": {
-      "grade": "A",
-      "note": "YoY +45.0% ↓",
-      "yoy": 45.0
-    },
-    "UEC": {
+    "OKLO": {
       "grade": null,
       "note": "前年Q売上ゼロ"
     },
@@ -2688,10 +2669,29 @@
       "note": "YoY +14.0% ↓",
       "yoy": 14.0
     },
-    "BWXT": {
-      "grade": "B",
-      "note": "YoY +18.0% ↓",
-      "yoy": 18.0
+    "SOUN": {
+      "grade": "A",
+      "note": "YoY +45.0% ↓",
+      "yoy": 45.0
+    },
+    "SMR": {
+      "grade": "D",
+      "note": "YoY -99.1% ↓",
+      "yoy": -99.1
+    },
+    "CCJ": {
+      "grade": "D",
+      "note": "YoY -7.2% ↓",
+      "yoy": -7.2
+    },
+    "UEC": {
+      "grade": null,
+      "note": "前年Q売上ゼロ"
+    },
+    "BBAI": {
+      "grade": "C",
+      "note": "YoY +13.2% ↓",
+      "yoy": 13.2
     },
     "AI": {
       "grade": "D",
@@ -2703,24 +2703,32 @@
       "note": "YoY +89.0% ↓",
       "yoy": 89.0
     },
-    "BBAI": {
-      "grade": "C",
-      "note": "YoY +13.2% ↓",
-      "yoy": 13.2
+    "REE": {
+      "grade": null,
+      "note": "データなし"
     },
-    "BLDP": {
+    "BWXT": {
       "grade": "B",
-      "note": "YoY +15.4% ↓",
-      "yoy": 15.4
+      "note": "YoY +18.0% ↓",
+      "yoy": 18.0
     },
     "PLUG": {
       "grade": "C",
       "note": "YoY +2.5% ↓",
       "yoy": 2.5
     },
-    "REE": {
+    "2002.T": {
       "grade": null,
-      "note": "データなし"
+      "note": "売上履歴不足"
+    },
+    "BLDP": {
+      "grade": "B",
+      "note": "YoY +15.4% ↓",
+      "yoy": 15.4
+    },
+    "2282.T": {
+      "grade": null,
+      "note": "売上履歴不足"
     },
     "2269.T": {
       "grade": null,
@@ -2730,23 +2738,11 @@
       "grade": null,
       "note": "売上履歴不足"
     },
+    "2801.T": {
+      "grade": null,
+      "note": "売上履歴不足"
+    },
     "2502.T": {
-      "grade": null,
-      "note": "売上履歴不足"
-    },
-    "2002.T": {
-      "grade": null,
-      "note": "売上履歴不足"
-    },
-    "2282.T": {
-      "grade": null,
-      "note": "売上履歴不足"
-    },
-    "2914.T": {
-      "grade": null,
-      "note": "売上履歴不足"
-    },
-    "2802.T": {
       "grade": null,
       "note": "売上履歴不足"
     },
@@ -2758,7 +2754,23 @@
       "grade": null,
       "note": "売上履歴不足"
     },
-    "2801.T": {
+    "2802.T": {
+      "grade": null,
+      "note": "売上履歴不足"
+    },
+    "2871.T": {
+      "grade": null,
+      "note": "売上履歴不足"
+    },
+    "2914.T": {
+      "grade": null,
+      "note": "売上履歴不足"
+    },
+    "3407.T": {
+      "grade": null,
+      "note": "売上履歴不足"
+    },
+    "3402.T": {
       "grade": null,
       "note": "売上履歴不足"
     },
@@ -2770,7 +2782,7 @@
       "grade": null,
       "note": "売上履歴不足"
     },
-    "2871.T": {
+    "4004.T": {
       "grade": null,
       "note": "売上履歴不足"
     },
@@ -2778,27 +2790,7 @@
       "grade": null,
       "note": "売上履歴不足"
     },
-    "4005.T": {
-      "grade": null,
-      "note": "売上履歴不足"
-    },
-    "3407.T": {
-      "grade": null,
-      "note": "売上履歴不足"
-    },
     "4042.T": {
-      "grade": null,
-      "note": "売上履歴不足"
-    },
-    "4004.T": {
-      "grade": null,
-      "note": "売上履歴不足"
-    },
-    "3402.T": {
-      "grade": null,
-      "note": "売上履歴不足"
-    },
-    "4063.T": {
       "grade": null,
       "note": "売上履歴不足"
     },
@@ -2806,7 +2798,7 @@
       "grade": null,
       "note": "売上履歴不足"
     },
-    "4183.T": {
+    "4005.T": {
       "grade": null,
       "note": "売上履歴不足"
     },
@@ -2814,19 +2806,19 @@
       "grade": null,
       "note": "売上履歴不足"
     },
-    "4208.T": {
-      "grade": null,
-      "note": "売上履歴不足"
-    },
-    "6988.T": {
-      "grade": null,
-      "note": "売上履歴不足"
-    },
     "4188.T": {
       "grade": null,
       "note": "売上履歴不足"
     },
-    "4911.T": {
+    "4063.T": {
+      "grade": null,
+      "note": "売上履歴不足"
+    },
+    "4183.T": {
+      "grade": null,
+      "note": "売上履歴不足"
+    },
+    "4901.T": {
       "grade": null,
       "note": "売上履歴不足"
     },
@@ -2834,7 +2826,11 @@
       "grade": null,
       "note": "売上履歴不足"
     },
-    "4901.T": {
+    "4151.T": {
+      "grade": null,
+      "note": "売上履歴不足"
+    },
+    "4208.T": {
       "grade": null,
       "note": "売上履歴不足"
     },
@@ -2843,31 +2839,11 @@
       "note": "YoY +10.2% ↓",
       "yoy": 10.2
     },
-    "4151.T": {
-      "grade": null,
-      "note": "売上履歴不足"
-    },
     "4503.T": {
       "grade": null,
       "note": "売上履歴不足"
     },
-    "4506.T": {
-      "grade": null,
-      "note": "売上履歴不足"
-    },
-    "4519.T": {
-      "grade": null,
-      "note": "売上履歴不足"
-    },
-    "4523.T": {
-      "grade": null,
-      "note": "売上履歴不足"
-    },
-    "5019.T": {
-      "grade": null,
-      "note": "売上履歴不足"
-    },
-    "5020.T": {
+    "6988.T": {
       "grade": null,
       "note": "売上履歴不足"
     },
@@ -2875,7 +2851,7 @@
       "grade": null,
       "note": "売上履歴不足"
     },
-    "5101.T": {
+    "4523.T": {
       "grade": null,
       "note": "売上履歴不足"
     },
@@ -2883,11 +2859,39 @@
       "grade": null,
       "note": "売上履歴不足"
     },
+    "4519.T": {
+      "grade": null,
+      "note": "売上履歴不足"
+    },
+    "4506.T": {
+      "grade": null,
+      "note": "売上履歴不足"
+    },
+    "4911.T": {
+      "grade": null,
+      "note": "売上履歴不足"
+    },
     "4568.T": {
       "grade": null,
       "note": "売上履歴不足"
     },
-    "5201.T": {
+    "5020.T": {
+      "grade": null,
+      "note": "売上履歴不足"
+    },
+    "5101.T": {
+      "grade": null,
+      "note": "売上履歴不足"
+    },
+    "5019.T": {
+      "grade": null,
+      "note": "売上履歴不足"
+    },
+    "5108.T": {
+      "grade": null,
+      "note": "売上履歴不足"
+    },
+    "5214.T": {
       "grade": null,
       "note": "売上履歴不足"
     },
@@ -2903,19 +2907,15 @@
       "grade": null,
       "note": "売上履歴不足"
     },
-    "5108.T": {
-      "grade": null,
-      "note": "売上履歴不足"
-    },
-    "5214.T": {
-      "grade": null,
-      "note": "売上履歴不足"
-    },
-    "5233.T": {
-      "grade": null,
-      "note": "売上履歴不足"
-    },
     "5401.T": {
+      "grade": null,
+      "note": "売上履歴不足"
+    },
+    "5411.T": {
+      "grade": null,
+      "note": "売上履歴不足"
+    },
+    "5201.T": {
       "grade": null,
       "note": "売上履歴不足"
     },
@@ -2927,7 +2927,11 @@
       "grade": null,
       "note": "売上履歴不足"
     },
-    "5706.T": {
+    "5713.T": {
+      "grade": null,
+      "note": "売上履歴不足"
+    },
+    "5233.T": {
       "grade": null,
       "note": "売上履歴不足"
     },
@@ -2935,11 +2939,7 @@
       "grade": null,
       "note": "売上履歴不足"
     },
-    "5411.T": {
-      "grade": null,
-      "note": "売上履歴不足"
-    },
-    "5713.T": {
+    "5706.T": {
       "grade": null,
       "note": "売上履歴不足"
     },
@@ -2955,15 +2955,7 @@
       "grade": null,
       "note": "売上履歴不足"
     },
-    "5801.T": {
-      "grade": null,
-      "note": "売上履歴不足"
-    },
     "6103.T": {
-      "grade": null,
-      "note": "売上履歴不足"
-    },
-    "6113.T": {
       "grade": null,
       "note": "売上履歴不足"
     },
@@ -2971,7 +2963,7 @@
       "grade": null,
       "note": "売上履歴不足"
     },
-    "6302.T": {
+    "5801.T": {
       "grade": null,
       "note": "売上履歴不足"
     },
@@ -2979,11 +2971,7 @@
       "grade": null,
       "note": "売上履歴不足"
     },
-    "6326.T": {
-      "grade": null,
-      "note": "売上履歴不足"
-    },
-    "6367.T": {
+    "6302.T": {
       "grade": null,
       "note": "売上履歴不足"
     },
@@ -2991,15 +2979,11 @@
       "grade": null,
       "note": "売上履歴不足"
     },
-    "6472.T": {
+    "6326.T": {
       "grade": null,
       "note": "売上履歴不足"
     },
-    "6361.T": {
-      "grade": null,
-      "note": "売上履歴不足"
-    },
-    "7004.T": {
+    "6113.T": {
       "grade": null,
       "note": "売上履歴不足"
     },
@@ -3007,7 +2991,7 @@
       "grade": null,
       "note": "売上履歴不足"
     },
-    "7011.T": {
+    "6367.T": {
       "grade": null,
       "note": "売上履歴不足"
     },
@@ -3015,15 +2999,15 @@
       "grade": null,
       "note": "売上履歴不足"
     },
-    "7013.T": {
-      "grade": null,
-      "note": "売上履歴不足"
-    },
-    "6479.T": {
-      "grade": null,
-      "note": "売上履歴不足"
-    },
     "6471.T": {
+      "grade": null,
+      "note": "売上履歴不足"
+    },
+    "6361.T": {
+      "grade": null,
+      "note": "売上履歴不足"
+    },
+    "6472.T": {
       "grade": null,
       "note": "売上履歴不足"
     },
@@ -3031,7 +3015,27 @@
       "grade": null,
       "note": "売上履歴不足"
     },
+    "6479.T": {
+      "grade": null,
+      "note": "売上履歴不足"
+    },
+    "7004.T": {
+      "grade": null,
+      "note": "売上履歴不足"
+    },
+    "7011.T": {
+      "grade": null,
+      "note": "売上履歴不足"
+    },
+    "7013.T": {
+      "grade": null,
+      "note": "売上履歴不足"
+    },
     "6501.T": {
+      "grade": null,
+      "note": "売上履歴不足"
+    },
+    "6526.T": {
       "grade": null,
       "note": "売上履歴不足"
     },
@@ -3039,7 +3043,11 @@
       "grade": null,
       "note": "売上履歴不足"
     },
-    "6526.T": {
+    "6645.T": {
+      "grade": null,
+      "note": "売上履歴不足"
+    },
+    "6504.T": {
       "grade": null,
       "note": "売上履歴不足"
     },
@@ -3055,15 +3063,15 @@
       "grade": null,
       "note": "売上履歴不足"
     },
-    "6504.T": {
-      "grade": null,
-      "note": "売上履歴不足"
-    },
     "6701.T": {
       "grade": null,
       "note": "売上履歴不足"
     },
-    "6645.T": {
+    "6752.T": {
+      "grade": null,
+      "note": "売上履歴不足"
+    },
+    "6762.T": {
       "grade": null,
       "note": "売上履歴不足"
     },
@@ -3075,31 +3083,6 @@
       "grade": null,
       "note": "売上履歴不足"
     },
-    "6758.T": {
-      "grade": "C",
-      "note": "YoY +8.2% ↓",
-      "yoy": 8.2
-    },
-    "6752.T": {
-      "grade": null,
-      "note": "売上履歴不足"
-    },
-    "6841.T": {
-      "grade": null,
-      "note": "売上履歴不足"
-    },
-    "6762.T": {
-      "grade": null,
-      "note": "売上履歴不足"
-    },
-    "6902.T": {
-      "grade": null,
-      "note": "売上履歴不足"
-    },
-    "6861.T": {
-      "grade": null,
-      "note": "売上履歴不足"
-    },
     "6770.T": {
       "grade": null,
       "note": "売上履歴不足"
@@ -3108,11 +3091,16 @@
       "grade": null,
       "note": "データなし"
     },
-    "6976.T": {
+    "6758.T": {
+      "grade": "C",
+      "note": "YoY +8.2% ↓",
+      "yoy": 8.2
+    },
+    "6841.T": {
       "grade": null,
       "note": "売上履歴不足"
     },
-    "6954.T": {
+    "6976.T": {
       "grade": null,
       "note": "売上履歴不足"
     },
@@ -3120,15 +3108,15 @@
       "grade": null,
       "note": "売上履歴不足"
     },
+    "6861.T": {
+      "grade": null,
+      "note": "売上履歴不足"
+    },
+    "6902.T": {
+      "grade": null,
+      "note": "売上履歴不足"
+    },
     "6963.T": {
-      "grade": null,
-      "note": "売上履歴不足"
-    },
-    "7751.T": {
-      "grade": null,
-      "note": "売上履歴不足"
-    },
-    "7735.T": {
       "grade": null,
       "note": "売上履歴不足"
     },
@@ -3140,11 +3128,7 @@
       "grade": null,
       "note": "売上履歴不足"
     },
-    "8035.T": {
-      "grade": null,
-      "note": "売上履歴不足"
-    },
-    "7012.T": {
+    "6954.T": {
       "grade": null,
       "note": "売上履歴不足"
     },
@@ -3152,11 +3136,15 @@
       "grade": null,
       "note": "売上履歴不足"
     },
-    "7201.T": {
+    "7751.T": {
       "grade": null,
       "note": "売上履歴不足"
     },
-    "7261.T": {
+    "7735.T": {
+      "grade": null,
+      "note": "売上履歴不足"
+    },
+    "8035.T": {
       "grade": null,
       "note": "売上履歴不足"
     },
@@ -3164,15 +3152,11 @@
       "grade": null,
       "note": "売上履歴不足"
     },
-    "7269.T": {
+    "7201.T": {
       "grade": null,
       "note": "売上履歴不足"
     },
-    "7211.T": {
-      "grade": null,
-      "note": "売上履歴不足"
-    },
-    "7270.T": {
+    "7012.T": {
       "grade": null,
       "note": "売上履歴不足"
     },
@@ -3181,15 +3165,19 @@
       "note": "YoY +10.4% ↓",
       "yoy": 10.4
     },
+    "7269.T": {
+      "grade": null,
+      "note": "売上履歴不足"
+    },
+    "7261.T": {
+      "grade": null,
+      "note": "売上履歴不足"
+    },
+    "7211.T": {
+      "grade": null,
+      "note": "売上履歴不足"
+    },
     "7272.T": {
-      "grade": null,
-      "note": "売上履歴不足"
-    },
-    "4902.T": {
-      "grade": null,
-      "note": "売上履歴不足"
-    },
-    "4543.T": {
       "grade": null,
       "note": "売上履歴不足"
     },
@@ -3197,6 +3185,18 @@
       "grade": "C",
       "note": "YoY +13.5% ↓",
       "yoy": 13.5
+    },
+    "4902.T": {
+      "grade": null,
+      "note": "売上履歴不足"
+    },
+    "7270.T": {
+      "grade": null,
+      "note": "売上履歴不足"
+    },
+    "4543.T": {
+      "grade": null,
+      "note": "売上履歴不足"
     },
     "6146.T": {
       "grade": null,
@@ -3206,23 +3206,7 @@
       "grade": null,
       "note": "売上履歴不足"
     },
-    "7832.T": {
-      "grade": null,
-      "note": "売上履歴不足"
-    },
-    "7731.T": {
-      "grade": null,
-      "note": "売上履歴不足"
-    },
-    "1332.T": {
-      "grade": null,
-      "note": "売上履歴不足"
-    },
-    "7912.T": {
-      "grade": null,
-      "note": "売上履歴不足"
-    },
-    "1605.T": {
+    "7951.T": {
       "grade": null,
       "note": "売上履歴不足"
     },
@@ -3234,7 +3218,39 @@
       "grade": null,
       "note": "売上履歴不足"
     },
-    "7951.T": {
+    "7912.T": {
+      "grade": null,
+      "note": "売上履歴不足"
+    },
+    "1332.T": {
+      "grade": null,
+      "note": "売上履歴不足"
+    },
+    "7731.T": {
+      "grade": null,
+      "note": "売上履歴不足"
+    },
+    "7832.T": {
+      "grade": null,
+      "note": "売上履歴不足"
+    },
+    "1802.T": {
+      "grade": null,
+      "note": "売上履歴不足"
+    },
+    "1801.T": {
+      "grade": null,
+      "note": "売上履歴不足"
+    },
+    "1812.T": {
+      "grade": null,
+      "note": "売上履歴不足"
+    },
+    "1605.T": {
+      "grade": null,
+      "note": "売上履歴不足"
+    },
+    "1808.T": {
       "grade": null,
       "note": "売上履歴不足"
     },
@@ -3242,7 +3258,7 @@
       "grade": null,
       "note": "売上履歴不足"
     },
-    "1802.T": {
+    "1803.T": {
       "grade": null,
       "note": "売上履歴不足"
     },
@@ -3258,15 +3274,15 @@
       "grade": null,
       "note": "売上履歴不足"
     },
-    "1801.T": {
+    "8002.T": {
       "grade": null,
       "note": "売上履歴不足"
     },
-    "1812.T": {
+    "8031.T": {
       "grade": null,
       "note": "売上履歴不足"
     },
-    "1803.T": {
+    "8015.T": {
       "grade": null,
       "note": "売上履歴不足"
     },
@@ -3275,7 +3291,7 @@
       "note": "YoY -5.8% ↓",
       "yoy": -5.8
     },
-    "1808.T": {
+    "8058.T": {
       "grade": null,
       "note": "売上履歴不足"
     },
@@ -3283,11 +3299,7 @@
       "grade": null,
       "note": "売上履歴不足"
     },
-    "8015.T": {
-      "grade": null,
-      "note": "売上履歴不足"
-    },
-    "8031.T": {
+    "8053.T": {
       "grade": null,
       "note": "売上履歴不足"
     },
@@ -3299,23 +3311,7 @@
       "grade": null,
       "note": "売上履歴不足"
     },
-    "8053.T": {
-      "grade": null,
-      "note": "売上履歴不足"
-    },
-    "8058.T": {
-      "grade": null,
-      "note": "売上履歴不足"
-    },
-    "8002.T": {
-      "grade": null,
-      "note": "売上履歴不足"
-    },
-    "3382.T": {
-      "grade": null,
-      "note": "売上履歴不足"
-    },
-    "7453.T": {
+    "8252.T": {
       "grade": null,
       "note": "売上履歴不足"
     },
@@ -3323,11 +3319,7 @@
       "grade": null,
       "note": "売上履歴不足"
     },
-    "7532.T": {
-      "grade": null,
-      "note": "売上履歴不足"
-    },
-    "9983.T": {
+    "3382.T": {
       "grade": null,
       "note": "売上履歴不足"
     },
@@ -3335,11 +3327,19 @@
       "grade": null,
       "note": "売上履歴不足"
     },
-    "8267.T": {
+    "7532.T": {
       "grade": null,
       "note": "売上履歴不足"
     },
-    "8252.T": {
+    "7453.T": {
+      "grade": null,
+      "note": "売上履歴不足"
+    },
+    "8308.T": {
+      "grade": null,
+      "note": "売上履歴不足"
+    },
+    "8267.T": {
       "grade": null,
       "note": "売上履歴不足"
     },
@@ -3347,29 +3347,7 @@
       "grade": null,
       "note": "売上履歴不足"
     },
-    "7186.T": {
-      "grade": null,
-      "note": "売上履歴不足"
-    },
     "5831.T": {
-      "grade": null,
-      "note": "売上履歴不足"
-    },
-    "8304.T": {
-      "grade": null,
-      "note": "売上履歴不足"
-    },
-    "8309.T": {
-      "grade": "B",
-      "note": "YoY +27.8% ↓",
-      "yoy": 27.8
-    },
-    "8316.T": {
-      "grade": "B",
-      "note": "YoY +28.5% ↓",
-      "yoy": 28.5
-    },
-    "8308.T": {
       "grade": null,
       "note": "売上履歴不足"
     },
@@ -3378,7 +3356,42 @@
       "note": "YoY +27.5% ↓",
       "yoy": 27.5
     },
+    "9983.T": {
+      "grade": null,
+      "note": "売上履歴不足"
+    },
+    "7186.T": {
+      "grade": null,
+      "note": "売上履歴不足"
+    },
+    "8304.T": {
+      "grade": null,
+      "note": "売上履歴不足"
+    },
+    "8316.T": {
+      "grade": "B",
+      "note": "YoY +28.5% ↓",
+      "yoy": 28.5
+    },
+    "8630.T": {
+      "grade": null,
+      "note": "売上履歴不足"
+    },
+    "8309.T": {
+      "grade": "B",
+      "note": "YoY +27.8% ↓",
+      "yoy": 27.8
+    },
     "8354.T": {
+      "grade": null,
+      "note": "売上履歴不足"
+    },
+    "8604.T": {
+      "grade": "B",
+      "note": "YoY +28.0% ↓",
+      "yoy": 28.0
+    },
+    "8601.T": {
       "grade": null,
       "note": "売上履歴不足"
     },
@@ -3392,11 +3405,7 @@
       "note": "YoY +55.9% ↓",
       "yoy": 55.9
     },
-    "8630.T": {
-      "grade": null,
-      "note": "売上履歴不足"
-    },
-    "8601.T": {
+    "8750.T": {
       "grade": null,
       "note": "売上履歴不足"
     },
@@ -3404,24 +3413,19 @@
       "grade": null,
       "note": "売上履歴不足"
     },
-    "8766.T": {
-      "grade": null,
-      "note": "売上履歴不足"
-    },
-    "8750.T": {
-      "grade": null,
-      "note": "売上履歴不足"
-    },
-    "8604.T": {
-      "grade": "B",
-      "note": "YoY +28.0% ↓",
-      "yoy": 28.0
-    },
     "8795.T": {
       "grade": null,
       "note": "売上履歴不足"
     },
     "8253.T": {
+      "grade": null,
+      "note": "売上履歴不足"
+    },
+    "8697.T": {
+      "grade": null,
+      "note": "売上履歴不足"
+    },
+    "8766.T": {
       "grade": null,
       "note": "売上履歴不足"
     },
@@ -3438,7 +3442,7 @@
       "note": "YoY +21.0% ↓",
       "yoy": 21.0
     },
-    "8697.T": {
+    "9005.T": {
       "grade": null,
       "note": "売上履歴不足"
     },
@@ -3450,27 +3454,11 @@
       "grade": null,
       "note": "売上履歴不足"
     },
-    "8830.T": {
-      "grade": null,
-      "note": "売上履歴不足"
-    },
     "8804.T": {
       "grade": null,
       "note": "売上履歴不足"
     },
-    "9009.T": {
-      "grade": null,
-      "note": "売上履歴不足"
-    },
-    "9005.T": {
-      "grade": null,
-      "note": "売上履歴不足"
-    },
-    "9022.T": {
-      "grade": null,
-      "note": "売上履歴不足"
-    },
-    "9008.T": {
+    "8830.T": {
       "grade": null,
       "note": "売上履歴不足"
     },
@@ -3478,7 +3466,32 @@
       "grade": null,
       "note": "売上履歴不足"
     },
+    "9008.T": {
+      "grade": null,
+      "note": "売上履歴不足"
+    },
     "9020.T": {
+      "grade": null,
+      "note": "売上履歴不足"
+    },
+    "9022.T": {
+      "grade": null,
+      "note": "売上履歴不足"
+    },
+    "9064.T": {
+      "grade": "D",
+      "note": "YoY -12.1% ↓",
+      "yoy": -12.1
+    },
+    "9009.T": {
+      "grade": null,
+      "note": "売上履歴不足"
+    },
+    "9101.T": {
+      "grade": null,
+      "note": "売上履歴不足"
+    },
+    "9104.T": {
       "grade": null,
       "note": "売上履歴不足"
     },
@@ -3490,32 +3503,15 @@
       "grade": null,
       "note": "売上履歴不足"
     },
-    "9101.T": {
-      "grade": null,
-      "note": "売上履歴不足"
-    },
     "9107.T": {
       "grade": null,
       "note": "売上履歴不足"
     },
-    "9064.T": {
-      "grade": "D",
-      "note": "YoY -12.1% ↓",
-      "yoy": -12.1
-    },
-    "9104.T": {
+    "9432.T": {
       "grade": null,
       "note": "売上履歴不足"
     },
     "9201.T": {
-      "grade": null,
-      "note": "売上履歴不足"
-    },
-    "9202.T": {
-      "grade": null,
-      "note": "売上履歴不足"
-    },
-    "9432.T": {
       "grade": null,
       "note": "売上履歴不足"
     },
@@ -3527,11 +3523,7 @@
       "grade": null,
       "note": "売上履歴不足"
     },
-    "9984.T": {
-      "grade": null,
-      "note": "売上履歴不足"
-    },
-    "9503.T": {
+    "9202.T": {
       "grade": null,
       "note": "売上履歴不足"
     },
@@ -3539,15 +3531,7 @@
       "grade": null,
       "note": "売上履歴不足"
     },
-    "9532.T": {
-      "grade": null,
-      "note": "売上履歴不足"
-    },
-    "9531.T": {
-      "grade": null,
-      "note": "売上履歴不足"
-    },
-    "2432.T": {
+    "9984.T": {
       "grade": null,
       "note": "売上履歴不足"
     },
@@ -3555,7 +3539,7 @@
       "grade": null,
       "note": "売上履歴不足"
     },
-    "3659.T": {
+    "9503.T": {
       "grade": null,
       "note": "売上履歴不足"
     },
@@ -3563,23 +3547,19 @@
       "grade": null,
       "note": "売上履歴不足"
     },
+    "9532.T": {
+      "grade": null,
+      "note": "売上履歴不足"
+    },
+    "3659.T": {
+      "grade": null,
+      "note": "売上履歴不足"
+    },
     "4307.T": {
       "grade": null,
       "note": "売上履歴不足"
     },
-    "3697.T": {
-      "grade": null,
-      "note": "売上履歴不足"
-    },
-    "4385.T": {
-      "grade": null,
-      "note": "売上履歴不足"
-    },
-    "4661.T": {
-      "grade": null,
-      "note": "売上履歴不足"
-    },
-    "4689.T": {
+    "9531.T": {
       "grade": null,
       "note": "売上履歴不足"
     },
@@ -3587,35 +3567,19 @@
       "grade": null,
       "note": "売上履歴不足"
     },
-    "4704.T": {
+    "4385.T": {
       "grade": null,
       "note": "売上履歴不足"
     },
-    "4751.T": {
+    "2432.T": {
       "grade": null,
       "note": "売上履歴不足"
     },
-    "4755.T": {
+    "3697.T": {
       "grade": null,
       "note": "売上履歴不足"
     },
-    "7974.T": {
-      "grade": null,
-      "note": "売上履歴不足"
-    },
-    "6178.T": {
-      "grade": null,
-      "note": "売上履歴不足"
-    },
-    "6532.T": {
-      "grade": null,
-      "note": "売上履歴不足"
-    },
-    "9602.T": {
-      "grade": null,
-      "note": "売上履歴不足"
-    },
-    "9735.T": {
+    "4689.T": {
       "grade": null,
       "note": "売上履歴不足"
     },
@@ -3623,27 +3587,43 @@
       "grade": null,
       "note": "売上履歴不足"
     },
-    "6324.T": {
+    "4661.T": {
       "grade": null,
       "note": "売上履歴不足"
     },
-    "6707.T": {
+    "6178.T": {
       "grade": null,
       "note": "売上履歴不足"
     },
-    "8036.T": {
+    "4751.T": {
       "grade": null,
-      "note": "データなし"
+      "note": "売上履歴不足"
     },
-    "4185.T": {
+    "4704.T": {
       "grade": null,
-      "note": "データなし"
+      "note": "売上履歴不足"
     },
-    "4186.T": {
+    "7974.T": {
+      "grade": null,
+      "note": "売上履歴不足"
+    },
+    "4755.T": {
+      "grade": null,
+      "note": "売上履歴不足"
+    },
+    "9735.T": {
+      "grade": null,
+      "note": "売上履歴不足"
+    },
+    "6532.T": {
       "grade": null,
       "note": "売上履歴不足"
     },
     "6890.T": {
+      "grade": null,
+      "note": "売上履歴不足"
+    },
+    "9602.T": {
       "grade": null,
       "note": "売上履歴不足"
     },
@@ -3652,11 +3632,23 @@
       "note": "YoY +33.6% ↓",
       "yoy": 33.6
     },
-    "6674.T": {
+    "6324.T": {
       "grade": null,
       "note": "売上履歴不足"
     },
-    "4204.T": {
+    "4185.T": {
+      "grade": null,
+      "note": "データなし"
+    },
+    "8036.T": {
+      "grade": null,
+      "note": "データなし"
+    },
+    "4186.T": {
+      "grade": null,
+      "note": "売上履歴不足"
+    },
+    "6707.T": {
       "grade": null,
       "note": "売上履歴不足"
     },
@@ -3664,11 +3656,7 @@
       "grade": null,
       "note": "売上履歴不足"
     },
-    "1662.T": {
-      "grade": null,
-      "note": "売上履歴不足"
-    },
-    "9504.T": {
+    "4204.T": {
       "grade": null,
       "note": "売上履歴不足"
     },
@@ -3676,11 +3664,11 @@
       "grade": null,
       "note": "売上履歴不足"
     },
-    "9508.T": {
+    "1662.T": {
       "grade": null,
       "note": "売上履歴不足"
     },
-    "9507.T": {
+    "6674.T": {
       "grade": null,
       "note": "売上履歴不足"
     },
@@ -3688,11 +3676,11 @@
       "grade": null,
       "note": "売上履歴不足"
     },
-    "9511.T": {
+    "9508.T": {
       "grade": null,
       "note": "売上履歴不足"
     },
-    "6521.T": {
+    "9504.T": {
       "grade": null,
       "note": "売上履歴不足"
     },
@@ -3700,27 +3688,31 @@
       "grade": null,
       "note": "売上履歴不足"
     },
-    "9506.T": {
+    "9511.T": {
       "grade": null,
       "note": "売上履歴不足"
-    },
-    "5595.T": {
-      "grade": null,
-      "note": "データなし"
     },
     "9509.T": {
       "grade": null,
       "note": "売上履歴不足"
     },
-    "4393.T": {
+    "6521.T": {
       "grade": null,
       "note": "売上履歴不足"
     },
-    "4598.T": {
+    "9506.T": {
+      "grade": null,
+      "note": "売上履歴不足"
+    },
+    "9507.T": {
       "grade": null,
       "note": "売上履歴不足"
     },
     "186A.T": {
+      "grade": null,
+      "note": "売上履歴不足"
+    },
+    "4598.T": {
       "grade": null,
       "note": "売上履歴不足"
     },
@@ -3732,11 +3724,27 @@
       "grade": null,
       "note": "売上履歴不足"
     },
+    "5595.T": {
+      "grade": null,
+      "note": "データなし"
+    },
+    "4393.T": {
+      "grade": null,
+      "note": "売上履歴不足"
+    },
     "4395.T": {
       "grade": null,
       "note": "売上履歴不足"
     },
     "4880.T": {
+      "grade": null,
+      "note": "売上履歴不足"
+    },
+    "4218.T": {
+      "grade": null,
+      "note": "売上履歴不足"
+    },
+    "1407.T": {
       "grade": null,
       "note": "売上履歴不足"
     },
@@ -3748,26 +3756,6 @@
       "grade": null,
       "note": "売上履歴不足"
     },
-    "1377.T": {
-      "grade": null,
-      "note": "データなし"
-    },
-    "4218.T": {
-      "grade": null,
-      "note": "売上履歴不足"
-    },
-    "1407.T": {
-      "grade": null,
-      "note": "売上履歴不足"
-    },
-    "4475.T": {
-      "grade": null,
-      "note": "売上履歴不足"
-    },
-    "4382.T": {
-      "grade": null,
-      "note": "売上履歴不足"
-    },
     "7240.T": {
       "grade": null,
       "note": "売上履歴不足"
@@ -3776,25 +3764,23 @@
       "grade": null,
       "note": "売上履歴不足"
     },
+    "1377.T": {
+      "grade": null,
+      "note": "データなし"
+    },
+    "4475.T": {
+      "grade": null,
+      "note": "売上履歴不足"
+    },
     "1719.T": {
       "grade": null,
       "note": "売上履歴不足"
     },
-    "ACFN": {
-      "grade": "D",
-      "note": "YoY -29.4% ↓",
-      "yoy": -29.4
+    "4382.T": {
+      "grade": null,
+      "note": "売上履歴不足"
     },
     "ADAG": {
-      "grade": null,
-      "note": "データなし"
-    },
-    "ADPT": {
-      "grade": "B",
-      "note": "YoY +21.5% ↓",
-      "yoy": 21.5
-    },
-    "ADSE": {
       "grade": null,
       "note": "データなし"
     },
@@ -3803,31 +3789,40 @@
       "note": "YoY +10.6% ↓",
       "yoy": 10.6
     },
-    "ADUR": {
+    "ACFN": {
       "grade": "D",
-      "note": "YoY -100.0% ↓",
-      "yoy": -100.0
+      "note": "YoY -29.4% ↓",
+      "yoy": -29.4
+    },
+    "ADSE": {
+      "grade": null,
+      "note": "データなし"
     },
     "ABAT": {
       "grade": "A",
       "note": "YoY +196.6% ↓",
       "yoy": 196.6
     },
+    "ADPT": {
+      "grade": "B",
+      "note": "YoY +21.5% ↓",
+      "yoy": 21.5
+    },
+    "AEC": {
+      "grade": null,
+      "note": "前年Q売上ゼロ"
+    },
     "AERT": {
       "grade": "A",
       "note": "YoY +43.0% ↓",
       "yoy": 43.0
     },
+    "ADUR": {
+      "grade": "D",
+      "note": "YoY -100.0% ↓",
+      "yoy": -100.0
+    },
     "AFJK": {
-      "grade": null,
-      "note": "前年Q売上ゼロ"
-    },
-    "AEVA": {
-      "grade": "C",
-      "note": "YoY +11.3% ↓",
-      "yoy": 11.3
-    },
-    "AEC": {
       "grade": null,
       "note": "前年Q売上ゼロ"
     },
@@ -3840,35 +3835,44 @@
       "grade": null,
       "note": "前年Q売上ゼロ"
     },
+    "AEVA": {
+      "grade": "C",
+      "note": "YoY +11.3% ↓",
+      "yoy": 11.3
+    },
     "AIFC": {
       "grade": "D",
       "note": "YoY -62.2% ↓",
       "yoy": -62.2
     },
-    "AIFA": {
-      "grade": "D",
-      "note": "YoY -35.0% ↓",
-      "yoy": -35.0
+    "AIOS": {
+      "grade": null,
+      "note": "データなし"
     },
     "AIRE": {
       "grade": "D",
       "note": "YoY -11.3% ↓",
       "yoy": -11.3
     },
-    "AIOS": {
-      "grade": null,
-      "note": "データなし"
+    "AIFA": {
+      "grade": "D",
+      "note": "YoY -35.0% ↓",
+      "yoy": -35.0
     },
     "AIIO": {
       "grade": null,
       "note": "データなし"
+    },
+    "AIRJ": {
+      "grade": null,
+      "note": "前年Q売上ゼロ"
     },
     "AIRS": {
       "grade": "D",
       "note": "YoY -2.5% ↓",
       "yoy": -2.5
     },
-    "AIRJ": {
+    "AIXC": {
       "grade": null,
       "note": "前年Q売上ゼロ"
     },
@@ -3877,65 +3881,51 @@
       "note": "YoY +92.1% ↓",
       "yoy": 92.1
     },
-    "AIXC": {
-      "grade": null,
-      "note": "前年Q売上ゼロ"
-    },
     "ALKT": {
       "grade": "B",
       "note": "YoY +15.9% ↓",
       "yoy": 15.9
-    },
-    "ALLO": {
-      "grade": null,
-      "note": "前年Q売上ゼロ"
-    },
-    "AMCI": {
-      "grade": "D",
-      "note": "YoY -57.2% ↓",
-      "yoy": -57.2
-    },
-    "AMKR": {
-      "grade": "B",
-      "note": "YoY +25.6% ↓",
-      "yoy": 25.6
     },
     "ALVO": {
       "grade": "D",
       "note": "YoY -38.9% ↓",
       "yoy": -38.9
     },
-    "AMPG": {
-      "grade": "D",
-      "note": "YoY -26.8% ↓",
-      "yoy": -26.8
-    },
-    "AMPGZ": {
-      "grade": null,
-      "note": "データなし"
-    },
-    "AOSL": {
-      "grade": "D",
-      "note": "YoY -3.5% ↓",
-      "yoy": -3.5
-    },
-    "AQMS": {
+    "ALLO": {
       "grade": null,
       "note": "前年Q売上ゼロ"
+    },
+    "AMKR": {
+      "grade": "B",
+      "note": "YoY +25.6% ↓",
+      "yoy": 25.6
+    },
+    "AMCI": {
+      "grade": "D",
+      "note": "YoY -57.2% ↓",
+      "yoy": -57.2
     },
     "AQB": {
       "grade": null,
       "note": "前年Q売上ゼロ"
     },
-    "ASTI": {
-      "grade": "A",
-      "note": "YoY +461.3% ↓",
-      "yoy": 461.3
+    "AMPGZ": {
+      "grade": null,
+      "note": "データなし"
     },
-    "ARBE": {
-      "grade": "A",
-      "note": "YoY +156.6% ↓",
-      "yoy": 156.6
+    "AQMS": {
+      "grade": null,
+      "note": "前年Q売上ゼロ"
+    },
+    "AMPG": {
+      "grade": "D",
+      "note": "YoY -26.8% ↓",
+      "yoy": -26.8
+    },
+    "AOSL": {
+      "grade": "D",
+      "note": "YoY -3.5% ↓",
+      "yoy": -3.5
     },
     "ARCI": {
       "grade": null,
@@ -3946,51 +3936,57 @@
       "note": "YoY -83.8% ↓",
       "yoy": -83.8
     },
-    "ARRY": {
-      "grade": "D",
-      "note": "YoY -5.6% ↓",
-      "yoy": -5.6
-    },
-    "ATGL": {
-      "grade": null,
-      "note": "データなし"
-    },
     "ASTC": {
       "grade": "D",
       "note": "YoY -35.8% ↓",
       "yoy": -35.8
     },
-    "ATII": {
-      "grade": null,
-      "note": "前年Q売上ゼロ"
+    "ARBE": {
+      "grade": "A",
+      "note": "YoY +156.6% ↓",
+      "yoy": 156.6
+    },
+    "ARRY": {
+      "grade": "D",
+      "note": "YoY -5.6% ↓",
+      "yoy": -5.6
     },
     "ASYS": {
       "grade": "C",
       "note": "YoY +14.5% ↓",
       "yoy": 14.5
     },
-    "AVX": {
-      "grade": "A",
-      "note": "YoY +523.2% ↓",
-      "yoy": 523.2
-    },
-    "AZI": {
-      "grade": null,
-      "note": "データなし"
-    },
     "ATLX": {
       "grade": "D",
       "note": "YoY -100.0% ↓",
       "yoy": -100.0
+    },
+    "ATGL": {
+      "grade": null,
+      "note": "データなし"
+    },
+    "ASTI": {
+      "grade": "A",
+      "note": "YoY +461.3% ↓",
+      "yoy": 461.3
+    },
+    "ATTT": {
+      "grade": null,
+      "note": "データなし"
+    },
+    "ATII": {
+      "grade": null,
+      "note": "前年Q売上ゼロ"
     },
     "AVR": {
       "grade": "A",
       "note": "YoY +63.3% ↓",
       "yoy": 63.3
     },
-    "ATTT": {
-      "grade": null,
-      "note": "データなし"
+    "AVX": {
+      "grade": "A",
+      "note": "YoY +523.2% ↓",
+      "yoy": 523.2
     },
     "BAER": {
       "grade": "D",
@@ -4002,43 +3998,39 @@
       "note": "YoY +154.3% ↓",
       "yoy": 154.3
     },
-    "BCTX": {
-      "grade": null,
-      "note": "前年Q売上ゼロ"
-    },
-    "BGDE": {
-      "grade": "D",
-      "note": "YoY -35.5% ↓",
-      "yoy": -35.5
-    },
-    "BGIN": {
+    "AZI": {
       "grade": null,
       "note": "データなし"
     },
-    "BIAF": {
-      "grade": "B",
-      "note": "YoY +19.0% ↓",
-      "yoy": 19.0
+    "BCTX": {
+      "grade": null,
+      "note": "前年Q売上ゼロ"
     },
     "BFRG": {
       "grade": "A",
       "note": "YoY +547.6% ↓",
       "yoy": 547.6
     },
-    "BIB": {
-      "grade": null,
-      "note": "データなし"
-    },
     "BGLC": {
       "grade": "D",
       "note": "YoY -96.6% ↓",
       "yoy": -96.6
     },
-    "BIOT": {
+    "BGDE": {
+      "grade": "D",
+      "note": "YoY -35.5% ↓",
+      "yoy": -35.5
+    },
+    "BIAF": {
+      "grade": "B",
+      "note": "YoY +19.0% ↓",
+      "yoy": 19.0
+    },
+    "BGIN": {
       "grade": null,
       "note": "データなし"
     },
-    "BIS": {
+    "BIB": {
       "grade": null,
       "note": "データなし"
     },
@@ -4046,16 +4038,19 @@
       "grade": null,
       "note": "前年Q売上ゼロ"
     },
-    "BRTM": {
+    "BIS": {
       "grade": null,
-      "note": "売上履歴不足"
+      "note": "データなし"
     },
-    "BTDR": {
-      "grade": "A",
-      "note": "YoY +47.1% ↓",
-      "yoy": 47.1
+    "BIOT": {
+      "grade": null,
+      "note": "データなし"
     },
-    "BSEM": {
+    "BMM": {
+      "grade": null,
+      "note": "前年Q売上ゼロ"
+    },
+    "BRTM": {
       "grade": null,
       "note": "売上履歴不足"
     },
@@ -4064,45 +4059,59 @@
       "note": "YoY -100.0% ↓",
       "yoy": -100.0
     },
-    "BMM": {
+    "BSEM": {
       "grade": null,
-      "note": "前年Q売上ゼロ"
-    },
-    "CAAS": {
-      "grade": "B",
-      "note": "YoY +21.4% ↓",
-      "yoy": 21.4
-    },
-    "CATY": {
-      "grade": "C",
-      "note": "YoY +13.1% ↓",
-      "yoy": 13.1
+      "note": "売上履歴不足"
     },
     "BWEN": {
       "grade": "A",
       "note": "YoY +67.4% ↓",
       "yoy": 67.4
     },
-    "BYAH": {
-      "grade": null,
-      "note": "データなし"
+    "BTDR": {
+      "grade": "A",
+      "note": "YoY +47.1% ↓",
+      "yoy": 47.1
     },
     "BYRN": {
       "grade": "D",
       "note": "YoY -42.5% ↓",
       "yoy": -42.5
     },
+    "CAAS": {
+      "grade": "B",
+      "note": "YoY +21.4% ↓",
+      "yoy": 21.4
+    },
     "CBAT": {
       "grade": "A",
       "note": "YoY +99.3% ↓",
       "yoy": 99.3
+    },
+    "BYAH": {
+      "grade": null,
+      "note": "データなし"
+    },
+    "CATY": {
+      "grade": "C",
+      "note": "YoY +13.1% ↓",
+      "yoy": 13.1
     },
     "CCLD": {
       "grade": "B",
       "note": "YoY +16.4% ↓",
       "yoy": 16.4
     },
-    "CCTG": {
+    "CCEC": {
+      "grade": "C",
+      "note": "YoY +8.5% ↓",
+      "yoy": 8.5
+    },
+    "CELZ": {
+      "grade": null,
+      "note": "前年Q売上ゼロ"
+    },
+    "CDTG": {
       "grade": null,
       "note": "データなし"
     },
@@ -4111,94 +4120,84 @@
       "note": "YoY +4.1% ↓",
       "yoy": 4.1
     },
-    "CELZ": {
-      "grade": null,
-      "note": "前年Q売上ゼロ"
-    },
-    "CCEC": {
-      "grade": "C",
-      "note": "YoY +8.5% ↓",
-      "yoy": 8.5
-    },
-    "CDTG": {
+    "CCTG": {
       "grade": null,
       "note": "データなし"
-    },
-    "CETY": {
-      "grade": "A",
-      "note": "YoY +57.4% ↓",
-      "yoy": 57.4
     },
     "CEPL": {
       "grade": "D",
       "note": "YoY -10.6% ↓",
       "yoy": -10.6
     },
-    "CHAI": {
+    "CETY": {
       "grade": "A",
-      "note": "YoY +55.8% ↓",
-      "yoy": 55.8
-    },
-    "CGTL": {
-      "grade": null,
-      "note": "データなし"
+      "note": "YoY +57.4% ↓",
+      "yoy": 57.4
     },
     "CHRD": {
       "grade": "A",
       "note": "YoY +84.0% ↓",
       "yoy": 84.0
     },
-    "CHKP": {
-      "grade": "C",
-      "note": "YoY +1.3% ↓",
-      "yoy": 1.3
+    "CLGN": {
+      "grade": "D",
+      "note": "YoY -96.4% ↓",
+      "yoy": -96.4
     },
     "CLIR": {
       "grade": "A",
       "note": "YoY +321.1% ↓",
       "yoy": 321.1
     },
-    "CLNE": {
-      "grade": "C",
-      "note": "YoY +3.7% ↓",
-      "yoy": 3.7
-    },
-    "CLGN": {
-      "grade": "D",
-      "note": "YoY -96.4% ↓",
-      "yoy": -96.4
-    },
-    "CNET": {
-      "grade": "B",
-      "note": "YoY +19.0% ↓",
-      "yoy": 19.0
-    },
-    "CNEY": {
+    "CGTL": {
       "grade": null,
       "note": "データなし"
+    },
+    "CHAI": {
+      "grade": "A",
+      "note": "YoY +55.8% ↓",
+      "yoy": 55.8
+    },
+    "CHKP": {
+      "grade": "C",
+      "note": "YoY +1.3% ↓",
+      "yoy": 1.3
     },
     "CLWT": {
       "grade": null,
       "note": "データなし"
+    },
+    "CLNE": {
+      "grade": "C",
+      "note": "YoY +3.7% ↓",
+      "yoy": 3.7
     },
     "CMTL": {
       "grade": "D",
       "note": "YoY -16.4% ↓",
       "yoy": -16.4
     },
+    "CNEY": {
+      "grade": null,
+      "note": "データなし"
+    },
     "CPSH": {
       "grade": "C",
       "note": "YoY +2.9% ↓",
       "yoy": 2.9
     },
+    "CRML": {
+      "grade": null,
+      "note": "データなし"
+    },
     "CNL": {
       "grade": null,
       "note": "前年Q売上ゼロ"
     },
-    "CSIQ": {
-      "grade": "D",
-      "note": "YoY -28.7% ↓",
-      "yoy": -28.7
+    "CNET": {
+      "grade": "B",
+      "note": "YoY +19.0% ↓",
+      "yoy": 19.0
     },
     "CRDO": {
       "grade": "A",
@@ -4210,23 +4209,14 @@
       "note": "YoY +13.5% ↓",
       "yoy": 13.5
     },
-    "CRML": {
-      "grade": null,
-      "note": "データなし"
-    },
     "DCX": {
       "grade": null,
       "note": "データなし"
     },
-    "DEFT": {
+    "CSIQ": {
       "grade": "D",
-      "note": "YoY -132.1% ↓",
-      "yoy": -132.1
-    },
-    "DETX": {
-      "grade": "D",
-      "note": "YoY -90.2% ↓",
-      "yoy": -90.2
+      "note": "YoY -28.7% ↓",
+      "yoy": -28.7
     },
     "CYPH": {
       "grade": null,
@@ -4237,19 +4227,20 @@
       "note": "YoY -19.0% ↓",
       "yoy": -19.0
     },
-    "DJT": {
-      "grade": "A",
-      "note": "YoY +89.0% ↓",
-      "yoy": 89.0
+    "DETX": {
+      "grade": "D",
+      "note": "YoY -90.2% ↓",
+      "yoy": -90.2
+    },
+    "DEFT": {
+      "grade": "D",
+      "note": "YoY -132.1% ↓",
+      "yoy": -132.1
     },
     "DRK": {
       "grade": "D",
       "note": "YoY -18.8% ↓",
       "yoy": -18.8
-    },
-    "DFNS": {
-      "grade": null,
-      "note": "前年Q売上ゼロ"
     },
     "DFSC": {
       "grade": "A",
@@ -4261,56 +4252,69 @@
       "note": "YoY +33.9% ↓",
       "yoy": 33.9
     },
-    "DUKR": {
-      "grade": "C",
-      "note": "YoY +4.2% ↓",
-      "yoy": 4.2
+    "DJT": {
+      "grade": "A",
+      "note": "YoY +89.0% ↓",
+      "yoy": 89.0
     },
     "DSY": {
       "grade": null,
       "note": "データなし"
     },
-    "DTSS": {
-      "grade": "D",
-      "note": "YoY -36.5% ↓",
-      "yoy": -36.5
+    "DFNS": {
+      "grade": null,
+      "note": "前年Q売上ゼロ"
     },
     "DVLT": {
       "grade": "A",
       "note": "YoY +287.1% ↓",
       "yoy": 287.1
     },
+    "DTSS": {
+      "grade": "D",
+      "note": "YoY -36.5% ↓",
+      "yoy": -36.5
+    },
+    "DUKR": {
+      "grade": "C",
+      "note": "YoY +4.2% ↓",
+      "yoy": 4.2
+    },
     "DUOT": {
       "grade": "B",
       "note": "YoY +29.5% ↓",
       "yoy": 29.5
     },
-    "EDTK": {
-      "grade": null,
-      "note": "データなし"
-    },
     "EDSA": {
       "grade": null,
       "note": "前年Q売上ゼロ"
+    },
+    "ELBM": {
+      "grade": null,
+      "note": "前年Q売上ゼロ"
+    },
+    "EMAT": {
+      "grade": null,
+      "note": "売上履歴不足"
     },
     "EFOI": {
       "grade": "A",
       "note": "YoY +228.0% ↓",
       "yoy": 228.0
     },
-    "EMAT": {
-      "grade": null,
-      "note": "売上履歴不足"
-    },
-    "ELBM": {
-      "grade": null,
-      "note": "前年Q売上ゼロ"
-    },
-    "ELVR": {
+    "EDTK": {
       "grade": null,
       "note": "データなし"
     },
     "ENGS": {
+      "grade": null,
+      "note": "データなし"
+    },
+    "ENGN": {
+      "grade": null,
+      "note": "前年Q売上ゼロ"
+    },
+    "ELVR": {
       "grade": null,
       "note": "データなし"
     },
@@ -4319,53 +4323,44 @@
       "note": "YoY +43.0% ↓",
       "yoy": 43.0
     },
-    "ENGN": {
-      "grade": null,
-      "note": "前年Q売上ゼロ"
+    "EPSN": {
+      "grade": "A",
+      "note": "YoY +57.1% ↓",
+      "yoy": 57.1
     },
     "EOSE": {
       "grade": "A",
       "note": "YoY +351.4% ↓",
       "yoy": 351.4
     },
-    "ENPH": {
-      "grade": "D",
-      "note": "YoY -19.6% ↓",
-      "yoy": -19.6
-    },
-    "ESOA": {
-      "grade": "B",
-      "note": "YoY +25.5% ↓",
-      "yoy": 25.5
-    },
-    "EVGN": {
-      "grade": "D",
-      "note": "YoY -35.0% ↓",
-      "yoy": -35.0
+    "EVLV": {
+      "grade": "A",
+      "note": "YoY +34.4% ↓",
+      "yoy": 34.4
     },
     "ERII": {
       "grade": "D",
       "note": "YoY -57.2% ↓",
       "yoy": -57.2
     },
-    "EPSN": {
-      "grade": "A",
-      "note": "YoY +57.1% ↓",
-      "yoy": 57.1
+    "EVGN": {
+      "grade": "D",
+      "note": "YoY -35.0% ↓",
+      "yoy": -35.0
     },
-    "EVLV": {
-      "grade": "A",
-      "note": "YoY +34.4% ↓",
-      "yoy": 34.4
+    "ENPH": {
+      "grade": "D",
+      "note": "YoY -19.6% ↓",
+      "yoy": -19.6
     },
-    "FBIO": {
-      "grade": "C",
-      "note": "YoY +14.0% ↓",
-      "yoy": 14.0
-    },
-    "FABC": {
+    "EXYN": {
       "grade": null,
-      "note": "前年Q売上ゼロ"
+      "note": "売上履歴不足"
+    },
+    "ESOA": {
+      "grade": "B",
+      "note": "YoY +25.5% ↓",
+      "yoy": 25.5
     },
     "EZGO": {
       "grade": null,
@@ -4375,21 +4370,45 @@
       "grade": null,
       "note": "売上履歴不足"
     },
-    "EXYN": {
+    "FABC": {
       "grade": null,
-      "note": "売上履歴不足"
+      "note": "前年Q売上ゼロ"
     },
-    "FCEL": {
-      "grade": "D",
-      "note": "YoY -29.4% ↓",
-      "yoy": -29.4
+    "FIP": {
+      "grade": "A",
+      "note": "YoY +52.7% ↓",
+      "yoy": 52.7
     },
     "FLGT": {
       "grade": "C",
       "note": "YoY +4.4% ↓",
       "yoy": 4.4
     },
+    "FLNC": {
+      "grade": "C",
+      "note": "YoY +7.9% ↓",
+      "yoy": 7.9
+    },
+    "FCEL": {
+      "grade": "D",
+      "note": "YoY -29.4% ↓",
+      "yoy": -29.4
+    },
+    "FBIO": {
+      "grade": "C",
+      "note": "YoY +14.0% ↓",
+      "yoy": 14.0
+    },
+    "FLY": {
+      "grade": "A",
+      "note": "YoY +656.9% ↓",
+      "yoy": 656.9
+    },
     "FEAM": {
+      "grade": null,
+      "note": "前年Q売上ゼロ"
+    },
+    "FMST": {
       "grade": null,
       "note": "前年Q売上ゼロ"
     },
@@ -4402,66 +4421,33 @@
       "grade": null,
       "note": "売上履歴不足"
     },
-    "FLY": {
-      "grade": "A",
-      "note": "YoY +656.9% ↓",
-      "yoy": 656.9
-    },
-    "FIP": {
-      "grade": "A",
-      "note": "YoY +52.7% ↓",
-      "yoy": 52.7
+    "FRGT": {
+      "grade": "D",
+      "note": "YoY -5.4% ↓",
+      "yoy": -5.4
     },
     "FRTT": {
       "grade": "A",
       "note": "YoY +82.9% ↓",
       "yoy": 82.9
     },
-    "FMST": {
-      "grade": null,
-      "note": "前年Q売上ゼロ"
-    },
-    "FLNC": {
-      "grade": "C",
-      "note": "YoY +7.9% ↓",
-      "yoy": 7.9
-    },
     "FOFO": {
       "grade": null,
       "note": "データなし"
     },
-    "FRGT": {
-      "grade": "D",
-      "note": "YoY -5.4% ↓",
-      "yoy": -5.4
+    "FRVO": {
+      "grade": null,
+      "note": "売上履歴不足"
     },
     "FTAI": {
       "grade": "A",
       "note": "YoY +40.9% ↓",
       "yoy": 40.9
     },
-    "FRVO": {
-      "grade": null,
-      "note": "売上履歴不足"
-    },
     "FTCI": {
       "grade": "A",
       "note": "YoY +30.8% ↓",
       "yoy": 30.8
-    },
-    "GDEV": {
-      "grade": null,
-      "note": "売上履歴不足"
-    },
-    "FTEK": {
-      "grade": "B",
-      "note": "YoY +16.7% ↓",
-      "yoy": 16.7
-    },
-    "GCT": {
-      "grade": "B",
-      "note": "YoY +27.6% ↓",
-      "yoy": 27.6
     },
     "FTFT": {
       "grade": "D",
@@ -4472,19 +4458,33 @@
       "grade": null,
       "note": "売上履歴不足"
     },
-    "GFAI": {
+    "GDEV": {
       "grade": null,
-      "note": "データなし"
+      "note": "売上履歴不足"
     },
     "GEOS": {
       "grade": "D",
       "note": "YoY -36.4% ↓",
       "yoy": -36.4
     },
+    "GCT": {
+      "grade": "B",
+      "note": "YoY +27.6% ↓",
+      "yoy": 27.6
+    },
+    "FTEK": {
+      "grade": "B",
+      "note": "YoY +16.7% ↓",
+      "yoy": 16.7
+    },
     "GEMI": {
       "grade": "A",
       "note": "YoY +36.6% ↓",
       "yoy": 36.6
+    },
+    "GFAI": {
+      "grade": null,
+      "note": "データなし"
     },
     "GENB": {
       "grade": null,
@@ -4504,49 +4504,40 @@
       "note": "YoY -13.2% ↓",
       "yoy": -13.2
     },
-    "GMM": {
-      "grade": null,
-      "note": "データなし"
-    },
     "GITS": {
       "grade": "A",
       "note": "YoY +334.5% ↓",
       "yoy": 334.5
+    },
+    "GMEX": {
+      "grade": null,
+      "note": "データなし"
     },
     "GLNG": {
       "grade": "A",
       "note": "YoY +108.8% ↓",
       "yoy": 108.8
     },
-    "GMEX": {
-      "grade": null,
-      "note": "データなし"
-    },
     "GLND": {
       "grade": null,
       "note": "売上履歴不足"
-    },
-    "GRRR": {
-      "grade": "A",
-      "note": "YoY +138.0% ↓",
-      "yoy": 138.0
-    },
-    "GNLX": {
-      "grade": null,
-      "note": "前年Q売上ゼロ"
     },
     "GRDX": {
       "grade": null,
       "note": "前年Q売上ゼロ"
     },
-    "GSUN": {
+    "GMM": {
       "grade": null,
       "note": "データなし"
     },
-    "GTEC": {
+    "GNLX": {
+      "grade": null,
+      "note": "前年Q売上ゼロ"
+    },
+    "GRRR": {
       "grade": "A",
-      "note": "YoY +37.6% ↓",
-      "yoy": 37.6
+      "note": "YoY +138.0% ↓",
+      "yoy": 138.0
     },
     "GRWG": {
       "grade": "C",
@@ -4558,6 +4549,20 @@
       "note": "YoY +0.5% ↓",
       "yoy": 0.5
     },
+    "GSUN": {
+      "grade": null,
+      "note": "データなし"
+    },
+    "GWAV": {
+      "grade": "A",
+      "note": "YoY +45.5% ↓",
+      "yoy": 45.5
+    },
+    "GTEC": {
+      "grade": "A",
+      "note": "YoY +37.6% ↓",
+      "yoy": 37.6
+    },
     "GTM": {
       "grade": "C",
       "note": "YoY +1.2% ↓",
@@ -4566,11 +4571,6 @@
     "HCAI": {
       "grade": null,
       "note": "データなし"
-    },
-    "GWAV": {
-      "grade": "A",
-      "note": "YoY +45.5% ↓",
-      "yoy": 45.5
     },
     "HAO": {
       "grade": null,
@@ -4581,39 +4581,34 @@
       "note": "YoY +1337.3% ↓",
       "yoy": 1337.3
     },
-    "HDSN": {
-      "grade": "C",
-      "note": "YoY +7.5% ↓",
-      "yoy": 7.5
-    },
-    "HNRG": {
-      "grade": "D",
-      "note": "YoY -1.3% ↓",
-      "yoy": -1.3
-    },
     "HDRN": {
       "grade": null,
       "note": "前年Q売上ゼロ"
     },
-    "HKPD": {
+    "HOLO": {
       "grade": null,
       "note": "データなし"
-    },
-    "HPAI": {
-      "grade": null,
-      "note": "データなし"
-    },
-    "HIT": {
-      "grade": "D",
-      "note": "YoY -13.5% ↓",
-      "yoy": -13.5
     },
     "HIVE": {
       "grade": "A",
       "note": "YoY +73.5% ↓",
       "yoy": 73.5
     },
-    "HOLO": {
+    "HPAI": {
+      "grade": null,
+      "note": "データなし"
+    },
+    "HDSN": {
+      "grade": "C",
+      "note": "YoY +7.5% ↓",
+      "yoy": 7.5
+    },
+    "HIT": {
+      "grade": "D",
+      "note": "YoY -13.5% ↓",
+      "yoy": -13.5
+    },
+    "HKPD": {
       "grade": null,
       "note": "データなし"
     },
@@ -4622,9 +4617,10 @@
       "note": "YoY +25.8% ↓",
       "yoy": 25.8
     },
-    "HRZN": {
-      "grade": null,
-      "note": "前年Q売上ゼロ"
+    "HNRG": {
+      "grade": "D",
+      "note": "YoY -1.3% ↓",
+      "yoy": -1.3
     },
     "HQ": {
       "grade": null,
@@ -4634,7 +4630,12 @@
       "grade": null,
       "note": "データなし"
     },
-    "HYMC": {
+    "ICON": {
+      "grade": "A",
+      "note": "YoY +107.0% ↓",
+      "yoy": 107.0
+    },
+    "HRZN": {
       "grade": null,
       "note": "前年Q売上ゼロ"
     },
@@ -4643,73 +4644,53 @@
       "note": "YoY -0.1% ↓",
       "yoy": -0.1
     },
+    "IMSR": {
+      "grade": null,
+      "note": "売上履歴不足"
+    },
+    "HYMC": {
+      "grade": null,
+      "note": "前年Q売上ゼロ"
+    },
     "ICCC": {
       "grade": "C",
       "note": "YoY +11.5% ↓",
       "yoy": 11.5
-    },
-    "IMTE": {
-      "grade": null,
-      "note": "データなし"
-    },
-    "ICON": {
-      "grade": "A",
-      "note": "YoY +107.0% ↓",
-      "yoy": 107.0
     },
     "INVE": {
       "grade": "C",
       "note": "YoY +12.7% ↓",
       "yoy": 12.7
     },
-    "IMA": {
-      "grade": null,
-      "note": "前年Q売上ゼロ"
-    },
-    "IMSR": {
-      "grade": null,
-      "note": "売上履歴不足"
-    },
     "INVZ": {
       "grade": "A",
       "note": "YoY +85.5% ↓",
       "yoy": 85.5
+    },
+    "IMTE": {
+      "grade": null,
+      "note": "データなし"
+    },
+    "IMA": {
+      "grade": null,
+      "note": "前年Q売上ゼロ"
     },
     "IPGP": {
       "grade": "C",
       "note": "YoY +11.1% ↓",
       "yoy": 11.1
     },
-    "ISPR": {
-      "grade": "A",
-      "note": "YoY +32.5% ↓",
-      "yoy": 32.5
-    },
-    "KGEI": {
-      "grade": "A",
-      "note": "YoY +105.8% ↓",
-      "yoy": 105.8
-    },
-    "JCSE": {
-      "grade": null,
-      "note": "データなし"
-    },
     "IRD": {
       "grade": "D",
       "note": "YoY -73.8% ↓",
       "yoy": -73.8
     },
-    "JTAI": {
+    "ISPR": {
       "grade": "A",
-      "note": "YoY +139.0% ↓",
-      "yoy": 139.0
+      "note": "YoY +32.5% ↓",
+      "yoy": 32.5
     },
-    "KLXE": {
-      "grade": "C",
-      "note": "YoY +5.2% ↓",
-      "yoy": 5.2
-    },
-    "KMRK": {
+    "JCSE": {
       "grade": null,
       "note": "データなし"
     },
@@ -4718,17 +4699,32 @@
       "note": "YoY -57.3% ↓",
       "yoy": -57.3
     },
-    "KMTS": {
+    "KLXE": {
+      "grade": "C",
+      "note": "YoY +5.2% ↓",
+      "yoy": 5.2
+    },
+    "JTAI": {
       "grade": "A",
-      "note": "YoY +59.9% ↓",
-      "yoy": 59.9
+      "note": "YoY +139.0% ↓",
+      "yoy": 139.0
     },
     "KIDZ": {
       "grade": "D",
       "note": "YoY -33.6% ↓",
       "yoy": -33.6
     },
-    "KSMH": {
+    "KGEI": {
+      "grade": "A",
+      "note": "YoY +105.8% ↓",
+      "yoy": 105.8
+    },
+    "KMTS": {
+      "grade": "A",
+      "note": "YoY +59.9% ↓",
+      "yoy": 59.9
+    },
+    "KMRK": {
       "grade": null,
       "note": "データなし"
     },
@@ -4736,83 +4732,83 @@
       "grade": null,
       "note": "売上履歴不足"
     },
+    "LASE": {
+      "grade": "D",
+      "note": "YoY -30.5% ↓",
+      "yoy": -30.5
+    },
     "KRYS": {
       "grade": "B",
       "note": "YoY +24.1% ↓",
       "yoy": 24.1
     },
-    "LAWR": {
+    "KSMH": {
       "grade": null,
       "note": "データなし"
-    },
-    "LASE": {
-      "grade": "D",
-      "note": "YoY -30.5% ↓",
-      "yoy": -30.5
     },
     "LIFE": {
       "grade": "A",
       "note": "YoY +113.4% ↓",
       "yoy": 113.4
     },
-    "LOBO": {
+    "LNAI": {
       "grade": null,
-      "note": "データなし"
-    },
-    "LOGI": {
-      "grade": "C",
-      "note": "YoY +6.9% ↓",
-      "yoy": 6.9
-    },
-    "LPTH": {
-      "grade": "A",
-      "note": "YoY +73.3% ↓",
-      "yoy": 73.3
-    },
-    "LNZA": {
-      "grade": "D",
-      "note": "YoY -0.8% ↓",
-      "yoy": -0.8
-    },
-    "LSAK": {
-      "grade": "D",
-      "note": "YoY -18.7% ↓",
-      "yoy": -18.7
+      "note": "前年Q売上ゼロ"
     },
     "LIQT": {
       "grade": "D",
       "note": "YoY -12.0% ↓",
       "yoy": -12.0
     },
-    "LNAI": {
-      "grade": null,
-      "note": "前年Q売上ゼロ"
-    },
-    "LZMH": {
+    "LOBO": {
       "grade": null,
       "note": "データなし"
     },
-    "LSE": {
+    "LAWR": {
       "grade": null,
       "note": "データなし"
+    },
+    "LNZA": {
+      "grade": "D",
+      "note": "YoY -0.8% ↓",
+      "yoy": -0.8
+    },
+    "LPTH": {
+      "grade": "A",
+      "note": "YoY +73.3% ↓",
+      "yoy": 73.3
+    },
+    "LOGI": {
+      "grade": "C",
+      "note": "YoY +6.9% ↓",
+      "yoy": 6.9
     },
     "LSCC": {
       "grade": "A",
       "note": "YoY +62.2% ↓",
       "yoy": 62.2
     },
-    "MAKO": {
-      "grade": "A",
-      "note": "YoY +61.7% ↓",
-      "yoy": 61.7
+    "LSAK": {
+      "grade": "D",
+      "note": "YoY -18.7% ↓",
+      "yoy": -18.7
+    },
+    "LSE": {
+      "grade": null,
+      "note": "データなし"
     },
     "MASK": {
       "grade": null,
       "note": "データなし"
     },
-    "MATH": {
+    "LZMH": {
       "grade": null,
       "note": "データなし"
+    },
+    "MAKO": {
+      "grade": "A",
+      "note": "YoY +61.7% ↓",
+      "yoy": 61.7
     },
     "MBAI": {
       "grade": null,
@@ -4822,43 +4818,42 @@
       "grade": null,
       "note": "前年Q売上ゼロ"
     },
-    "MIND": {
-      "grade": "D",
-      "note": "YoY -58.5% ↓",
-      "yoy": -58.5
+    "MATH": {
+      "grade": null,
+      "note": "データなし"
     },
     "MBRX": {
       "grade": null,
       "note": "前年Q売上ゼロ"
-    },
-    "MENS": {
-      "grade": null,
-      "note": "データなし"
-    },
-    "MNTK": {
-      "grade": "B",
-      "note": "YoY +19.7% ↓",
-      "yoy": 19.7
-    },
-    "MRVI": {
-      "grade": "C",
-      "note": "YoY +8.5% ↓",
-      "yoy": 8.5
     },
     "MGEE": {
       "grade": "C",
       "note": "YoY +1.1% ↓",
       "yoy": 1.1
     },
+    "MENS": {
+      "grade": null,
+      "note": "データなし"
+    },
     "MRAM": {
       "grade": "A",
       "note": "YoY +41.9% ↓",
       "yoy": 41.9
     },
-    "MWH": {
-      "grade": "A",
-      "note": "YoY +77.5% ↓",
-      "yoy": 77.5
+    "MNTK": {
+      "grade": "B",
+      "note": "YoY +19.7% ↓",
+      "yoy": 19.7
+    },
+    "MIND": {
+      "grade": "D",
+      "note": "YoY -58.5% ↓",
+      "yoy": -58.5
+    },
+    "MRVI": {
+      "grade": "C",
+      "note": "YoY +8.5% ↓",
+      "yoy": 8.5
     },
     "MSAI": {
       "grade": "B",
@@ -4869,39 +4864,36 @@
       "grade": null,
       "note": "データなし"
     },
-    "MYGN": {
-      "grade": "D",
-      "note": "YoY -10.5% ↓",
-      "yoy": -10.5
-    },
-    "NAUT": {
-      "grade": null,
-      "note": "前年Q売上ゼロ"
-    },
-    "NESR": {
-      "grade": "A",
-      "note": "YoY +59.1% ↓",
-      "yoy": 59.1
-    },
     "MTEX": {
       "grade": "C",
       "note": "YoY +3.8% ↓",
       "yoy": 3.8
-    },
-    "NEXR": {
-      "grade": null,
-      "note": "データなし"
     },
     "MTSI": {
       "grade": "A",
       "note": "YoY +35.8% ↓",
       "yoy": 35.8
     },
+    "MWH": {
+      "grade": "A",
+      "note": "YoY +77.5% ↓",
+      "yoy": 77.5
+    },
+    "NESR": {
+      "grade": "A",
+      "note": "YoY +59.1% ↓",
+      "yoy": 59.1
+    },
+    "MYGN": {
+      "grade": "D",
+      "note": "YoY -10.5% ↓",
+      "yoy": -10.5
+    },
     "NEXM": {
       "grade": null,
       "note": "前年Q売上ゼロ"
     },
-    "NGNE": {
+    "NAUT": {
       "grade": null,
       "note": "前年Q売上ゼロ"
     },
@@ -4914,7 +4906,11 @@
       "note": "YoY +2.8% ↓",
       "yoy": 2.8
     },
-    "NOEM": {
+    "NEXR": {
+      "grade": null,
+      "note": "データなし"
+    },
+    "NGNE": {
       "grade": null,
       "note": "前年Q売上ゼロ"
     },
@@ -4923,35 +4919,35 @@
       "note": "YoY +16.3% ↓",
       "yoy": 16.3
     },
+    "NTIC": {
+      "grade": "C",
+      "note": "YoY +12.6% ↓",
+      "yoy": 12.6
+    },
     "NTHI": {
       "grade": null,
       "note": "前年Q売上ゼロ"
-    },
-    "NSSC": {
-      "grade": "C",
-      "note": "YoY +10.0% ↓",
-      "yoy": 10.0
     },
     "NSYS": {
       "grade": "C",
       "note": "YoY +9.3% ↓",
       "yoy": 9.3
     },
-    "NTCL": {
-      "grade": null,
-      "note": "データなし"
-    },
-    "NTIC": {
+    "NSSC": {
       "grade": "C",
-      "note": "YoY +12.6% ↓",
-      "yoy": 12.6
+      "note": "YoY +10.0% ↓",
+      "yoy": 10.0
     },
     "NTWK": {
       "grade": "C",
       "note": "YoY +13.0% ↓",
       "yoy": 13.0
     },
-    "NUCL": {
+    "NTCL": {
+      "grade": null,
+      "note": "データなし"
+    },
+    "NOEM": {
       "grade": null,
       "note": "前年Q売上ゼロ"
     },
@@ -4960,23 +4956,31 @@
       "note": "YoY -82.5% ↓",
       "yoy": -82.5
     },
+    "NUCL": {
+      "grade": null,
+      "note": "前年Q売上ゼロ"
+    },
     "NWE": {
       "grade": "C",
       "note": "YoY +14.6% ↓",
       "yoy": 14.6
+    },
+    "NXTT": {
+      "grade": null,
+      "note": "前年Q売上ゼロ"
     },
     "NXL": {
       "grade": "D",
       "note": "YoY -82.8% ↓",
       "yoy": -82.8
     },
+    "NXTS": {
+      "grade": null,
+      "note": "前年Q売上ゼロ"
+    },
     "NXAT": {
       "grade": null,
       "note": "売上履歴不足"
-    },
-    "NXTT": {
-      "grade": null,
-      "note": "前年Q売上ゼロ"
     },
     "ODYS": {
       "grade": "B",
@@ -4993,14 +4997,6 @@
       "note": "YoY +31.5% ↓",
       "yoy": 31.5
     },
-    "NXTS": {
-      "grade": null,
-      "note": "前年Q売上ゼロ"
-    },
-    "OMSE": {
-      "grade": null,
-      "note": "データなし"
-    },
     "ONCY": {
       "grade": null,
       "note": "前年Q売上ゼロ"
@@ -5010,81 +5006,86 @@
       "note": "YoY -43.7% ↓",
       "yoy": -43.7
     },
-    "ORKT": {
-      "grade": null,
-      "note": "データなし"
-    },
-    "OST": {
-      "grade": null,
-      "note": "データなし"
-    },
     "ORGO": {
       "grade": "D",
       "note": "YoY -57.5% ↓",
       "yoy": -57.5
     },
-    "PARA": {
-      "grade": "D",
-      "note": "YoY -27.3% ↓",
-      "yoy": -27.3
+    "OMSE": {
+      "grade": null,
+      "note": "データなし"
+    },
+    "ORKT": {
+      "grade": null,
+      "note": "データなし"
+    },
+    "ONEN": {
+      "grade": null,
+      "note": "データなし"
     },
     "OSUR": {
       "grade": "D",
       "note": "YoY -1.9% ↓",
       "yoy": -1.9
     },
+    "OST": {
+      "grade": null,
+      "note": "データなし"
+    },
+    "PARA": {
+      "grade": "D",
+      "note": "YoY -27.3% ↓",
+      "yoy": -27.3
+    },
     "PCT": {
       "grade": "A",
       "note": "YoY +173.5% ↓",
       "yoy": 173.5
     },
+    "PAVS": {
+      "grade": null,
+      "note": "データなし"
+    },
     "PDSB": {
       "grade": null,
       "note": "前年Q売上ゼロ"
-    },
-    "PDYN": {
-      "grade": "A",
-      "note": "YoY +469.8% ↓",
-      "yoy": 469.8
     },
     "PBYI": {
       "grade": "C",
       "note": "YoY +7.8% ↓",
       "yoy": 7.8
     },
+    "PDYN": {
+      "grade": "A",
+      "note": "YoY +469.8% ↓",
+      "yoy": 469.8
+    },
     "PGY": {
       "grade": "B",
       "note": "YoY +15.1% ↓",
       "yoy": 15.1
     },
-    "PN": {
-      "grade": null,
-      "note": "データなし"
-    },
     "PMA": {
       "grade": null,
       "note": "データなし"
     },
-    "PAVS": {
+    "PN": {
       "grade": null,
       "note": "データなし"
+    },
+    "PMCB": {
+      "grade": null,
+      "note": "前年Q売上ゼロ"
     },
     "PNRG": {
       "grade": "D",
       "note": "YoY -3.7% ↓",
       "yoy": -3.7
     },
-    "PMCB": {
-      "grade": null,
-      "note": "前年Q売上ゼロ"
-    },
-    "PRZO": {
-      "grade": null,
-      "note": "データなし"
-    },
-    "PSNY": {
-      "grade": null,
-      "note": "売上履歴不足"
+    "PRTH": {
+      "grade": "C",
+      "note": "YoY +9.4% ↓",
+      "yoy": 9.4
     },
     "PRCT": {
       "grade": "B",
@@ -5095,72 +5096,58 @@
       "grade": null,
       "note": "データなし"
     },
-    "PRTH": {
-      "grade": "C",
-      "note": "YoY +9.4% ↓",
-      "yoy": 9.4
-    },
-    "QMCO": {
-      "grade": "B",
-      "note": "YoY +25.7% ↓",
-      "yoy": 25.7
-    },
     "PTN": {
       "grade": null,
       "note": "前年Q売上ゼロ"
+    },
+    "PSNY": {
+      "grade": null,
+      "note": "売上履歴不足"
     },
     "PTEN": {
       "grade": "C",
       "note": "YoY +0.7% ↓",
       "yoy": 0.7
     },
-    "QSI": {
-      "grade": "D",
-      "note": "YoY -41.8% ↓",
-      "yoy": -41.8
-    },
-    "QNME": {
-      "grade": "D",
-      "note": "YoY -63.1% ↓",
-      "yoy": -63.1
+    "PRZO": {
+      "grade": null,
+      "note": "データなし"
     },
     "QCLS": {
       "grade": null,
       "note": "前年Q売上ゼロ"
     },
-    "QTEX": {
-      "grade": null,
-      "note": "データなし"
-    },
     "QNTM": {
       "grade": null,
       "note": "前年Q売上ゼロ"
     },
-    "QUCY": {
-      "grade": null,
-      "note": "売上履歴不足"
+    "QMCO": {
+      "grade": "B",
+      "note": "YoY +25.7% ↓",
+      "yoy": 25.7
     },
     "QXL": {
       "grade": "D",
       "note": "YoY -20.8% ↓",
       "yoy": -20.8
     },
-    "RAIN": {
+    "QUCY": {
       "grade": null,
-      "note": "前年Q売上ゼロ"
+      "note": "売上履歴不足"
     },
-    "RBNE": {
-      "grade": "A",
-      "note": "YoY +310.9% ↓",
-      "yoy": 310.9
+    "QNME": {
+      "grade": "D",
+      "note": "YoY -63.1% ↓",
+      "yoy": -63.1
     },
-    "RDGT": {
-      "grade": null,
-      "note": "データなし"
-    },
-    "RGC": {
+    "QTEX": {
       "grade": null,
       "note": "データなし"
+    },
+    "QSI": {
+      "grade": "D",
+      "note": "YoY -41.8% ↓",
+      "yoy": -41.8
     },
     "RCMT": {
       "grade": "B",
@@ -5171,11 +5158,24 @@
       "grade": null,
       "note": "前年Q売上ゼロ"
     },
+    "RAIN": {
+      "grade": null,
+      "note": "前年Q売上ゼロ"
+    },
+    "RBNE": {
+      "grade": "A",
+      "note": "YoY +310.9% ↓",
+      "yoy": 310.9
+    },
+    "RCON": {
+      "grade": null,
+      "note": "データなし"
+    },
     "RCT": {
       "grade": null,
       "note": "データなし"
     },
-    "RCON": {
+    "RDGT": {
       "grade": null,
       "note": "データなし"
     },
@@ -5183,30 +5183,7 @@
       "grade": null,
       "note": "前年Q売上ゼロ"
     },
-    "RIVN": {
-      "grade": "B",
-      "note": "YoY +27.2% ↓",
-      "yoy": 27.2
-    },
-    "RYET": {
-      "grade": null,
-      "note": "データなし"
-    },
-    "RXT": {
-      "grade": "C",
-      "note": "YoY +0.6% ↓",
-      "yoy": 0.6
-    },
-    "SANG": {
-      "grade": "D",
-      "note": "YoY -12.2% ↓",
-      "yoy": -12.2
-    },
-    "SANA": {
-      "grade": null,
-      "note": "前年Q売上ゼロ"
-    },
-    "RZLV": {
+    "RGC": {
       "grade": null,
       "note": "データなし"
     },
@@ -5215,29 +5192,42 @@
       "note": "YoY +16.7% ↓",
       "yoy": 16.7
     },
-    "SCZM": {
-      "grade": "A",
-      "note": "YoY +54.8% ↓",
-      "yoy": 54.8
+    "RZLV": {
+      "grade": null,
+      "note": "データなし"
+    },
+    "SANA": {
+      "grade": null,
+      "note": "前年Q売上ゼロ"
+    },
+    "RIVN": {
+      "grade": "B",
+      "note": "YoY +27.2% ↓",
+      "yoy": 27.2
+    },
+    "RXT": {
+      "grade": "C",
+      "note": "YoY +0.6% ↓",
+      "yoy": 0.6
+    },
+    "RYET": {
+      "grade": null,
+      "note": "データなし"
+    },
+    "SANG": {
+      "grade": "D",
+      "note": "YoY -12.2% ↓",
+      "yoy": -12.2
     },
     "SDA": {
       "grade": "A",
       "note": "YoY +41.7% ↓",
       "yoy": 41.7
     },
-    "SEED": {
-      "grade": null,
-      "note": "データなし"
-    },
-    "SEDG": {
-      "grade": "B",
-      "note": "YoY +19.6% ↓",
-      "yoy": 19.6
-    },
-    "SERV": {
+    "SCZM": {
       "grade": "A",
-      "note": "YoY +404.4% ↓",
-      "yoy": 404.4
+      "note": "YoY +54.8% ↓",
+      "yoy": 54.8
     },
     "SGLY": {
       "grade": "D",
@@ -5249,6 +5239,25 @@
       "note": "YoY +223.9% ↓",
       "yoy": 223.9
     },
+    "SERV": {
+      "grade": "A",
+      "note": "YoY +404.4% ↓",
+      "yoy": 404.4
+    },
+    "SEDG": {
+      "grade": "B",
+      "note": "YoY +19.6% ↓",
+      "yoy": 19.6
+    },
+    "SEED": {
+      "grade": null,
+      "note": "データなし"
+    },
+    "SIFY": {
+      "grade": "B",
+      "note": "YoY +15.2% ↓",
+      "yoy": 15.2
+    },
     "SHLS": {
       "grade": "A",
       "note": "YoY +47.4% ↓",
@@ -5259,59 +5268,45 @@
       "note": "YoY +412.3% ↓",
       "yoy": 412.3
     },
-    "SIGA": {
-      "grade": "D",
-      "note": "YoY -49.5% ↓",
-      "yoy": -49.5
-    },
-    "SIFY": {
-      "grade": "B",
-      "note": "YoY +15.2% ↓",
-      "yoy": 15.2
-    },
-    "SINT": {
+    "SMTC": {
       "grade": "A",
-      "note": "YoY +347.0% ↓",
-      "yoy": 347.0
+      "note": "YoY +32.7% ↓",
+      "yoy": 32.7
     },
     "SLGL": {
       "grade": "D",
       "note": "YoY -96.6% ↓",
       "yoy": -96.6
     },
-    "SMTC": {
+    "SINT": {
       "grade": "A",
-      "note": "YoY +32.7% ↓",
-      "yoy": 32.7
+      "note": "YoY +347.0% ↓",
+      "yoy": 347.0
     },
     "SMXT": {
       "grade": "A",
       "note": "YoY +114.1% ↓",
       "yoy": 114.1
     },
-    "SMTI": {
-      "grade": "C",
-      "note": "YoY +9.0% ↓",
-      "yoy": 9.0
-    },
-    "SOXX": {
-      "grade": null,
-      "note": "データなし"
-    },
-    "SNT": {
-      "grade": "C",
-      "note": "YoY +8.2% ↓",
-      "yoy": 8.2
-    },
-    "SOPH": {
-      "grade": "B",
-      "note": "YoY +27.2% ↓",
-      "yoy": 27.2
+    "SIGA": {
+      "grade": "D",
+      "note": "YoY -49.5% ↓",
+      "yoy": -49.5
     },
     "SNES": {
       "grade": "B",
       "note": "YoY +23.2% ↓",
       "yoy": 23.2
+    },
+    "SMTI": {
+      "grade": "C",
+      "note": "YoY +9.0% ↓",
+      "yoy": 9.0
+    },
+    "SNT": {
+      "grade": "C",
+      "note": "YoY +8.2% ↓",
+      "yoy": 8.2
     },
     "SOFI": {
       "grade": "A",
@@ -5327,22 +5322,44 @@
       "grade": null,
       "note": "売上履歴不足"
     },
+    "SOPH": {
+      "grade": "B",
+      "note": "YoY +27.2% ↓",
+      "yoy": 27.2
+    },
     "SSNC": {
       "grade": "C",
       "note": "YoY +10.3% ↓",
       "yoy": 10.3
     },
-    "STI": {
-      "grade": "A",
-      "note": "YoY +3022.8% ↓",
-      "yoy": 3022.8
+    "SOXX": {
+      "grade": null,
+      "note": "データなし"
     },
     "SSRM": {
       "grade": "C",
       "note": "YoY +9.5% ↓",
       "yoy": 9.5
     },
+    "TACT": {
+      "grade": "C",
+      "note": "YoY +1.1% ↓",
+      "yoy": 1.1
+    },
+    "STI": {
+      "grade": "A",
+      "note": "YoY +3022.8% ↓",
+      "yoy": 3022.8
+    },
     "SUPX": {
+      "grade": null,
+      "note": "データなし"
+    },
+    "TANH": {
+      "grade": null,
+      "note": "データなし"
+    },
+    "SVA": {
       "grade": null,
       "note": "データなし"
     },
@@ -5351,30 +5368,17 @@
       "note": "YoY -37.5% ↓",
       "yoy": -37.5
     },
-    "TACT": {
-      "grade": "C",
-      "note": "YoY +1.1% ↓",
-      "yoy": 1.1
-    },
     "TATT": {
       "grade": "B",
       "note": "YoY +22.8% ↓",
       "yoy": 22.8
-    },
-    "SVA": {
-      "grade": null,
-      "note": "データなし"
-    },
-    "TANH": {
-      "grade": null,
-      "note": "データなし"
     },
     "TCMD": {
       "grade": "C",
       "note": "YoY +8.6% ↓",
       "yoy": 8.6
     },
-    "TDTH": {
+    "TNMG": {
       "grade": null,
       "note": "データなし"
     },
@@ -5382,7 +5386,7 @@
       "grade": null,
       "note": "前年Q売上ゼロ"
     },
-    "TRSG": {
+    "TDTH": {
       "grade": null,
       "note": "データなし"
     },
@@ -5390,78 +5394,79 @@
       "grade": null,
       "note": "前年Q売上ゼロ"
     },
-    "TPCS": {
-      "grade": "B",
-      "note": "YoY +23.3% ↓",
-      "yoy": 23.3
-    },
-    "TLN": {
-      "grade": "A",
-      "note": "YoY +111.2% ↓",
-      "yoy": 111.2
-    },
-    "TNMG": {
+    "TRSG": {
       "grade": null,
       "note": "データなし"
-    },
-    "TTEK": {
-      "grade": "D",
-      "note": "YoY -4.5% ↓",
-      "yoy": -4.5
-    },
-    "TSEM": {
-      "grade": "B",
-      "note": "YoY +23.7% ↓",
-      "yoy": 23.7
     },
     "TSHA": {
       "grade": "D",
       "note": "YoY -100.0% ↓",
       "yoy": -100.0
     },
-    "TRT": {
+    "TTEK": {
+      "grade": "D",
+      "note": "YoY -4.5% ↓",
+      "yoy": -4.5
+    },
+    "TLN": {
       "grade": "A",
-      "note": "YoY +123.6% ↓",
-      "yoy": 123.6
+      "note": "YoY +111.2% ↓",
+      "yoy": 111.2
     },
     "TTGT": {
       "grade": "D",
       "note": "YoY -3.2% ↓",
       "yoy": -3.2
     },
-    "TYGO": {
-      "grade": "C",
-      "note": "YoY +5.6% ↓",
-      "yoy": 5.6
+    "TSEM": {
+      "grade": "B",
+      "note": "YoY +23.7% ↓",
+      "yoy": 23.7
+    },
+    "TPCS": {
+      "grade": "B",
+      "note": "YoY +23.3% ↓",
+      "yoy": 23.3
     },
     "TTMI": {
       "grade": "A",
       "note": "YoY +37.4% ↓",
       "yoy": 37.4
     },
+    "TRT": {
+      "grade": "A",
+      "note": "YoY +123.6% ↓",
+      "yoy": 123.6
+    },
     "TUSK": {
       "grade": "A",
       "note": "YoY +110.9% ↓",
       "yoy": 110.9
-    },
-    "UFPT": {
-      "grade": "B",
-      "note": "YoY +15.1% ↓",
-      "yoy": 15.1
-    },
-    "USAR": {
-      "grade": null,
-      "note": "前年Q売上ゼロ"
     },
     "UCFI": {
       "grade": "B",
       "note": "YoY +17.1% ↓",
       "yoy": 17.1
     },
+    "TYGO": {
+      "grade": "C",
+      "note": "YoY +5.6% ↓",
+      "yoy": 5.6
+    },
     "UROY": {
       "grade": "A",
       "note": "YoY +112.9% ↓",
       "yoy": 112.9
+    },
+    "UFPT": {
+      "grade": "B",
+      "note": "YoY +15.1% ↓",
+      "yoy": 15.1
+    },
+    "VIR": {
+      "grade": "A",
+      "note": "YoY +23075.1% ↓",
+      "yoy": 23075.1
     },
     "USGO": {
       "grade": null,
@@ -5472,21 +5477,7 @@
       "note": "YoY -15.6% ↓",
       "yoy": -15.6
     },
-    "VIR": {
-      "grade": "A",
-      "note": "YoY +23075.1% ↓",
-      "yoy": 23075.1
-    },
-    "VRXA": {
-      "grade": null,
-      "note": "データなし"
-    },
-    "VMAR": {
-      "grade": "A",
-      "note": "YoY +8618.8% ↓",
-      "yoy": 8618.8
-    },
-    "WDAF": {
+    "WCLD": {
       "grade": null,
       "note": "データなし"
     },
@@ -5495,7 +5486,20 @@
       "note": "YoY +126.6% ↓",
       "yoy": 126.6
     },
-    "WCLD": {
+    "USAR": {
+      "grade": null,
+      "note": "前年Q売上ゼロ"
+    },
+    "VMAR": {
+      "grade": "A",
+      "note": "YoY +8618.8% ↓",
+      "yoy": 8618.8
+    },
+    "VRXA": {
+      "grade": null,
+      "note": "データなし"
+    },
+    "WDAF": {
       "grade": null,
       "note": "データなし"
     },
@@ -5503,21 +5507,21 @@
       "grade": null,
       "note": "データなし"
     },
-    "WETH": {
-      "grade": "A",
-      "note": "YoY +285.7% ↓",
-      "yoy": 285.7
-    },
     "WGS": {
       "grade": "C",
       "note": "YoY +11.4% ↓",
       "yoy": 11.4
     },
-    "WIMI": {
+    "WETH": {
+      "grade": "A",
+      "note": "YoY +285.7% ↓",
+      "yoy": 285.7
+    },
+    "WOK": {
       "grade": null,
       "note": "データなし"
     },
-    "WSPC": {
+    "WIMI": {
       "grade": null,
       "note": "データなし"
     },
@@ -5525,20 +5529,16 @@
       "grade": null,
       "note": "データなし"
     },
-    "WOK": {
+    "XBIT": {
       "grade": null,
-      "note": "データなし"
+      "note": "前年Q売上ゼロ"
     },
     "WRAP": {
       "grade": "A",
       "note": "YoY +102.8% ↓",
       "yoy": 102.8
     },
-    "XE": {
-      "grade": null,
-      "note": "売上履歴不足"
-    },
-    "XBIT": {
+    "XTIA": {
       "grade": null,
       "note": "前年Q売上ゼロ"
     },
@@ -5546,30 +5546,47 @@
       "grade": null,
       "note": "データなし"
     },
-    "XELLL": {
+    "YDDL": {
       "grade": null,
       "note": "データなし"
     },
-    "XTIA": {
+    "XE": {
       "grade": null,
-      "note": "前年Q売上ゼロ"
+      "note": "売上履歴不足"
+    },
+    "WSPC": {
+      "grade": null,
+      "note": "データなし"
+    },
+    "XELLL": {
+      "grade": null,
+      "note": "データなし"
     },
     "XPON": {
       "grade": "D",
       "note": "YoY -32.1% ↓",
       "yoy": -32.1
     },
+    "YSXT": {
+      "grade": null,
+      "note": "データなし"
+    },
+    "AADX": {
+      "grade": null,
+      "note": "売上履歴不足"
+    },
     "ZBAO": {
       "grade": null,
       "note": "データなし"
     },
-    "YDDL": {
+    "ZYBT": {
       "grade": null,
       "note": "データなし"
     },
-    "YSXT": {
-      "grade": null,
-      "note": "データなし"
+    "AESI": {
+      "grade": "C",
+      "note": "YoY +1.6% ↓",
+      "yoy": 1.6
     },
     "ZDAI": {
       "grade": null,
@@ -5585,58 +5602,21 @@
       "note": "YoY -10.7% ↓",
       "yoy": -10.7
     },
-    "ZYBT": {
-      "grade": null,
-      "note": "データなし"
-    },
-    "AIM": {
-      "grade": "A",
-      "note": "YoY +37.5% ↓",
-      "yoy": 37.5
-    },
     "ABG": {
       "grade": "D",
       "note": "YoY -0.9% ↓",
       "yoy": -0.9
-    },
-    "AADX": {
-      "grade": null,
-      "note": "売上履歴不足"
-    },
-    "AIQD": {
-      "grade": null,
-      "note": "データなし"
-    },
-    "AIVI": {
-      "grade": null,
-      "note": "データなし"
-    },
-    "AESI": {
-      "grade": "C",
-      "note": "YoY +1.6% ↓",
-      "yoy": 1.6
     },
     "AIT": {
       "grade": "C",
       "note": "YoY +10.4% ↓",
       "yoy": 10.4
     },
-    "APT": {
-      "grade": "C",
-      "note": "YoY +12.0% ↓",
-      "yoy": 12.0
-    },
-    "AMPY": {
-      "grade": "D",
-      "note": "YoY -22.9% ↓",
-      "yoy": -22.9
-    },
-    "AMR": {
-      "grade": "D",
-      "note": "YoY -10.4% ↓",
-      "yoy": -10.4
-    },
     "AIVL": {
+      "grade": null,
+      "note": "データなし"
+    },
+    "AIQD": {
       "grade": null,
       "note": "データなし"
     },
@@ -5645,14 +5625,48 @@
       "note": "YoY +17.7% ↓",
       "yoy": 17.7
     },
+    "AIVI": {
+      "grade": null,
+      "note": "データなし"
+    },
+    "AIM": {
+      "grade": "A",
+      "note": "YoY +37.5% ↓",
+      "yoy": 37.5
+    },
+    "AMPY": {
+      "grade": "D",
+      "note": "YoY -22.9% ↓",
+      "yoy": -22.9
+    },
+    "ASA": {
+      "grade": null,
+      "note": "データなし"
+    },
+    "AMR": {
+      "grade": "D",
+      "note": "YoY -10.4% ↓",
+      "yoy": -10.4
+    },
     "ARIS": {
       "grade": "A",
       "note": "YoY +62.3% ↓",
       "yoy": 62.3
     },
-    "ASA": {
-      "grade": null,
-      "note": "データなし"
+    "ARLO": {
+      "grade": "B",
+      "note": "YoY +20.5% ↓",
+      "yoy": 20.5
+    },
+    "APT": {
+      "grade": "C",
+      "note": "YoY +12.0% ↓",
+      "yoy": 12.0
+    },
+    "BCHT": {
+      "grade": "B",
+      "note": "YoY +16.5% ↓",
+      "yoy": 16.5
     },
     "AUXX": {
       "grade": null,
@@ -5663,29 +5677,15 @@
       "note": "YoY +43.8% ↓",
       "yoy": 43.8
     },
-    "ARLO": {
-      "grade": "B",
-      "note": "YoY +20.5% ↓",
-      "yoy": 20.5
-    },
-    "BEPC": {
-      "grade": "C",
-      "note": "YoY +13.0% ↓",
-      "yoy": 13.0
-    },
     "BEP": {
       "grade": "C",
       "note": "YoY +1.1% ↓",
       "yoy": 1.1
     },
-    "BCHT": {
-      "grade": "B",
-      "note": "YoY +16.5% ↓",
-      "yoy": 16.5
-    },
-    "BGR": {
-      "grade": null,
-      "note": "データなし"
+    "BEPC": {
+      "grade": "C",
+      "note": "YoY +13.0% ↓",
+      "yoy": 13.0
     },
     "BETA": {
       "grade": "A",
@@ -5696,22 +5696,11 @@
       "grade": null,
       "note": "前年Q売上ゼロ"
     },
-    "BKTI": {
-      "grade": "C",
-      "note": "YoY +10.6% ↓",
-      "yoy": 10.6
+    "BGR": {
+      "grade": null,
+      "note": "データなし"
     },
     "BMNP": {
-      "grade": "A",
-      "note": "YoY +2167.8% ↓",
-      "yoy": 2167.8
-    },
-    "BUD": {
-      "grade": "C",
-      "note": "YoY +11.0% ↓",
-      "yoy": 11.0
-    },
-    "BMNR": {
       "grade": "A",
       "note": "YoY +2167.8% ↓",
       "yoy": 2167.8
@@ -5721,10 +5710,30 @@
       "note": "YoY +55.7% ↓",
       "yoy": 55.7
     },
+    "BMNR": {
+      "grade": "A",
+      "note": "YoY +2167.8% ↓",
+      "yoy": 2167.8
+    },
+    "CDE": {
+      "grade": "A",
+      "note": "YoY +125.9% ↓",
+      "yoy": 125.9
+    },
+    "BKTI": {
+      "grade": "C",
+      "note": "YoY +10.6% ↓",
+      "yoy": 10.6
+    },
     "CCEL": {
       "grade": "D",
       "note": "YoY -2.4% ↓",
       "yoy": -2.4
+    },
+    "BUD": {
+      "grade": "C",
+      "note": "YoY +11.0% ↓",
+      "yoy": 11.0
     },
     "CDP": {
       "grade": "C",
@@ -5736,71 +5745,66 @@
       "note": "YoY +103.0% ↓",
       "yoy": 103.0
     },
-    "CDE": {
-      "grade": "A",
-      "note": "YoY +125.9% ↓",
-      "yoy": 125.9
-    },
     "CITR": {
       "grade": null,
       "note": "売上履歴不足"
-    },
-    "CMC": {
-      "grade": "B",
-      "note": "YoY +22.9% ↓",
-      "yoy": 22.9
-    },
-    "CMBT": {
-      "grade": "A",
-      "note": "YoY +81.5% ↓",
-      "yoy": 81.5
-    },
-    "CMSC": {
-      "grade": null,
-      "note": "データなし"
     },
     "CMCL": {
       "grade": "B",
       "note": "YoY +16.2% ↓",
       "yoy": 16.2
     },
-    "CMSA": {
-      "grade": null,
-      "note": "データなし"
+    "CMBT": {
+      "grade": "A",
+      "note": "YoY +81.5% ↓",
+      "yoy": 81.5
+    },
+    "CMC": {
+      "grade": "B",
+      "note": "YoY +22.9% ↓",
+      "yoy": 22.9
     },
     "CMSD": {
       "grade": null,
       "note": "データなし"
     },
-    "CMT": {
-      "grade": "D",
-      "note": "YoY -20.8% ↓",
-      "yoy": -20.8
+    "CMSA": {
+      "grade": null,
+      "note": "データなし"
+    },
+    "CMSC": {
+      "grade": null,
+      "note": "データなし"
     },
     "CQP": {
       "grade": "C",
       "note": "YoY +5.2% ↓",
       "yoy": 5.2
     },
-    "CRGY": {
-      "grade": "A",
-      "note": "YoY +55.3% ↓",
-      "yoy": 55.3
+    "CSR": {
+      "grade": "D",
+      "note": "YoY -4.0% ↓",
+      "yoy": -4.0
     },
-    "CVE": {
-      "grade": "A",
-      "note": "YoY +54.9% ↓",
-      "yoy": 54.9
+    "CTEV": {
+      "grade": "C",
+      "note": "YoY +6.6% ↓",
+      "yoy": 6.6
+    },
+    "CMT": {
+      "grade": "D",
+      "note": "YoY -20.8% ↓",
+      "yoy": -20.8
     },
     "CRS": {
       "grade": "C",
       "note": "YoY +12.6% ↓",
       "yoy": 12.6
     },
-    "CSR": {
-      "grade": "D",
-      "note": "YoY -4.0% ↓",
-      "yoy": -4.0
+    "CRGY": {
+      "grade": "A",
+      "note": "YoY +55.3% ↓",
+      "yoy": 55.3
     },
     "CVI": {
       "grade": "A",
@@ -5811,10 +5815,10 @@
       "grade": null,
       "note": "データなし"
     },
-    "CTEV": {
-      "grade": "C",
-      "note": "YoY +6.6% ↓",
-      "yoy": 6.6
+    "CVE": {
+      "grade": "A",
+      "note": "YoY +54.9% ↓",
+      "yoy": 54.9
     },
     "DBB": {
       "grade": null,
@@ -5825,6 +5829,10 @@
       "note": "YoY +22.7% ↓",
       "yoy": 22.7
     },
+    "DBE": {
+      "grade": null,
+      "note": "データなし"
+    },
     "DBP": {
       "grade": null,
       "note": "データなし"
@@ -5832,18 +5840,6 @@
     "DEC": {
       "grade": null,
       "note": "売上履歴不足"
-    },
-    "DBE": {
-      "grade": null,
-      "note": "データなし"
-    },
-    "DIG": {
-      "grade": null,
-      "note": "データなし"
-    },
-    "DTK": {
-      "grade": null,
-      "note": "データなし"
     },
     "DLNG": {
       "grade": "D",
@@ -5854,11 +5850,7 @@
       "grade": null,
       "note": "データなし"
     },
-    "DUKB": {
-      "grade": null,
-      "note": "データなし"
-    },
-    "DXYZ": {
+    "DIG": {
       "grade": null,
       "note": "データなし"
     },
@@ -5867,11 +5859,24 @@
       "note": "YoY -1.2% ↓",
       "yoy": -1.2
     },
+    "DTK": {
+      "grade": null,
+      "note": "データなし"
+    },
     "DTG": {
       "grade": null,
       "note": "データなし"
     },
     "DUG": {
+      "grade": null,
+      "note": "データなし"
+    },
+    "EAF": {
+      "grade": "D",
+      "note": "YoY -3.4% ↓",
+      "yoy": -3.4
+    },
+    "DUKB": {
       "grade": null,
       "note": "データなし"
     },
@@ -5885,33 +5890,42 @@
       "note": "YoY +83.6% ↓",
       "yoy": 83.6
     },
-    "ET": {
-      "grade": "A",
-      "note": "YoY +78.4% ↓",
-      "yoy": 78.4
-    },
-    "ETSS": {
-      "grade": null,
-      "note": "売上履歴不足"
-    },
-    "EAF": {
-      "grade": "D",
-      "note": "YoY -3.4% ↓",
-      "yoy": -3.4
-    },
     "EMN": {
       "grade": "D",
       "note": "YoY -4.9% ↓",
       "yoy": -4.9
+    },
+    "DXYZ": {
+      "grade": null,
+      "note": "データなし"
+    },
+    "ET": {
+      "grade": "A",
+      "note": "YoY +78.4% ↓",
+      "yoy": 78.4
     },
     "ESE": {
       "grade": "C",
       "note": "YoY +14.4% ↓",
       "yoy": 14.4
     },
+    "ETSS": {
+      "grade": null,
+      "note": "売上履歴不足"
+    },
     "EVTL": {
       "grade": null,
       "note": "前年Q売上ゼロ"
+    },
+    "EXP": {
+      "grade": "C",
+      "note": "YoY +2.6% ↓",
+      "yoy": 2.6
+    },
+    "FLNG": {
+      "grade": "B",
+      "note": "YoY +24.2% ↓",
+      "yoy": 24.2
     },
     "FET": {
       "grade": "C",
@@ -5923,28 +5937,27 @@
       "note": "YoY +44.6% ↓",
       "yoy": 44.6
     },
-    "FLNG": {
-      "grade": "B",
-      "note": "YoY +24.2% ↓",
-      "yoy": 24.2
-    },
     "FSM": {
       "grade": "A",
       "note": "YoY +38.2% ↓",
       "yoy": 38.2
     },
-    "EXP": {
-      "grade": "C",
-      "note": "YoY +2.6% ↓",
-      "yoy": 2.6
+    "GAM": {
+      "grade": null,
+      "note": "データなし"
     },
     "FTRA": {
       "grade": null,
       "note": "売上履歴不足"
     },
-    "GAM": {
+    "GCDT": {
       "grade": null,
       "note": "データなし"
+    },
+    "GCO": {
+      "grade": "D",
+      "note": "YoY -3.0% ↓",
+      "yoy": -3.0
     },
     "FTI": {
       "grade": "C",
@@ -5956,47 +5969,48 @@
       "note": "YoY +2.5% ↓",
       "yoy": 2.5
     },
-    "GCDT": {
+    "GLDG": {
       "grade": null,
-      "note": "データなし"
+      "note": "前年Q売上ゼロ"
     },
     "GEL": {
       "grade": "A",
       "note": "YoY +41.0% ↓",
       "yoy": 41.0
     },
-    "GMTL": {
-      "grade": null,
-      "note": "データなし"
-    },
     "GCTS": {
       "grade": "D",
       "note": "YoY -17.9% ↓",
       "yoy": -17.9
-    },
-    "GLDG": {
-      "grade": null,
-      "note": "前年Q売上ゼロ"
     },
     "GORO": {
       "grade": "A",
       "note": "YoY +293.5% ↓",
       "yoy": 293.5
     },
-    "GCO": {
+    "GPI": {
       "grade": "D",
-      "note": "YoY -3.0% ↓",
-      "yoy": -3.0
-    },
-    "GPOR": {
-      "grade": "D",
-      "note": "YoY -16.0% ↓",
-      "yoy": -16.0
+      "note": "YoY -5.6% ↓",
+      "yoy": -5.6
     },
     "GNE": {
       "grade": "D",
       "note": "YoY -4.6% ↓",
       "yoy": -4.6
+    },
+    "GMTL": {
+      "grade": null,
+      "note": "データなし"
+    },
+    "GWH": {
+      "grade": "D",
+      "note": "YoY -96.9% ↓",
+      "yoy": -96.9
+    },
+    "GPOR": {
+      "grade": "D",
+      "note": "YoY -16.0% ↓",
+      "yoy": -16.0
     },
     "GTE": {
       "grade": "B",
@@ -6008,30 +6022,7 @@
       "note": "YoY +52.4% ↓",
       "yoy": 52.4
     },
-    "GPI": {
-      "grade": "D",
-      "note": "YoY -5.6% ↓",
-      "yoy": -5.6
-    },
-    "GWH": {
-      "grade": "D",
-      "note": "YoY -96.9% ↓",
-      "yoy": -96.9
-    },
-    "HLIO": {
-      "grade": "C",
-      "note": "YoY +9.1% ↓",
-      "yoy": 9.1
-    },
     "HLSQ": {
-      "grade": null,
-      "note": "データなし"
-    },
-    "HMY": {
-      "grade": null,
-      "note": "データなし"
-    },
-    "IMC": {
       "grade": null,
       "note": "データなし"
     },
@@ -6039,7 +6030,16 @@
       "grade": null,
       "note": "データなし"
     },
-    "INDO": {
+    "HMY": {
+      "grade": null,
+      "note": "データなし"
+    },
+    "HLIO": {
+      "grade": "C",
+      "note": "YoY +9.1% ↓",
+      "yoy": 9.1
+    },
+    "IMC": {
       "grade": null,
       "note": "データなし"
     },
@@ -6047,36 +6047,36 @@
       "grade": null,
       "note": "売上履歴不足"
     },
-    "KOS": {
-      "grade": "A",
-      "note": "YoY +54.7% ↓",
-      "yoy": 54.7
-    },
-    "LAC": {
+    "INDO": {
       "grade": null,
-      "note": "前年Q売上ゼロ"
+      "note": "データなし"
     },
     "KULR": {
       "grade": "D",
       "note": "YoY -43.0% ↓",
       "yoy": -43.0
     },
-    "KTH": {
-      "grade": null,
-      "note": "データなし"
+    "KOS": {
+      "grade": "A",
+      "note": "YoY +54.7% ↓",
+      "yoy": 54.7
     },
     "KYN": {
       "grade": null,
       "note": "売上履歴不足"
     },
-    "LAR": {
-      "grade": null,
-      "note": "前年Q売上ゼロ"
-    },
     "KMT": {
       "grade": "A",
       "note": "YoY +42.6% ↓",
       "yoy": 42.6
+    },
+    "KTH": {
+      "grade": null,
+      "note": "データなし"
+    },
+    "LAC": {
+      "grade": null,
+      "note": "前年Q売上ゼロ"
     },
     "LBRT": {
       "grade": "C",
@@ -6088,16 +6088,11 @@
       "note": "YoY -61.3% ↓",
       "yoy": -61.3
     },
-    "MCRP": {
+    "LAR": {
       "grade": null,
-      "note": "データなし"
+      "note": "前年Q売上ゼロ"
     },
-    "LNG": {
-      "grade": "B",
-      "note": "YoY +23.5% ↓",
-      "yoy": 23.5
-    },
-    "LUD": {
+    "LZM": {
       "grade": null,
       "note": "データなし"
     },
@@ -6106,76 +6101,85 @@
       "note": "YoY -9.3% ↓",
       "yoy": -9.3
     },
-    "LZM": {
+    "LUD": {
       "grade": null,
       "note": "データなし"
     },
-    "MAIA": {
+    "LNG": {
+      "grade": "B",
+      "note": "YoY +23.5% ↓",
+      "yoy": 23.5
+    },
+    "MCRP": {
       "grade": null,
-      "note": "前年Q売上ゼロ"
+      "note": "データなし"
     },
     "MCY": {
       "grade": "C",
       "note": "YoY +13.8% ↓",
       "yoy": 13.8
     },
-    "MHH": {
-      "grade": "D",
-      "note": "YoY -15.6% ↓",
-      "yoy": -15.6
-    },
-    "MDA": {
-      "grade": "A",
-      "note": "YoY +33.6% ↓",
-      "yoy": 33.6
-    },
-    "MITQ": {
-      "grade": "D",
-      "note": "YoY -4.9% ↓",
-      "yoy": -4.9
-    },
-    "MTUS": {
-      "grade": "C",
-      "note": "YoY +11.5% ↓",
-      "yoy": 11.5
+    "MAIA": {
+      "grade": null,
+      "note": "前年Q売上ゼロ"
     },
     "MIR": {
       "grade": "B",
       "note": "YoY +19.7% ↓",
       "yoy": 19.7
     },
-    "MTA": {
-      "grade": "A",
-      "note": "YoY +93.8% ↓",
-      "yoy": 93.8
+    "MHH": {
+      "grade": "D",
+      "note": "YoY -15.6% ↓",
+      "yoy": -15.6
+    },
+    "MRT": {
+      "grade": null,
+      "note": "売上履歴不足"
+    },
+    "MITQ": {
+      "grade": "D",
+      "note": "YoY -4.9% ↓",
+      "yoy": -4.9
     },
     "MTX": {
       "grade": "C",
       "note": "YoY +3.7% ↓",
       "yoy": 3.7
     },
-    "MX": {
-      "grade": "D",
-      "note": "YoY -6.1% ↓",
-      "yoy": -6.1
+    "MTUS": {
+      "grade": "C",
+      "note": "YoY +11.5% ↓",
+      "yoy": 11.5
+    },
+    "MTA": {
+      "grade": "A",
+      "note": "YoY +93.8% ↓",
+      "yoy": 93.8
+    },
+    "MDA": {
+      "grade": "A",
+      "note": "YoY +33.6% ↓",
+      "yoy": 33.6
     },
     "MXC": {
       "grade": "C",
       "note": "YoY +12.9% ↓",
       "yoy": 12.9
     },
-    "MRT": {
-      "grade": null,
-      "note": "売上履歴不足"
-    },
-    "NEWP": {
-      "grade": null,
-      "note": "前年Q売上ゼロ"
+    "MX": {
+      "grade": "D",
+      "note": "YoY -6.1% ↓",
+      "yoy": -6.1
     },
     "NET": {
       "grade": "A",
       "note": "YoY +35.9% ↓",
       "yoy": 35.9
+    },
+    "NEWP": {
+      "grade": null,
+      "note": "前年Q売上ゼロ"
     },
     "NINE": {
       "grade": "B",
@@ -6187,23 +6191,9 @@
       "note": "YoY +59.1% ↓",
       "yoy": 59.1
     },
-    "NXE": {
-      "grade": null,
-      "note": "前年Q売上ゼロ"
-    },
-    "OPTT": {
-      "grade": "A",
-      "note": "YoY +44.1% ↓",
-      "yoy": 44.1
-    },
     "NTIP": {
       "grade": null,
       "note": "前年Q売上ゼロ"
-    },
-    "OGE": {
-      "grade": "D",
-      "note": "YoY -4.0% ↓",
-      "yoy": -4.0
     },
     "NRGV": {
       "grade": "A",
@@ -6215,15 +6205,29 @@
       "note": "YoY +43.7% ↓",
       "yoy": 43.7
     },
-    "ORA": {
-      "grade": "C",
-      "note": "YoY +10.6% ↓",
-      "yoy": 10.6
+    "OGE": {
+      "grade": "D",
+      "note": "YoY -4.0% ↓",
+      "yoy": -4.0
+    },
+    "NXE": {
+      "grade": null,
+      "note": "前年Q売上ゼロ"
     },
     "PAG": {
       "grade": "C",
       "note": "YoY +6.0% ↓",
       "yoy": 6.0
+    },
+    "ORA": {
+      "grade": "C",
+      "note": "YoY +10.6% ↓",
+      "yoy": 10.6
+    },
+    "OPTT": {
+      "grade": "A",
+      "note": "YoY +44.1% ↓",
+      "yoy": 44.1
     },
     "OTF": {
       "grade": "A",
@@ -6235,48 +6239,39 @@
       "note": "YoY +18.7% ↓",
       "yoy": 18.7
     },
-    "PICK": {
-      "grade": null,
-      "note": "データなし"
-    },
-    "PKE": {
-      "grade": "B",
-      "note": "YoY +18.9% ↓",
-      "yoy": 18.9
+    "PBF": {
+      "grade": "A",
+      "note": "YoY +56.2% ↓",
+      "yoy": 56.2
     },
     "PCOR": {
       "grade": "B",
       "note": "YoY +15.8% ↓",
       "yoy": 15.8
     },
-    "POR": {
-      "grade": "C",
-      "note": "YoY +0.9% ↓",
-      "yoy": 0.9
+    "PKE": {
+      "grade": "B",
+      "note": "YoY +18.9% ↓",
+      "yoy": 18.9
     },
-    "PBF": {
-      "grade": "A",
-      "note": "YoY +56.2% ↓",
-      "yoy": 56.2
+    "PICK": {
+      "grade": null,
+      "note": "データなし"
     },
     "PLG": {
       "grade": null,
       "note": "前年Q売上ゼロ"
     },
-    "REA": {
-      "grade": null,
-      "note": "売上履歴不足"
-    },
-    "QNC": {
-      "grade": null,
-      "note": "前年Q売上ゼロ"
-    },
-    "REI": {
-      "grade": "B",
-      "note": "YoY +26.7% ↓",
-      "yoy": 26.7
-    },
     "POAS": {
+      "grade": null,
+      "note": "データなし"
+    },
+    "POR": {
+      "grade": "C",
+      "note": "YoY +0.9% ↓",
+      "yoy": 0.9
+    },
+    "RGNT": {
       "grade": null,
       "note": "データなし"
     },
@@ -6285,49 +6280,35 @@
       "note": "YoY +2.0% ↓",
       "yoy": 2.0
     },
-    "RGNT": {
-      "grade": null,
-      "note": "データなし"
-    },
     "RKT": {
       "grade": "A",
       "note": "YoY +86.0% ↓",
       "yoy": 86.0
+    },
+    "REA": {
+      "grade": null,
+      "note": "売上履歴不足"
+    },
+    "REI": {
+      "grade": "B",
+      "note": "YoY +26.7% ↓",
+      "yoy": 26.7
     },
     "RNGR": {
       "grade": "B",
       "note": "YoY +25.5% ↓",
       "yoy": 25.5
     },
-    "ROLR": {
-      "grade": "D",
-      "note": "YoY -51.6% ↓",
-      "yoy": -51.6
-    },
-    "ROM": {
-      "grade": null,
-      "note": "データなし"
-    },
     "RVP": {
       "grade": "D",
       "note": "YoY -31.1% ↓",
       "yoy": -31.1
     },
-    "SD": {
-      "grade": "A",
-      "note": "YoY +48.0% ↓",
-      "yoy": 48.0
-    },
-    "SAH": {
-      "grade": "C",
-      "note": "YoY +7.6% ↓",
-      "yoy": 7.6
+    "ROM": {
+      "grade": null,
+      "note": "データなし"
     },
     "SBMT": {
-      "grade": null,
-      "note": "前年Q売上ゼロ"
-    },
-    "SLI": {
       "grade": null,
       "note": "前年Q売上ゼロ"
     },
@@ -6336,55 +6317,60 @@
       "note": "YoY +10.6% ↓",
       "yoy": 10.6
     },
-    "SLSR": {
-      "grade": null,
-      "note": "前年Q売上ゼロ"
-    },
-    "SEI": {
-      "grade": "A",
-      "note": "YoY +46.9% ↓",
-      "yoy": 46.9
+    "SAH": {
+      "grade": "C",
+      "note": "YoY +7.6% ↓",
+      "yoy": 7.6
     },
     "SES": {
       "grade": "A",
       "note": "YoY +43.8% ↓",
       "yoy": 43.8
     },
-    "SMN": {
-      "grade": null,
-      "note": "データなし"
+    "ROLR": {
+      "grade": "D",
+      "note": "YoY -51.6% ↓",
+      "yoy": -51.6
     },
-    "SMHD": {
-      "grade": null,
-      "note": "データなし"
+    "SEI": {
+      "grade": "A",
+      "note": "YoY +46.9% ↓",
+      "yoy": 46.9
     },
-    "SPOT": {
-      "grade": "C",
-      "note": "YoY +13.9% ↓",
-      "yoy": 13.9
+    "SD": {
+      "grade": "A",
+      "note": "YoY +48.0% ↓",
+      "yoy": 48.0
+    },
+    "SLSR": {
+      "grade": null,
+      "note": "前年Q売上ゼロ"
+    },
+    "SLI": {
+      "grade": null,
+      "note": "前年Q売上ゼロ"
     },
     "SM": {
       "grade": "A",
       "note": "YoY +174.6% ↓",
       "yoy": 174.6
     },
-    "STDN": {
-      "grade": null,
-      "note": "売上履歴不足"
-    },
-    "SVM": {
-      "grade": "A",
-      "note": "YoY +70.5% ↓",
-      "yoy": 70.5
-    },
-    "SSG": {
+    "SMHD": {
       "grade": null,
       "note": "データなし"
     },
-    "SXC": {
+    "QNC": {
+      "grade": null,
+      "note": "前年Q売上ゼロ"
+    },
+    "SPOT": {
       "grade": "C",
-      "note": "YoY +9.5% ↓",
-      "yoy": 9.5
+      "note": "YoY +13.9% ↓",
+      "yoy": 13.9
+    },
+    "SMN": {
+      "grade": null,
+      "note": "データなし"
     },
     "SPXC": {
       "grade": "B",
@@ -6395,101 +6381,119 @@
       "grade": null,
       "note": "売上履歴不足"
     },
-    "SXT": {
+    "SXC": {
       "grade": "C",
-      "note": "YoY +11.6% ↓",
-      "yoy": 11.6
+      "note": "YoY +9.5% ↓",
+      "yoy": 9.5
     },
-    "TE": {
-      "grade": "A",
-      "note": "YoY +88.4% ↓",
-      "yoy": 88.4
+    "STDN": {
+      "grade": null,
+      "note": "売上履歴不足"
     },
-    "ST": {
-      "grade": "C",
-      "note": "YoY +5.0% ↓",
-      "yoy": 5.0
+    "SSG": {
+      "grade": null,
+      "note": "データなし"
     },
     "TALO": {
       "grade": "A",
       "note": "YoY +56.5% ↓",
       "yoy": 56.5
     },
-    "TGE": {
-      "grade": null,
-      "note": "データなし"
+    "ST": {
+      "grade": "C",
+      "note": "YoY +5.0% ↓",
+      "yoy": 5.0
     },
-    "TEN": {
+    "SXT": {
+      "grade": "C",
+      "note": "YoY +11.6% ↓",
+      "yoy": 11.6
+    },
+    "SVM": {
       "grade": "A",
-      "note": "YoY +54.4% ↓",
-      "yoy": 54.4
+      "note": "YoY +70.5% ↓",
+      "yoy": 70.5
+    },
+    "TE": {
+      "grade": "A",
+      "note": "YoY +88.4% ↓",
+      "yoy": 88.4
     },
     "TGB": {
       "grade": "A",
       "note": "YoY +184.8% ↓",
       "yoy": 184.8
     },
-    "TFPM": {
-      "grade": "A",
-      "note": "YoY +37.3% ↓",
-      "yoy": 37.3
-    },
-    "TKC": {
-      "grade": "C",
-      "note": "YoY +14.4% ↓",
-      "yoy": 14.4
+    "TGE": {
+      "grade": null,
+      "note": "データなし"
     },
     "TII": {
       "grade": "A",
       "note": "YoY +60.5% ↓",
       "yoy": 60.5
     },
-    "TMQ": {
-      "grade": null,
-      "note": "前年Q売上ゼロ"
+    "TFPM": {
+      "grade": "A",
+      "note": "YoY +37.3% ↓",
+      "yoy": 37.3
+    },
+    "TEN": {
+      "grade": "A",
+      "note": "YoY +54.4% ↓",
+      "yoy": 54.4
     },
     "TMDE": {
       "grade": null,
       "note": "データなし"
+    },
+    "TKC": {
+      "grade": "C",
+      "note": "YoY +14.4% ↓",
+      "yoy": 14.4
     },
     "TRP": {
       "grade": "C",
       "note": "YoY +5.7% ↓",
       "yoy": 5.7
     },
-    "TSM": {
-      "grade": "A",
-      "note": "YoY +36.0% ↓",
-      "yoy": 36.0
-    },
-    "TXNM": {
-      "grade": "C",
-      "note": "YoY +9.2% ↓",
-      "yoy": 9.2
-    },
-    "TYG": {
+    "TMQ": {
       "grade": null,
-      "note": "データなし"
+      "note": "前年Q売上ゼロ"
     },
     "TTI": {
       "grade": "C",
       "note": "YoY +6.8% ↓",
       "yoy": 6.8
     },
-    "USD": {
-      "grade": null,
-      "note": "データなし"
+    "TSM": {
+      "grade": "A",
+      "note": "YoY +36.0% ↓",
+      "yoy": 36.0
     },
     "URG": {
       "grade": "A",
       "note": "YoY +37.7% ↓",
       "yoy": 37.7
     },
-    "UYM": {
+    "USD": {
       "grade": null,
       "note": "データなし"
     },
+    "TYG": {
+      "grade": null,
+      "note": "データなし"
+    },
+    "TXNM": {
+      "grade": "C",
+      "note": "YoY +9.2% ↓",
+      "yoy": 9.2
+    },
     "USE": {
+      "grade": null,
+      "note": "データなし"
+    },
+    "UYM": {
       "grade": null,
       "note": "データなし"
     },
@@ -6498,26 +6502,22 @@
       "note": "YoY +7.2% ↓",
       "yoy": 7.2
     },
-    "VSH": {
+    "VET": {
       "grade": "B",
-      "note": "YoY +16.6% ↓",
-      "yoy": 16.6
-    },
-    "VTS": {
-      "grade": "C",
-      "note": "YoY +11.3% ↓",
-      "yoy": 11.3
+      "note": "YoY +19.2% ↓",
+      "yoy": 19.2
     },
     "VLN": {
       "grade": "C",
       "note": "YoY +6.1% ↓",
       "yoy": 6.1
     },
-    "WDRN": {
-      "grade": null,
-      "note": "データなし"
+    "VTS": {
+      "grade": "C",
+      "note": "YoY +11.3% ↓",
+      "yoy": 11.3
     },
-    "WDIG": {
+    "WDEF": {
       "grade": null,
       "note": "データなし"
     },
@@ -6526,36 +6526,28 @@
       "note": "YoY +15.5% ↓",
       "yoy": 15.5
     },
-    "WDEF": {
+    "WDIG": {
       "grade": null,
       "note": "データなし"
     },
-    "VET": {
+    "WDRN": {
+      "grade": null,
+      "note": "データなし"
+    },
+    "VSH": {
       "grade": "B",
-      "note": "YoY +19.2% ↓",
-      "yoy": 19.2
+      "note": "YoY +16.6% ↓",
+      "yoy": 16.6
     },
     "WLKP": {
       "grade": "D",
       "note": "YoY -0.0% ↓",
       "yoy": -0.0
     },
-    "WQTM": {
-      "grade": null,
-      "note": "データなし"
-    },
     "WPM": {
       "grade": "A",
       "note": "YoY +84.7% ↓",
       "yoy": 84.7
-    },
-    "ZSB": {
-      "grade": null,
-      "note": "データなし"
-    },
-    "WTAI": {
-      "grade": null,
-      "note": "データなし"
     },
     "WTS": {
       "grade": "B",
@@ -6566,14 +6558,26 @@
       "grade": null,
       "note": "データなし"
     },
-    "XTND": {
+    "WQTM": {
       "grade": null,
-      "note": "売上履歴不足"
+      "note": "データなし"
+    },
+    "WTAI": {
+      "grade": null,
+      "note": "データなし"
+    },
+    "ZSB": {
+      "grade": null,
+      "note": "データなし"
     },
     "YSS": {
       "grade": "C",
       "note": "YoY +10.4% ↓",
       "yoy": 10.4
+    },
+    "XTND": {
+      "grade": null,
+      "note": "売上履歴不足"
     }
   }
 }

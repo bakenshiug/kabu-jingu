@@ -1,3877 +1,2286 @@
 {
-  "generated_at": "2026-09-24T00:15:32.575707+00:00",
-  "generated_jst": "2026-09-24 09:15 JST",
+  "generated_at": "2026-09-25T00:16:35.169558+00:00",
+  "generated_jst": "2026-09-25 09:16 JST",
   "source": "yfinance recommendationKey + targetMeanPrice + EPS surprise",
   "metric": "アナリスト推奨×目標株価×EPSサプライズの合議",
   "seiryu": {
-    "ACN": {
-      "grade": "C",
-      "note": "推奨2.2 / 上昇余地+4% / EPS差+nan% (n=24)",
-      "upside": 4.4,
-      "rec_mean": 2.22222,
-      "n_analysts": 24
-    },
-    "ABBV": {
-      "grade": "B",
-      "note": "推奨1.7 / 上昇余地+5% / EPS差+nan% (n=28)",
-      "upside": 5.1,
-      "rec_mean": 1.7,
-      "n_analysts": 28
-    },
-    "AES": {
-      "grade": "C",
-      "note": "推奨3.0 / 上昇余地+1% / EPS差+nan% (n=8)",
-      "upside": 1.3,
-      "rec_mean": 3.0,
-      "n_analysts": 8
-    },
-    "AOS": {
-      "grade": "C",
-      "note": "推奨2.5 / 上昇余地+21% / EPS差+nan% (n=11)",
-      "upside": 21.1,
-      "rec_mean": 2.53846,
-      "n_analysts": 11
-    },
-    "AMD": {
-      "grade": "B",
-      "note": "推奨1.5 / 上昇余地+0% / EPS差+nan% (n=50)",
-      "upside": 0.3,
-      "rec_mean": 1.49091,
-      "n_analysts": 50
-    },
     "ADBE": {
-      "grade": "C",
-      "note": "推奨2.8 / 上昇余地+16% / EPS差+nan% (n=33)",
-      "upside": 15.6,
-      "rec_mean": 2.76923,
-      "n_analysts": 33
+      "grade": null,
+      "note": "カバレッジ不足"
+    },
+    "ACN": {
+      "grade": null,
+      "note": "カバレッジ不足"
     },
     "ABT": {
-      "grade": "B",
-      "note": "推奨1.5 / 上昇余地+16% / EPS差+nan% (n=25)",
-      "upside": 16.2,
-      "rec_mean": 1.51852,
-      "n_analysts": 25
+      "grade": null,
+      "note": "カバレッジ不足"
     },
     "MMM": {
-      "grade": "C",
-      "note": "推奨2.2 / 上昇余地+9% / EPS差+nan% (n=17)",
-      "upside": 9.1,
-      "rec_mean": 2.22222,
-      "n_analysts": 17
+      "grade": null,
+      "note": "カバレッジ不足"
     },
-    "AFL": {
-      "grade": "C",
-      "note": "上昇余地+3% / EPS差+nan% (n=15)",
-      "upside": 2.9,
-      "rec_mean": null,
-      "n_analysts": 15
+    "ABBV": {
+      "grade": null,
+      "note": "カバレッジ不足"
     },
-    "ABNB": {
-      "grade": "B",
-      "note": "推奨2.0 / 上昇余地+23% / EPS差+nan% (n=40)",
-      "upside": 23.2,
-      "rec_mean": 2.02222,
-      "n_analysts": 40
+    "AMD": {
+      "grade": null,
+      "note": "カバレッジ不足"
+    },
+    "AES": {
+      "grade": null,
+      "note": "カバレッジ不足"
+    },
+    "AOS": {
+      "grade": null,
+      "note": "カバレッジ不足"
     },
     "ALB": {
-      "grade": "B",
-      "note": "推奨2.0 / 上昇余地+51% / EPS差+nan% (n=20)",
-      "upside": 51.2,
-      "rec_mean": 1.95455,
-      "n_analysts": 20
-    },
-    "ARE": {
-      "grade": "C",
-      "note": "推奨2.9 / 上昇余地+3% / EPS差+nan% (n=14)",
-      "upside": 3.2,
-      "rec_mean": 2.9375,
-      "n_analysts": 14
-    },
-    "A": {
-      "grade": "B",
-      "note": "推奨1.8 / 上昇余地+6% / EPS差+nan% (n=21)",
-      "upside": 6.1,
-      "rec_mean": 1.78261,
-      "n_analysts": 21
-    },
-    "ALGN": {
-      "grade": "B",
-      "note": "推奨1.9 / 上昇余地+41% / EPS差+nan% (n=15)",
-      "upside": 40.8,
-      "rec_mean": 1.94118,
-      "n_analysts": 15
+      "grade": null,
+      "note": "カバレッジ不足"
     },
     "APD": {
-      "grade": "B",
-      "note": "推奨1.8 / 上昇余地+20% / EPS差+nan% (n=19)",
-      "upside": 20.3,
-      "rec_mean": 1.81818,
-      "n_analysts": 19
+      "grade": null,
+      "note": "カバレッジ不足"
+    },
+    "AFL": {
+      "grade": null,
+      "note": "カバレッジ不足"
+    },
+    "ALGN": {
+      "grade": null,
+      "note": "カバレッジ不足"
+    },
+    "ARE": {
+      "grade": null,
+      "note": "カバレッジ不足"
+    },
+    "ABNB": {
+      "grade": null,
+      "note": "カバレッジ不足"
     },
     "AKAM": {
-      "grade": "C",
-      "note": "推奨2.9 / 上昇余地+29% / EPS差+nan% (n=23)",
-      "upside": 29.4,
-      "rec_mean": 2.9,
-      "n_analysts": 23
+      "grade": null,
+      "note": "カバレッジ不足"
+    },
+    "A": {
+      "grade": null,
+      "note": "カバレッジ不足"
     },
     "ALLE": {
-      "grade": "C",
-      "note": "推奨2.3 / 上昇余地+13% / EPS差+nan% (n=11)",
-      "upside": 13.3,
-      "rec_mean": 2.27273,
-      "n_analysts": 11
-    },
-    "GOOG": {
-      "grade": "B",
-      "note": "推奨1.4 / 上昇余地+26% / EPS差+nan% (n=15)",
-      "upside": 26.1,
-      "rec_mean": 1.38333,
-      "n_analysts": 15
-    },
-    "ALL": {
-      "grade": "C",
-      "note": "推奨2.6 / 上昇余地+22% / EPS差+nan% (n=22)",
-      "upside": 22.3,
-      "rec_mean": 2.6,
-      "n_analysts": 22
-    },
-    "GOOGL": {
-      "grade": "B",
-      "note": "推奨1.4 / 上昇余地+27% / EPS差+nan% (n=54)",
-      "upside": 27.1,
-      "rec_mean": 1.37705,
-      "n_analysts": 54
-    },
-    "LNT": {
-      "grade": "B",
-      "note": "推奨1.9 / 上昇余地+23% / EPS差+nan% (n=12)",
-      "upside": 22.5,
-      "rec_mean": 1.92308,
-      "n_analysts": 12
+      "grade": null,
+      "note": "カバレッジ不足"
     },
     "AMZN": {
-      "grade": "A",
-      "note": "推奨1.3 / 上昇余地+32% / EPS差+nan% (n=58)",
-      "upside": 32.1,
-      "rec_mean": 1.32203,
-      "n_analysts": 58
+      "grade": null,
+      "note": "カバレッジ不足"
+    },
+    "LNT": {
+      "grade": null,
+      "note": "カバレッジ不足"
+    },
+    "GOOG": {
+      "grade": null,
+      "note": "カバレッジ不足"
+    },
+    "GOOGL": {
+      "grade": null,
+      "note": "カバレッジ不足"
+    },
+    "ALL": {
+      "grade": null,
+      "note": "カバレッジ不足"
     },
     "MO": {
-      "grade": "C",
-      "note": "推奨2.6 / 上昇余地+2% / EPS差+nan% (n=11)",
-      "upside": 1.5,
-      "rec_mean": 2.64286,
-      "n_analysts": 11
+      "grade": null,
+      "note": "カバレッジ不足"
     },
     "AMCR": {
-      "grade": "B",
-      "note": "推奨2.1 / 上昇余地+17% / EPS差+nan% (n=12)",
-      "upside": 17.2,
-      "rec_mean": 2.07143,
-      "n_analysts": 12
+      "grade": null,
+      "note": "カバレッジ不足"
     },
     "AEE": {
-      "grade": "B",
-      "note": "推奨1.8 / 上昇余地+20% / EPS差+nan% (n=15)",
-      "upside": 20.3,
-      "rec_mean": 1.8125,
-      "n_analysts": 15
+      "grade": null,
+      "note": "カバレッジ不足"
     },
     "AMT": {
-      "grade": "B",
-      "note": "推奨1.5 / 上昇余地+26% / EPS差+nan% (n=23)",
-      "upside": 26.3,
-      "rec_mean": 1.52,
-      "n_analysts": 23
+      "grade": null,
+      "note": "カバレッジ不足"
     },
     "AWK": {
-      "grade": "C",
-      "note": "推奨2.6 / 上昇余地+6% / EPS差+nan% (n=11)",
-      "upside": 6.3,
-      "rec_mean": 2.61538,
-      "n_analysts": 11
+      "grade": null,
+      "note": "カバレッジ不足"
     },
     "AIG": {
-      "grade": "C",
-      "note": "推奨2.3 / 上昇余地+17% / EPS差+nan% (n=20)",
-      "upside": 17.0,
-      "rec_mean": 2.31818,
-      "n_analysts": 20
-    },
-    "AMP": {
-      "grade": "C",
-      "note": "推奨2.5 / 上昇余地+15% / EPS差+nan% (n=11)",
-      "upside": 15.2,
-      "rec_mean": 2.5,
-      "n_analysts": 11
-    },
-    "AEP": {
-      "grade": "B",
-      "note": "推奨2.0 / 上昇余地+21% / EPS差+nan% (n=20)",
-      "upside": 21.0,
-      "rec_mean": 2.0,
-      "n_analysts": 20
-    },
-    "AXP": {
-      "grade": "B",
-      "note": "推奨2.2 / 上昇余地+25% / EPS差+nan% (n=24)",
-      "upside": 25.3,
-      "rec_mean": 2.2069,
-      "n_analysts": 24
+      "grade": null,
+      "note": "カバレッジ不足"
     },
     "AME": {
-      "grade": "B",
-      "note": "推奨1.8 / 上昇余地+13% / EPS差+nan% (n=18)",
-      "upside": 12.9,
-      "rec_mean": 1.75,
-      "n_analysts": 18
+      "grade": null,
+      "note": "カバレッジ不足"
+    },
+    "AEP": {
+      "grade": null,
+      "note": "カバレッジ不足"
+    },
+    "AXP": {
+      "grade": null,
+      "note": "カバレッジ不足"
+    },
+    "AMP": {
+      "grade": null,
+      "note": "カバレッジ不足"
     },
     "AMGN": {
-      "grade": "D",
-      "note": "推奨2.6 / 上昇余地-4% / EPS差+nan% (n=29)",
-      "upside": -4.2,
-      "rec_mean": 2.58824,
-      "n_analysts": 29
-    },
-    "APH": {
-      "grade": "B",
-      "note": "推奨1.4 / 上昇余地+21% / EPS差+nan% (n=18)",
-      "upside": 20.9,
-      "rec_mean": 1.44444,
-      "n_analysts": 18
-    },
-    "AON": {
-      "grade": "B",
-      "note": "推奨2.1 / 上昇余地+36% / EPS差+nan% (n=19)",
-      "upside": 36.3,
-      "rec_mean": 2.14286,
-      "n_analysts": 19
+      "grade": null,
+      "note": "カバレッジ不足"
     },
     "ADI": {
-      "grade": "B",
-      "note": "推奨1.4 / 上昇余地+22% / EPS差+nan% (n=32)",
-      "upside": 22.2,
-      "rec_mean": 1.38235,
-      "n_analysts": 32
+      "grade": null,
+      "note": "カバレッジ不足"
     },
     "AMAT": {
-      "grade": "A",
-      "note": "推奨1.5 / 上昇余地+35% / EPS差+nan% (n=35)",
-      "upside": 35.1,
-      "rec_mean": 1.46154,
-      "n_analysts": 35
+      "grade": null,
+      "note": "カバレッジ不足"
+    },
+    "APH": {
+      "grade": null,
+      "note": "カバレッジ不足"
+    },
+    "AON": {
+      "grade": null,
+      "note": "カバレッジ不足"
     },
     "APA": {
-      "grade": "C",
-      "note": "推奨2.6 / 上昇余地+5% / EPS差+nan% (n=25)",
-      "upside": 5.2,
-      "rec_mean": 2.55556,
-      "n_analysts": 25
+      "grade": null,
+      "note": "カバレッジ不足"
     },
     "AAPL": {
-      "grade": "C",
-      "note": "推奨2.2 / 上昇余地-3% / EPS差+nan% (n=39)",
-      "upside": -2.6,
-      "rec_mean": 2.20455,
-      "n_analysts": 39
+      "grade": null,
+      "note": "カバレッジ不足"
     },
     "APO": {
-      "grade": "B",
-      "note": "推奨1.8 / 上昇余地+23% / EPS差+nan% (n=19)",
-      "upside": 23.4,
-      "rec_mean": 1.7619,
-      "n_analysts": 19
+      "grade": null,
+      "note": "カバレッジ不足"
     },
     "APP": {
-      "grade": "A",
-      "note": "推奨1.6 / 上昇余地+58% / EPS差+nan% (n=31)",
-      "upside": 58.1,
-      "rec_mean": 1.57576,
-      "n_analysts": 31
+      "grade": null,
+      "note": "カバレッジ不足"
     },
     "APTV": {
-      "grade": "A",
-      "note": "推奨1.6 / 上昇余地+47% / EPS差+nan% (n=18)",
-      "upside": 47.5,
-      "rec_mean": 1.65,
-      "n_analysts": 18
-    },
-    "ADM": {
-      "grade": "D",
-      "note": "推奨3.0 / 上昇余地-2% / EPS差+nan% (n=10)",
-      "upside": -2.1,
-      "rec_mean": 3.0,
-      "n_analysts": 10
-    },
-    "ACGL": {
-      "grade": "B",
-      "note": "推奨2.2 / 上昇余地+17% / EPS差+nan% (n=19)",
-      "upside": 17.3,
-      "rec_mean": 2.25,
-      "n_analysts": 19
-    },
-    "ANET": {
-      "grade": "B",
-      "note": "推奨1.3 / 上昇余地+19% / EPS差+nan% (n=28)",
-      "upside": 18.9,
-      "rec_mean": 1.29032,
-      "n_analysts": 28
-    },
-    "T": {
-      "grade": "C",
-      "note": "推奨2.0 / 上昇余地+15% / EPS差+nan% (n=24)",
-      "upside": 14.7,
-      "rec_mean": 2.0,
-      "n_analysts": 24
-    },
-    "AIZ": {
-      "grade": "B",
-      "note": "推奨1.4 / 上昇余地+24% / EPS差+nan% (n=6)",
-      "upside": 23.6,
-      "rec_mean": 1.42857,
-      "n_analysts": 6
-    },
-    "ARES": {
-      "grade": "B",
-      "note": "推奨2.0 / 上昇余地+22% / EPS差+nan% (n=18)",
-      "upside": 21.6,
-      "rec_mean": 2.0,
-      "n_analysts": 18
-    },
-    "ATO": {
-      "grade": "C",
-      "note": "推奨2.7 / 上昇余地+19% / EPS差+nan% (n=11)",
-      "upside": 18.8,
-      "rec_mean": 2.71429,
-      "n_analysts": 11
+      "grade": null,
+      "note": "カバレッジ不足"
     },
     "AJG": {
-      "grade": "B",
-      "note": "推奨1.7 / 上昇余地+27% / EPS差+nan% (n=18)",
-      "upside": 26.8,
-      "rec_mean": 1.72727,
-      "n_analysts": 18
+      "grade": null,
+      "note": "カバレッジ不足"
     },
-    "ADSK": {
-      "grade": "A",
-      "note": "推奨1.5 / 上昇余地+44% / EPS差+nan% (n=35)",
-      "upside": 44.1,
-      "rec_mean": 1.51351,
-      "n_analysts": 35
+    "ADM": {
+      "grade": null,
+      "note": "カバレッジ不足"
     },
-    "ADP": {
-      "grade": "C",
-      "note": "推奨2.7 / 上昇余地+9% / EPS差+nan% (n=15)",
-      "upside": 9.1,
-      "rec_mean": 2.72222,
-      "n_analysts": 15
+    "ARES": {
+      "grade": null,
+      "note": "カバレッジ不足"
     },
-    "BKR": {
-      "grade": "B",
-      "note": "推奨1.7 / 上昇余地+25% / EPS差+nan% (n=23)",
-      "upside": 24.6,
-      "rec_mean": 1.70833,
-      "n_analysts": 23
+    "ANET": {
+      "grade": null,
+      "note": "カバレッジ不足"
     },
-    "AZO": {
-      "grade": "A",
-      "note": "推奨1.5 / 上昇余地+31% / EPS差+nan% (n=23)",
-      "upside": 31.1,
-      "rec_mean": 1.48148,
-      "n_analysts": 23
+    "AIZ": {
+      "grade": null,
+      "note": "カバレッジ不足"
     },
-    "BAX": {
-      "grade": "C",
-      "note": "推奨2.7 / 上昇余地+22% / EPS差+nan% (n=11)",
-      "upside": 22.3,
-      "rec_mean": 2.69231,
-      "n_analysts": 11
+    "ACGL": {
+      "grade": null,
+      "note": "カバレッジ不足"
     },
-    "BALL": {
-      "grade": "B",
-      "note": "推奨0.0 / 上昇余地+23% / EPS差+nan% (n=14)",
-      "upside": 23.4,
-      "rec_mean": 0.0,
-      "n_analysts": 14
+    "T": {
+      "grade": null,
+      "note": "カバレッジ不足"
     },
-    "AVY": {
-      "grade": "B",
-      "note": "推奨1.5 / 上昇余地+17% / EPS差+nan% (n=10)",
-      "upside": 16.9,
-      "rec_mean": 1.54545,
-      "n_analysts": 10
+    "ATO": {
+      "grade": null,
+      "note": "カバレッジ不足"
     },
     "AXON": {
-      "grade": "A",
-      "note": "推奨1.7 / 上昇余地+56% / EPS差+nan% (n=19)",
-      "upside": 56.3,
-      "rec_mean": 1.66667,
-      "n_analysts": 19
+      "grade": null,
+      "note": "カバレッジ不足"
+    },
+    "AVY": {
+      "grade": null,
+      "note": "カバレッジ不足"
+    },
+    "BKR": {
+      "grade": null,
+      "note": "カバレッジ不足"
+    },
+    "ADSK": {
+      "grade": null,
+      "note": "カバレッジ不足"
+    },
+    "ADP": {
+      "grade": null,
+      "note": "カバレッジ不足"
+    },
+    "AZO": {
+      "grade": null,
+      "note": "カバレッジ不足"
+    },
+    "BALL": {
+      "grade": null,
+      "note": "カバレッジ不足"
     },
     "BAC": {
-      "grade": "B",
-      "note": "推奨1.5 / 上昇余地+23% / EPS差+nan% (n=21)",
-      "upside": 22.9,
-      "rec_mean": 1.5,
-      "n_analysts": 21
+      "grade": null,
+      "note": "カバレッジ不足"
+    },
+    "BAX": {
+      "grade": null,
+      "note": "カバレッジ不足"
     },
     "BDX": {
-      "grade": "C",
-      "note": "推奨2.1 / 上昇余地+7% / EPS差+nan% (n=12)",
-      "upside": 7.2,
-      "rec_mean": 2.07143,
-      "n_analysts": 12
-    },
-    "BRK-B": {
-      "grade": "C",
-      "note": "推奨2.0 / 上昇余地+8% / EPS差+nan% (n=3)",
-      "upside": 8.0,
-      "rec_mean": 2.0,
-      "n_analysts": 3
-    },
-    "BE": {
-      "grade": "C",
-      "note": "推奨2.2 / 上昇余地+2% / EPS差+nan% (n=26)",
-      "upside": 1.8,
-      "rec_mean": 2.24138,
-      "n_analysts": 26
-    },
-    "BIIB": {
-      "grade": "C",
-      "note": "推奨1.9 / 上昇余地+5% / EPS差+nan% (n=31)",
-      "upside": 4.7,
-      "rec_mean": 1.88571,
-      "n_analysts": 31
-    },
-    "BX": {
-      "grade": "B",
-      "note": "推奨2.1 / 上昇余地+21% / EPS差+nan% (n=21)",
-      "upside": 21.1,
-      "rec_mean": 2.08696,
-      "n_analysts": 21
+      "grade": null,
+      "note": "カバレッジ不足"
     },
     "TECH": {
-      "grade": "D",
-      "note": "上昇余地-2% / EPS差+nan% (n=11)",
-      "upside": -2.5,
-      "rec_mean": null,
-      "n_analysts": 11
+      "grade": null,
+      "note": "カバレッジ不足"
     },
     "BBY": {
-      "grade": "D",
-      "note": "推奨2.8 / 上昇余地-5% / EPS差+nan% (n=20)",
-      "upside": -4.5,
-      "rec_mean": 2.8,
-      "n_analysts": 20
+      "grade": null,
+      "note": "カバレッジ不足"
     },
-    "XYZ": {
-      "grade": "A",
-      "note": "推奨1.6 / 上昇余地+32% / EPS差+nan% (n=42)",
-      "upside": 31.6,
-      "rec_mean": 1.55319,
-      "n_analysts": 42
+    "BRK-B": {
+      "grade": null,
+      "note": "カバレッジ不足"
     },
     "BLK": {
-      "grade": "B",
-      "note": "推奨1.5 / 上昇余地+25% / EPS差+nan% (n=16)",
-      "upside": 24.7,
-      "rec_mean": 1.47059,
-      "n_analysts": 16
+      "grade": null,
+      "note": "カバレッジ不足"
     },
-    "BNY": {
-      "grade": "C",
-      "note": "推奨2.1 / 上昇余地+12% / EPS差+nan% (n=14)",
-      "upside": 12.2,
-      "rec_mean": 2.125,
-      "n_analysts": 14
+    "BIIB": {
+      "grade": null,
+      "note": "カバレッジ不足"
     },
-    "BRO": {
-      "grade": "C",
-      "note": "推奨2.8 / 上昇余地+24% / EPS差+nan% (n=16)",
-      "upside": 24.0,
-      "rec_mean": 2.78947,
-      "n_analysts": 16
+    "BX": {
+      "grade": null,
+      "note": "カバレッジ不足"
+    },
+    "XYZ": {
+      "grade": null,
+      "note": "カバレッジ不足"
+    },
+    "BE": {
+      "grade": null,
+      "note": "カバレッジ不足"
     },
     "BKNG": {
-      "grade": "A",
-      "note": "推奨1.5 / 上昇余地+53% / EPS差+nan% (n=37)",
-      "upside": 53.2,
-      "rec_mean": 1.51282,
-      "n_analysts": 37
+      "grade": null,
+      "note": "カバレッジ不足"
+    },
+    "BNY": {
+      "grade": null,
+      "note": "カバレッジ不足"
     },
     "BA": {
-      "grade": "A",
-      "note": "推奨1.5 / 上昇余地+37% / EPS差+nan% (n=26)",
-      "upside": 36.9,
-      "rec_mean": 1.48148,
-      "n_analysts": 26
-    },
-    "BSX": {
-      "grade": "A",
-      "note": "推奨1.6 / 上昇余地+37% / EPS差+nan% (n=29)",
-      "upside": 36.9,
-      "rec_mean": 1.64516,
-      "n_analysts": 29
-    },
-    "AVGO": {
-      "grade": "A",
-      "note": "推奨1.3 / 上昇余地+50% / EPS差+nan% (n=47)",
-      "upside": 49.8,
-      "rec_mean": 1.26,
-      "n_analysts": 47
-    },
-    "BR": {
-      "grade": "B",
-      "note": "推奨2.3 / 上昇余地+31% / EPS差+nan% (n=8)",
-      "upside": 30.5,
-      "rec_mean": 2.33333,
-      "n_analysts": 8
+      "grade": null,
+      "note": "カバレッジ不足"
     },
     "BMY": {
-      "grade": "C",
-      "note": "推奨2.5 / 上昇余地+9% / EPS差+nan% (n=24)",
-      "upside": 9.1,
-      "rec_mean": 2.46429,
-      "n_analysts": 24
+      "grade": null,
+      "note": "カバレッジ不足"
+    },
+    "BSX": {
+      "grade": null,
+      "note": "カバレッジ不足"
+    },
+    "AVGO": {
+      "grade": null,
+      "note": "カバレッジ不足"
+    },
+    "BR": {
+      "grade": null,
+      "note": "カバレッジ不足"
     },
     "BF-B": {
-      "grade": "C",
-      "note": "推奨3.2 / 上昇余地+7% / EPS差+nan% (n=17)",
-      "upside": 7.5,
-      "rec_mean": 3.16667,
-      "n_analysts": 17
+      "grade": null,
+      "note": "カバレッジ不足"
     },
-    "BG": {
-      "grade": "B",
-      "note": "推奨1.6 / 上昇余地+27% / EPS差+nan% (n=9)",
-      "upside": 27.2,
-      "rec_mean": 1.55556,
-      "n_analysts": 9
-    },
-    "CPT": {
-      "grade": "C",
-      "note": "推奨2.6 / 上昇余地+19% / EPS差+nan% (n=22)",
-      "upside": 18.9,
-      "rec_mean": 2.58333,
-      "n_analysts": 22
-    },
-    "COF": {
-      "grade": "A",
-      "note": "推奨1.6 / 上昇余地+32% / EPS差+nan% (n=21)",
-      "upside": 32.0,
-      "rec_mean": 1.56522,
-      "n_analysts": 21
-    },
-    "CDNS": {
-      "grade": "A",
-      "note": "推奨1.4 / 上昇余地+31% / EPS差+nan% (n=27)",
-      "upside": 30.5,
-      "rec_mean": 1.38462,
-      "n_analysts": 27
-    },
-    "BXP": {
-      "grade": "B",
-      "note": "推奨2.1 / 上昇余地+22% / EPS差+nan% (n=20)",
-      "upside": 22.4,
-      "rec_mean": 2.13636,
-      "n_analysts": 20
-    },
-    "CCL": {
-      "grade": "A",
-      "note": "推奨1.6 / 上昇余地+58% / EPS差+nan% (n=26)",
-      "upside": 58.2,
-      "rec_mean": 1.58621,
-      "n_analysts": 26
+    "BRO": {
+      "grade": null,
+      "note": "カバレッジ不足"
     },
     "CHRW": {
-      "grade": "A",
-      "note": "推奨1.8 / 上昇余地+33% / EPS差+nan% (n=25)",
-      "upside": 33.2,
-      "rec_mean": 1.76,
-      "n_analysts": 25
+      "grade": null,
+      "note": "カバレッジ不足"
+    },
+    "BG": {
+      "grade": null,
+      "note": "カバレッジ不足"
+    },
+    "BXP": {
+      "grade": null,
+      "note": "カバレッジ不足"
+    },
+    "CDNS": {
+      "grade": null,
+      "note": "カバレッジ不足"
+    },
+    "CPT": {
+      "grade": null,
+      "note": "カバレッジ不足"
+    },
+    "COF": {
+      "grade": null,
+      "note": "カバレッジ不足"
     },
     "CAH": {
-      "grade": "B",
-      "note": "推奨1.5 / 上昇余地+22% / EPS差+nan% (n=16)",
-      "upside": 22.4,
-      "rec_mean": 1.5,
-      "n_analysts": 16
-    },
-    "CARR": {
-      "grade": "B",
-      "note": "推奨1.9 / 上昇余地+41% / EPS差+nan% (n=21)",
-      "upside": 40.9,
-      "rec_mean": 1.91667,
-      "n_analysts": 21
-    },
-    "CVNA": {
-      "grade": "B",
-      "note": "推奨2.0 / 上昇余地+30% / EPS差+nan% (n=20)",
-      "upside": 29.7,
-      "rec_mean": 2.0,
-      "n_analysts": 20
-    },
-    "CBOE": {
-      "grade": "C",
-      "note": "推奨3.1 / 上昇余地+17% / EPS差+nan% (n=14)",
-      "upside": 17.4,
-      "rec_mean": 3.05882,
-      "n_analysts": 14
-    },
-    "COR": {
-      "grade": "B",
-      "note": "推奨1.7 / 上昇余地+18% / EPS差+nan% (n=13)",
-      "upside": 18.3,
-      "rec_mean": 1.66667,
-      "n_analysts": 13
+      "grade": null,
+      "note": "カバレッジ不足"
     },
     "CAT": {
-      "grade": "B",
-      "note": "推奨2.1 / 上昇余地+20% / EPS差+nan% (n=26)",
-      "upside": 20.1,
-      "rec_mean": 2.14286,
-      "n_analysts": 26
+      "grade": null,
+      "note": "カバレッジ不足"
     },
-    "CBRE": {
-      "grade": "A",
-      "note": "推奨1.4 / 上昇余地+34% / EPS差+nan% (n=12)",
-      "upside": 34.1,
-      "rec_mean": 1.41667,
-      "n_analysts": 12
+    "CCL": {
+      "grade": null,
+      "note": "カバレッジ不足"
+    },
+    "CARR": {
+      "grade": null,
+      "note": "カバレッジ不足"
+    },
+    "CVNA": {
+      "grade": null,
+      "note": "カバレッジ不足"
     },
     "CASY": {
-      "grade": "B",
-      "note": "推奨2.5 / 上昇余地+32% / EPS差+nan% (n=19)",
-      "upside": 32.3,
-      "rec_mean": 2.5,
-      "n_analysts": 19
+      "grade": null,
+      "note": "カバレッジ不足"
+    },
+    "CBOE": {
+      "grade": null,
+      "note": "カバレッジ不足"
+    },
+    "CBRE": {
+      "grade": null,
+      "note": "カバレッジ不足"
     },
     "CDW": {
-      "grade": "B",
-      "note": "推奨1.8 / 上昇余地+9% / EPS差+nan% (n=9)",
-      "upside": 8.6,
-      "rec_mean": 1.8,
-      "n_analysts": 9
-    },
-    "CNC": {
-      "grade": "C",
-      "note": "推奨2.4 / 上昇余地+16% / EPS差+nan% (n=18)",
-      "upside": 15.6,
-      "rec_mean": 2.38095,
-      "n_analysts": 18
-    },
-    "CNP": {
-      "grade": "B",
-      "note": "推奨2.2 / 上昇余地+22% / EPS差+nan% (n=17)",
-      "upside": 22.0,
-      "rec_mean": 2.16667,
-      "n_analysts": 17
+      "grade": null,
+      "note": "カバレッジ不足"
     },
     "CRL": {
-      "grade": "B",
-      "note": "推奨1.7 / 上昇余地+3% / EPS差+nan% (n=15)",
-      "upside": 2.7,
-      "rec_mean": 1.70588,
-      "n_analysts": 15
+      "grade": null,
+      "note": "カバレッジ不足"
     },
-    "CVX": {
-      "grade": "B",
-      "note": "推奨1.7 / 上昇余地+8% / EPS差+nan% (n=24)",
-      "upside": 8.1,
-      "rec_mean": 1.72,
-      "n_analysts": 24
+    "CNP": {
+      "grade": null,
+      "note": "カバレッジ不足"
     },
-    "CMG": {
-      "grade": "A",
-      "note": "推奨1.8 / 上昇余地+34% / EPS差+nan% (n=32)",
-      "upside": 34.1,
-      "rec_mean": 1.77778,
-      "n_analysts": 32
+    "CNC": {
+      "grade": null,
+      "note": "カバレッジ不足"
+    },
+    "COR": {
+      "grade": null,
+      "note": "カバレッジ不足"
     },
     "SCHW": {
-      "grade": "B",
-      "note": "推奨1.7 / 上昇余地+26% / EPS差+nan% (n=20)",
-      "upside": 26.1,
-      "rec_mean": 1.72727,
-      "n_analysts": 20
-    },
-    "CHTR": {
-      "grade": "B",
-      "note": "推奨3.0 / 上昇余地+54% / EPS差+nan% (n=19)",
-      "upside": 53.6,
-      "rec_mean": 3.0,
-      "n_analysts": 19
+      "grade": null,
+      "note": "カバレッジ不足"
     },
     "CF": {
-      "grade": "C",
-      "note": "推奨3.0 / 上昇余地+4% / EPS差+nan% (n=19)",
-      "upside": 3.8,
-      "rec_mean": 3.04762,
-      "n_analysts": 19
+      "grade": null,
+      "note": "カバレッジ不足"
     },
-    "CB": {
-      "grade": "C",
-      "note": "推奨2.4 / 上昇余地+9% / EPS差+nan% (n=23)",
-      "upside": 9.2,
-      "rec_mean": 2.44,
-      "n_analysts": 23
+    "CHTR": {
+      "grade": null,
+      "note": "カバレッジ不足"
     },
-    "CHD": {
-      "grade": "C",
-      "note": "推奨2.2 / 上昇余地+9% / EPS差+nan% (n=19)",
-      "upside": 9.5,
-      "rec_mean": 2.2381,
-      "n_analysts": 19
+    "CVX": {
+      "grade": null,
+      "note": "カバレッジ不足"
     },
     "CI": {
-      "grade": "B",
-      "note": "推奨1.7 / 上昇余地+26% / EPS差+nan% (n=25)",
-      "upside": 26.5,
-      "rec_mean": 1.72,
-      "n_analysts": 25
+      "grade": null,
+      "note": "カバレッジ不足"
+    },
+    "CB": {
+      "grade": null,
+      "note": "カバレッジ不足"
+    },
+    "CMG": {
+      "grade": null,
+      "note": "カバレッジ不足"
     },
     "CIEN": {
-      "grade": "A",
-      "note": "推奨1.8 / 上昇余地+45% / EPS差+nan% (n=19)",
-      "upside": 45.2,
-      "rec_mean": 1.75,
-      "n_analysts": 19
-    },
-    "CTAS": {
-      "grade": "B",
-      "note": "推奨2.2 / 上昇余地+13% / EPS差+0% (n=16)",
-      "upside": 12.8,
-      "rec_mean": 2.2,
-      "n_analysts": 16
+      "grade": null,
+      "note": "カバレッジ不足"
     },
     "CINF": {
-      "grade": "C",
-      "note": "上昇余地+18% / EPS差+nan% (n=6)",
-      "upside": 17.9,
-      "rec_mean": null,
-      "n_analysts": 6
+      "grade": null,
+      "note": "カバレッジ不足"
     },
-    "CSCO": {
-      "grade": "B",
-      "note": "推奨1.8 / 上昇余地+29% / EPS差+nan% (n=24)",
-      "upside": 29.0,
-      "rec_mean": 1.82143,
-      "n_analysts": 24
+    "CHD": {
+      "grade": null,
+      "note": "カバレッジ不足"
+    },
+    "CTAS": {
+      "grade": null,
+      "note": "カバレッジ不足"
     },
     "C": {
-      "grade": "B",
-      "note": "推奨1.7 / 上昇余地+17% / EPS差+nan% (n=20)",
-      "upside": 17.3,
-      "rec_mean": 1.68182,
-      "n_analysts": 20
+      "grade": null,
+      "note": "カバレッジ不足"
+    },
+    "CSCO": {
+      "grade": null,
+      "note": "カバレッジ不足"
     },
     "CLX": {
-      "grade": "C",
-      "note": "推奨3.2 / 上昇余地+20% / EPS差+nan% (n=17)",
-      "upside": 20.0,
-      "rec_mean": 3.21053,
-      "n_analysts": 17
-    },
-    "CFG": {
-      "grade": "B",
-      "note": "推奨1.6 / 上昇余地+26% / EPS差+nan% (n=17)",
-      "upside": 25.8,
-      "rec_mean": 1.61111,
-      "n_analysts": 17
+      "grade": null,
+      "note": "カバレッジ不足"
     },
     "CME": {
-      "grade": "C",
-      "note": "推奨2.6 / 上昇余地+5% / EPS差+nan% (n=15)",
-      "upside": 4.7,
-      "rec_mean": 2.625,
-      "n_analysts": 15
-    },
-    "CMS": {
-      "grade": "B",
-      "note": "推奨2.3 / 上昇余地+25% / EPS差+nan% (n=12)",
-      "upside": 24.6,
-      "rec_mean": 2.26667,
-      "n_analysts": 12
-    },
-    "CTSH": {
-      "grade": "C",
-      "note": "推奨2.2 / 上昇余地+9% / EPS差+nan% (n=25)",
-      "upside": 8.9,
-      "rec_mean": 2.2069,
-      "n_analysts": 25
-    },
-    "CL": {
-      "grade": "C",
-      "note": "推奨2.0 / 上昇余地+15% / EPS差+nan% (n=20)",
-      "upside": 15.0,
-      "rec_mean": 2.04762,
-      "n_analysts": 20
-    },
-    "COHR": {
-      "grade": "A",
-      "note": "推奨1.6 / 上昇余地+38% / EPS差+nan% (n=22)",
-      "upside": 38.2,
-      "rec_mean": 1.6087,
-      "n_analysts": 22
-    },
-    "COIN": {
-      "grade": "C",
-      "note": "推奨2.0 / 上昇余地+3% / EPS差+nan% (n=30)",
-      "upside": 2.8,
-      "rec_mean": 1.97143,
-      "n_analysts": 30
+      "grade": null,
+      "note": "カバレッジ不足"
     },
     "KO": {
-      "grade": "B",
-      "note": "推奨1.8 / 上昇余地+7% / EPS差+nan% (n=23)",
-      "upside": 7.5,
-      "rec_mean": 1.75,
-      "n_analysts": 23
+      "grade": null,
+      "note": "カバレッジ不足"
     },
-    "CMCSA": {
-      "grade": "B",
-      "note": "推奨2.6 / 上昇余地+32% / EPS差+nan% (n=22)",
-      "upside": 32.0,
-      "rec_mean": 2.57143,
-      "n_analysts": 22
+    "CFG": {
+      "grade": null,
+      "note": "カバレッジ不足"
+    },
+    "CMS": {
+      "grade": null,
+      "note": "カバレッジ不足"
+    },
+    "CTSH": {
+      "grade": null,
+      "note": "カバレッジ不足"
+    },
+    "CL": {
+      "grade": null,
+      "note": "カバレッジ不足"
+    },
+    "COHR": {
+      "grade": null,
+      "note": "カバレッジ不足"
     },
     "FIX": {
-      "grade": "B",
-      "note": "上昇余地+35% / EPS差+nan% (n=8)",
-      "upside": 35.1,
-      "rec_mean": null,
-      "n_analysts": 8
+      "grade": null,
+      "note": "カバレッジ不足"
+    },
+    "CMCSA": {
+      "grade": null,
+      "note": "カバレッジ不足"
+    },
+    "COIN": {
+      "grade": null,
+      "note": "カバレッジ不足"
     },
     "COP": {
-      "grade": "B",
-      "note": "推奨1.7 / 上昇余地+14% / EPS差+nan% (n=25)",
-      "upside": 14.0,
-      "rec_mean": 1.74074,
-      "n_analysts": 25
+      "grade": null,
+      "note": "カバレッジ不足"
     },
     "ED": {
-      "grade": "D",
-      "note": "推奨3.3 / 上昇余地+7% / EPS差+nan% (n=16)",
-      "upside": 7.2,
-      "rec_mean": 3.27778,
-      "n_analysts": 16
-    },
-    "CEG": {
-      "grade": "A",
-      "note": "推奨1.5 / 上昇余地+32% / EPS差+nan% (n=20)",
-      "upside": 32.1,
-      "rec_mean": 1.54545,
-      "n_analysts": 20
+      "grade": null,
+      "note": "カバレッジ不足"
     },
     "STZ": {
-      "grade": "B",
-      "note": "推奨2.0 / 上昇余地+42% / EPS差+nan% (n=23)",
-      "upside": 42.0,
-      "rec_mean": 2.04167,
-      "n_analysts": 23
+      "grade": null,
+      "note": "カバレッジ不足"
     },
-    "GLW": {
-      "grade": "B",
-      "note": "推奨1.5 / 上昇余地+25% / EPS差+nan% (n=16)",
-      "upside": 24.6,
-      "rec_mean": 1.47059,
-      "n_analysts": 16
-    },
-    "CPRT": {
-      "grade": "B",
-      "note": "推奨2.2 / 上昇余地+34% / EPS差+nan% (n=10)",
-      "upside": 34.1,
-      "rec_mean": 2.25,
-      "n_analysts": 10
-    },
-    "CTVA": {
-      "grade": "B",
-      "note": "推奨1.8 / 上昇余地+15% / EPS差+nan% (n=20)",
-      "upside": 15.1,
-      "rec_mean": 1.7619,
-      "n_analysts": 20
-    },
-    "CPAY": {
-      "grade": "B",
-      "note": "推奨1.7 / 上昇余地+17% / EPS差+nan% (n=15)",
-      "upside": 16.7,
-      "rec_mean": 1.6875,
-      "n_analysts": 15
+    "CEG": {
+      "grade": null,
+      "note": "カバレッジ不足"
     },
     "COO": {
-      "grade": "C",
-      "note": "推奨2.5 / 上昇余地+18% / EPS差+nan% (n=14)",
-      "upside": 18.1,
-      "rec_mean": 2.5,
-      "n_analysts": 14
+      "grade": null,
+      "note": "カバレッジ不足"
+    },
+    "CPRT": {
+      "grade": null,
+      "note": "カバレッジ不足"
+    },
+    "CPAY": {
+      "grade": null,
+      "note": "カバレッジ不足"
+    },
+    "GLW": {
+      "grade": null,
+      "note": "カバレッジ不足"
+    },
+    "CTVA": {
+      "grade": null,
+      "note": "カバレッジ不足"
     },
     "CSGP": {
-      "grade": "B",
-      "note": "推奨2.1 / 上昇余地+32% / EPS差+nan% (n=20)",
-      "upside": 32.0,
-      "rec_mean": 2.09524,
-      "n_analysts": 20
+      "grade": null,
+      "note": "カバレッジ不足"
     },
     "COST": {
-      "grade": "B",
-      "note": "推奨1.9 / 上昇余地+18% / EPS差+nan% (n=35)",
-      "upside": 18.2,
-      "rec_mean": 1.94872,
-      "n_analysts": 35
+      "grade": null,
+      "note": "カバレッジ不足"
     },
     "CRH": {
-      "grade": "A",
-      "note": "推奨1.3 / 上昇余地+58% / EPS差+nan% (n=24)",
-      "upside": 57.6,
-      "rec_mean": 1.30435,
-      "n_analysts": 24
-    },
-    "CSX": {
-      "grade": "C",
-      "note": "推奨1.9 / 上昇余地+13% / EPS差+nan% (n=23)",
-      "upside": 12.5,
-      "rec_mean": 1.92,
-      "n_analysts": 23
-    },
-    "CMI": {
-      "grade": "B",
-      "note": "上昇余地+43% / EPS差+nan% (n=20)",
-      "upside": 43.4,
-      "rec_mean": null,
-      "n_analysts": 20
-    },
-    "DHR": {
-      "grade": "B",
-      "note": "推奨1.5 / 上昇余地+4% / EPS差+nan% (n=23)",
-      "upside": 4.2,
-      "rec_mean": 1.5,
-      "n_analysts": 23
-    },
-    "CVS": {
-      "grade": "A",
-      "note": "推奨1.4 / 上昇余地+35% / EPS差+nan% (n=25)",
-      "upside": 35.4,
-      "rec_mean": 1.40741,
-      "n_analysts": 25
-    },
-    "CRWD": {
-      "grade": "C",
-      "note": "推奨1.7 / 上昇余地-10% / EPS差+nan% (n=50)",
-      "upside": -10.2,
-      "rec_mean": 1.69811,
-      "n_analysts": 50
+      "grade": null,
+      "note": "カバレッジ不足"
     },
     "CCI": {
-      "grade": "B",
-      "note": "推奨2.1 / 上昇余地+34% / EPS差+nan% (n=21)",
-      "upside": 34.3,
-      "rec_mean": 2.13043,
-      "n_analysts": 21
+      "grade": null,
+      "note": "カバレッジ不足"
+    },
+    "CRWD": {
+      "grade": null,
+      "note": "カバレッジ不足"
+    },
+    "CMI": {
+      "grade": null,
+      "note": "カバレッジ不足"
     },
     "DRI": {
-      "grade": "C",
-      "note": "推奨1.9 / 上昇余地+9% / EPS差+nan% (n=26)",
-      "upside": 9.0,
-      "rec_mean": 1.89655,
-      "n_analysts": 26
+      "grade": null,
+      "note": "カバレッジ不足"
     },
-    "DDOG": {
-      "grade": "B",
-      "note": "推奨1.5 / 上昇余地+13% / EPS差+nan% (n=46)",
-      "upside": 13.4,
-      "rec_mean": 1.5,
-      "n_analysts": 46
+    "CVS": {
+      "grade": null,
+      "note": "カバレッジ不足"
     },
-    "DE": {
-      "grade": "C",
-      "note": "推奨2.0 / 上昇余地-3% / EPS差+nan% (n=23)",
-      "upside": -3.0,
-      "rec_mean": 1.96,
-      "n_analysts": 23
+    "DHR": {
+      "grade": null,
+      "note": "カバレッジ不足"
     },
-    "DECK": {
-      "grade": "B",
-      "note": "上昇余地+53% / EPS差+nan% (n=22)",
-      "upside": 53.2,
-      "rec_mean": null,
-      "n_analysts": 22
-    },
-    "DELL": {
-      "grade": "C",
-      "note": "推奨1.8 / 上昇余地+5% / EPS差+nan% (n=25)",
-      "upside": 5.0,
-      "rec_mean": 1.82759,
-      "n_analysts": 25
-    },
-    "DAL": {
-      "grade": "B",
-      "note": "推奨1.3 / 上昇余地+27% / EPS差+nan% (n=24)",
-      "upside": 26.5,
-      "rec_mean": 1.32,
-      "n_analysts": 24
-    },
-    "DVN": {
-      "grade": "B",
-      "note": "推奨1.3 / 上昇余地+26% / EPS差+nan% (n=28)",
-      "upside": 25.8,
-      "rec_mean": 1.31034,
-      "n_analysts": 28
+    "CSX": {
+      "grade": null,
+      "note": "カバレッジ不足"
     },
     "DVA": {
-      "grade": "B",
-      "note": "推奨2.3 / 上昇余地+20% / EPS差+nan% (n=7)",
-      "upside": 20.0,
-      "rec_mean": 2.28571,
-      "n_analysts": 7
+      "grade": null,
+      "note": "カバレッジ不足"
+    },
+    "DECK": {
+      "grade": null,
+      "note": "カバレッジ不足"
+    },
+    "DDOG": {
+      "grade": null,
+      "note": "カバレッジ不足"
+    },
+    "DELL": {
+      "grade": null,
+      "note": "カバレッジ不足"
+    },
+    "DVN": {
+      "grade": null,
+      "note": "カバレッジ不足"
+    },
+    "DE": {
+      "grade": null,
+      "note": "カバレッジ不足"
     },
     "DXCM": {
-      "grade": "B",
-      "note": "推奨1.3 / 上昇余地+8% / EPS差+nan% (n=25)",
-      "upside": 7.7,
-      "rec_mean": 1.32143,
-      "n_analysts": 25
+      "grade": null,
+      "note": "カバレッジ不足"
+    },
+    "DAL": {
+      "grade": null,
+      "note": "カバレッジ不足"
     },
     "FANG": {
-      "grade": "B",
-      "note": "推奨1.5 / 上昇余地+26% / EPS差+nan% (n=29)",
-      "upside": 26.2,
-      "rec_mean": 1.48387,
-      "n_analysts": 29
+      "grade": null,
+      "note": "カバレッジ不足"
     },
     "DLR": {
-      "grade": "B",
-      "note": "推奨1.4 / 上昇余地+23% / EPS差+nan% (n=32)",
-      "upside": 23.1,
-      "rec_mean": 1.44118,
-      "n_analysts": 32
-    },
-    "DPZ": {
-      "grade": "B",
-      "note": "推奨2.2 / 上昇余地+27% / EPS差+nan% (n=28)",
-      "upside": 27.2,
-      "rec_mean": 2.16129,
-      "n_analysts": 28
-    },
-    "DOV": {
-      "grade": "B",
-      "note": "推奨1.6 / 上昇余地+30% / EPS差+nan% (n=18)",
-      "upside": 30.0,
-      "rec_mean": 1.61111,
-      "n_analysts": 18
-    },
-    "DASH": {
-      "grade": "A",
-      "note": "推奨1.6 / 上昇余地+35% / EPS差+nan% (n=43)",
-      "upside": 35.4,
-      "rec_mean": 1.64444,
-      "n_analysts": 43
+      "grade": null,
+      "note": "カバレッジ不足"
     },
     "DLTR": {
-      "grade": "C",
-      "note": "推奨2.5 / 上昇余地+21% / EPS差+nan% (n=25)",
-      "upside": 20.5,
-      "rec_mean": 2.53571,
-      "n_analysts": 25
+      "grade": null,
+      "note": "カバレッジ不足"
+    },
+    "DASH": {
+      "grade": null,
+      "note": "カバレッジ不足"
     },
     "D": {
-      "grade": "C",
-      "note": "推奨2.6 / 上昇余地+16% / EPS差+nan% (n=11)",
-      "upside": 15.9,
-      "rec_mean": 2.6,
-      "n_analysts": 11
+      "grade": null,
+      "note": "カバレッジ不足"
+    },
+    "DPZ": {
+      "grade": null,
+      "note": "カバレッジ不足"
+    },
+    "DOV": {
+      "grade": null,
+      "note": "カバレッジ不足"
     },
     "DG": {
-      "grade": "C",
-      "note": "推奨2.5 / 上昇余地+16% / EPS差+nan% (n=29)",
-      "upside": 15.7,
-      "rec_mean": 2.5,
-      "n_analysts": 29
+      "grade": null,
+      "note": "カバレッジ不足"
     },
     "DOW": {
-      "grade": "C",
-      "note": "推奨2.5 / 上昇余地+20% / EPS差+nan% (n=16)",
-      "upside": 20.2,
-      "rec_mean": 2.47368,
-      "n_analysts": 16
-    },
-    "DHI": {
-      "grade": "C",
-      "note": "推奨2.6 / 上昇余地+14% / EPS差+nan% (n=12)",
-      "upside": 14.0,
-      "rec_mean": 2.61111,
-      "n_analysts": 12
-    },
-    "DTE": {
-      "grade": "B",
-      "note": "推奨1.9 / 上昇余地+27% / EPS差+nan% (n=14)",
-      "upside": 27.2,
-      "rec_mean": 1.94118,
-      "n_analysts": 14
+      "grade": null,
+      "note": "カバレッジ不足"
     },
     "ETN": {
-      "grade": "B",
-      "note": "推奨1.5 / 上昇余地+9% / EPS差+nan% (n=25)",
-      "upside": 9.3,
-      "rec_mean": 1.51852,
-      "n_analysts": 25
+      "grade": null,
+      "note": "カバレッジ不足"
     },
     "ECHO": {
-      "grade": "A",
-      "note": "推奨1.2 / 上昇余地+42% / EPS差+nan% (n=9)",
-      "upside": 41.8,
-      "rec_mean": 1.25,
-      "n_analysts": 9
+      "grade": null,
+      "note": "カバレッジ不足"
     },
-    "ECL": {
-      "grade": "B",
-      "note": "推奨1.5 / 上昇余地+17% / EPS差+nan% (n=21)",
-      "upside": 17.4,
-      "rec_mean": 1.54167,
-      "n_analysts": 21
-    },
-    "EIX": {
-      "grade": "C",
-      "note": "推奨3.1 / 上昇余地+25% / EPS差+nan% (n=14)",
-      "upside": 24.8,
-      "rec_mean": 3.05882,
-      "n_analysts": 14
-    },
-    "EW": {
-      "grade": "B",
-      "note": "推奨1.6 / 上昇余地+16% / EPS差+nan% (n=26)",
-      "upside": 16.3,
-      "rec_mean": 1.62069,
-      "n_analysts": 26
-    },
-    "DD": {
-      "grade": "B",
-      "note": "推奨1.5 / 上昇余地+30% / EPS差+nan% (n=16)",
-      "upside": 29.9,
-      "rec_mean": 1.52941,
-      "n_analysts": 16
+    "DTE": {
+      "grade": null,
+      "note": "カバレッジ不足"
     },
     "DUK": {
-      "grade": "B",
-      "note": "推奨2.1 / 上昇余地+20% / EPS差+nan% (n=18)",
-      "upside": 19.9,
-      "rec_mean": 2.09091,
-      "n_analysts": 18
+      "grade": null,
+      "note": "カバレッジ不足"
     },
     "EBAY": {
-      "grade": "C",
-      "note": "推奨2.6 / 上昇余地+6% / EPS差+nan% (n=27)",
-      "upside": 6.4,
-      "rec_mean": 2.5625,
-      "n_analysts": 27
+      "grade": null,
+      "note": "カバレッジ不足"
+    },
+    "DD": {
+      "grade": null,
+      "note": "カバレッジ不足"
+    },
+    "DHI": {
+      "grade": null,
+      "note": "カバレッジ不足"
+    },
+    "ECL": {
+      "grade": null,
+      "note": "カバレッジ不足"
     },
     "EOG": {
-      "grade": "C",
-      "note": "推奨2.3 / 上昇余地+14% / EPS差+nan% (n=28)",
-      "upside": 14.1,
-      "rec_mean": 2.34375,
-      "n_analysts": 28
-    },
-    "EQT": {
-      "grade": "A",
-      "note": "推奨1.5 / 上昇余地+32% / EPS差+nan% (n=26)",
-      "upside": 32.3,
-      "rec_mean": 1.46154,
-      "n_analysts": 26
-    },
-    "EME": {
-      "grade": "B",
-      "note": "上昇余地+37% / EPS差+nan% (n=7)",
-      "upside": 37.4,
-      "rec_mean": null,
-      "n_analysts": 7
-    },
-    "EQIX": {
-      "grade": "B",
-      "note": "推奨1.5 / 上昇余地+19% / EPS差+nan% (n=31)",
-      "upside": 18.9,
-      "rec_mean": 1.5,
-      "n_analysts": 31
-    },
-    "ELV": {
-      "grade": "B",
-      "note": "推奨1.0 / 上昇余地+13% / EPS差+nan% (n=21)",
-      "upside": 13.3,
-      "rec_mean": 1.0,
-      "n_analysts": 21
-    },
-    "EMR": {
-      "grade": "C",
-      "note": "推奨1.9 / 上昇余地+12% / EPS差+nan% (n=27)",
-      "upside": 11.7,
-      "rec_mean": 1.93103,
-      "n_analysts": 27
+      "grade": null,
+      "note": "カバレッジ不足"
     },
     "ETR": {
-      "grade": "B",
-      "note": "推奨1.7 / 上昇余地+24% / EPS差+nan% (n=20)",
-      "upside": 23.6,
-      "rec_mean": 1.73913,
-      "n_analysts": 20
+      "grade": null,
+      "note": "カバレッジ不足"
+    },
+    "EW": {
+      "grade": null,
+      "note": "カバレッジ不足"
+    },
+    "EIX": {
+      "grade": null,
+      "note": "カバレッジ不足"
+    },
+    "EMR": {
+      "grade": null,
+      "note": "カバレッジ不足"
+    },
+    "EME": {
+      "grade": null,
+      "note": "カバレッジ不足"
+    },
+    "ELV": {
+      "grade": null,
+      "note": "カバレッジ不足"
+    },
+    "EQT": {
+      "grade": null,
+      "note": "カバレッジ不足"
     },
     "EFX": {
-      "grade": "A",
-      "note": "推奨1.7 / 上昇余地+38% / EPS差+nan% (n=21)",
-      "upside": 38.0,
-      "rec_mean": 1.66667,
-      "n_analysts": 21
+      "grade": null,
+      "note": "カバレッジ不足"
+    },
+    "EVRG": {
+      "grade": null,
+      "note": "カバレッジ不足"
     },
     "ERIE": {
       "grade": null,
       "note": "カバレッジ不足"
     },
-    "ESS": {
-      "grade": "C",
-      "note": "推奨2.6 / 上昇余地+11% / EPS差+nan% (n=25)",
-      "upside": 11.2,
-      "rec_mean": 2.57692,
-      "n_analysts": 25
-    },
     "EG": {
-      "grade": "C",
-      "note": "推奨2.4 / 上昇余地+10% / EPS差+nan% (n=15)",
-      "upside": 9.7,
-      "rec_mean": 2.4375,
-      "n_analysts": 15
-    },
-    "ES": {
-      "grade": "C",
-      "note": "推奨2.7 / 上昇余地+13% / EPS差+nan% (n=12)",
-      "upside": 13.4,
-      "rec_mean": 2.6875,
-      "n_analysts": 12
-    },
-    "EXC": {
-      "grade": "C",
-      "note": "推奨2.8 / 上昇余地+20% / EPS差+nan% (n=17)",
-      "upside": 19.7,
-      "rec_mean": 2.80952,
-      "n_analysts": 17
-    },
-    "P": {
-      "grade": "B",
-      "note": "推奨1.6 / 上昇余地+19% / EPS差+nan% (n=19)",
-      "upside": 19.0,
-      "rec_mean": 1.55,
-      "n_analysts": 19
+      "grade": null,
+      "note": "カバレッジ不足"
     },
     "EL": {
-      "grade": "C",
-      "note": "推奨2.3 / 上昇余地+8% / EPS差+nan% (n=27)",
-      "upside": 8.3,
-      "rec_mean": 2.31034,
-      "n_analysts": 27
+      "grade": null,
+      "note": "カバレッジ不足"
     },
-    "EVRG": {
-      "grade": "C",
-      "note": "上昇余地+16% / EPS差+nan% (n=11)",
-      "upside": 16.4,
-      "rec_mean": null,
-      "n_analysts": 11
+    "ESS": {
+      "grade": null,
+      "note": "カバレッジ不足"
     },
-    "EXE": {
-      "grade": "A",
-      "note": "推奨1.5 / 上昇余地+44% / EPS差+nan% (n=27)",
-      "upside": 44.2,
-      "rec_mean": 1.53571,
-      "n_analysts": 27
+    "EQIX": {
+      "grade": null,
+      "note": "カバレッジ不足"
     },
-    "EXPE": {
-      "grade": "B",
-      "note": "推奨2.2 / 上昇余地+31% / EPS差+nan% (n=36)",
-      "upside": 30.8,
-      "rec_mean": 2.17949,
-      "n_analysts": 36
+    "P": {
+      "grade": null,
+      "note": "カバレッジ不足"
     },
-    "FAST": {
-      "grade": "D",
-      "note": "推奨2.7 / 上昇余地-4% / EPS差+nan% (n=13)",
-      "upside": -4.2,
-      "rec_mean": 2.72222,
-      "n_analysts": 13
+    "ES": {
+      "grade": null,
+      "note": "カバレッジ不足"
     },
-    "FRT": {
-      "grade": "B",
-      "note": "推奨1.9 / 上昇余地+22% / EPS差+nan% (n=19)",
-      "upside": 21.5,
-      "rec_mean": 1.89474,
-      "n_analysts": 19
-    },
-    "FDS": {
-      "grade": "D",
-      "note": "推奨3.2 / 上昇余地-3% / EPS差+nan% (n=16)",
-      "upside": -3.4,
-      "rec_mean": 3.22222,
-      "n_analysts": 16
-    },
-    "FICO": {
-      "grade": "B",
-      "note": "推奨2.0 / 上昇余地+63% / EPS差+nan% (n=19)",
-      "upside": 63.1,
-      "rec_mean": 2.0,
-      "n_analysts": 19
-    },
-    "EXPD": {
-      "grade": "D",
-      "note": "推奨3.2 / 上昇余地-5% / EPS差+nan% (n=14)",
-      "upside": -5.5,
-      "rec_mean": 3.17647,
-      "n_analysts": 14
+    "EXC": {
+      "grade": null,
+      "note": "カバレッジ不足"
     },
     "XOM": {
-      "grade": "C",
-      "note": "推奨2.3 / 上昇余地+7% / EPS差+nan% (n=22)",
-      "upside": 6.6,
-      "rec_mean": 2.32,
-      "n_analysts": 22
+      "grade": null,
+      "note": "カバレッジ不足"
+    },
+    "EXE": {
+      "grade": null,
+      "note": "カバレッジ不足"
     },
     "EXR": {
-      "grade": "B",
-      "note": "推奨2.2 / 上昇余地+18% / EPS差+nan% (n=20)",
-      "upside": 18.4,
-      "rec_mean": 2.2381,
-      "n_analysts": 20
+      "grade": null,
+      "note": "カバレッジ不足"
+    },
+    "EXPE": {
+      "grade": null,
+      "note": "カバレッジ不足"
+    },
+    "EXPD": {
+      "grade": null,
+      "note": "カバレッジ不足"
     },
     "FFIV": {
-      "grade": "D",
-      "note": "推奨2.5 / 上昇余地-4% / EPS差+nan% (n=10)",
-      "upside": -4.4,
-      "rec_mean": 2.53846,
-      "n_analysts": 10
+      "grade": null,
+      "note": "カバレッジ不足"
     },
-    "FDX": {
-      "grade": "B",
-      "note": "推奨1.8 / 上昇余地+22% / EPS差+nan% (n=26)",
-      "upside": 21.8,
-      "rec_mean": 1.82143,
-      "n_analysts": 26
+    "FICO": {
+      "grade": null,
+      "note": "カバレッジ不足"
+    },
+    "FDS": {
+      "grade": null,
+      "note": "カバレッジ不足"
+    },
+    "FAST": {
+      "grade": null,
+      "note": "カバレッジ不足"
     },
     "FDXF": {
-      "grade": "B",
-      "note": "推奨1.9 / 上昇余地+37% / EPS差+nan% (n=14)",
-      "upside": 36.7,
-      "rec_mean": 1.92857,
-      "n_analysts": 14
-    },
-    "FISV": {
-      "grade": "B",
-      "note": "推奨2.7 / 上昇余地+31% / EPS差+nan% (n=26)",
-      "upside": 31.3,
-      "rec_mean": 2.74286,
-      "n_analysts": 26
-    },
-    "FIS": {
-      "grade": "B",
-      "note": "推奨2.3 / 上昇余地+44% / EPS差+nan% (n=24)",
-      "upside": 44.2,
-      "rec_mean": 2.27586,
-      "n_analysts": 24
+      "grade": null,
+      "note": "カバレッジ不足"
     },
     "FERG": {
-      "grade": "B",
-      "note": "推奨1.9 / 上昇余地+30% / EPS差+nan% (n=21)",
-      "upside": 30.0,
-      "rec_mean": 1.86364,
-      "n_analysts": 21
+      "grade": null,
+      "note": "カバレッジ不足"
     },
-    "FSLR": {
-      "grade": "B",
-      "note": "推奨1.9 / 上昇余地+42% / EPS差+nan% (n=31)",
-      "upside": 41.7,
-      "rec_mean": 1.91667,
-      "n_analysts": 31
+    "FDX": {
+      "grade": null,
+      "note": "カバレッジ不足"
     },
-    "FE": {
-      "grade": "B",
-      "note": "推奨2.2 / 上昇余地+21% / EPS差+nan% (n=12)",
-      "upside": 21.2,
-      "rec_mean": 2.1875,
-      "n_analysts": 12
+    "FRT": {
+      "grade": null,
+      "note": "カバレッジ不足"
+    },
+    "FIS": {
+      "grade": null,
+      "note": "カバレッジ不足"
     },
     "FITB": {
-      "grade": "B",
-      "note": "推奨1.7 / 上昇余地+22% / EPS差+nan% (n=20)",
-      "upside": 21.7,
-      "rec_mean": 1.66667,
-      "n_analysts": 20
-    },
-    "FLEX": {
-      "grade": "A",
-      "note": "推奨1.3 / 上昇余地+43% / EPS差+nan% (n=10)",
-      "upside": 42.9,
-      "rec_mean": 1.27273,
-      "n_analysts": 10
-    },
-    "F": {
-      "grade": "C",
-      "note": "推奨2.4 / 上昇余地+25% / EPS差+nan% (n=18)",
-      "upside": 24.6,
-      "rec_mean": 2.35,
-      "n_analysts": 18
+      "grade": null,
+      "note": "カバレッジ不足"
     },
     "FTNT": {
-      "grade": "D",
-      "note": "推奨2.8 / 上昇余地-8% / EPS差+nan% (n=36)",
-      "upside": -8.1,
-      "rec_mean": 2.77273,
-      "n_analysts": 36
+      "grade": null,
+      "note": "カバレッジ不足"
+    },
+    "FE": {
+      "grade": null,
+      "note": "カバレッジ不足"
+    },
+    "FSLR": {
+      "grade": null,
+      "note": "カバレッジ不足"
+    },
+    "FLEX": {
+      "grade": null,
+      "note": "カバレッジ不足"
+    },
+    "FISV": {
+      "grade": null,
+      "note": "カバレッジ不足"
+    },
+    "FTV": {
+      "grade": null,
+      "note": "カバレッジ不足"
+    },
+    "F": {
+      "grade": null,
+      "note": "カバレッジ不足"
+    },
+    "FOXA": {
+      "grade": null,
+      "note": "カバレッジ不足"
+    },
+    "GEHC": {
+      "grade": null,
+      "note": "カバレッジ不足"
+    },
+    "GEV": {
+      "grade": null,
+      "note": "カバレッジ不足"
     },
     "FOX": {
       "grade": null,
       "note": "カバレッジ不足"
     },
-    "FTV": {
-      "grade": "C",
-      "note": "推奨2.7 / 上昇余地+14% / EPS差+nan% (n=13)",
-      "upside": 14.3,
-      "rec_mean": 2.73333,
-      "n_analysts": 13
-    },
-    "FCX": {
-      "grade": "C",
-      "note": "推奨1.8 / 上昇余地-0% / EPS差+nan% (n=22)",
-      "upside": -0.2,
-      "rec_mean": 1.78261,
-      "n_analysts": 22
-    },
-    "IT": {
-      "grade": "C",
-      "note": "上昇余地+4% / EPS差+nan% (n=13)",
-      "upside": 3.7,
-      "rec_mean": null,
-      "n_analysts": 13
-    },
-    "GE": {
-      "grade": "B",
-      "note": "推奨1.5 / 上昇余地+25% / EPS差+nan% (n=21)",
-      "upside": 25.4,
-      "rec_mean": 1.54545,
-      "n_analysts": 21
+    "GRMN": {
+      "grade": null,
+      "note": "カバレッジ不足"
     },
     "BEN": {
-      "grade": "C",
-      "note": "推奨2.8 / 上昇余地+8% / EPS差+nan% (n=12)",
-      "upside": 8.3,
-      "rec_mean": 2.75,
-      "n_analysts": 12
+      "grade": null,
+      "note": "カバレッジ不足"
     },
-    "FOXA": {
-      "grade": "B",
-      "note": "推奨2.0 / 上昇余地+19% / EPS差+nan% (n=18)",
-      "upside": 19.5,
-      "rec_mean": 2.0,
-      "n_analysts": 18
+    "FCX": {
+      "grade": null,
+      "note": "カバレッジ不足"
     },
-    "GRMN": {
-      "grade": "C",
-      "note": "推奨2.8 / 上昇余地+1% / EPS差+nan% (n=7)",
-      "upside": 0.9,
-      "rec_mean": 2.75,
-      "n_analysts": 7
+    "IT": {
+      "grade": null,
+      "note": "カバレッジ不足"
     },
-    "GEHC": {
-      "grade": "B",
-      "note": "推奨1.8 / 上昇余地+26% / EPS差+nan% (n=19)",
-      "upside": 25.7,
-      "rec_mean": 1.75,
-      "n_analysts": 19
+    "GE": {
+      "grade": null,
+      "note": "カバレッジ不足"
     },
     "GEN": {
-      "grade": "B",
-      "note": "推奨2.2 / 上昇余地+26% / EPS差+nan% (n=9)",
-      "upside": 25.8,
-      "rec_mean": 2.2,
-      "n_analysts": 9
-    },
-    "GEV": {
-      "grade": "B",
-      "note": "推奨1.5 / 上昇余地+30% / EPS差+nan% (n=33)",
-      "upside": 30.0,
-      "rec_mean": 1.54054,
-      "n_analysts": 33
-    },
-    "GIS": {
-      "grade": "C",
-      "note": "推奨3.0 / 上昇余地+5% / EPS差+4% (n=18)",
-      "upside": 5.2,
-      "rec_mean": 3.05,
-      "n_analysts": 18
-    },
-    "GPC": {
-      "grade": "C",
-      "note": "上昇余地+9% / EPS差+nan% (n=8)",
-      "upside": 9.0,
-      "rec_mean": null,
-      "n_analysts": 8
-    },
-    "GM": {
-      "grade": "B",
-      "note": "推奨1.6 / 上昇余地+24% / EPS差+nan% (n=23)",
-      "upside": 24.4,
-      "rec_mean": 1.6,
-      "n_analysts": 23
+      "grade": null,
+      "note": "カバレッジ不足"
     },
     "GNRC": {
-      "grade": "A",
-      "note": "推奨1.8 / 上昇余地+47% / EPS差+nan% (n=16)",
-      "upside": 47.4,
-      "rec_mean": 1.7619,
-      "n_analysts": 16
-    },
-    "GD": {
-      "grade": "B",
-      "note": "推奨2.1 / 上昇余地+23% / EPS差+nan% (n=21)",
-      "upside": 22.8,
-      "rec_mean": 2.08333,
-      "n_analysts": 21
-    },
-    "GILD": {
-      "grade": "B",
-      "note": "推奨1.8 / 上昇余地+4% / EPS差+nan% (n=27)",
-      "upside": 4.5,
-      "rec_mean": 1.75,
-      "n_analysts": 27
-    },
-    "GPN": {
-      "grade": "C",
-      "note": "推奨2.3 / 上昇余地+23% / EPS差+nan% (n=29)",
-      "upside": 23.1,
-      "rec_mean": 2.34286,
-      "n_analysts": 29
+      "grade": null,
+      "note": "カバレッジ不足"
     },
     "GL": {
-      "grade": "C",
-      "note": "上昇余地+15% / EPS差+nan% (n=11)",
-      "upside": 14.9,
-      "rec_mean": null,
-      "n_analysts": 11
-    },
-    "HAS": {
-      "grade": "B",
-      "note": "推奨1.5 / 上昇余地+27% / EPS差+nan% (n=14)",
-      "upside": 26.6,
-      "rec_mean": 1.46667,
-      "n_analysts": 14
-    },
-    "GS": {
-      "grade": "C",
-      "note": "推奨2.6 / 上昇余地+21% / EPS差+nan% (n=20)",
-      "upside": 21.1,
-      "rec_mean": 2.6,
-      "n_analysts": 20
+      "grade": null,
+      "note": "err"
     },
     "GDDY": {
-      "grade": "C",
-      "note": "推奨2.4 / 上昇余地+9% / EPS差+nan% (n=16)",
-      "upside": 9.1,
-      "rec_mean": 2.38889,
-      "n_analysts": 16
+      "grade": null,
+      "note": "err"
     },
-    "HIG": {
-      "grade": "C",
-      "note": "推奨2.4 / 上昇余地+18% / EPS差+nan% (n=20)",
-      "upside": 18.0,
-      "rec_mean": 2.3913,
-      "n_analysts": 20
+    "GS": {
+      "grade": null,
+      "note": "err"
     },
     "HAL": {
-      "grade": "A",
-      "note": "推奨1.8 / 上昇余地+31% / EPS差+nan% (n=25)",
-      "upside": 31.0,
-      "rec_mean": 1.75,
-      "n_analysts": 25
+      "grade": null,
+      "note": "err"
     },
-    "HCA": {
-      "grade": "C",
-      "note": "推奨2.0 / 上昇余地+4% / EPS差+nan% (n=22)",
-      "upside": 4.1,
-      "rec_mean": 1.96154,
-      "n_analysts": 22
+    "GPN": {
+      "grade": null,
+      "note": "カバレッジ不足"
+    },
+    "HIG": {
+      "grade": null,
+      "note": "err"
+    },
+    "GM": {
+      "grade": null,
+      "note": "カバレッジ不足"
+    },
+    "GIS": {
+      "grade": null,
+      "note": "カバレッジ不足"
+    },
+    "GD": {
+      "grade": null,
+      "note": "カバレッジ不足"
+    },
+    "GILD": {
+      "grade": null,
+      "note": "カバレッジ不足"
+    },
+    "GPC": {
+      "grade": null,
+      "note": "カバレッジ不足"
     },
     "DOC": {
-      "grade": "C",
-      "note": "推奨2.4 / 上昇余地+12% / EPS差+nan% (n=19)",
-      "upside": 12.0,
-      "rec_mean": 2.40909,
-      "n_analysts": 19
+      "grade": null,
+      "note": "err"
     },
-    "HSIC": {
-      "grade": "B",
-      "note": "推奨2.3 / 上昇余地+15% / EPS差+nan% (n=16)",
-      "upside": 15.4,
-      "rec_mean": 2.29412,
-      "n_analysts": 16
+    "HAS": {
+      "grade": null,
+      "note": "err"
     },
-    "HSY": {
-      "grade": "C",
-      "note": "推奨2.5 / 上昇余地+22% / EPS差+nan% (n=21)",
-      "upside": 22.0,
-      "rec_mean": 2.47826,
-      "n_analysts": 21
-    },
-    "HONA": {
-      "grade": "C",
-      "note": "推奨2.4 / 上昇余地+28% / EPS差+nan% (n=14)",
-      "upside": 28.3,
-      "rec_mean": 2.375,
-      "n_analysts": 14
-    },
-    "HD": {
-      "grade": "B",
-      "note": "推奨1.9 / 上昇余地+27% / EPS差+nan% (n=32)",
-      "upside": 27.1,
-      "rec_mean": 1.94444,
-      "n_analysts": 32
-    },
-    "HST": {
-      "grade": "C",
-      "note": "推奨1.9 / 上昇余地+14% / EPS差+nan% (n=20)",
-      "upside": 14.2,
-      "rec_mean": 1.90476,
-      "n_analysts": 20
-    },
-    "HRL": {
-      "grade": "B",
-      "note": "推奨2.6 / 上昇余地+31% / EPS差+nan% (n=8)",
-      "upside": 31.1,
-      "rec_mean": 2.6,
-      "n_analysts": 8
-    },
-    "HON": {
-      "grade": "B",
-      "note": "推奨2.0 / 上昇余地+24% / EPS差+nan% (n=22)",
-      "upside": 23.9,
-      "rec_mean": 1.95652,
-      "n_analysts": 22
+    "HCA": {
+      "grade": null,
+      "note": "err"
     },
     "HPE": {
-      "grade": "C",
-      "note": "推奨2.0 / 上昇余地+9% / EPS差+nan% (n=20)",
-      "upside": 9.2,
-      "rec_mean": 2.04348,
-      "n_analysts": 20
+      "grade": null,
+      "note": "err"
+    },
+    "HSY": {
+      "grade": null,
+      "note": "err"
     },
     "HLT": {
-      "grade": "C",
-      "note": "推奨2.0 / 上昇余地+15% / EPS差+nan% (n=26)",
-      "upside": 14.9,
-      "rec_mean": 1.96429,
-      "n_analysts": 26
+      "grade": null,
+      "note": "err"
     },
-    "HWM": {
-      "grade": "A",
-      "note": "推奨1.4 / 上昇余地+48% / EPS差+nan% (n=21)",
-      "upside": 47.6,
-      "rec_mean": 1.43478,
-      "n_analysts": 21
+    "HD": {
+      "grade": null,
+      "note": "err"
     },
-    "HUM": {
-      "grade": "C",
-      "note": "推奨2.2 / 上昇余地+12% / EPS差+nan% (n=23)",
-      "upside": 11.8,
-      "rec_mean": 2.19231,
-      "n_analysts": 23
+    "HONA": {
+      "grade": null,
+      "note": "err"
+    },
+    "HSIC": {
+      "grade": null,
+      "note": "err"
+    },
+    "HST": {
+      "grade": null,
+      "note": "err"
+    },
+    "HON": {
+      "grade": null,
+      "note": "err"
+    },
+    "HRL": {
+      "grade": null,
+      "note": "err"
     },
     "HII": {
-      "grade": "B",
-      "note": "上昇余地+36% / EPS差+nan% (n=12)",
-      "upside": 36.1,
-      "rec_mean": null,
-      "n_analysts": 12
-    },
-    "HUBB": {
-      "grade": "B",
-      "note": "推奨1.9 / 上昇余地+22% / EPS差+nan% (n=11)",
-      "upside": 22.0,
-      "rec_mean": 1.92308,
-      "n_analysts": 11
-    },
-    "IBM": {
-      "grade": "C",
-      "note": "推奨2.2 / 上昇余地+3% / EPS差+nan% (n=22)",
-      "upside": 3.4,
-      "rec_mean": 2.2,
-      "n_analysts": 22
+      "grade": null,
+      "note": "err"
     },
     "IEX": {
-      "grade": "B",
-      "note": "推奨1.7 / 上昇余地+11% / EPS差+nan% (n=14)",
-      "upside": 11.4,
-      "rec_mean": 1.73333,
-      "n_analysts": 14
+      "grade": null,
+      "note": "err"
     },
     "HPQ": {
-      "grade": "D",
-      "note": "推奨3.3 / 上昇余地-8% / EPS差+nan% (n=17)",
-      "upside": -7.8,
-      "rec_mean": 3.27778,
-      "n_analysts": 17
+      "grade": null,
+      "note": "err"
     },
-    "IDXX": {
-      "grade": "B",
-      "note": "推奨2.2 / 上昇余地+34% / EPS差+nan% (n=13)",
-      "upside": 33.9,
-      "rec_mean": 2.21429,
-      "n_analysts": 13
+    "HWM": {
+      "grade": null,
+      "note": "err"
+    },
+    "HUBB": {
+      "grade": null,
+      "note": "err"
+    },
+    "IBM": {
+      "grade": null,
+      "note": "err"
+    },
+    "HUM": {
+      "grade": null,
+      "note": "err"
     },
     "HBAN": {
-      "grade": "B",
-      "note": "推奨1.8 / 上昇余地+29% / EPS差+nan% (n=19)",
-      "upside": 28.9,
-      "rec_mean": 1.8,
-      "n_analysts": 19
+      "grade": null,
+      "note": "err"
+    },
+    "IDXX": {
+      "grade": null,
+      "note": "err"
     },
     "ITW": {
-      "grade": "C",
-      "note": "推奨3.2 / 上昇余地+11% / EPS差+nan% (n=14)",
-      "upside": 10.6,
-      "rec_mean": 3.1875,
-      "n_analysts": 14
-    },
-    "ILMN": {
-      "grade": "D",
-      "note": "推奨2.4 / 上昇余地-21% / EPS差+nan% (n=20)",
-      "upside": -20.6,
-      "rec_mean": 2.38095,
-      "n_analysts": 20
-    },
-    "INCY": {
-      "grade": "C",
-      "note": "推奨2.3 / 上昇余地+2% / EPS差+nan% (n=23)",
-      "upside": 2.5,
-      "rec_mean": 2.28571,
-      "n_analysts": 23
-    },
-    "IFF": {
-      "grade": "C",
-      "note": "推奨1.8 / 上昇余地+12% / EPS差+nan% (n=18)",
-      "upside": 11.6,
-      "rec_mean": 1.80952,
-      "n_analysts": 18
-    },
-    "PODD": {
-      "grade": "B",
-      "note": "推奨2.0 / 上昇余地+26% / EPS差+nan% (n=22)",
-      "upside": 25.9,
-      "rec_mean": 2.0,
-      "n_analysts": 22
-    },
-    "IR": {
-      "grade": "B",
-      "note": "推奨2.0 / 上昇余地+26% / EPS差+nan% (n=13)",
-      "upside": 26.3,
-      "rec_mean": 2.0,
-      "n_analysts": 13
+      "grade": null,
+      "note": "err"
     },
     "INTC": {
-      "grade": "D",
-      "note": "推奨2.5 / 上昇余地-5% / EPS差+nan% (n=43)",
-      "upside": -5.1,
-      "rec_mean": 2.46939,
-      "n_analysts": 43
+      "grade": null,
+      "note": "err"
+    },
+    "INCY": {
+      "grade": null,
+      "note": "err"
+    },
+    "PODD": {
+      "grade": null,
+      "note": "err"
+    },
+    "IR": {
+      "grade": null,
+      "note": "err"
+    },
+    "ILMN": {
+      "grade": null,
+      "note": "err"
+    },
+    "IFF": {
+      "grade": null,
+      "note": "err"
     },
     "ICE": {
-      "grade": "B",
-      "note": "推奨1.5 / 上昇余地+20% / EPS差+nan% (n=14)",
-      "upside": 19.8,
-      "rec_mean": 1.46667,
-      "n_analysts": 14
-    },
-    "IBKR": {
-      "grade": "B",
-      "note": "推奨1.9 / 上昇余地+16% / EPS差+nan% (n=13)",
-      "upside": 15.6,
-      "rec_mean": 1.92857,
-      "n_analysts": 13
-    },
-    "IP": {
-      "grade": "A",
-      "note": "推奨1.6 / 上昇余地+34% / EPS差+nan% (n=11)",
-      "upside": 34.2,
-      "rec_mean": 1.58333,
-      "n_analysts": 11
-    },
-    "IVZ": {
-      "grade": "C",
-      "note": "推奨2.4 / 上昇余地+10% / EPS差+nan% (n=13)",
-      "upside": 10.5,
-      "rec_mean": 2.42857,
-      "n_analysts": 13
-    },
-    "IRM": {
-      "grade": "B",
-      "note": "推奨1.7 / 上昇余地+26% / EPS差+nan% (n=11)",
-      "upside": 25.9,
-      "rec_mean": 1.66667,
-      "n_analysts": 11
+      "grade": null,
+      "note": "err"
     },
     "INTU": {
-      "grade": "B",
-      "note": "推奨2.1 / 上昇余地+41% / EPS差+nan% (n=31)",
-      "upside": 41.4,
-      "rec_mean": 2.05882,
-      "n_analysts": 31
+      "grade": null,
+      "note": "err"
     },
-    "INVH": {
-      "grade": "B",
-      "note": "推奨2.1 / 上昇余地+24% / EPS差+nan% (n=23)",
-      "upside": 24.5,
-      "rec_mean": 2.08,
-      "n_analysts": 23
+    "IVZ": {
+      "grade": null,
+      "note": "err"
     },
     "ISRG": {
-      "grade": "B",
-      "note": "推奨1.8 / 上昇余地+20% / EPS差+nan% (n=29)",
-      "upside": 19.6,
-      "rec_mean": 1.78125,
-      "n_analysts": 29
+      "grade": null,
+      "note": "err"
+    },
+    "IP": {
+      "grade": null,
+      "note": "err"
+    },
+    "INVH": {
+      "grade": null,
+      "note": "err"
+    },
+    "IBKR": {
+      "grade": null,
+      "note": "err"
+    },
+    "IRM": {
+      "grade": null,
+      "note": "err"
     },
     "IQV": {
-      "grade": "B",
-      "note": "推奨1.4 / 上昇余地+4% / EPS差+nan% (n=18)",
-      "upside": 3.8,
-      "rec_mean": 1.42857,
-      "n_analysts": 18
-    },
-    "JBHT": {
-      "grade": "B",
-      "note": "推奨2.0 / 上昇余地+27% / EPS差+nan% (n=23)",
-      "upside": 27.2,
-      "rec_mean": 2.0,
-      "n_analysts": 23
-    },
-    "JBL": {
-      "grade": "B",
-      "note": "上昇余地+39% / EPS差+nan% (n=9)",
-      "upside": 39.1,
-      "rec_mean": null,
-      "n_analysts": 9
-    },
-    "JPM": {
-      "grade": "C",
-      "note": "推奨2.1 / 上昇余地+11% / EPS差+nan% (n=21)",
-      "upside": 11.1,
-      "rec_mean": 2.08333,
-      "n_analysts": 21
-    },
-    "KVUE": {
-      "grade": "C",
-      "note": "推奨2.8 / 上昇余地+10% / EPS差+nan% (n=12)",
-      "upside": 10.4,
-      "rec_mean": 2.78571,
-      "n_analysts": 12
-    },
-    "J": {
-      "grade": "B",
-      "note": "推奨1.9 / 上昇余地+15% / EPS差+nan% (n=15)",
-      "upside": 15.2,
-      "rec_mean": 1.9375,
-      "n_analysts": 15
-    },
-    "KDP": {
-      "grade": "C",
-      "note": "推奨1.8 / 上昇余地+14% / EPS差+nan% (n=17)",
-      "upside": 14.0,
-      "rec_mean": 1.83333,
-      "n_analysts": 17
+      "grade": null,
+      "note": "err"
     },
     "JKHY": {
-      "grade": "B",
-      "note": "推奨1.8 / 上昇余地+28% / EPS差+nan% (n=17)",
-      "upside": 28.3,
-      "rec_mean": 1.78947,
-      "n_analysts": 17
+      "grade": null,
+      "note": "err"
+    },
+    "JBHT": {
+      "grade": null,
+      "note": "err"
+    },
+    "JBL": {
+      "grade": null,
+      "note": "err"
+    },
+    "J": {
+      "grade": null,
+      "note": "err"
     },
     "JNJ": {
-      "grade": "C",
-      "note": "推奨1.9 / 上昇余地+3% / EPS差+nan% (n=22)",
-      "upside": 3.2,
-      "rec_mean": 1.91304,
-      "n_analysts": 22
+      "grade": null,
+      "note": "err"
     },
-    "JCI": {
-      "grade": "C",
-      "note": "推奨2.1 / 上昇余地+12% / EPS差+nan% (n=19)",
-      "upside": 12.4,
-      "rec_mean": 2.09524,
-      "n_analysts": 19
+    "KVUE": {
+      "grade": null,
+      "note": "err"
+    },
+    "JPM": {
+      "grade": null,
+      "note": "err"
     },
     "KEY": {
-      "grade": "B",
-      "note": "推奨2.0 / 上昇余地+28% / EPS差+nan% (n=19)",
-      "upside": 28.1,
-      "rec_mean": 2.0,
-      "n_analysts": 19
+      "grade": null,
+      "note": "err"
     },
     "KEYS": {
-      "grade": "B",
-      "note": "推奨1.6 / 上昇余地+17% / EPS差+nan% (n=12)",
-      "upside": 17.5,
-      "rec_mean": 1.58333,
-      "n_analysts": 12
-    },
-    "KKR": {
-      "grade": "A",
-      "note": "推奨1.6 / 上昇余地+32% / EPS差+nan% (n=20)",
-      "upside": 32.4,
-      "rec_mean": 1.59091,
-      "n_analysts": 20
-    },
-    "KMI": {
-      "grade": "C",
-      "note": "推奨2.1 / 上昇余地+15% / EPS差+nan% (n=22)",
-      "upside": 14.9,
-      "rec_mean": 2.12,
-      "n_analysts": 22
+      "grade": null,
+      "note": "err"
     },
     "KMB": {
-      "grade": "C",
-      "note": "推奨2.4 / 上昇余地+19% / EPS差+nan% (n=15)",
-      "upside": 19.1,
-      "rec_mean": 2.4375,
-      "n_analysts": 15
+      "grade": null,
+      "note": "err"
     },
-    "KR": {
-      "grade": "B",
-      "note": "推奨2.1 / 上昇余地+18% / EPS差+nan% (n=22)",
-      "upside": 17.8,
-      "rec_mean": 2.08333,
-      "n_analysts": 22
-    },
-    "KHC": {
-      "grade": "C",
-      "note": "推奨3.0 / 上昇余地+7% / EPS差+nan% (n=18)",
-      "upside": 7.1,
-      "rec_mean": 3.05,
-      "n_analysts": 18
-    },
-    "KLAC": {
-      "grade": "B",
-      "note": "推奨1.9 / 上昇余地+24% / EPS差+nan% (n=26)",
-      "upside": 24.4,
-      "rec_mean": 1.86207,
-      "n_analysts": 26
+    "KDP": {
+      "grade": null,
+      "note": "err"
     },
     "KIM": {
-      "grade": "C",
-      "note": "推奨2.4 / 上昇余地+21% / EPS差+nan% (n=21)",
-      "upside": 21.2,
-      "rec_mean": 2.3913,
-      "n_analysts": 21
+      "grade": null,
+      "note": "err"
     },
-    "LH": {
-      "grade": "B",
-      "note": "推奨1.7 / 上昇余地+13% / EPS差+nan% (n=16)",
-      "upside": 13.4,
-      "rec_mean": 1.72222,
-      "n_analysts": 16
+    "JCI": {
+      "grade": null,
+      "note": "err"
+    },
+    "KKR": {
+      "grade": null,
+      "note": "err"
+    },
+    "KLAC": {
+      "grade": null,
+      "note": "err"
+    },
+    "KHC": {
+      "grade": null,
+      "note": "err"
     },
     "LHX": {
-      "grade": "A",
-      "note": "推奨1.8 / 上昇余地+42% / EPS差+nan% (n=14)",
-      "upside": 41.5,
-      "rec_mean": 1.78947,
-      "n_analysts": 14
+      "grade": null,
+      "note": "err"
     },
-    "LRCX": {
-      "grade": "B",
-      "note": "推奨1.5 / 上昇余地+22% / EPS差+nan% (n=31)",
-      "upside": 21.6,
-      "rec_mean": 1.45714,
-      "n_analysts": 31
+    "LH": {
+      "grade": null,
+      "note": "err"
+    },
+    "KR": {
+      "grade": null,
+      "note": "err"
+    },
+    "KMI": {
+      "grade": null,
+      "note": "err"
     },
     "LVS": {
-      "grade": "B",
-      "note": "推奨1.8 / 上昇余地+51% / EPS差+nan% (n=19)",
-      "upside": 50.7,
-      "rec_mean": 1.80952,
-      "n_analysts": 19
-    },
-    "LEN": {
-      "grade": "D",
-      "note": "推奨3.4 / 上昇余地-2% / EPS差+nan% (n=13)",
-      "upside": -1.8,
-      "rec_mean": 3.42105,
-      "n_analysts": 13
-    },
-    "LDOS": {
-      "grade": "C",
-      "note": "推奨2.4 / 上昇余地+26% / EPS差+nan% (n=15)",
-      "upside": 26.1,
-      "rec_mean": 2.35294,
-      "n_analysts": 15
-    },
-    "LII": {
-      "grade": "B",
-      "note": "推奨2.5 / 上昇余地+32% / EPS差+nan% (n=13)",
-      "upside": 32.3,
-      "rec_mean": 2.47059,
-      "n_analysts": 13
-    },
-    "LLY": {
-      "grade": "B",
-      "note": "推奨1.6 / 上昇余地+15% / EPS差+nan% (n=29)",
-      "upside": 15.2,
-      "rec_mean": 1.63333,
-      "n_analysts": 29
-    },
-    "LIN": {
-      "grade": "B",
-      "note": "推奨1.7 / 上昇余地+16% / EPS差+nan% (n=25)",
-      "upside": 15.5,
-      "rec_mean": 1.67857,
-      "n_analysts": 25
+      "grade": null,
+      "note": "err"
     },
     "LYV": {
-      "grade": "B",
-      "note": "推奨1.6 / 上昇余地+19% / EPS差+nan% (n=24)",
-      "upside": 19.5,
-      "rec_mean": 1.64,
-      "n_analysts": 24
+      "grade": null,
+      "note": "err"
+    },
+    "LEN": {
+      "grade": null,
+      "note": "err"
+    },
+    "LLY": {
+      "grade": null,
+      "note": "err"
+    },
+    "LIN": {
+      "grade": null,
+      "note": "err"
+    },
+    "LII": {
+      "grade": null,
+      "note": "err"
+    },
+    "LDOS": {
+      "grade": null,
+      "note": "err"
+    },
+    "LRCX": {
+      "grade": null,
+      "note": "err"
     },
     "LMT": {
-      "grade": "C",
-      "note": "推奨2.4 / 上昇余地+22% / EPS差+nan% (n=19)",
-      "upside": 21.6,
-      "rec_mean": 2.42857,
-      "n_analysts": 19
-    },
-    "LULU": {
-      "grade": "C",
-      "note": "推奨3.2 / 上昇余地+3% / EPS差+nan% (n=27)",
-      "upside": 2.6,
-      "rec_mean": 3.2,
-      "n_analysts": 27
+      "grade": null,
+      "note": "err"
     },
     "L": {
       "grade": null,
-      "note": "カバレッジ不足"
+      "note": "err"
     },
     "LITE": {
-      "grade": "B",
-      "note": "推奨1.5 / 上昇余地+23% / EPS差+nan% (n=26)",
-      "upside": 22.7,
-      "rec_mean": 1.5,
-      "n_analysts": 26
+      "grade": null,
+      "note": "err"
     },
     "LOW": {
-      "grade": "A",
-      "note": "推奨1.8 / 上昇余地+32% / EPS差+nan% (n=33)",
-      "upside": 31.8,
-      "rec_mean": 1.8,
-      "n_analysts": 33
+      "grade": null,
+      "note": "err"
+    },
+    "LULU": {
+      "grade": null,
+      "note": "err"
     },
     "LYB": {
-      "grade": "C",
-      "note": "推奨2.7 / 上昇余地+14% / EPS差+nan% (n=17)",
-      "upside": 14.4,
-      "rec_mean": 2.73684,
-      "n_analysts": 17
-    },
-    "MPC": {
-      "grade": "D",
-      "note": "推奨2.3 / 上昇余地-3% / EPS差+nan% (n=18)",
-      "upside": -3.3,
-      "rec_mean": 2.31579,
-      "n_analysts": 18
+      "grade": null,
+      "note": "err"
     },
     "MTB": {
-      "grade": "C",
-      "note": "推奨2.7 / 上昇余地+18% / EPS差+nan% (n=18)",
-      "upside": 17.9,
-      "rec_mean": 2.7,
-      "n_analysts": 18
-    },
-    "MAR": {
-      "grade": "C",
-      "note": "推奨2.2 / 上昇余地+8% / EPS差+nan% (n=25)",
-      "upside": 8.3,
-      "rec_mean": 2.21429,
-      "n_analysts": 25
+      "grade": null,
+      "note": "err"
     },
     "MRSH": {
-      "grade": "C",
-      "note": "推奨2.5 / 上昇余地+22% / EPS差+nan% (n=21)",
-      "upside": 21.5,
-      "rec_mean": 2.52174,
-      "n_analysts": 21
+      "grade": null,
+      "note": "err"
     },
-    "MA": {
-      "grade": "B",
-      "note": "推奨1.4 / 上昇余地+19% / EPS差+nan% (n=37)",
-      "upside": 19.1,
-      "rec_mean": 1.425,
-      "n_analysts": 37
-    },
-    "MCD": {
-      "grade": "B",
-      "note": "推奨2.1 / 上昇余地+29% / EPS差+nan% (n=30)",
-      "upside": 29.1,
-      "rec_mean": 2.08571,
-      "n_analysts": 30
+    "MAR": {
+      "grade": null,
+      "note": "err"
     },
     "MLM": {
-      "grade": "B",
-      "note": "推奨1.8 / 上昇余地+34% / EPS差+nan% (n=24)",
-      "upside": 34.0,
-      "rec_mean": 1.83333,
-      "n_analysts": 24
-    },
-    "MRVL": {
-      "grade": "B",
-      "note": "推奨1.0 / 上昇余地+11% / EPS差+nan% (n=43)",
-      "upside": 10.8,
-      "rec_mean": 1.0,
-      "n_analysts": 43
+      "grade": null,
+      "note": "err"
     },
     "MAS": {
-      "grade": "C",
-      "note": "推奨2.4 / 上昇余地+18% / EPS差+nan% (n=18)",
-      "upside": 17.9,
-      "rec_mean": 2.42857,
-      "n_analysts": 18
+      "grade": null,
+      "note": "err"
+    },
+    "MA": {
+      "grade": null,
+      "note": "err"
+    },
+    "MRVL": {
+      "grade": null,
+      "note": "err"
     },
     "MKC": {
-      "grade": "B",
-      "note": "推奨2.3 / 上昇余地+22% / EPS差+nan% (n=13)",
-      "upside": 22.4,
-      "rec_mean": 2.26667,
-      "n_analysts": 13
+      "grade": null,
+      "note": "err"
+    },
+    "MPC": {
+      "grade": null,
+      "note": "err"
     },
     "MCK": {
-      "grade": "B",
-      "note": "推奨1.6 / 上昇余地+11% / EPS差+nan% (n=15)",
-      "upside": 11.4,
-      "rec_mean": 1.61111,
-      "n_analysts": 15
+      "grade": null,
+      "note": "err"
+    },
+    "MCD": {
+      "grade": null,
+      "note": "err"
     },
     "MDT": {
-      "grade": "B",
-      "note": "推奨1.8 / 上昇余地+17% / EPS差+nan% (n=24)",
-      "upside": 17.4,
-      "rec_mean": 1.75,
-      "n_analysts": 24
-    },
-    "MRK": {
-      "grade": "B",
-      "note": "推奨1.8 / 上昇余地+4% / EPS差+nan% (n=26)",
-      "upside": 3.8,
-      "rec_mean": 1.75,
-      "n_analysts": 26
-    },
-    "MGM": {
-      "grade": "B",
-      "note": "推奨2.4 / 上昇余地+34% / EPS差+nan% (n=18)",
-      "upside": 33.8,
-      "rec_mean": 2.40909,
-      "n_analysts": 18
-    },
-    "MET": {
-      "grade": "C",
-      "note": "推奨1.9 / 上昇余地+9% / EPS差+nan% (n=16)",
-      "upside": 8.8,
-      "rec_mean": 1.88889,
-      "n_analysts": 16
-    },
-    "MCHP": {
-      "grade": "A",
-      "note": "推奨1.5 / 上昇余地+43% / EPS差+nan% (n=25)",
-      "upside": 42.8,
-      "rec_mean": 1.53846,
-      "n_analysts": 25
-    },
-    "MTD": {
-      "grade": "D",
-      "note": "推奨2.6 / 上昇余地-2% / EPS差+nan% (n=14)",
-      "upside": -2.3,
-      "rec_mean": 2.6,
-      "n_analysts": 14
-    },
-    "MU": {
-      "grade": "A",
-      "note": "推奨1.3 / 上昇余地+41% / EPS差+nan% (n=46)",
-      "upside": 41.3,
-      "rec_mean": 1.34694,
-      "n_analysts": 46
+      "grade": null,
+      "note": "err"
     },
     "META": {
-      "grade": "B",
-      "note": "推奨1.3 / 上昇余地+3% / EPS差+nan% (n=56)",
-      "upside": 3.0,
-      "rec_mean": 1.33871,
-      "n_analysts": 56
+      "grade": null,
+      "note": "err"
     },
-    "MSFT": {
-      "grade": "B",
-      "note": "推奨1.3 / 上昇余地+15% / EPS差+nan% (n=52)",
-      "upside": 15.3,
-      "rec_mean": 1.32727,
-      "n_analysts": 52
+    "MET": {
+      "grade": null,
+      "note": "err"
     },
-    "MAA": {
-      "grade": "C",
-      "note": "推奨2.5 / 上昇余地+20% / EPS差+nan% (n=25)",
-      "upside": 20.1,
-      "rec_mean": 2.53846,
-      "n_analysts": 25
+    "MTD": {
+      "grade": null,
+      "note": "err"
     },
-    "MPWR": {
-      "grade": "A",
-      "note": "推奨1.3 / 上昇余地+36% / EPS差+nan% (n=15)",
-      "upside": 35.7,
-      "rec_mean": 1.29412,
-      "n_analysts": 15
+    "MRK": {
+      "grade": null,
+      "note": "err"
     },
-    "MOS": {
-      "grade": "C",
-      "note": "推奨2.5 / 上昇余地+10% / EPS差+nan% (n=18)",
-      "upside": 9.9,
-      "rec_mean": 2.45,
-      "n_analysts": 18
+    "MU": {
+      "grade": null,
+      "note": "err"
     },
-    "MRNA": {
-      "grade": "D",
-      "note": "推奨2.7 / 上昇余地-34% / EPS差+nan% (n=18)",
-      "upside": -34.3,
-      "rec_mean": 2.73913,
-      "n_analysts": 18
-    },
-    "MS": {
-      "grade": "B",
-      "note": "推奨2.3 / 上昇余地+19% / EPS差+nan% (n=21)",
-      "upside": 19.2,
-      "rec_mean": 2.28,
-      "n_analysts": 21
+    "MCHP": {
+      "grade": null,
+      "note": "err"
     },
     "MDLZ": {
-      "grade": "C",
-      "note": "推奨2.0 / 上昇余地+13% / EPS差+nan% (n=23)",
-      "upside": 12.5,
-      "rec_mean": 1.95833,
-      "n_analysts": 23
+      "grade": null,
+      "note": "err"
+    },
+    "MAA": {
+      "grade": null,
+      "note": "err"
+    },
+    "MRNA": {
+      "grade": null,
+      "note": "err"
+    },
+    "MSFT": {
+      "grade": null,
+      "note": "err"
+    },
+    "MGM": {
+      "grade": null,
+      "note": "err"
+    },
+    "MPWR": {
+      "grade": null,
+      "note": "err"
     },
     "MNST": {
-      "grade": "C",
-      "note": "推奨2.0 / 上昇余地+14% / EPS差+nan% (n=23)",
-      "upside": 14.4,
-      "rec_mean": 2.04,
-      "n_analysts": 23
+      "grade": null,
+      "note": "err"
     },
     "MCO": {
-      "grade": "B",
-      "note": "推奨1.7 / 上昇余地+19% / EPS差+nan% (n=21)",
-      "upside": 18.6,
-      "rec_mean": 1.70833,
-      "n_analysts": 21
-    },
-    "MSI": {
-      "grade": "B",
-      "note": "推奨1.6 / 上昇余地+14% / EPS差+nan% (n=11)",
-      "upside": 14.4,
-      "rec_mean": 1.64286,
-      "n_analysts": 11
-    },
-    "MSCI": {
-      "grade": "C",
-      "note": "上昇余地+25% / EPS差+nan% (n=17)",
-      "upside": 24.5,
-      "rec_mean": null,
-      "n_analysts": 17
-    },
-    "NFLX": {
-      "grade": "B",
-      "note": "推奨1.8 / 上昇余地+30% / EPS差+nan% (n=45)",
-      "upside": 30.2,
-      "rec_mean": 1.84314,
-      "n_analysts": 45
-    },
-    "NTAP": {
-      "grade": "C",
-      "note": "推奨2.3 / 上昇余地+0% / EPS差+nan% (n=16)",
-      "upside": 0.3,
-      "rec_mean": 2.3,
-      "n_analysts": 16
-    },
-    "NWSA": {
-      "grade": "B",
-      "note": "推奨1.5 / 上昇余地+29% / EPS差+nan% (n=8)",
-      "upside": 28.6,
-      "rec_mean": 1.5,
-      "n_analysts": 8
+      "grade": null,
+      "note": "err"
     },
     "NEM": {
-      "grade": "B",
-      "note": "推奨1.6 / 上昇余地+11% / EPS差+nan% (n=21)",
-      "upside": 10.6,
-      "rec_mean": 1.56522,
-      "n_analysts": 21
+      "grade": null,
+      "note": "err"
+    },
+    "NFLX": {
+      "grade": null,
+      "note": "err"
+    },
+    "MOS": {
+      "grade": null,
+      "note": "err"
+    },
+    "MS": {
+      "grade": null,
+      "note": "err"
+    },
+    "NTAP": {
+      "grade": null,
+      "note": "err"
+    },
+    "MSI": {
+      "grade": null,
+      "note": "err"
+    },
+    "MSCI": {
+      "grade": null,
+      "note": "err"
     },
     "NDAQ": {
-      "grade": "B",
-      "note": "推奨1.7 / 上昇余地+15% / EPS差+nan% (n=15)",
-      "upside": 14.9,
-      "rec_mean": 1.70588,
-      "n_analysts": 15
+      "grade": null,
+      "note": "err"
+    },
+    "NWSA": {
+      "grade": null,
+      "note": "err"
     },
     "NWS": {
       "grade": null,
-      "note": "カバレッジ不足"
-    },
-    "NEE": {
-      "grade": "B",
-      "note": "推奨2.0 / 上昇余地+28% / EPS差+nan% (n=18)",
-      "upside": 27.5,
-      "rec_mean": 2.0,
-      "n_analysts": 18
-    },
-    "NKE": {
-      "grade": "B",
-      "note": "推奨2.7 / 上昇余地+32% / EPS差+nan% (n=36)",
-      "upside": 32.4,
-      "rec_mean": 2.7381,
-      "n_analysts": 36
-    },
-    "NTRS": {
-      "grade": "C",
-      "note": "推奨3.0 / 上昇余地+6% / EPS差+nan% (n=13)",
-      "upside": 5.9,
-      "rec_mean": 3.0,
-      "n_analysts": 13
+      "note": "err"
     },
     "NI": {
-      "grade": "B",
-      "note": "推奨1.6 / 上昇余地+27% / EPS差+nan% (n=14)",
-      "upside": 27.0,
-      "rec_mean": 1.6,
-      "n_analysts": 14
+      "grade": null,
+      "note": "err"
     },
-    "NDSN": {
-      "grade": "C",
-      "note": "推奨2.0 / 上昇余地+9% / EPS差+nan% (n=7)",
-      "upside": 8.8,
-      "rec_mean": 2.0,
-      "n_analysts": 7
+    "NKE": {
+      "grade": null,
+      "note": "err"
     },
     "NSC": {
-      "grade": "C",
-      "note": "推奨2.6 / 上昇余地+16% / EPS差+nan% (n=18)",
-      "upside": 15.9,
-      "rec_mean": 2.57143,
-      "n_analysts": 18
+      "grade": null,
+      "note": "err"
+    },
+    "NDSN": {
+      "grade": null,
+      "note": "err"
+    },
+    "NEE": {
+      "grade": null,
+      "note": "err"
     },
     "NCLH": {
-      "grade": "B",
-      "note": "推奨2.3 / 上昇余地+45% / EPS差+nan% (n=25)",
-      "upside": 44.7,
-      "rec_mean": 2.2963,
-      "n_analysts": 25
+      "grade": null,
+      "note": "err"
     },
     "NOC": {
-      "grade": "B",
-      "note": "推奨2.0 / 上昇余地+25% / EPS差+nan% (n=22)",
-      "upside": 25.4,
-      "rec_mean": 2.0,
-      "n_analysts": 22
+      "grade": null,
+      "note": "err"
     },
     "NRG": {
-      "grade": "A",
-      "note": "推奨1.6 / 上昇余地+87% / EPS差+nan% (n=16)",
-      "upside": 87.2,
-      "rec_mean": 1.5625,
-      "n_analysts": 16
-    },
-    "NUE": {
-      "grade": "B",
-      "note": "推奨1.6 / 上昇余地+15% / EPS差+nan% (n=16)",
-      "upside": 14.8,
-      "rec_mean": 1.64706,
-      "n_analysts": 16
-    },
-    "NVDA": {
-      "grade": "A",
-      "note": "推奨1.3 / 上昇余地+45% / EPS差+nan% (n=59)",
-      "upside": 45.3,
-      "rec_mean": 1.29508,
-      "n_analysts": 59
-    },
-    "OMC": {
-      "grade": "B",
-      "note": "推奨2.1 / 上昇余地+35% / EPS差+nan% (n=12)",
-      "upside": 35.1,
-      "rec_mean": 2.07692,
-      "n_analysts": 12
-    },
-    "ON": {
-      "grade": "B",
-      "note": "推奨2.1 / 上昇余地+40% / EPS差+nan% (n=26)",
-      "upside": 39.9,
-      "rec_mean": 2.13333,
-      "n_analysts": 26
-    },
-    "ORLY": {
-      "grade": "B",
-      "note": "推奨1.5 / 上昇余地+25% / EPS差+nan% (n=25)",
-      "upside": 25.5,
-      "rec_mean": 1.53571,
-      "n_analysts": 25
-    },
-    "ODFL": {
-      "grade": "C",
-      "note": "推奨2.4 / 上昇余地+29% / EPS差+nan% (n=23)",
-      "upside": 28.7,
-      "rec_mean": 2.44,
-      "n_analysts": 23
-    },
-    "OXY": {
-      "grade": "C",
-      "note": "推奨2.3 / 上昇余地+19% / EPS差+nan% (n=25)",
-      "upside": 18.5,
-      "rec_mean": 2.30769,
-      "n_analysts": 25
-    },
-    "NXPI": {
-      "grade": "A",
-      "note": "推奨1.8 / 上昇余地+32% / EPS差+nan% (n=29)",
-      "upside": 32.1,
-      "rec_mean": 1.8,
-      "n_analysts": 29
+      "grade": null,
+      "note": "err"
     },
     "NVR": {
-      "grade": "C",
-      "note": "推奨2.7 / 上昇余地+8% / EPS差+nan% (n=5)",
-      "upside": 7.6,
-      "rec_mean": 2.66667,
-      "n_analysts": 5
+      "grade": null,
+      "note": "err"
     },
-    "OKE": {
-      "grade": "C",
-      "note": "推奨2.3 / 上昇余地+12% / EPS差+nan% (n=20)",
-      "upside": 12.1,
-      "rec_mean": 2.27273,
-      "n_analysts": 20
+    "NUE": {
+      "grade": null,
+      "note": "err"
+    },
+    "NVDA": {
+      "grade": null,
+      "note": "err"
+    },
+    "NTRS": {
+      "grade": null,
+      "note": "err"
+    },
+    "OXY": {
+      "grade": null,
+      "note": "err"
+    },
+    "ORLY": {
+      "grade": null,
+      "note": "err"
+    },
+    "NXPI": {
+      "grade": null,
+      "note": "err"
+    },
+    "ODFL": {
+      "grade": null,
+      "note": "err"
     },
     "OTIS": {
-      "grade": "B",
-      "note": "推奨2.2 / 上昇余地+29% / EPS差+nan% (n=12)",
-      "upside": 29.2,
-      "rec_mean": 2.15385,
-      "n_analysts": 12
+      "grade": null,
+      "note": "err"
     },
     "PCAR": {
-      "grade": "B",
-      "note": "推奨2.3 / 上昇余地+29% / EPS差+nan% (n=15)",
-      "upside": 29.2,
-      "rec_mean": 2.27778,
-      "n_analysts": 15
+      "grade": null,
+      "note": "err"
     },
-    "PANW": {
-      "grade": "B",
-      "note": "推奨1.7 / 上昇余地+1% / EPS差+nan% (n=50)",
-      "upside": 0.6,
-      "rec_mean": 1.69091,
-      "n_analysts": 50
+    "ON": {
+      "grade": null,
+      "note": "err"
     },
-    "PLTR": {
-      "grade": "C",
-      "note": "推奨1.8 / 上昇余地+2% / EPS差+nan% (n=26)",
-      "upside": 2.0,
-      "rec_mean": 1.8125,
-      "n_analysts": 26
-    },
-    "ORCL": {
-      "grade": "A",
-      "note": "推奨1.6 / 上昇余地+65% / EPS差+nan% (n=41)",
-      "upside": 64.6,
-      "rec_mean": 1.60465,
-      "n_analysts": 41
-    },
-    "PSKY": {
-      "grade": "D",
-      "note": "推奨3.5 / 上昇余地-0% / EPS差+nan% (n=16)",
-      "upside": -0.1,
-      "rec_mean": 3.45455,
-      "n_analysts": 16
+    "OKE": {
+      "grade": null,
+      "note": "err"
     },
     "PKG": {
-      "grade": "C",
-      "note": "推奨2.0 / 上昇余地+8% / EPS差+nan% (n=10)",
-      "upside": 7.6,
-      "rec_mean": 2.0,
-      "n_analysts": 10
+      "grade": null,
+      "note": "err"
     },
-    "PH": {
-      "grade": "B",
-      "note": "推奨1.7 / 上昇余地+20% / EPS差+nan% (n=23)",
-      "upside": 19.8,
-      "rec_mean": 1.68,
-      "n_analysts": 23
+    "OMC": {
+      "grade": null,
+      "note": "err"
+    },
+    "ORCL": {
+      "grade": null,
+      "note": "err"
+    },
+    "PANW": {
+      "grade": null,
+      "note": "err"
+    },
+    "PSKY": {
+      "grade": null,
+      "note": "err"
+    },
+    "PLTR": {
+      "grade": null,
+      "note": "err"
     },
     "PAYX": {
-      "grade": "B",
-      "note": "推奨3.1 / 上昇余地+16% / EPS差+2% (n=14)",
-      "upside": 15.8,
-      "rec_mean": 3.05263,
-      "n_analysts": 14
+      "grade": null,
+      "note": "err"
     },
     "PNR": {
-      "grade": "B",
-      "note": "推奨2.2 / 上昇余地+40% / EPS差+nan% (n=14)",
-      "upside": 40.0,
-      "rec_mean": 2.25,
-      "n_analysts": 14
-    },
-    "PEP": {
-      "grade": "C",
-      "note": "推奨2.6 / 上昇余地+17% / EPS差+nan% (n=22)",
-      "upside": 17.3,
-      "rec_mean": 2.625,
-      "n_analysts": 22
-    },
-    "PCG": {
-      "grade": "B",
-      "note": "推奨2.2 / 上昇余地+55% / EPS差+nan% (n=16)",
-      "upside": 54.9,
-      "rec_mean": 2.17647,
-      "n_analysts": 16
-    },
-    "PFE": {
-      "grade": "C",
-      "note": "推奨2.5 / 上昇余地+2% / EPS差+nan% (n=26)",
-      "upside": 2.5,
-      "rec_mean": 2.46429,
-      "n_analysts": 26
-    },
-    "PM": {
-      "grade": "B",
-      "note": "推奨1.7 / 上昇余地+9% / EPS差+nan% (n=15)",
-      "upside": 9.1,
-      "rec_mean": 1.6875,
-      "n_analysts": 15
+      "grade": null,
+      "note": "err"
     },
     "PYPL": {
-      "grade": "C",
-      "note": "推奨2.9 / 上昇余地+9% / EPS差+nan% (n=32)",
-      "upside": 8.7,
-      "rec_mean": 2.88372,
-      "n_analysts": 32
+      "grade": null,
+      "note": "err"
     },
-    "PSX": {
-      "grade": "C",
-      "note": "推奨2.1 / 上昇余地-2% / EPS差+nan% (n=19)",
-      "upside": -1.8,
-      "rec_mean": 2.1,
-      "n_analysts": 19
+    "PH": {
+      "grade": null,
+      "note": "err"
+    },
+    "PFE": {
+      "grade": null,
+      "note": "err"
+    },
+    "PCG": {
+      "grade": null,
+      "note": "err"
     },
     "PNW": {
-      "grade": "C",
-      "note": "推奨2.6 / 上昇余地+15% / EPS差+nan% (n=13)",
-      "upside": 14.6,
-      "rec_mean": 2.5625,
-      "n_analysts": 13
+      "grade": null,
+      "note": "err"
     },
     "PPG": {
-      "grade": "B",
-      "note": "推奨2.1 / 上昇余地+18% / EPS差+nan% (n=21)",
-      "upside": 17.8,
-      "rec_mean": 2.125,
-      "n_analysts": 21
+      "grade": null,
+      "note": "err"
+    },
+    "PSX": {
+      "grade": null,
+      "note": "err"
+    },
+    "PM": {
+      "grade": null,
+      "note": "err"
     },
     "PNC": {
-      "grade": "B",
-      "note": "推奨1.8 / 上昇余地+24% / EPS差+nan% (n=20)",
-      "upside": 24.0,
-      "rec_mean": 1.81818,
-      "n_analysts": 20
+      "grade": null,
+      "note": "err"
     },
-    "PG": {
-      "grade": "C",
-      "note": "推奨2.2 / 上昇余地+9% / EPS差+nan% (n=23)",
-      "upside": 9.0,
-      "rec_mean": 2.2,
-      "n_analysts": 23
-    },
-    "PFG": {
-      "grade": "D",
-      "note": "推奨3.0 / 上昇余地-2% / EPS差+nan% (n=12)",
-      "upside": -1.8,
-      "rec_mean": 3.0,
-      "n_analysts": 12
-    },
-    "PRU": {
-      "grade": "D",
-      "note": "推奨3.4 / 上昇余地-4% / EPS差+nan% (n=15)",
-      "upside": -3.6,
-      "rec_mean": 3.38889,
-      "n_analysts": 15
-    },
-    "PLD": {
-      "grade": "B",
-      "note": "推奨2.0 / 上昇余地+18% / EPS差+nan% (n=13)",
-      "upside": 18.1,
-      "rec_mean": 2.0,
-      "n_analysts": 13
-    },
-    "PGR": {
-      "grade": "C",
-      "note": "推奨2.6 / 上昇余地+14% / EPS差+nan% (n=21)",
-      "upside": 13.9,
-      "rec_mean": 2.64,
-      "n_analysts": 21
+    "PEP": {
+      "grade": null,
+      "note": "err"
     },
     "PPL": {
-      "grade": "B",
-      "note": "推奨1.6 / 上昇余地+25% / EPS差+nan% (n=15)",
-      "upside": 25.1,
-      "rec_mean": 1.625,
-      "n_analysts": 15
+      "grade": null,
+      "note": "err"
     },
-    "PTC": {
-      "grade": "B",
-      "note": "推奨1.9 / 上昇余地+23% / EPS差+nan% (n=20)",
-      "upside": 23.5,
-      "rec_mean": 1.9,
-      "n_analysts": 20
+    "PFG": {
+      "grade": null,
+      "note": "err"
     },
-    "Q": {
-      "grade": "A",
-      "note": "推奨1.2 / 上昇余地+42% / EPS差+nan% (n=8)",
-      "upside": 42.0,
-      "rec_mean": 1.25,
-      "n_analysts": 8
+    "PG": {
+      "grade": null,
+      "note": "err"
+    },
+    "PGR": {
+      "grade": null,
+      "note": "err"
+    },
+    "PRU": {
+      "grade": null,
+      "note": "err"
+    },
+    "PLD": {
+      "grade": null,
+      "note": "err"
     },
     "PEG": {
-      "grade": "C",
-      "note": "推奨2.3 / 上昇余地+27% / EPS差+nan% (n=18)",
-      "upside": 26.7,
-      "rec_mean": 2.31818,
-      "n_analysts": 18
+      "grade": null,
+      "note": "err"
     },
     "PSA": {
-      "grade": "C",
-      "note": "推奨2.5 / 上昇余地+17% / EPS差+nan% (n=18)",
-      "upside": 17.4,
-      "rec_mean": 2.5,
-      "n_analysts": 18
-    },
-    "QCOM": {
-      "grade": "D",
-      "note": "推奨2.6 / 上昇余地-2% / EPS差+nan% (n=30)",
-      "upside": -1.6,
-      "rec_mean": 2.56757,
-      "n_analysts": 30
-    },
-    "PWR": {
-      "grade": "B",
-      "note": "推奨1.5 / 上昇余地+21% / EPS差+nan% (n=29)",
-      "upside": 21.1,
-      "rec_mean": 1.51613,
-      "n_analysts": 29
-    },
-    "DGX": {
-      "grade": "C",
-      "note": "推奨2.1 / 上昇余地+6% / EPS差+nan% (n=15)",
-      "upside": 6.3,
-      "rec_mean": 2.11765,
-      "n_analysts": 15
+      "grade": null,
+      "note": "err"
     },
     "PHM": {
-      "grade": "B",
-      "note": "推奨2.0 / 上昇余地+19% / EPS差+nan% (n=15)",
-      "upside": 19.1,
-      "rec_mean": 2.0,
-      "n_analysts": 15
+      "grade": null,
+      "note": "err"
     },
     "RL": {
-      "grade": "A",
-      "note": "推奨1.5 / 上昇余地+32% / EPS差+nan% (n=17)",
-      "upside": 32.4,
-      "rec_mean": 1.52632,
-      "n_analysts": 17
+      "grade": null,
+      "note": "err"
     },
-    "RDDT": {
-      "grade": "B",
-      "note": "推奨1.9 / 上昇余地+41% / EPS差+nan% (n=33)",
-      "upside": 40.6,
-      "rec_mean": 1.94118,
-      "n_analysts": 33
+    "QCOM": {
+      "grade": null,
+      "note": "err"
+    },
+    "PWR": {
+      "grade": null,
+      "note": "err"
+    },
+    "DGX": {
+      "grade": null,
+      "note": "err"
+    },
+    "Q": {
+      "grade": null,
+      "note": "err"
+    },
+    "PTC": {
+      "grade": null,
+      "note": "err"
     },
     "RJF": {
-      "grade": "C",
-      "note": "推奨2.4 / 上昇余地+18% / EPS差+nan% (n=13)",
-      "upside": 17.6,
-      "rec_mean": 2.4,
-      "n_analysts": 13
+      "grade": null,
+      "note": "err"
     },
-    "O": {
-      "grade": "C",
-      "note": "推奨2.5 / 上昇余地+22% / EPS差+nan% (n=20)",
-      "upside": 21.7,
-      "rec_mean": 2.45833,
-      "n_analysts": 20
-    },
-    "RTX": {
-      "grade": "B",
-      "note": "推奨1.9 / 上昇余地+22% / EPS差+nan% (n=22)",
-      "upside": 22.0,
-      "rec_mean": 1.86957,
-      "n_analysts": 22
+    "RDDT": {
+      "grade": null,
+      "note": "err"
     },
     "REG": {
-      "grade": "B",
-      "note": "推奨2.1 / 上昇余地+19% / EPS差+nan% (n=18)",
-      "upside": 19.5,
-      "rec_mean": 2.1,
-      "n_analysts": 18
+      "grade": null,
+      "note": "err"
+    },
+    "RTX": {
+      "grade": null,
+      "note": "err"
+    },
+    "O": {
+      "grade": null,
+      "note": "err"
     },
     "RF": {
-      "grade": "C",
-      "note": "推奨2.8 / 上昇余地+20% / EPS差+nan% (n=20)",
-      "upside": 19.9,
-      "rec_mean": 2.77273,
-      "n_analysts": 20
+      "grade": null,
+      "note": "err"
     },
     "REGN": {
-      "grade": "C",
-      "note": "推奨1.9 / 上昇余地+6% / EPS差+nan% (n=26)",
-      "upside": 6.1,
-      "rec_mean": 1.89286,
-      "n_analysts": 26
-    },
-    "RSG": {
-      "grade": "B",
-      "note": "推奨2.0 / 上昇余地+15% / EPS差+nan% (n=24)",
-      "upside": 15.4,
-      "rec_mean": 2.0,
-      "n_analysts": 24
+      "grade": null,
+      "note": "err"
     },
     "RMD": {
-      "grade": "C",
-      "note": "推奨2.4 / 上昇余地+11% / EPS差+nan% (n=16)",
-      "upside": 11.4,
-      "rec_mean": 2.36842,
-      "n_analysts": 16
-    },
-    "HOOD": {
-      "grade": "B",
-      "note": "推奨1.7 / 上昇余地+6% / EPS差+nan% (n=27)",
-      "upside": 6.0,
-      "rec_mean": 1.65517,
-      "n_analysts": 27
-    },
-    "ROP": {
-      "grade": "C",
-      "note": "推奨2.4 / 上昇余地+22% / EPS差+nan% (n=15)",
-      "upside": 21.5,
-      "rec_mean": 2.4,
-      "n_analysts": 15
-    },
-    "ROK": {
-      "grade": "C",
-      "note": "推奨2.3 / 上昇余地+11% / EPS差+nan% (n=24)",
-      "upside": 10.6,
-      "rec_mean": 2.25926,
-      "n_analysts": 24
-    },
-    "ROL": {
-      "grade": "B",
-      "note": "推奨2.5 / 上昇余地+40% / EPS差+nan% (n=17)",
-      "upside": 40.3,
-      "rec_mean": 2.52632,
-      "n_analysts": 17
-    },
-    "ROST": {
-      "grade": "B",
-      "note": "推奨1.8 / 上昇余地+15% / EPS差+nan% (n=18)",
-      "upside": 15.4,
-      "rec_mean": 1.75,
-      "n_analysts": 18
-    },
-    "RCL": {
-      "grade": "A",
-      "note": "推奨1.8 / 上昇余地+51% / EPS差+nan% (n=25)",
-      "upside": 50.9,
-      "rec_mean": 1.75,
-      "n_analysts": 25
-    },
-    "SPGI": {
-      "grade": "B",
-      "note": "推奨1.3 / 上昇余地+28% / EPS差+nan% (n=20)",
-      "upside": 28.0,
-      "rec_mean": 1.33333,
-      "n_analysts": 20
-    },
-    "CRM": {
-      "grade": "B",
-      "note": "推奨1.7 / 上昇余地+18% / EPS差+nan% (n=53)",
-      "upside": 18.3,
-      "rec_mean": 1.72727,
-      "n_analysts": 53
-    },
-    "SNDK": {
-      "grade": "B",
-      "note": "推奨1.5 / 上昇余地+18% / EPS差+nan% (n=24)",
-      "upside": 17.6,
-      "rec_mean": 1.52,
-      "n_analysts": 24
-    },
-    "SLB": {
-      "grade": "B",
-      "note": "推奨1.6 / 上昇余地+20% / EPS差+nan% (n=29)",
-      "upside": 20.2,
-      "rec_mean": 1.6,
-      "n_analysts": 29
-    },
-    "SBAC": {
-      "grade": "B",
-      "note": "推奨2.1 / 上昇余地+32% / EPS差+nan% (n=20)",
-      "upside": 32.5,
-      "rec_mean": 2.14286,
-      "n_analysts": 20
-    },
-    "STX": {
-      "grade": "C",
-      "note": "上昇余地+22% / EPS差+nan% (n=23)",
-      "upside": 21.8,
-      "rec_mean": null,
-      "n_analysts": 23
-    },
-    "SRE": {
-      "grade": "B",
-      "note": "推奨1.6 / 上昇余地+28% / EPS差+nan% (n=17)",
-      "upside": 28.0,
-      "rec_mean": 1.57895,
-      "n_analysts": 17
-    },
-    "NOW": {
-      "grade": "B",
-      "note": "推奨1.4 / 上昇余地+3% / EPS差+nan% (n=46)",
-      "upside": 3.0,
-      "rec_mean": 1.42857,
-      "n_analysts": 46
-    },
-    "SHW": {
-      "grade": "B",
-      "note": "推奨2.0 / 上昇余地+19% / EPS差+nan% (n=22)",
-      "upside": 19.5,
-      "rec_mean": 2.0,
-      "n_analysts": 22
-    },
-    "SPG": {
-      "grade": "C",
-      "note": "推奨2.5 / 上昇余地+15% / EPS差+nan% (n=18)",
-      "upside": 15.0,
-      "rec_mean": 2.45,
-      "n_analysts": 18
-    },
-    "SWKS": {
-      "grade": "D",
-      "note": "推奨3.0 / 上昇余地-25% / EPS差+nan% (n=17)",
-      "upside": -25.3,
-      "rec_mean": 3.0,
-      "n_analysts": 17
-    },
-    "SW": {
-      "grade": "B",
-      "note": "推奨1.3 / 上昇余地+22% / EPS差+nan% (n=16)",
-      "upside": 22.4,
-      "rec_mean": 1.29412,
-      "n_analysts": 16
-    },
-    "SJM": {
-      "grade": "B",
-      "note": "推奨2.1 / 上昇余地+16% / EPS差+nan% (n=16)",
-      "upside": 15.5,
-      "rec_mean": 2.10526,
-      "n_analysts": 16
-    },
-    "SNA": {
-      "grade": "C",
-      "note": "推奨2.5 / 上昇余地+12% / EPS差+nan% (n=9)",
-      "upside": 11.8,
-      "rec_mean": 2.54545,
-      "n_analysts": 9
-    },
-    "SOLV": {
-      "grade": "C",
-      "note": "推奨2.2 / 上昇余地+6% / EPS差+nan% (n=13)",
-      "upside": 6.3,
-      "rec_mean": 2.2,
-      "n_analysts": 13
-    },
-    "SO": {
-      "grade": "C",
-      "note": "推奨2.7 / 上昇余地+20% / EPS差+nan% (n=19)",
-      "upside": 19.5,
-      "rec_mean": 2.65217,
-      "n_analysts": 19
-    },
-    "LUV": {
-      "grade": "C",
-      "note": "推奨2.4 / 上昇余地+22% / EPS差+nan% (n=23)",
-      "upside": 21.9,
-      "rec_mean": 2.44,
-      "n_analysts": 23
-    },
-    "SWK": {
-      "grade": "C",
-      "note": "推奨2.5 / 上昇余地+10% / EPS差+nan% (n=11)",
-      "upside": 9.8,
-      "rec_mean": 2.46667,
-      "n_analysts": 11
-    },
-    "SBUX": {
-      "grade": "C",
-      "note": "推奨2.4 / 上昇余地+19% / EPS差+nan% (n=31)",
-      "upside": 19.2,
-      "rec_mean": 2.35135,
-      "n_analysts": 31
-    },
-    "STT": {
-      "grade": "C",
-      "note": "推奨2.1 / 上昇余地+11% / EPS差+nan% (n=14)",
-      "upside": 10.9,
-      "rec_mean": 2.0625,
-      "n_analysts": 14
-    },
-    "STE": {
-      "grade": "B",
-      "note": "推奨1.8 / 上昇余地+25% / EPS差+nan% (n=8)",
-      "upside": 25.3,
-      "rec_mean": 1.77778,
-      "n_analysts": 8
-    },
-    "STLD": {
-      "grade": "B",
-      "note": "推奨2.0 / 上昇余地+16% / EPS差+nan% (n=14)",
-      "upside": 16.2,
-      "rec_mean": 2.0,
-      "n_analysts": 14
-    },
-    "SYK": {
-      "grade": "A",
-      "note": "推奨1.7 / 上昇余地+35% / EPS差+nan% (n=25)",
-      "upside": 35.0,
-      "rec_mean": 1.67857,
-      "n_analysts": 25
-    },
-    "SYF": {
-      "grade": "B",
-      "note": "推奨1.8 / 上昇余地+27% / EPS差+nan% (n=23)",
-      "upside": 26.6,
-      "rec_mean": 1.78261,
-      "n_analysts": 23
-    },
-    "SMCI": {
-      "grade": "C",
-      "note": "推奨2.8 / 上昇余地+2% / EPS差+nan% (n=16)",
-      "upside": 2.3,
-      "rec_mean": 2.84211,
-      "n_analysts": 16
-    },
-    "SNPS": {
-      "grade": "A",
-      "note": "推奨1.5 / 上昇余地+32% / EPS差+nan% (n=26)",
-      "upside": 32.2,
-      "rec_mean": 1.48,
-      "n_analysts": 26
-    },
-    "SYY": {
-      "grade": "C",
-      "note": "推奨2.4 / 上昇余地+17% / EPS差+nan% (n=13)",
-      "upside": 17.1,
-      "rec_mean": 2.4,
-      "n_analysts": 13
-    },
-    "TMUS": {
-      "grade": "A",
-      "note": "推奨1.7 / 上昇余地+48% / EPS差+nan% (n=25)",
-      "upside": 47.8,
-      "rec_mean": 1.67857,
-      "n_analysts": 25
-    },
-    "TROW": {
-      "grade": "D",
-      "note": "推奨3.4 / 上昇余地+5% / EPS差+nan% (n=12)",
-      "upside": 4.6,
-      "rec_mean": 3.38462,
-      "n_analysts": 12
-    },
-    "TTWO": {
-      "grade": "A",
-      "note": "推奨1.2 / 上昇余地+39% / EPS差+nan% (n=29)",
-      "upside": 38.8,
-      "rec_mean": 1.2069,
-      "n_analysts": 29
-    },
-    "TPR": {
-      "grade": "A",
-      "note": "推奨1.8 / 上昇余地+51% / EPS差+nan% (n=20)",
-      "upside": 50.7,
-      "rec_mean": 1.77273,
-      "n_analysts": 20
-    },
-    "TRGP": {
-      "grade": "B",
-      "note": "推奨1.4 / 上昇余地+15% / EPS差+nan% (n=21)",
-      "upside": 14.9,
-      "rec_mean": 1.36364,
-      "n_analysts": 21
+      "grade": null,
+      "note": "err"
     },
     "RVTY": {
-      "grade": "D",
-      "note": "推奨2.4 / 上昇余地-10% / EPS差+nan% (n=17)",
-      "upside": -9.6,
-      "rec_mean": 2.42105,
-      "n_analysts": 17
+      "grade": null,
+      "note": "err"
+    },
+    "ROK": {
+      "grade": null,
+      "note": "err"
+    },
+    "HOOD": {
+      "grade": null,
+      "note": "err"
+    },
+    "ROP": {
+      "grade": null,
+      "note": "err"
+    },
+    "ROL": {
+      "grade": null,
+      "note": "err"
+    },
+    "ROST": {
+      "grade": null,
+      "note": "err"
+    },
+    "RSG": {
+      "grade": null,
+      "note": "err"
+    },
+    "SPGI": {
+      "grade": null,
+      "note": "err"
+    },
+    "RCL": {
+      "grade": null,
+      "note": "err"
+    },
+    "CRM": {
+      "grade": null,
+      "note": "err"
+    },
+    "SNDK": {
+      "grade": null,
+      "note": "err"
+    },
+    "SBAC": {
+      "grade": null,
+      "note": "err"
+    },
+    "STX": {
+      "grade": null,
+      "note": "err"
+    },
+    "SLB": {
+      "grade": null,
+      "note": "err"
+    },
+    "SHW": {
+      "grade": null,
+      "note": "err"
+    },
+    "NOW": {
+      "grade": null,
+      "note": "err"
+    },
+    "SPG": {
+      "grade": null,
+      "note": "err"
+    },
+    "SNA": {
+      "grade": null,
+      "note": "err"
+    },
+    "SJM": {
+      "grade": null,
+      "note": "err"
+    },
+    "SWKS": {
+      "grade": null,
+      "note": "err"
+    },
+    "SW": {
+      "grade": null,
+      "note": "err"
+    },
+    "SRE": {
+      "grade": null,
+      "note": "err"
+    },
+    "SOLV": {
+      "grade": null,
+      "note": "err"
+    },
+    "SO": {
+      "grade": null,
+      "note": "err"
+    },
+    "LUV": {
+      "grade": null,
+      "note": "err"
+    },
+    "SBUX": {
+      "grade": null,
+      "note": "err"
+    },
+    "SWK": {
+      "grade": null,
+      "note": "err"
+    },
+    "STLD": {
+      "grade": null,
+      "note": "err"
+    },
+    "STT": {
+      "grade": null,
+      "note": "err"
+    },
+    "SYK": {
+      "grade": null,
+      "note": "err"
+    },
+    "SMCI": {
+      "grade": null,
+      "note": "err"
+    },
+    "SYF": {
+      "grade": null,
+      "note": "err"
+    },
+    "SYY": {
+      "grade": null,
+      "note": "err"
+    },
+    "TROW": {
+      "grade": null,
+      "note": "err"
+    },
+    "TMUS": {
+      "grade": null,
+      "note": "err"
+    },
+    "SNPS": {
+      "grade": null,
+      "note": "err"
+    },
+    "STE": {
+      "grade": null,
+      "note": "err"
+    },
+    "TTWO": {
+      "grade": null,
+      "note": "err"
+    },
+    "TPR": {
+      "grade": null,
+      "note": "err"
+    },
+    "TRGP": {
+      "grade": null,
+      "note": "err"
     },
     "TGT": {
-      "grade": "C",
-      "note": "推奨2.5 / 上昇余地+4% / EPS差+nan% (n=34)",
-      "upside": 4.2,
-      "rec_mean": 2.52632,
-      "n_analysts": 34
-    },
-    "TER": {
-      "grade": "B",
-      "note": "推奨1.6 / 上昇余地+15% / EPS差+nan% (n=15)",
-      "upside": 14.7,
-      "rec_mean": 1.64706,
-      "n_analysts": 15
-    },
-    "TDY": {
-      "grade": "B",
-      "note": "推奨1.8 / 上昇余地+22% / EPS差+nan% (n=12)",
-      "upside": 22.1,
-      "rec_mean": 1.75,
-      "n_analysts": 12
+      "grade": null,
+      "note": "err"
     },
     "TEL": {
-      "grade": "B",
-      "note": "推奨1.7 / 上昇余地+16% / EPS差+nan% (n=19)",
-      "upside": 15.9,
-      "rec_mean": 1.68421,
-      "n_analysts": 19
+      "grade": null,
+      "note": "err"
     },
-    "TSLA": {
-      "grade": "C",
-      "note": "推奨2.3 / 上昇余地+4% / EPS差+nan% (n=38)",
-      "upside": 4.4,
-      "rec_mean": 2.34884,
-      "n_analysts": 38
+    "TER": {
+      "grade": null,
+      "note": "err"
+    },
+    "TDY": {
+      "grade": null,
+      "note": "err"
     },
     "TXN": {
-      "grade": "B",
-      "note": "推奨2.1 / 上昇余地+19% / EPS差+nan% (n=31)",
-      "upside": 19.1,
-      "rec_mean": 2.08333,
-      "n_analysts": 31
+      "grade": null,
+      "note": "err"
     },
     "TPL": {
-      "grade": "B",
-      "note": "推奨3.0 / 上昇余地+32% / EPS差+nan% (n=2)",
-      "upside": 31.9,
-      "rec_mean": 3.0,
-      "n_analysts": 2
-    },
-    "TXT": {
-      "grade": "B",
-      "note": "推奨2.2 / 上昇余地+33% / EPS差+nan% (n=15)",
-      "upside": 32.9,
-      "rec_mean": 2.1875,
-      "n_analysts": 15
+      "grade": null,
+      "note": "err"
     },
     "TMO": {
-      "grade": "C",
-      "note": "推奨1.5 / 上昇余地-2% / EPS差+nan% (n=27)",
-      "upside": -2.3,
-      "rec_mean": 1.51724,
-      "n_analysts": 27
+      "grade": null,
+      "note": "err"
     },
     "TJX": {
-      "grade": "C",
-      "note": "上昇余地+29% / EPS差+nan% (n=20)",
-      "upside": 29.0,
-      "rec_mean": null,
-      "n_analysts": 20
-    },
-    "TKO": {
-      "grade": "B",
-      "note": "推奨1.5 / 上昇余地+22% / EPS差+nan% (n=19)",
-      "upside": 22.4,
-      "rec_mean": 1.5,
-      "n_analysts": 19
+      "grade": null,
+      "note": "err"
     },
     "TSCO": {
-      "grade": "C",
-      "note": "推奨2.1 / 上昇余地+10% / EPS差+nan% (n=27)",
-      "upside": 9.9,
-      "rec_mean": 2.1,
-      "n_analysts": 27
+      "grade": null,
+      "note": "err"
     },
-    "TT": {
-      "grade": "B",
-      "note": "推奨2.0 / 上昇余地+21% / EPS差+nan% (n=21)",
-      "upside": 20.6,
-      "rec_mean": 2.0,
-      "n_analysts": 21
+    "TKO": {
+      "grade": null,
+      "note": "err"
+    },
+    "TXT": {
+      "grade": null,
+      "note": "err"
+    },
+    "TSLA": {
+      "grade": null,
+      "note": "err"
     },
     "TDG": {
-      "grade": "B",
-      "note": "推奨2.1 / 上昇余地+37% / EPS差+nan% (n=19)",
-      "upside": 36.9,
-      "rec_mean": 2.08696,
-      "n_analysts": 19
+      "grade": null,
+      "note": "err"
+    },
+    "TT": {
+      "grade": null,
+      "note": "err"
     },
     "TRV": {
-      "grade": "C",
-      "note": "推奨3.0 / 上昇余地+0% / EPS差+nan% (n=24)",
-      "upside": 0.1,
-      "rec_mean": 2.96552,
-      "n_analysts": 24
-    },
-    "TRMB": {
-      "grade": "A",
-      "note": "推奨1.4 / 上昇余地+35% / EPS差+nan% (n=11)",
-      "upside": 35.2,
-      "rec_mean": 1.38462,
-      "n_analysts": 11
-    },
-    "TFC": {
-      "grade": "C",
-      "note": "推奨2.7 / 上昇余地+17% / EPS差+nan% (n=18)",
-      "upside": 16.6,
-      "rec_mean": 2.66667,
-      "n_analysts": 18
-    },
-    "TYL": {
-      "grade": "B",
-      "note": "推奨1.5 / 上昇余地+28% / EPS差+nan% (n=22)",
-      "upside": 28.3,
-      "rec_mean": 1.54545,
-      "n_analysts": 22
+      "grade": null,
+      "note": "err"
     },
     "TSN": {
-      "grade": "C",
-      "note": "推奨2.5 / 上昇余地+25% / EPS差+nan% (n=12)",
-      "upside": 25.1,
-      "rec_mean": 2.53846,
-      "n_analysts": 12
+      "grade": null,
+      "note": "err"
     },
-    "USB": {
-      "grade": "B",
-      "note": "推奨1.9 / 上昇余地+20% / EPS差+nan% (n=21)",
-      "upside": 20.3,
-      "rec_mean": 1.86957,
-      "n_analysts": 21
+    "TRMB": {
+      "grade": null,
+      "note": "err"
+    },
+    "TYL": {
+      "grade": null,
+      "note": "err"
+    },
+    "TFC": {
+      "grade": null,
+      "note": "err"
     },
     "UDR": {
-      "grade": "C",
-      "note": "推奨2.4 / 上昇余地+23% / EPS差+nan% (n=21)",
-      "upside": 22.7,
-      "rec_mean": 2.36364,
-      "n_analysts": 21
+      "grade": null,
+      "note": "err"
     },
     "UBER": {
-      "grade": "A",
-      "note": "推奨1.6 / 上昇余地+45% / EPS差+nan% (n=47)",
-      "upside": 45.2,
-      "rec_mean": 1.56863,
-      "n_analysts": 47
+      "grade": null,
+      "note": "err"
     },
     "ULTA": {
-      "grade": "B",
-      "note": "推奨1.8 / 上昇余地+16% / EPS差+nan% (n=25)",
-      "upside": 16.0,
-      "rec_mean": 1.78571,
-      "n_analysts": 25
+      "grade": null,
+      "note": "err"
     },
     "UNP": {
-      "grade": "B",
-      "note": "推奨1.7 / 上昇余地+20% / EPS差+nan% (n=24)",
-      "upside": 19.7,
-      "rec_mean": 1.72,
-      "n_analysts": 24
+      "grade": null,
+      "note": "err"
     },
     "UAL": {
-      "grade": "A",
-      "note": "推奨1.4 / 上昇余地+42% / EPS差+nan% (n=23)",
-      "upside": 41.9,
-      "rec_mean": 1.36,
-      "n_analysts": 23
+      "grade": null,
+      "note": "err"
     },
     "UPS": {
-      "grade": "B",
-      "note": "推奨2.2 / 上昇余地+21% / EPS差+nan% (n=26)",
-      "upside": 20.9,
-      "rec_mean": 2.17241,
-      "n_analysts": 26
+      "grade": null,
+      "note": "err"
     },
     "URI": {
-      "grade": "B",
-      "note": "推奨1.8 / 上昇余地+23% / EPS差+nan% (n=21)",
-      "upside": 23.0,
-      "rec_mean": 1.77273,
-      "n_analysts": 21
+      "grade": null,
+      "note": "err"
     },
-    "UNH": {
-      "grade": "B",
-      "note": "推奨1.6 / 上昇余地+30% / EPS差+nan% (n=25)",
-      "upside": 29.7,
-      "rec_mean": 1.57692,
-      "n_analysts": 25
+    "USB": {
+      "grade": null,
+      "note": "err"
     },
     "UHS": {
-      "grade": "C",
-      "note": "推奨2.4 / 上昇余地+7% / EPS差+nan% (n=17)",
-      "upside": 7.1,
-      "rec_mean": 2.4,
-      "n_analysts": 17
+      "grade": null,
+      "note": "err"
     },
-    "VTR": {
-      "grade": "B",
-      "note": "推奨1.6 / 上昇余地+18% / EPS差+nan% (n=22)",
-      "upside": 17.5,
-      "rec_mean": 1.6087,
-      "n_analysts": 22
-    },
-    "VEEV": {
-      "grade": "C",
-      "note": "推奨2.0 / 上昇余地+10% / EPS差+nan% (n=27)",
-      "upside": 9.8,
-      "rec_mean": 1.96552,
-      "n_analysts": 27
+    "UNH": {
+      "grade": null,
+      "note": "err"
     },
     "VLO": {
-      "grade": "D",
-      "note": "推奨2.4 / 上昇余地-4% / EPS差+nan% (n=19)",
-      "upside": -4.1,
-      "rec_mean": 2.4,
-      "n_analysts": 19
+      "grade": null,
+      "note": "err"
     },
     "VLTO": {
-      "grade": "B",
-      "note": "推奨1.9 / 上昇余地+20% / EPS差+nan% (n=14)",
-      "upside": 19.7,
-      "rec_mean": 1.875,
-      "n_analysts": 14
+      "grade": null,
+      "note": "err"
+    },
+    "VTR": {
+      "grade": null,
+      "note": "err"
+    },
+    "VEEV": {
+      "grade": null,
+      "note": "err"
     },
     "VRSN": {
-      "grade": "C",
-      "note": "推奨2.0 / 上昇余地+11% / EPS差+nan% (n=5)",
-      "upside": 10.6,
-      "rec_mean": 2.0,
-      "n_analysts": 5
+      "grade": null,
+      "note": "err"
     },
     "VZ": {
-      "grade": "C",
-      "note": "推奨2.4 / 上昇余地+11% / EPS差+nan% (n=22)",
-      "upside": 10.9,
-      "rec_mean": 2.36,
-      "n_analysts": 22
-    },
-    "VRSK": {
-      "grade": "B",
-      "note": "推奨2.1 / 上昇余地+37% / EPS差+nan% (n=17)",
-      "upside": 36.7,
-      "rec_mean": 2.05263,
-      "n_analysts": 17
+      "grade": null,
+      "note": "err"
     },
     "VRTX": {
-      "grade": "B",
-      "note": "推奨1.7 / 上昇余地+10% / EPS差+nan% (n=28)",
-      "upside": 10.5,
-      "rec_mean": 1.65625,
-      "n_analysts": 28
+      "grade": null,
+      "note": "err"
     },
     "VRT": {
-      "grade": "A",
-      "note": "推奨1.4 / 上昇余地+36% / EPS差+nan% (n=26)",
-      "upside": 35.9,
-      "rec_mean": 1.39286,
-      "n_analysts": 26
+      "grade": null,
+      "note": "err"
     },
     "VICI": {
-      "grade": "B",
-      "note": "推奨1.8 / 上昇余地+36% / EPS差+nan% (n=24)",
-      "upside": 35.7,
-      "rec_mean": 1.84,
-      "n_analysts": 24
+      "grade": null,
+      "note": "err"
     },
     "VTRS": {
-      "grade": "C",
-      "note": "推奨2.1 / 上昇余地+10% / EPS差+nan% (n=9)",
-      "upside": 9.7,
-      "rec_mean": 2.09091,
-      "n_analysts": 9
+      "grade": null,
+      "note": "err"
     },
-    "V": {
-      "grade": "B",
-      "note": "推奨1.4 / 上昇余地+16% / EPS差+nan% (n=37)",
-      "upside": 16.0,
-      "rec_mean": 1.45,
-      "n_analysts": 37
-    },
-    "VMRK": {
-      "grade": "B",
-      "note": "推奨2.1 / 上昇余地+20% / EPS差+nan% (n=19)",
-      "upside": 19.8,
-      "rec_mean": 2.09524,
-      "n_analysts": 19
-    },
-    "VST": {
-      "grade": "A",
-      "note": "推奨1.4 / 上昇余地+58% / EPS差+nan% (n=19)",
-      "upside": 57.7,
-      "rec_mean": 1.35,
-      "n_analysts": 19
-    },
-    "WRB": {
-      "grade": "D",
-      "note": "推奨3.4 / 上昇余地+3% / EPS差+nan% (n=17)",
-      "upside": 2.6,
-      "rec_mean": 3.38889,
-      "n_analysts": 17
-    },
-    "GWW": {
-      "grade": "C",
-      "note": "推奨2.8 / 上昇余地+5% / EPS差+nan% (n=14)",
-      "upside": 4.9,
-      "rec_mean": 2.78947,
-      "n_analysts": 14
+    "VRSK": {
+      "grade": null,
+      "note": "err"
     },
     "VMC": {
-      "grade": "B",
-      "note": "推奨1.8 / 上昇余地+33% / EPS差+nan% (n=23)",
-      "upside": 32.9,
-      "rec_mean": 1.83333,
-      "n_analysts": 23
+      "grade": null,
+      "note": "err"
+    },
+    "VMRK": {
+      "grade": null,
+      "note": "err"
+    },
+    "VST": {
+      "grade": null,
+      "note": "err"
+    },
+    "V": {
+      "grade": null,
+      "note": "err"
+    },
+    "WRB": {
+      "grade": null,
+      "note": "err"
     },
     "WAB": {
-      "grade": "B",
-      "note": "推奨1.4 / 上昇余地+13% / EPS差+nan% (n=12)",
-      "upside": 12.8,
-      "rec_mean": 1.41667,
-      "n_analysts": 12
+      "grade": null,
+      "note": "err"
     },
-    "WMT": {
-      "grade": "B",
-      "note": "推奨1.5 / 上昇余地+15% / EPS差+nan% (n=40)",
-      "upside": 15.3,
-      "rec_mean": 1.53488,
-      "n_analysts": 40
+    "GWW": {
+      "grade": null,
+      "note": "err"
     },
     "DIS": {
-      "grade": "B",
-      "note": "推奨1.4 / 上昇余地+23% / EPS差+nan% (n=31)",
-      "upside": 23.0,
-      "rec_mean": 1.4375,
-      "n_analysts": 31
-    },
-    "WM": {
-      "grade": "B",
-      "note": "推奨1.8 / 上昇余地+25% / EPS差+nan% (n=25)",
-      "upside": 25.0,
-      "rec_mean": 1.75,
-      "n_analysts": 25
+      "grade": null,
+      "note": "err"
     },
     "WBD": {
-      "grade": "D",
-      "note": "推奨2.8 / 上昇余地-2% / EPS差+nan% (n=12)",
-      "upside": -1.9,
-      "rec_mean": 2.75,
-      "n_analysts": 12
+      "grade": null,
+      "note": "err"
     },
-    "WEC": {
-      "grade": "C",
-      "note": "推奨2.4 / 上昇余地+20% / EPS差+nan% (n=17)",
-      "upside": 20.2,
-      "rec_mean": 2.36842,
-      "n_analysts": 17
+    "WM": {
+      "grade": null,
+      "note": "err"
     },
-    "WFC": {
-      "grade": "B",
-      "note": "推奨1.9 / 上昇余地+23% (n=23)",
-      "upside": 22.7,
-      "rec_mean": 1.88462,
-      "n_analysts": 23
+    "WMT": {
+      "grade": null,
+      "note": "err"
     },
     "WDC": {
-      "grade": "B",
-      "note": "上昇余地+40% (n=24)",
-      "upside": 40.4,
-      "rec_mean": null,
-      "n_analysts": 24
+      "grade": null,
+      "note": "err"
     },
     "WST": {
-      "grade": "B",
-      "note": "推奨1.4 / 上昇余地+8% / EPS差+nan% (n=16)",
-      "upside": 8.4,
-      "rec_mean": 1.35294,
-      "n_analysts": 16
+      "grade": null,
+      "note": "err"
     },
-    "WY": {
-      "grade": "B",
-      "note": "上昇余地+46% (n=11)",
-      "upside": 46.4,
-      "rec_mean": null,
-      "n_analysts": 11
-    },
-    "WELL": {
-      "grade": "B",
-      "note": "推奨1.7 / 上昇余地+14% / EPS差+nan% (n=22)",
-      "upside": 14.0,
-      "rec_mean": 1.68182,
-      "n_analysts": 22
+    "WEC": {
+      "grade": null,
+      "note": "err"
     },
     "WAT": {
-      "grade": "B",
-      "note": "推奨1.7 / 上昇余地+6% / EPS差+nan% (n=24)",
-      "upside": 5.8,
-      "rec_mean": 1.68,
-      "n_analysts": 24
+      "grade": null,
+      "note": "err"
     },
-    "WSM": {
-      "grade": "B",
-      "note": "推奨2.2 / 上昇余地+9% (n=20)",
-      "upside": 8.8,
-      "rec_mean": 2.17391,
-      "n_analysts": 20
+    "WFC": {
+      "grade": null,
+      "note": "err"
     },
-    "WYNN": {
-      "grade": "A",
-      "note": "推奨1.2 / 上昇余地+62% (n=20)",
-      "upside": 62.1,
-      "rec_mean": 1.19048,
-      "n_analysts": 20
-    },
-    "XEL": {
-      "grade": "A",
-      "note": "推奨1.4 / 上昇余地+29% (n=17)",
-      "upside": 29.4,
-      "rec_mean": 1.44444,
-      "n_analysts": 17
-    },
-    "WDAY": {
-      "grade": "B",
-      "note": "推奨2.3 / 上昇余地+8% (n=38)",
-      "upside": 8.5,
-      "rec_mean": 2.2619,
-      "n_analysts": 38
+    "WELL": {
+      "grade": null,
+      "note": "err"
     },
     "WMB": {
-      "grade": "A",
-      "note": "推奨1.4 / 上昇余地+20% (n=23)",
-      "upside": 20.5,
-      "rec_mean": 1.375,
-      "n_analysts": 23
+      "grade": null,
+      "note": "err"
     },
     "WTW": {
-      "grade": "A",
-      "note": "推奨1.8 / 上昇余地+27% (n=19)",
-      "upside": 26.6,
-      "rec_mean": 1.7619,
-      "n_analysts": 19
+      "grade": null,
+      "note": "err"
+    },
+    "WY": {
+      "grade": null,
+      "note": "err"
+    },
+    "WDAY": {
+      "grade": null,
+      "note": "err"
+    },
+    "WSM": {
+      "grade": null,
+      "note": "err"
     },
     "ZBRA": {
-      "grade": "B",
-      "note": "推奨1.9 / 上昇余地+11% (n=15)",
-      "upside": 10.9,
-      "rec_mean": 1.9375,
-      "n_analysts": 15
+      "grade": null,
+      "note": "err"
     },
     "YUM": {
-      "grade": "B",
-      "note": "推奨2.1 / 上昇余地+23% (n=23)",
-      "upside": 22.9,
-      "rec_mean": 2.07407,
-      "n_analysts": 23
+      "grade": null,
+      "note": "err"
+    },
+    "XEL": {
+      "grade": null,
+      "note": "err"
     },
     "XYL": {
-      "grade": "A",
-      "note": "推奨1.9 / 上昇余地+42% (n=16)",
-      "upside": 41.6,
-      "rec_mean": 1.85714,
-      "n_analysts": 16
-    },
-    "ZBH": {
-      "grade": "B",
-      "note": "推奨2.4 / 上昇余地+18% (n=21)",
-      "upside": 18.4,
-      "rec_mean": 2.44444,
-      "n_analysts": 21
-    },
-    "QBTS": {
-      "grade": "A",
-      "note": "推奨1.2 / 上昇余地+110% (n=16)",
-      "upside": 109.6,
-      "rec_mean": 1.17647,
-      "n_analysts": 16
-    },
-    "RKLB": {
-      "grade": "A",
-      "note": "推奨1.6 / 上昇余地+56% (n=19)",
-      "upside": 55.6,
-      "rec_mean": 1.6,
-      "n_analysts": 19
+      "grade": null,
+      "note": "err"
     },
     "RGTI": {
-      "grade": "A",
-      "note": "推奨1.7 / 上昇余地+80% (n=12)",
-      "upside": 80.0,
-      "rec_mean": 1.69231,
-      "n_analysts": 12
+      "grade": null,
+      "note": "err"
     },
-    "ZTS": {
-      "grade": "B",
-      "note": "上昇余地+34% (n=15)",
-      "upside": 34.1,
-      "rec_mean": null,
-      "n_analysts": 15
+    "QBTS": {
+      "grade": null,
+      "note": "err"
+    },
+    "ZBH": {
+      "grade": null,
+      "note": "err"
     },
     "QUBT": {
-      "grade": "A",
-      "note": "推奨1.7 / 上昇余地+105% (n=6)",
-      "upside": 104.7,
-      "rec_mean": 1.66667,
-      "n_analysts": 6
+      "grade": null,
+      "note": "err"
+    },
+    "ZTS": {
+      "grade": null,
+      "note": "err"
     },
     "IONQ": {
-      "grade": "A",
-      "note": "推奨1.4 / 上昇余地+58% (n=13)",
-      "upside": 57.8,
-      "rec_mean": 1.38462,
-      "n_analysts": 13
+      "grade": null,
+      "note": "err"
+    },
+    "WYNN": {
+      "grade": null,
+      "note": "err"
+    },
+    "RKLB": {
+      "grade": null,
+      "note": "err"
+    },
+    "PL": {
+      "grade": null,
+      "note": "err"
+    },
+    "LUNR": {
+      "grade": null,
+      "note": "err"
     },
     "ASTS": {
-      "grade": "B",
-      "note": "推奨2.6 / 上昇余地+33% (n=12)",
-      "upside": 32.7,
-      "rec_mean": 2.57143,
-      "n_analysts": 12
+      "grade": null,
+      "note": "err"
     },
     "ARQQ": {
       "grade": null,
-      "note": "カバレッジ不足"
-    },
-    "LUNR": {
-      "grade": "B",
-      "note": "上昇余地+94% (n=8)",
-      "upside": 93.6,
-      "rec_mean": null,
-      "n_analysts": 8
-    },
-    "PL": {
-      "grade": "A",
-      "note": "推奨1.8 / 上昇余地+104% (n=10)",
-      "upside": 103.9,
-      "rec_mean": 1.81818,
-      "n_analysts": 10
-    },
-    "SPIR": {
-      "grade": "A",
-      "note": "推奨1.5 / 上昇余地+71% (n=4)",
-      "upside": 71.0,
-      "rec_mean": 1.5,
-      "n_analysts": 4
-    },
-    "RDW": {
-      "grade": "A",
-      "note": "推奨1.9 / 上昇余地+30% (n=8)",
-      "upside": 30.3,
-      "rec_mean": 1.9,
-      "n_analysts": 8
-    },
-    "BKSY": {
-      "grade": "A",
-      "note": "推奨1.3 / 上昇余地+73% (n=8)",
-      "upside": 72.7,
-      "rec_mean": 1.33333,
-      "n_analysts": 8
-    },
-    "JOBY": {
-      "grade": "B",
-      "note": "推奨3.0 / 上昇余地+71% (n=9)",
-      "upside": 70.8,
-      "rec_mean": 3.0,
-      "n_analysts": 9
-    },
-    "ACHR": {
-      "grade": "B",
-      "note": "上昇余地+86% (n=9)",
-      "upside": 85.8,
-      "rec_mean": null,
-      "n_analysts": 9
-    },
-    "KTOS": {
-      "grade": "A",
-      "note": "推奨1.4 / 上昇余地+123% (n=21)",
-      "upside": 122.6,
-      "rec_mean": 1.38095,
-      "n_analysts": 21
+      "note": "err"
     },
     "QS": {
-      "grade": "B",
-      "note": "上昇余地+36% (n=8)",
-      "upside": 35.7,
-      "rec_mean": null,
-      "n_analysts": 8
+      "grade": null,
+      "note": "err"
     },
-    "MVST": {
-      "grade": "B",
-      "note": "上昇余地+546% (n=2)",
-      "upside": 545.6,
-      "rec_mean": null,
-      "n_analysts": 2
+    "ACHR": {
+      "grade": null,
+      "note": "err"
+    },
+    "BKSY": {
+      "grade": null,
+      "note": "err"
+    },
+    "SPIR": {
+      "grade": null,
+      "note": "err"
+    },
+    "JOBY": {
+      "grade": null,
+      "note": "err"
+    },
+    "KTOS": {
+      "grade": null,
+      "note": "err"
+    },
+    "RDW": {
+      "grade": null,
+      "note": "err"
     },
     "ENVX": {
-      "grade": "B",
-      "note": "上昇余地+286% (n=10)",
-      "upside": 286.1,
-      "rec_mean": null,
-      "n_analysts": 10
-    },
-    "FREY": {
       "grade": null,
-      "note": "カバレッジ不足"
+      "note": "err"
     },
-    "POET": {
+    "MVST": {
       "grade": null,
-      "note": "カバレッジ不足"
-    },
-    "NVTS": {
-      "grade": "B",
-      "note": "上昇余地+19% (n=8)",
-      "upside": 18.9,
-      "rec_mean": null,
-      "n_analysts": 8
-    },
-    "STEM": {
-      "grade": "B",
-      "note": "上昇余地+95% (n=5)",
-      "upside": 95.0,
-      "rec_mean": null,
-      "n_analysts": 5
-    },
-    "AMPX": {
-      "grade": "B",
-      "note": "上昇余地+136% (n=9)",
-      "upside": 136.4,
-      "rec_mean": null,
-      "n_analysts": 9
+      "note": "err"
     },
     "SLDP": {
-      "grade": "B",
-      "note": "上昇余地+193% (n=2)",
-      "upside": 192.6,
-      "rec_mean": null,
-      "n_analysts": 2
+      "grade": null,
+      "note": "err"
     },
     "ATOM": {
       "grade": null,
-      "note": "カバレッジ不足"
+      "note": "err"
     },
-    "ACMR": {
-      "grade": "A",
-      "note": "推奨1.4 / 上昇余地+44% (n=8)",
-      "upside": 43.6,
-      "rec_mean": 1.44444,
-      "n_analysts": 8
+    "FREY": {
+      "grade": null,
+      "note": "err"
+    },
+    "STEM": {
+      "grade": null,
+      "note": "err"
+    },
+    "AMPX": {
+      "grade": null,
+      "note": "err"
+    },
+    "POET": {
+      "grade": null,
+      "note": "err"
+    },
+    "NVTS": {
+      "grade": null,
+      "note": "err"
     },
     "AEHR": {
-      "grade": "A",
-      "note": "推奨1.0 / 上昇余地+31% (n=5)",
-      "upside": 31.4,
-      "rec_mean": 1.0,
-      "n_analysts": 5
+      "grade": null,
+      "note": "err"
     },
-    "SMR": {
-      "grade": "B",
-      "note": "推奨2.7 / 上昇余地+38% (n=15)",
-      "upside": 37.9,
-      "rec_mean": 2.66667,
-      "n_analysts": 15
+    "ACMR": {
+      "grade": null,
+      "note": "err"
     },
-    "NNE": {
-      "grade": "A",
-      "note": "推奨1.6 / 上昇余地+121% (n=7)",
-      "upside": 120.9,
-      "rec_mean": 1.625,
-      "n_analysts": 7
+    "UEC": {
+      "grade": null,
+      "note": "err"
+    },
+    "LEU": {
+      "grade": null,
+      "note": "err"
+    },
+    "INDI": {
+      "grade": null,
+      "note": "err"
     },
     "LWLG": {
       "grade": null,
-      "note": "カバレッジ不足"
+      "note": "err"
     },
-    "LEU": {
-      "grade": "A",
-      "note": "推奨1.8 / 上昇余地+64% (n=17)",
-      "upside": 63.5,
-      "rec_mean": 1.84211,
-      "n_analysts": 17
+    "SMR": {
+      "grade": null,
+      "note": "err"
     },
     "OKLO": {
-      "grade": "B",
-      "note": "上昇余地+99% (n=20)",
-      "upside": 98.7,
-      "rec_mean": null,
-      "n_analysts": 20
+      "grade": null,
+      "note": "err"
     },
-    "INDI": {
-      "grade": "A",
-      "note": "推奨1.6 / 上昇余地+86% (n=8)",
-      "upside": 86.3,
-      "rec_mean": 1.625,
-      "n_analysts": 8
-    },
-    "CCJ": {
-      "grade": "A",
-      "note": "推奨1.6 / 上昇余地+41% (n=11)",
-      "upside": 40.7,
-      "rec_mean": 1.57143,
-      "n_analysts": 11
-    },
-    "UEC": {
-      "grade": "B",
-      "note": "上昇余地+75% (n=10)",
-      "upside": 74.6,
-      "rec_mean": null,
-      "n_analysts": 10
-    },
-    "BWXT": {
-      "grade": "A",
-      "note": "推奨1.6 / 上昇余地+58% (n=16)",
-      "upside": 57.7,
-      "rec_mean": 1.61111,
-      "n_analysts": 16
+    "NNE": {
+      "grade": null,
+      "note": "err"
     },
     "SOUN": {
-      "grade": "A",
-      "note": "推奨1.5 / 上昇余地+109% (n=7)",
-      "upside": 109.2,
-      "rec_mean": 1.5,
-      "n_analysts": 7
+      "grade": null,
+      "note": "err"
     },
-    "BBAI": {
-      "grade": "B",
-      "note": "上昇余地+41% (n=2)",
-      "upside": 40.8,
-      "rec_mean": null,
-      "n_analysts": 2
+    "BWXT": {
+      "grade": null,
+      "note": "err"
     },
-    "MP": {
-      "grade": "A",
-      "note": "推奨1.4 / 上昇余地+52% (n=17)",
-      "upside": 52.0,
-      "rec_mean": 1.36842,
-      "n_analysts": 17
-    },
-    "AI": {
-      "grade": "D",
-      "note": "推奨3.5 / 上昇余地-24% (n=10)",
-      "upside": -23.6,
-      "rec_mean": 3.5,
-      "n_analysts": 10
-    },
-    "BLDP": {
-      "grade": "B",
-      "note": "推奨2.7 / 上昇余地+84% (n=10)",
-      "upside": 83.7,
-      "rec_mean": 2.66667,
-      "n_analysts": 10
+    "CCJ": {
+      "grade": null,
+      "note": "err"
     },
     "2002.T": {
-      "grade": "C",
-      "note": "上昇余地+5% (n=5)",
-      "upside": 4.6,
-      "rec_mean": null,
-      "n_analysts": 5
+      "grade": null,
+      "note": "err"
     },
     "REE": {
       "grade": null,
-      "note": "カバレッジ不足"
+      "note": "err"
+    },
+    "AI": {
+      "grade": null,
+      "note": "err"
+    },
+    "BLDP": {
+      "grade": null,
+      "note": "err"
+    },
+    "BBAI": {
+      "grade": null,
+      "note": "err"
+    },
+    "MP": {
+      "grade": null,
+      "note": "err"
     },
     "PLUG": {
-      "grade": "B",
-      "note": "推奨2.8 / 上昇余地+74% (n=16)",
-      "upside": 74.2,
-      "rec_mean": 2.8,
-      "n_analysts": 16
-    },
-    "2269.T": {
       "grade": null,
-      "note": "カバレッジ不足"
-    },
-    "2501.T": {
-      "grade": null,
-      "note": "カバレッジ不足"
+      "note": "err"
     },
     "2282.T": {
       "grade": null,
-      "note": "カバレッジ不足"
+      "note": "err"
     },
     "2502.T": {
       "grade": null,
-      "note": "カバレッジ不足"
+      "note": "err"
     },
-    "2801.T": {
+    "2269.T": {
       "grade": null,
-      "note": "カバレッジ不足"
+      "note": "err"
     },
-    "2503.T": {
+    "2501.T": {
       "grade": null,
-      "note": "カバレッジ不足"
-    },
-    "2802.T": {
-      "grade": null,
-      "note": "カバレッジ不足"
-    },
-    "2871.T": {
-      "grade": null,
-      "note": "カバレッジ不足"
+      "note": "err"
     },
     "2914.T": {
       "grade": null,
-      "note": "カバレッジ不足"
+      "note": "err"
+    },
+    "2801.T": {
+      "grade": null,
+      "note": "err"
+    },
+    "2503.T": {
+      "grade": null,
+      "note": "err"
     },
     "3401.T": {
       "grade": null,
-      "note": "カバレッジ不足"
+      "note": "err"
     },
-    "3402.T": {
+    "2802.T": {
       "grade": null,
-      "note": "カバレッジ不足"
+      "note": "err"
     },
-    "3861.T": {
+    "2871.T": {
       "grade": null,
-      "note": "カバレッジ不足"
-    },
-    "4004.T": {
-      "grade": null,
-      "note": "カバレッジ不足"
-    },
-    "4005.T": {
-      "grade": null,
-      "note": "カバレッジ不足"
+      "note": "err"
     },
     "3405.T": {
       "grade": null,
-      "note": "カバレッジ不足"
+      "note": "err"
+    },
+    "3402.T": {
+      "grade": null,
+      "note": "err"
+    },
+    "4004.T": {
+      "grade": null,
+      "note": "err"
+    },
+    "3861.T": {
+      "grade": null,
+      "note": "err"
     },
     "3407.T": {
       "grade": null,
-      "note": "カバレッジ不足"
+      "note": "err"
     },
     "4021.T": {
       "grade": null,
-      "note": "カバレッジ不足"
+      "note": "err"
     },
     "4063.T": {
+      "grade": null,
+      "note": "err"
+    },
+    "4043.T": {
+      "grade": null,
+      "note": "err"
+    },
+    "4061.T": {
+      "grade": null,
+      "note": "err"
+    },
+    "4005.T": {
+      "grade": null,
+      "note": "err"
+    },
+    "4042.T": {
+      "grade": null,
+      "note": "err"
+    },
+    "4452.T": {
+      "grade": null,
+      "note": "err"
+    },
+    "4901.T": {
       "grade": null,
       "note": "err"
     },
@@ -3883,35 +2292,7 @@
       "grade": null,
       "note": "err"
     },
-    "4452.T": {
-      "grade": null,
-      "note": "err"
-    },
     "4208.T": {
-      "grade": null,
-      "note": "err"
-    },
-    "4042.T": {
-      "grade": null,
-      "note": "カバレッジ不足"
-    },
-    "4151.T": {
-      "grade": null,
-      "note": "err"
-    },
-    "4901.T": {
-      "grade": null,
-      "note": "err"
-    },
-    "4502.T": {
-      "grade": null,
-      "note": "err"
-    },
-    "6988.T": {
-      "grade": null,
-      "note": "err"
-    },
-    "4911.T": {
       "grade": null,
       "note": "err"
     },
@@ -3919,7 +2300,31 @@
       "grade": null,
       "note": "err"
     },
+    "4502.T": {
+      "grade": null,
+      "note": "err"
+    },
+    "4911.T": {
+      "grade": null,
+      "note": "err"
+    },
     "4506.T": {
+      "grade": null,
+      "note": "err"
+    },
+    "6988.T": {
+      "grade": null,
+      "note": "err"
+    },
+    "4151.T": {
+      "grade": null,
+      "note": "err"
+    },
+    "4523.T": {
+      "grade": null,
+      "note": "err"
+    },
+    "4568.T": {
       "grade": null,
       "note": "err"
     },
@@ -3931,11 +2336,7 @@
       "grade": null,
       "note": "err"
     },
-    "4568.T": {
-      "grade": null,
-      "note": "err"
-    },
-    "4523.T": {
+    "5201.T": {
       "grade": null,
       "note": "err"
     },
@@ -3947,6 +2348,10 @@
       "grade": null,
       "note": "err"
     },
+    "5108.T": {
+      "grade": null,
+      "note": "err"
+    },
     "5020.T": {
       "grade": null,
       "note": "err"
@@ -3955,27 +2360,11 @@
       "grade": null,
       "note": "err"
     },
-    "5201.T": {
+    "5401.T": {
       "grade": null,
       "note": "err"
-    },
-    "5214.T": {
-      "grade": null,
-      "note": "err"
-    },
-    "5108.T": {
-      "grade": null,
-      "note": "err"
-    },
-    "4043.T": {
-      "grade": null,
-      "note": "カバレッジ不足"
     },
     "5301.T": {
-      "grade": null,
-      "note": "err"
-    },
-    "5332.T": {
       "grade": null,
       "note": "err"
     },
@@ -3983,7 +2372,7 @@
       "grade": null,
       "note": "err"
     },
-    "5401.T": {
+    "5214.T": {
       "grade": null,
       "note": "err"
     },
@@ -3991,15 +2380,7 @@
       "grade": null,
       "note": "err"
     },
-    "5406.T": {
-      "grade": null,
-      "note": "err"
-    },
-    "5411.T": {
-      "grade": null,
-      "note": "err"
-    },
-    "5711.T": {
+    "5332.T": {
       "grade": null,
       "note": "err"
     },
@@ -4007,23 +2388,19 @@
       "grade": null,
       "note": "err"
     },
-    "5713.T": {
+    "5706.T": {
       "grade": null,
       "note": "err"
     },
-    "4061.T": {
-      "grade": null,
-      "note": "カバレッジ不足"
-    },
-    "5714.T": {
+    "5406.T": {
       "grade": null,
       "note": "err"
     },
-    "5801.T": {
+    "5711.T": {
       "grade": null,
       "note": "err"
     },
-    "5802.T": {
+    "5411.T": {
       "grade": null,
       "note": "err"
     },
@@ -4031,7 +2408,15 @@
       "grade": null,
       "note": "err"
     },
-    "6113.T": {
+    "5802.T": {
+      "grade": null,
+      "note": "err"
+    },
+    "5801.T": {
+      "grade": null,
+      "note": "err"
+    },
+    "5713.T": {
       "grade": null,
       "note": "err"
     },
@@ -4039,15 +2424,7 @@
       "grade": null,
       "note": "err"
     },
-    "6273.T": {
-      "grade": null,
-      "note": "err"
-    },
-    "6103.T": {
-      "grade": null,
-      "note": "err"
-    },
-    "6302.T": {
+    "5714.T": {
       "grade": null,
       "note": "err"
     },
@@ -4055,7 +2432,15 @@
       "grade": null,
       "note": "err"
     },
-    "6361.T": {
+    "6273.T": {
+      "grade": null,
+      "note": "err"
+    },
+    "6302.T": {
+      "grade": null,
+      "note": "err"
+    },
+    "6103.T": {
       "grade": null,
       "note": "err"
     },
@@ -4063,7 +2448,19 @@
       "grade": null,
       "note": "err"
     },
+    "6326.T": {
+      "grade": null,
+      "note": "err"
+    },
+    "6113.T": {
+      "grade": null,
+      "note": "err"
+    },
     "6367.T": {
+      "grade": null,
+      "note": "err"
+    },
+    "6361.T": {
       "grade": null,
       "note": "err"
     },
@@ -4071,7 +2468,15 @@
       "grade": null,
       "note": "err"
     },
-    "6326.T": {
+    "6473.T": {
+      "grade": null,
+      "note": "err"
+    },
+    "6472.T": {
+      "grade": null,
+      "note": "err"
+    },
+    "7011.T": {
       "grade": null,
       "note": "err"
     },
@@ -4079,19 +2484,7 @@
       "grade": null,
       "note": "err"
     },
-    "6473.T": {
-      "grade": null,
-      "note": "err"
-    },
-    "6503.T": {
-      "grade": null,
-      "note": "err"
-    },
-    "6501.T": {
-      "grade": null,
-      "note": "err"
-    },
-    "6479.T": {
+    "7013.T": {
       "grade": null,
       "note": "err"
     },
@@ -4099,15 +2492,11 @@
       "grade": null,
       "note": "err"
     },
-    "7013.T": {
+    "6479.T": {
       "grade": null,
       "note": "err"
     },
-    "6504.T": {
-      "grade": null,
-      "note": "err"
-    },
-    "6506.T": {
+    "6501.T": {
       "grade": null,
       "note": "err"
     },
@@ -4115,7 +2504,7 @@
       "grade": null,
       "note": "err"
     },
-    "6645.T": {
+    "6504.T": {
       "grade": null,
       "note": "err"
     },
@@ -4123,11 +2512,15 @@
       "grade": null,
       "note": "err"
     },
-    "5706.T": {
+    "6506.T": {
       "grade": null,
       "note": "err"
     },
-    "6702.T": {
+    "6503.T": {
+      "grade": null,
+      "note": "err"
+    },
+    "6645.T": {
       "grade": null,
       "note": "err"
     },
@@ -4139,23 +2532,7 @@
       "grade": null,
       "note": "err"
     },
-    "7011.T": {
-      "grade": null,
-      "note": "err"
-    },
-    "6753.T": {
-      "grade": null,
-      "note": "err"
-    },
-    "6770.T": {
-      "grade": null,
-      "note": "err"
-    },
-    "6762.T": {
-      "grade": null,
-      "note": "err"
-    },
-    "6758.T": {
+    "6702.T": {
       "grade": null,
       "note": "err"
     },
@@ -4167,47 +2544,27 @@
       "grade": null,
       "note": "err"
     },
-    "6861.T": {
-      "grade": null,
-      "note": "err"
-    },
     "6841.T": {
       "grade": null,
       "note": "err"
     },
-    "6902.T": {
+    "6762.T": {
       "grade": null,
       "note": "err"
     },
-    "6954.T": {
+    "6758.T": {
       "grade": null,
       "note": "err"
     },
-    "6472.T": {
+    "6861.T": {
       "grade": null,
       "note": "err"
     },
-    "6971.T": {
+    "6753.T": {
       "grade": null,
       "note": "err"
     },
-    "6963.T": {
-      "grade": null,
-      "note": "err"
-    },
-    "6976.T": {
-      "grade": null,
-      "note": "err"
-    },
-    "7735.T": {
-      "grade": null,
-      "note": "err"
-    },
-    "7752.T": {
-      "grade": null,
-      "note": "err"
-    },
-    "6981.T": {
+    "6770.T": {
       "grade": null,
       "note": "err"
     },
@@ -4215,11 +2572,51 @@
       "grade": null,
       "note": "err"
     },
-    "7012.T": {
+    "6963.T": {
+      "grade": null,
+      "note": "err"
+    },
+    "6971.T": {
+      "grade": null,
+      "note": "err"
+    },
+    "6976.T": {
+      "grade": null,
+      "note": "err"
+    },
+    "6954.T": {
+      "grade": null,
+      "note": "err"
+    },
+    "6902.T": {
       "grade": null,
       "note": "err"
     },
     "7751.T": {
+      "grade": null,
+      "note": "err"
+    },
+    "6981.T": {
+      "grade": null,
+      "note": "err"
+    },
+    "7752.T": {
+      "grade": null,
+      "note": "err"
+    },
+    "7735.T": {
+      "grade": null,
+      "note": "err"
+    },
+    "7201.T": {
+      "grade": null,
+      "note": "err"
+    },
+    "7203.T": {
+      "grade": null,
+      "note": "err"
+    },
+    "7012.T": {
       "grade": null,
       "note": "err"
     },
@@ -4231,23 +2628,7 @@
       "grade": null,
       "note": "err"
     },
-    "7203.T": {
-      "grade": null,
-      "note": "err"
-    },
-    "7267.T": {
-      "grade": null,
-      "note": "err"
-    },
-    "7261.T": {
-      "grade": null,
-      "note": "err"
-    },
-    "7211.T": {
-      "grade": null,
-      "note": "err"
-    },
-    "7201.T": {
+    "7269.T": {
       "grade": null,
       "note": "err"
     },
@@ -4255,19 +2636,7 @@
       "grade": null,
       "note": "err"
     },
-    "6146.T": {
-      "grade": null,
-      "note": "err"
-    },
-    "4543.T": {
-      "grade": null,
-      "note": "err"
-    },
-    "7741.T": {
-      "grade": null,
-      "note": "err"
-    },
-    "4902.T": {
+    "7261.T": {
       "grade": null,
       "note": "err"
     },
@@ -4275,7 +2644,19 @@
       "grade": null,
       "note": "err"
     },
-    "7733.T": {
+    "7211.T": {
+      "grade": null,
+      "note": "err"
+    },
+    "4543.T": {
+      "grade": null,
+      "note": "err"
+    },
+    "7267.T": {
+      "grade": null,
+      "note": "err"
+    },
+    "6146.T": {
       "grade": null,
       "note": "err"
     },
@@ -4283,11 +2664,11 @@
       "grade": null,
       "note": "err"
     },
-    "7911.T": {
+    "7733.T": {
       "grade": null,
       "note": "err"
     },
-    "7951.T": {
+    "7741.T": {
       "grade": null,
       "note": "err"
     },
@@ -4295,7 +2676,11 @@
       "grade": null,
       "note": "err"
     },
-    "7912.T": {
+    "7911.T": {
+      "grade": null,
+      "note": "err"
+    },
+    "4902.T": {
       "grade": null,
       "note": "err"
     },
@@ -4303,11 +2688,15 @@
       "grade": null,
       "note": "err"
     },
-    "1605.T": {
+    "7951.T": {
       "grade": null,
       "note": "err"
     },
-    "1721.T": {
+    "1802.T": {
+      "grade": null,
+      "note": "err"
+    },
+    "1605.T": {
       "grade": null,
       "note": "err"
     },
@@ -4315,11 +2704,11 @@
       "grade": null,
       "note": "err"
     },
-    "1803.T": {
+    "1721.T": {
       "grade": null,
       "note": "err"
     },
-    "1802.T": {
+    "7912.T": {
       "grade": null,
       "note": "err"
     },
@@ -4343,11 +2732,15 @@
       "grade": null,
       "note": "err"
     },
+    "1803.T": {
+      "grade": null,
+      "note": "err"
+    },
     "1928.T": {
       "grade": null,
       "note": "err"
     },
-    "8001.T": {
+    "8015.T": {
       "grade": null,
       "note": "err"
     },
@@ -4355,15 +2748,11 @@
       "grade": null,
       "note": "err"
     },
-    "8053.T": {
-      "grade": null,
-      "note": "err"
-    },
-    "3099.T": {
-      "grade": null,
-      "note": "err"
-    },
     "3092.T": {
+      "grade": null,
+      "note": "err"
+    },
+    "8031.T": {
       "grade": null,
       "note": "err"
     },
@@ -4375,19 +2764,19 @@
       "grade": null,
       "note": "err"
     },
+    "8053.T": {
+      "grade": null,
+      "note": "err"
+    },
+    "8001.T": {
+      "grade": null,
+      "note": "err"
+    },
+    "3099.T": {
+      "grade": null,
+      "note": "err"
+    },
     "3382.T": {
-      "grade": null,
-      "note": "err"
-    },
-    "8233.T": {
-      "grade": null,
-      "note": "err"
-    },
-    "8252.T": {
-      "grade": null,
-      "note": "err"
-    },
-    "7453.T": {
       "grade": null,
       "note": "err"
     },
@@ -4399,23 +2788,23 @@
       "grade": null,
       "note": "err"
     },
+    "7453.T": {
+      "grade": null,
+      "note": "err"
+    },
+    "8252.T": {
+      "grade": null,
+      "note": "err"
+    },
+    "8233.T": {
+      "grade": null,
+      "note": "err"
+    },
     "9983.T": {
       "grade": null,
       "note": "err"
     },
-    "9843.T": {
-      "grade": null,
-      "note": "err"
-    },
     "5831.T": {
-      "grade": null,
-      "note": "err"
-    },
-    "7269.T": {
-      "grade": null,
-      "note": "err"
-    },
-    "7186.T": {
       "grade": null,
       "note": "err"
     },
@@ -4427,11 +2816,11 @@
       "grade": null,
       "note": "err"
     },
-    "8015.T": {
+    "8309.T": {
       "grade": null,
       "note": "err"
     },
-    "8309.T": {
+    "7186.T": {
       "grade": null,
       "note": "err"
     },
@@ -4439,11 +2828,7 @@
       "grade": null,
       "note": "err"
     },
-    "8354.T": {
-      "grade": null,
-      "note": "err"
-    },
-    "8331.T": {
+    "9843.T": {
       "grade": null,
       "note": "err"
     },
@@ -4451,11 +2836,11 @@
       "grade": null,
       "note": "err"
     },
-    "8601.T": {
+    "8331.T": {
       "grade": null,
       "note": "err"
     },
-    "8630.T": {
+    "8354.T": {
       "grade": null,
       "note": "err"
     },
@@ -4463,11 +2848,11 @@
       "grade": null,
       "note": "err"
     },
-    "8725.T": {
+    "8411.T": {
       "grade": null,
       "note": "err"
     },
-    "8766.T": {
+    "8601.T": {
       "grade": null,
       "note": "err"
     },
@@ -4475,11 +2860,15 @@
       "grade": null,
       "note": "err"
     },
-    "8591.T": {
+    "8766.T": {
       "grade": null,
       "note": "err"
     },
-    "8697.T": {
+    "8630.T": {
+      "grade": null,
+      "note": "err"
+    },
+    "8725.T": {
       "grade": null,
       "note": "err"
     },
@@ -4487,35 +2876,23 @@
       "grade": null,
       "note": "err"
     },
-    "8253.T": {
-      "grade": null,
-      "note": "err"
-    },
-    "8411.T": {
-      "grade": null,
-      "note": "err"
-    },
     "8801.T": {
       "grade": null,
       "note": "err"
     },
-    "9005.T": {
+    "8591.T": {
       "grade": null,
       "note": "err"
     },
-    "8802.T": {
+    "8253.T": {
+      "grade": null,
+      "note": "err"
+    },
+    "8697.T": {
       "grade": null,
       "note": "err"
     },
     "8795.T": {
-      "grade": null,
-      "note": "err"
-    },
-    "8804.T": {
-      "grade": null,
-      "note": "err"
-    },
-    "8031.T": {
       "grade": null,
       "note": "err"
     },
@@ -4527,10 +2904,6 @@
       "grade": null,
       "note": "err"
     },
-    "9009.T": {
-      "grade": null,
-      "note": "err"
-    },
     "9008.T": {
       "grade": null,
       "note": "err"
@@ -4539,7 +2912,15 @@
       "grade": null,
       "note": "err"
     },
-    "9022.T": {
+    "9005.T": {
+      "grade": null,
+      "note": "err"
+    },
+    "8802.T": {
+      "grade": null,
+      "note": "err"
+    },
+    "8804.T": {
       "grade": null,
       "note": "err"
     },
@@ -4551,6 +2932,22 @@
       "grade": null,
       "note": "err"
     },
+    "9009.T": {
+      "grade": null,
+      "note": "err"
+    },
+    "9201.T": {
+      "grade": null,
+      "note": "err"
+    },
+    "9107.T": {
+      "grade": null,
+      "note": "err"
+    },
+    "9064.T": {
+      "grade": null,
+      "note": "err"
+    },
     "9147.T": {
       "grade": null,
       "note": "err"
@@ -4559,23 +2956,11 @@
       "grade": null,
       "note": "err"
     },
-    "9064.T": {
-      "grade": null,
-      "note": "err"
-    },
-    "9107.T": {
+    "9022.T": {
       "grade": null,
       "note": "err"
     },
     "9104.T": {
-      "grade": null,
-      "note": "err"
-    },
-    "9202.T": {
-      "grade": null,
-      "note": "err"
-    },
-    "9201.T": {
       "grade": null,
       "note": "err"
     },
@@ -4587,27 +2972,7 @@
       "grade": null,
       "note": "err"
     },
-    "9984.T": {
-      "grade": null,
-      "note": "err"
-    },
     "9434.T": {
-      "grade": null,
-      "note": "err"
-    },
-    "9503.T": {
-      "grade": null,
-      "note": "err"
-    },
-    "9532.T": {
-      "grade": null,
-      "note": "err"
-    },
-    "2413.T": {
-      "grade": null,
-      "note": "err"
-    },
-    "9531.T": {
       "grade": null,
       "note": "err"
     },
@@ -4615,7 +2980,27 @@
       "grade": null,
       "note": "err"
     },
+    "9202.T": {
+      "grade": null,
+      "note": "err"
+    },
+    "9984.T": {
+      "grade": null,
+      "note": "err"
+    },
+    "9532.T": {
+      "grade": null,
+      "note": "err"
+    },
+    "9531.T": {
+      "grade": null,
+      "note": "err"
+    },
     "9502.T": {
+      "grade": null,
+      "note": "err"
+    },
+    "2413.T": {
       "grade": null,
       "note": "err"
     },
@@ -4624,6 +3009,10 @@
       "note": "err"
     },
     "3659.T": {
+      "grade": null,
+      "note": "err"
+    },
+    "9503.T": {
       "grade": null,
       "note": "err"
     },
@@ -4639,11 +3028,15 @@
       "grade": null,
       "note": "err"
     },
-    "4385.T": {
+    "4755.T": {
       "grade": null,
       "note": "err"
     },
-    "4689.T": {
+    "6178.T": {
+      "grade": null,
+      "note": "err"
+    },
+    "4385.T": {
       "grade": null,
       "note": "err"
     },
@@ -4651,15 +3044,15 @@
       "grade": null,
       "note": "err"
     },
-    "4704.T": {
-      "grade": null,
-      "note": "err"
-    },
     "6098.T": {
       "grade": null,
       "note": "err"
     },
-    "4755.T": {
+    "4704.T": {
+      "grade": null,
+      "note": "err"
+    },
+    "4689.T": {
       "grade": null,
       "note": "err"
     },
@@ -4667,7 +3060,11 @@
       "grade": null,
       "note": "err"
     },
-    "6178.T": {
+    "6532.T": {
+      "grade": null,
+      "note": "err"
+    },
+    "7974.T": {
       "grade": null,
       "note": "err"
     },
@@ -4679,18 +3076,6 @@
       "grade": null,
       "note": "err"
     },
-    "9766.T": {
-      "grade": null,
-      "note": "err"
-    },
-    "7974.T": {
-      "grade": null,
-      "note": "err"
-    },
-    "6532.T": {
-      "grade": null,
-      "note": "err"
-    },
     "6890.T": {
       "grade": null,
       "note": "err"
@@ -4699,7 +3084,15 @@
       "grade": null,
       "note": "err"
     },
-    "6324.T": {
+    "9766.T": {
+      "grade": null,
+      "note": "err"
+    },
+    "4185.T": {
+      "grade": null,
+      "note": "err"
+    },
+    "6707.T": {
       "grade": null,
       "note": "err"
     },
@@ -4711,23 +3104,11 @@
       "grade": null,
       "note": "err"
     },
-    "9301.T": {
-      "grade": null,
-      "note": "err"
-    },
-    "6707.T": {
-      "grade": null,
-      "note": "err"
-    },
-    "4185.T": {
-      "grade": null,
-      "note": "err"
-    },
     "4204.T": {
       "grade": null,
       "note": "err"
     },
-    "1662.T": {
+    "6324.T": {
       "grade": null,
       "note": "err"
     },
@@ -4735,11 +3116,7 @@
       "grade": null,
       "note": "err"
     },
-    "9504.T": {
-      "grade": null,
-      "note": "err"
-    },
-    "9505.T": {
+    "1662.T": {
       "grade": null,
       "note": "err"
     },
@@ -4747,11 +3124,11 @@
       "grade": null,
       "note": "err"
     },
-    "9506.T": {
+    "9301.T": {
       "grade": null,
       "note": "err"
     },
-    "6521.T": {
+    "9509.T": {
       "grade": null,
       "note": "err"
     },
@@ -4759,7 +3136,19 @@
       "grade": null,
       "note": "err"
     },
+    "9504.T": {
+      "grade": null,
+      "note": "err"
+    },
     "9511.T": {
+      "grade": null,
+      "note": "err"
+    },
+    "9505.T": {
+      "grade": null,
+      "note": "err"
+    },
+    "9506.T": {
       "grade": null,
       "note": "err"
     },
@@ -4771,19 +3160,11 @@
       "grade": null,
       "note": "err"
     },
+    "6521.T": {
+      "grade": null,
+      "note": "err"
+    },
     "4393.T": {
-      "grade": null,
-      "note": "err"
-    },
-    "5595.T": {
-      "grade": null,
-      "note": "err"
-    },
-    "4395.T": {
-      "grade": null,
-      "note": "err"
-    },
-    "4880.T": {
       "grade": null,
       "note": "err"
     },
@@ -4791,15 +3172,27 @@
       "grade": null,
       "note": "err"
     },
-    "4598.T": {
-      "grade": null,
-      "note": "err"
-    },
     "6525.T": {
       "grade": null,
       "note": "err"
     },
-    "7240.T": {
+    "4598.T": {
+      "grade": null,
+      "note": "err"
+    },
+    "5595.T": {
+      "grade": null,
+      "note": "err"
+    },
+    "4880.T": {
+      "grade": null,
+      "note": "err"
+    },
+    "4395.T": {
+      "grade": null,
+      "note": "err"
+    },
+    "9519.T": {
       "grade": null,
       "note": "err"
     },
@@ -4807,7 +3200,15 @@
       "grade": null,
       "note": "err"
     },
-    "9519.T": {
+    "4218.T": {
+      "grade": null,
+      "note": "err"
+    },
+    "9514.T": {
+      "grade": null,
+      "note": "err"
+    },
+    "4382.T": {
       "grade": null,
       "note": "err"
     },
@@ -4819,11 +3220,7 @@
       "grade": null,
       "note": "err"
     },
-    "9514.T": {
-      "grade": null,
-      "note": "err"
-    },
-    "1719.T": {
+    "7240.T": {
       "grade": null,
       "note": "err"
     },
@@ -4831,15 +3228,11 @@
       "grade": null,
       "note": "err"
     },
-    "4382.T": {
-      "grade": null,
-      "note": "err"
-    },
-    "ABAT": {
-      "grade": null,
-      "note": "err"
-    },
     "ACFN": {
+      "grade": null,
+      "note": "err"
+    },
+    "1719.T": {
       "grade": null,
       "note": "err"
     },
@@ -4847,7 +3240,7 @@
       "grade": null,
       "note": "err"
     },
-    "ADSE": {
+    "ABAT": {
       "grade": null,
       "note": "err"
     },
@@ -4855,19 +3248,7 @@
       "grade": null,
       "note": "err"
     },
-    "ADPT": {
-      "grade": null,
-      "note": "err"
-    },
-    "AEIS": {
-      "grade": null,
-      "note": "err"
-    },
     "AEC": {
-      "grade": null,
-      "note": "err"
-    },
-    "4218.T": {
       "grade": null,
       "note": "err"
     },
@@ -4875,11 +3256,11 @@
       "grade": null,
       "note": "err"
     },
-    "AEVA": {
+    "ADPT": {
       "grade": null,
       "note": "err"
     },
-    "AIFA": {
+    "ADSE": {
       "grade": null,
       "note": "err"
     },
@@ -4887,7 +3268,19 @@
       "grade": null,
       "note": "err"
     },
-    "AIFC": {
+    "AEVA": {
+      "grade": null,
+      "note": "err"
+    },
+    "AEIS": {
+      "grade": null,
+      "note": "err"
+    },
+    "ADUR": {
+      "grade": null,
+      "note": "err"
+    },
+    "AIFA": {
       "grade": null,
       "note": "err"
     },
@@ -4907,15 +3300,27 @@
       "grade": null,
       "note": "err"
     },
-    "AISP": {
-      "grade": null,
-      "note": "err"
-    },
     "AIRE": {
       "grade": null,
       "note": "err"
     },
-    "AIRS": {
+    "AIFC": {
+      "grade": null,
+      "note": "err"
+    },
+    "AIXC": {
+      "grade": null,
+      "note": "err"
+    },
+    "AISP": {
+      "grade": null,
+      "note": "err"
+    },
+    "ALLO": {
+      "grade": null,
+      "note": "err"
+    },
+    "AMCI": {
       "grade": null,
       "note": "err"
     },
@@ -4927,15 +3332,11 @@
       "grade": null,
       "note": "err"
     },
-    "AMCI": {
+    "AMKR": {
       "grade": null,
       "note": "err"
     },
-    "AIXC": {
-      "grade": null,
-      "note": "err"
-    },
-    "ALLO": {
+    "AIRS": {
       "grade": null,
       "note": "err"
     },
@@ -4947,11 +3348,7 @@
       "grade": null,
       "note": "err"
     },
-    "ADUR": {
-      "grade": null,
-      "note": "err"
-    },
-    "AMKR": {
+    "AQMS": {
       "grade": null,
       "note": "err"
     },
@@ -4963,27 +3360,11 @@
       "grade": null,
       "note": "err"
     },
-    "AQMS": {
-      "grade": null,
-      "note": "err"
-    },
-    "9509.T": {
-      "grade": null,
-      "note": "err"
-    },
     "ARAI": {
       "grade": null,
       "note": "err"
     },
     "ARBE": {
-      "grade": null,
-      "note": "err"
-    },
-    "ARCI": {
-      "grade": null,
-      "note": "err"
-    },
-    "ASTI": {
       "grade": null,
       "note": "err"
     },
@@ -4995,19 +3376,7 @@
       "grade": null,
       "note": "err"
     },
-    "ASYS": {
-      "grade": null,
-      "note": "err"
-    },
-    "AVR": {
-      "grade": null,
-      "note": "err"
-    },
-    "ATLX": {
-      "grade": null,
-      "note": "err"
-    },
-    "AVX": {
+    "ASTI": {
       "grade": null,
       "note": "err"
     },
@@ -5015,11 +3384,19 @@
       "grade": null,
       "note": "err"
     },
-    "AZIO": {
+    "ATGL": {
       "grade": null,
       "note": "err"
     },
-    "AZI": {
+    "ASYS": {
+      "grade": null,
+      "note": "err"
+    },
+    "ATLX": {
+      "grade": null,
+      "note": "err"
+    },
+    "ARCI": {
       "grade": null,
       "note": "err"
     },
@@ -5027,7 +3404,15 @@
       "grade": null,
       "note": "err"
     },
-    "BAER": {
+    "AVR": {
+      "grade": null,
+      "note": "err"
+    },
+    "AVX": {
+      "grade": null,
+      "note": "err"
+    },
+    "AZIO": {
       "grade": null,
       "note": "err"
     },
@@ -5035,7 +3420,11 @@
       "grade": null,
       "note": "err"
     },
-    "BFRG": {
+    "AZI": {
+      "grade": null,
+      "note": "err"
+    },
+    "BAER": {
       "grade": null,
       "note": "err"
     },
@@ -5043,19 +3432,7 @@
       "grade": null,
       "note": "err"
     },
-    "BGIN": {
-      "grade": null,
-      "note": "err"
-    },
     "BGLC": {
-      "grade": null,
-      "note": "err"
-    },
-    "BIAF": {
-      "grade": null,
-      "note": "err"
-    },
-    "BMEA": {
       "grade": null,
       "note": "err"
     },
@@ -5063,7 +3440,11 @@
       "grade": null,
       "note": "err"
     },
-    "BIS": {
+    "BIAF": {
+      "grade": null,
+      "note": "err"
+    },
+    "BGIN": {
       "grade": null,
       "note": "err"
     },
@@ -5071,23 +3452,15 @@
       "grade": null,
       "note": "err"
     },
-    "ATGL": {
+    "BFRG": {
       "grade": null,
       "note": "err"
     },
-    "BMM": {
+    "BIS": {
       "grade": null,
       "note": "err"
     },
-    "BRTM": {
-      "grade": null,
-      "note": "err"
-    },
-    "BSEM": {
-      "grade": null,
-      "note": "err"
-    },
-    "BWEN": {
+    "BMEA": {
       "grade": null,
       "note": "err"
     },
@@ -5095,7 +3468,7 @@
       "grade": null,
       "note": "err"
     },
-    "BYAH": {
+    "BRTM": {
       "grade": null,
       "note": "err"
     },
@@ -5103,15 +3476,15 @@
       "grade": null,
       "note": "err"
     },
-    "CATY": {
+    "BSEM": {
       "grade": null,
       "note": "err"
     },
-    "CAAS": {
+    "BMM": {
       "grade": null,
       "note": "err"
     },
-    "CCSI": {
+    "BWEN": {
       "grade": null,
       "note": "err"
     },
@@ -5119,19 +3492,15 @@
       "grade": null,
       "note": "err"
     },
-    "CCLD": {
+    "CAAS": {
       "grade": null,
       "note": "err"
     },
-    "CCEC": {
+    "CATY": {
       "grade": null,
       "note": "err"
     },
-    "CBAT": {
-      "grade": null,
-      "note": "err"
-    },
-    "CCTG": {
+    "BYAH": {
       "grade": null,
       "note": "err"
     },
@@ -5139,23 +3508,23 @@
       "grade": null,
       "note": "err"
     },
-    "CELZ": {
+    "CCTG": {
       "grade": null,
       "note": "err"
     },
-    "CGTL": {
+    "CCLD": {
       "grade": null,
       "note": "err"
     },
-    "CEPL": {
+    "CBAT": {
       "grade": null,
       "note": "err"
     },
-    "CHAI": {
+    "CCEC": {
       "grade": null,
       "note": "err"
     },
-    "CHRD": {
+    "CCSI": {
       "grade": null,
       "note": "err"
     },
@@ -5163,11 +3532,19 @@
       "grade": null,
       "note": "err"
     },
-    "CHKP": {
+    "CGTL": {
       "grade": null,
       "note": "err"
     },
-    "CLGN": {
+    "CELZ": {
+      "grade": null,
+      "note": "err"
+    },
+    "CEPL": {
+      "grade": null,
+      "note": "err"
+    },
+    "CLIR": {
       "grade": null,
       "note": "err"
     },
@@ -5175,7 +3552,31 @@
       "grade": null,
       "note": "err"
     },
-    "CLIR": {
+    "CHRD": {
+      "grade": null,
+      "note": "err"
+    },
+    "CHKP": {
+      "grade": null,
+      "note": "err"
+    },
+    "CHAI": {
+      "grade": null,
+      "note": "err"
+    },
+    "CLGN": {
+      "grade": null,
+      "note": "err"
+    },
+    "CNEY": {
+      "grade": null,
+      "note": "err"
+    },
+    "CNET": {
+      "grade": null,
+      "note": "err"
+    },
+    "CLWT": {
       "grade": null,
       "note": "err"
     },
@@ -5187,15 +3588,15 @@
       "grade": null,
       "note": "err"
     },
-    "CNEY": {
+    "CSIQ": {
       "grade": null,
       "note": "err"
     },
-    "CLWT": {
+    "CSAI": {
       "grade": null,
       "note": "err"
     },
-    "CNET": {
+    "CPSH": {
       "grade": null,
       "note": "err"
     },
@@ -5207,11 +3608,7 @@
       "grade": null,
       "note": "err"
     },
-    "CPSH": {
-      "grade": null,
-      "note": "err"
-    },
-    "DEFT": {
+    "DFLI": {
       "grade": null,
       "note": "err"
     },
@@ -5219,7 +3616,7 @@
       "grade": null,
       "note": "err"
     },
-    "CSIQ": {
+    "DCX": {
       "grade": null,
       "note": "err"
     },
@@ -5227,31 +3624,7 @@
       "grade": null,
       "note": "err"
     },
-    "CSAI": {
-      "grade": null,
-      "note": "err"
-    },
-    "DCX": {
-      "grade": null,
-      "note": "err"
-    },
     "DFNS": {
-      "grade": null,
-      "note": "err"
-    },
-    "DJT": {
-      "grade": null,
-      "note": "err"
-    },
-    "DRK": {
-      "grade": null,
-      "note": "err"
-    },
-    "DFSC": {
-      "grade": null,
-      "note": "err"
-    },
-    "DFLI": {
       "grade": null,
       "note": "err"
     },
@@ -5259,7 +3632,7 @@
       "grade": null,
       "note": "err"
     },
-    "DTSS": {
+    "DRK": {
       "grade": null,
       "note": "err"
     },
@@ -5267,7 +3640,15 @@
       "grade": null,
       "note": "err"
     },
-    "EDSA": {
+    "DFSC": {
+      "grade": null,
+      "note": "err"
+    },
+    "DJT": {
+      "grade": null,
+      "note": "err"
+    },
+    "DUKR": {
       "grade": null,
       "note": "err"
     },
@@ -5275,11 +3656,15 @@
       "grade": null,
       "note": "err"
     },
+    "DTSS": {
+      "grade": null,
+      "note": "err"
+    },
     "DVLT": {
       "grade": null,
       "note": "err"
     },
-    "DUKR": {
+    "EDSA": {
       "grade": null,
       "note": "err"
     },
@@ -5291,27 +3676,7 @@
       "grade": null,
       "note": "err"
     },
-    "ELBM": {
-      "grade": null,
-      "note": "err"
-    },
     "ELVR": {
-      "grade": null,
-      "note": "err"
-    },
-    "ENPH": {
-      "grade": null,
-      "note": "err"
-    },
-    "ENGN": {
-      "grade": null,
-      "note": "err"
-    },
-    "EPSN": {
-      "grade": null,
-      "note": "err"
-    },
-    "EOSE": {
       "grade": null,
       "note": "err"
     },
@@ -5319,7 +3684,15 @@
       "grade": null,
       "note": "err"
     },
-    "ENLT": {
+    "ELBM": {
+      "grade": null,
+      "note": "err"
+    },
+    "ENGN": {
+      "grade": null,
+      "note": "err"
+    },
+    "DEFT": {
       "grade": null,
       "note": "err"
     },
@@ -5327,7 +3700,11 @@
       "grade": null,
       "note": "err"
     },
-    "ERII": {
+    "ENLT": {
+      "grade": null,
+      "note": "err"
+    },
+    "EOSE": {
       "grade": null,
       "note": "err"
     },
@@ -5335,7 +3712,19 @@
       "grade": null,
       "note": "err"
     },
-    "EVLV": {
+    "EPSN": {
+      "grade": null,
+      "note": "err"
+    },
+    "ERII": {
+      "grade": null,
+      "note": "err"
+    },
+    "ENPH": {
+      "grade": null,
+      "note": "err"
+    },
+    "EZGO": {
       "grade": null,
       "note": "err"
     },
@@ -5343,15 +3732,23 @@
       "grade": null,
       "note": "err"
     },
-    "EVGN": {
-      "grade": null,
-      "note": "err"
-    },
     "EXYN": {
       "grade": null,
       "note": "err"
     },
-    "EZGO": {
+    "EVLV": {
+      "grade": null,
+      "note": "err"
+    },
+    "EVGN": {
+      "grade": null,
+      "note": "err"
+    },
+    "FEAM": {
+      "grade": null,
+      "note": "err"
+    },
+    "FIGR": {
       "grade": null,
       "note": "err"
     },
@@ -5367,19 +3764,11 @@
       "grade": null,
       "note": "err"
     },
-    "FEAM": {
-      "grade": null,
-      "note": "err"
-    },
-    "FIGR": {
+    "FLY": {
       "grade": null,
       "note": "err"
     },
     "FIP": {
-      "grade": null,
-      "note": "err"
-    },
-    "FLY": {
       "grade": null,
       "note": "err"
     },
@@ -5395,7 +3784,7 @@
       "grade": null,
       "note": "err"
     },
-    "FOFO": {
+    "FRTT": {
       "grade": null,
       "note": "err"
     },
@@ -5403,7 +3792,7 @@
       "grade": null,
       "note": "err"
     },
-    "FRGT": {
+    "FOFO": {
       "grade": null,
       "note": "err"
     },
@@ -5411,15 +3800,7 @@
       "grade": null,
       "note": "err"
     },
-    "FRTT": {
-      "grade": null,
-      "note": "err"
-    },
     "FTCI": {
-      "grade": null,
-      "note": "err"
-    },
-    "FTFT": {
       "grade": null,
       "note": "err"
     },
@@ -5427,7 +3808,7 @@
       "grade": null,
       "note": "err"
     },
-    "GEMI": {
+    "FRGT": {
       "grade": null,
       "note": "err"
     },
@@ -5435,7 +3816,11 @@
       "grade": null,
       "note": "err"
     },
-    "GCGR": {
+    "GEMI": {
+      "grade": null,
+      "note": "err"
+    },
+    "FTFT": {
       "grade": null,
       "note": "err"
     },
@@ -5443,7 +3828,11 @@
       "grade": null,
       "note": "err"
     },
-    "GCT": {
+    "GFAI": {
+      "grade": null,
+      "note": "err"
+    },
+    "GCGR": {
       "grade": null,
       "note": "err"
     },
@@ -5451,15 +3840,7 @@
       "grade": null,
       "note": "err"
     },
-    "GFAI": {
-      "grade": null,
-      "note": "err"
-    },
-    "GFUZ": {
-      "grade": null,
-      "note": "err"
-    },
-    "GITS": {
+    "GCT": {
       "grade": null,
       "note": "err"
     },
@@ -5467,7 +3848,7 @@
       "grade": null,
       "note": "err"
     },
-    "GIPR": {
+    "GITS": {
       "grade": null,
       "note": "err"
     },
@@ -5475,7 +3856,11 @@
       "grade": null,
       "note": "err"
     },
-    "GLNG": {
+    "GIPR": {
+      "grade": null,
+      "note": "err"
+    },
+    "GFUZ": {
       "grade": null,
       "note": "err"
     },
@@ -5483,23 +3868,11 @@
       "grade": null,
       "note": "err"
     },
+    "GLNG": {
+      "grade": null,
+      "note": "err"
+    },
     "GMEX": {
-      "grade": null,
-      "note": "err"
-    },
-    "GRWG": {
-      "grade": null,
-      "note": "err"
-    },
-    "GRRR": {
-      "grade": null,
-      "note": "err"
-    },
-    "GSIT": {
-      "grade": null,
-      "note": "err"
-    },
-    "GRDX": {
       "grade": null,
       "note": "err"
     },
@@ -5507,11 +3880,15 @@
       "grade": null,
       "note": "err"
     },
-    "GSUN": {
+    "GRDX": {
       "grade": null,
       "note": "err"
     },
-    "GMM": {
+    "GRRR": {
+      "grade": null,
+      "note": "err"
+    },
+    "GRWG": {
       "grade": null,
       "note": "err"
     },
@@ -5519,7 +3896,15 @@
       "grade": null,
       "note": "err"
     },
-    "GTM": {
+    "GSUN": {
+      "grade": null,
+      "note": "err"
+    },
+    "GSIT": {
+      "grade": null,
+      "note": "err"
+    },
+    "GMM": {
       "grade": null,
       "note": "err"
     },
@@ -5527,19 +3912,11 @@
       "grade": null,
       "note": "err"
     },
-    "GXAI": {
-      "grade": null,
-      "note": "err"
-    },
     "HAO": {
       "grade": null,
       "note": "err"
     },
-    "HDRN": {
-      "grade": null,
-      "note": "err"
-    },
-    "HIT": {
+    "GXAI": {
       "grade": null,
       "note": "err"
     },
@@ -5551,19 +3928,23 @@
       "grade": null,
       "note": "err"
     },
+    "HDRN": {
+      "grade": null,
+      "note": "err"
+    },
+    "GTM": {
+      "grade": null,
+      "note": "err"
+    },
     "HIVE": {
       "grade": null,
       "note": "err"
     },
+    "HQ": {
+      "grade": null,
+      "note": "err"
+    },
     "HKPD": {
-      "grade": null,
-      "note": "err"
-    },
-    "HNRG": {
-      "grade": null,
-      "note": "err"
-    },
-    "HPK": {
       "grade": null,
       "note": "err"
     },
@@ -5575,11 +3956,27 @@
       "grade": null,
       "note": "err"
     },
-    "HQ": {
+    "HNRG": {
+      "grade": null,
+      "note": "err"
+    },
+    "HPK": {
+      "grade": null,
+      "note": "err"
+    },
+    "HIT": {
       "grade": null,
       "note": "err"
     },
     "HRZN": {
+      "grade": null,
+      "note": "err"
+    },
+    "ICON": {
+      "grade": null,
+      "note": "err"
+    },
+    "IGIC": {
       "grade": null,
       "note": "err"
     },
@@ -5591,14 +3988,6 @@
       "grade": null,
       "note": "err"
     },
-    "IGIC": {
-      "grade": null,
-      "note": "err"
-    },
-    "ICON": {
-      "grade": null,
-      "note": "err"
-    },
     "HYMC": {
       "grade": null,
       "note": "err"
@@ -5607,7 +3996,27 @@
       "grade": null,
       "note": "err"
     },
+    "IMTE": {
+      "grade": null,
+      "note": "err"
+    },
+    "IRD": {
+      "grade": null,
+      "note": "err"
+    },
     "INVZ": {
+      "grade": null,
+      "note": "err"
+    },
+    "INVE": {
+      "grade": null,
+      "note": "err"
+    },
+    "ISPR": {
+      "grade": null,
+      "note": "err"
+    },
+    "JCSE": {
       "grade": null,
       "note": "err"
     },
@@ -5619,23 +4028,11 @@
       "grade": null,
       "note": "err"
     },
-    "IRD": {
-      "grade": null,
-      "note": "err"
-    },
-    "INVE": {
-      "grade": null,
-      "note": "err"
-    },
-    "IMTE": {
-      "grade": null,
-      "note": "err"
-    },
     "JTAI": {
       "grade": null,
       "note": "err"
     },
-    "JCSE": {
+    "KGEI": {
       "grade": null,
       "note": "err"
     },
@@ -5647,19 +4044,7 @@
       "grade": null,
       "note": "err"
     },
-    "ISPR": {
-      "grade": null,
-      "note": "err"
-    },
-    "KGEI": {
-      "grade": null,
-      "note": "err"
-    },
     "KLXE": {
-      "grade": null,
-      "note": "err"
-    },
-    "KMTS": {
       "grade": null,
       "note": "err"
     },
@@ -5667,11 +4052,11 @@
       "grade": null,
       "note": "err"
     },
-    "KRYS": {
+    "KMTS": {
       "grade": null,
       "note": "err"
     },
-    "KNDI": {
+    "KRYS": {
       "grade": null,
       "note": "err"
     },
@@ -5679,31 +4064,7 @@
       "grade": null,
       "note": "err"
     },
-    "LIFE": {
-      "grade": null,
-      "note": "err"
-    },
     "LASE": {
-      "grade": null,
-      "note": "err"
-    },
-    "KSMH": {
-      "grade": null,
-      "note": "err"
-    },
-    "LIQT": {
-      "grade": null,
-      "note": "err"
-    },
-    "LNZA": {
-      "grade": null,
-      "note": "err"
-    },
-    "LOBO": {
-      "grade": null,
-      "note": "err"
-    },
-    "LPTH": {
       "grade": null,
       "note": "err"
     },
@@ -5711,7 +4072,39 @@
       "grade": null,
       "note": "err"
     },
+    "LIQT": {
+      "grade": null,
+      "note": "err"
+    },
+    "KSMH": {
+      "grade": null,
+      "note": "err"
+    },
+    "LIFE": {
+      "grade": null,
+      "note": "err"
+    },
+    "KNDI": {
+      "grade": null,
+      "note": "err"
+    },
+    "LNZA": {
+      "grade": null,
+      "note": "err"
+    },
+    "LSCC": {
+      "grade": null,
+      "note": "err"
+    },
     "LOGI": {
+      "grade": null,
+      "note": "err"
+    },
+    "LPTH": {
+      "grade": null,
+      "note": "err"
+    },
+    "LOBO": {
       "grade": null,
       "note": "err"
     },
@@ -5723,15 +4116,7 @@
       "grade": null,
       "note": "err"
     },
-    "LSCC": {
-      "grade": null,
-      "note": "err"
-    },
     "MASK": {
-      "grade": null,
-      "note": "err"
-    },
-    "MBAI": {
       "grade": null,
       "note": "err"
     },
@@ -5743,7 +4128,11 @@
       "grade": null,
       "note": "err"
     },
-    "LZMH": {
+    "MBRX": {
+      "grade": null,
+      "note": "err"
+    },
+    "MBAI": {
       "grade": null,
       "note": "err"
     },
@@ -5751,11 +4140,11 @@
       "grade": null,
       "note": "err"
     },
-    "MBRX": {
+    "MENS": {
       "grade": null,
       "note": "err"
     },
-    "MGEE": {
+    "LZMH": {
       "grade": null,
       "note": "err"
     },
@@ -5763,7 +4152,7 @@
       "grade": null,
       "note": "err"
     },
-    "MRVI": {
+    "MGEE": {
       "grade": null,
       "note": "err"
     },
@@ -5783,7 +4172,7 @@
       "grade": null,
       "note": "err"
     },
-    "MENS": {
+    "MRVI": {
       "grade": null,
       "note": "err"
     },
@@ -5791,19 +4180,11 @@
       "grade": null,
       "note": "err"
     },
-    "MYGN": {
-      "grade": null,
-      "note": "err"
-    },
-    "MTEX": {
-      "grade": null,
-      "note": "err"
-    },
     "MTSI": {
       "grade": null,
       "note": "err"
     },
-    "NAUT": {
+    "MYGN": {
       "grade": null,
       "note": "err"
     },
@@ -5815,35 +4196,15 @@
       "grade": null,
       "note": "err"
     },
+    "NAUT": {
+      "grade": null,
+      "note": "err"
+    },
     "NEXR": {
       "grade": null,
       "note": "err"
     },
-    "NFE": {
-      "grade": null,
-      "note": "err"
-    },
-    "NMTC": {
-      "grade": null,
-      "note": "err"
-    },
-    "NSSC": {
-      "grade": null,
-      "note": "err"
-    },
-    "NTCL": {
-      "grade": null,
-      "note": "err"
-    },
-    "NNNN": {
-      "grade": null,
-      "note": "err"
-    },
-    "NSYS": {
-      "grade": null,
-      "note": "err"
-    },
-    "NOEM": {
+    "MTEX": {
       "grade": null,
       "note": "err"
     },
@@ -5851,7 +4212,27 @@
       "grade": null,
       "note": "err"
     },
-    "NTHI": {
+    "NFE": {
+      "grade": null,
+      "note": "err"
+    },
+    "NNNN": {
+      "grade": null,
+      "note": "err"
+    },
+    "NSSC": {
+      "grade": null,
+      "note": "err"
+    },
+    "NOEM": {
+      "grade": null,
+      "note": "err"
+    },
+    "NMTC": {
+      "grade": null,
+      "note": "err"
+    },
+    "NSYS": {
       "grade": null,
       "note": "err"
     },
@@ -5859,15 +4240,7 @@
       "grade": null,
       "note": "err"
     },
-    "NUCL": {
-      "grade": null,
-      "note": "err"
-    },
-    "NUAI": {
-      "grade": null,
-      "note": "err"
-    },
-    "NWE": {
+    "NTHI": {
       "grade": null,
       "note": "err"
     },
@@ -5875,31 +4248,23 @@
       "grade": null,
       "note": "err"
     },
-    "NXL": {
+    "NWE": {
       "grade": null,
       "note": "err"
     },
-    "ODD": {
+    "NUAI": {
       "grade": null,
       "note": "err"
     },
-    "ODYS": {
+    "NUCL": {
       "grade": null,
       "note": "err"
     },
-    "ONCY": {
+    "NXAT": {
       "grade": null,
       "note": "err"
     },
-    "NXTT": {
-      "grade": null,
-      "note": "err"
-    },
-    "OESX": {
-      "grade": null,
-      "note": "err"
-    },
-    "OMSE": {
+    "NTCL": {
       "grade": null,
       "note": "err"
     },
@@ -5907,11 +4272,31 @@
       "grade": null,
       "note": "err"
     },
-    "ORGO": {
+    "NXL": {
       "grade": null,
       "note": "err"
     },
-    "OST": {
+    "NXTT": {
+      "grade": null,
+      "note": "err"
+    },
+    "ODYS": {
+      "grade": null,
+      "note": "err"
+    },
+    "ODD": {
+      "grade": null,
+      "note": "err"
+    },
+    "OMSE": {
+      "grade": null,
+      "note": "err"
+    },
+    "OESX": {
+      "grade": null,
+      "note": "err"
+    },
+    "ONEN": {
       "grade": null,
       "note": "err"
     },
@@ -5919,7 +4304,7 @@
       "grade": null,
       "note": "err"
     },
-    "ORKT": {
+    "OST": {
       "grade": null,
       "note": "err"
     },
@@ -5927,7 +4312,19 @@
       "grade": null,
       "note": "err"
     },
-    "NXAT": {
+    "ORGO": {
+      "grade": null,
+      "note": "err"
+    },
+    "ORKT": {
+      "grade": null,
+      "note": "err"
+    },
+    "ONCY": {
+      "grade": null,
+      "note": "err"
+    },
+    "PBYI": {
       "grade": null,
       "note": "err"
     },
@@ -5939,26 +4336,6 @@
       "grade": null,
       "note": "err"
     },
-    "PGY": {
-      "grade": null,
-      "note": "err"
-    },
-    "PMA": {
-      "grade": null,
-      "note": "err"
-    },
-    "PDYN": {
-      "grade": null,
-      "note": "err"
-    },
-    "PDSB": {
-      "grade": null,
-      "note": "err"
-    },
-    "PBYI": {
-      "grade": null,
-      "note": "err"
-    },
     "PCT": {
       "grade": null,
       "note": "err"
@@ -5967,19 +4344,23 @@
       "grade": null,
       "note": "err"
     },
-    "PRCT": {
-      "grade": null,
-      "note": "err"
-    },
-    "PRTH": {
-      "grade": null,
-      "note": "err"
-    },
-    "PNRG": {
+    "PDSB": {
       "grade": null,
       "note": "err"
     },
     "PMCB": {
+      "grade": null,
+      "note": "err"
+    },
+    "PGY": {
+      "grade": null,
+      "note": "err"
+    },
+    "PDYN": {
+      "grade": null,
+      "note": "err"
+    },
+    "PMA": {
       "grade": null,
       "note": "err"
     },
@@ -5991,6 +4372,26 @@
       "grade": null,
       "note": "err"
     },
+    "PRTH": {
+      "grade": null,
+      "note": "err"
+    },
+    "PRCT": {
+      "grade": null,
+      "note": "err"
+    },
+    "PNRG": {
+      "grade": null,
+      "note": "err"
+    },
+    "QMCO": {
+      "grade": null,
+      "note": "err"
+    },
+    "QCLS": {
+      "grade": null,
+      "note": "err"
+    },
     "PSNY": {
       "grade": null,
       "note": "err"
@@ -5999,23 +4400,11 @@
       "grade": null,
       "note": "err"
     },
-    "QCLS": {
-      "grade": null,
-      "note": "err"
-    },
     "PTEN": {
       "grade": null,
       "note": "err"
     },
-    "QNTM": {
-      "grade": null,
-      "note": "err"
-    },
-    "QMCO": {
-      "grade": null,
-      "note": "err"
-    },
-    "QNME": {
+    "QSI": {
       "grade": null,
       "note": "err"
     },
@@ -6027,15 +4416,19 @@
       "grade": null,
       "note": "err"
     },
-    "QSI": {
-      "grade": null,
-      "note": "err"
-    },
     "QXL": {
       "grade": null,
       "note": "err"
     },
-    "RBNE": {
+    "QNTM": {
+      "grade": null,
+      "note": "err"
+    },
+    "QNME": {
+      "grade": null,
+      "note": "err"
+    },
+    "RCMT": {
       "grade": null,
       "note": "err"
     },
@@ -6043,15 +4436,15 @@
       "grade": null,
       "note": "err"
     },
-    "RAIN": {
-      "grade": null,
-      "note": "err"
-    },
     "RCKT": {
       "grade": null,
       "note": "err"
     },
-    "RCMT": {
+    "RDGT": {
+      "grade": null,
+      "note": "err"
+    },
+    "RBNE": {
       "grade": null,
       "note": "err"
     },
@@ -6063,7 +4456,7 @@
       "grade": null,
       "note": "err"
     },
-    "RDGT": {
+    "RAIN": {
       "grade": null,
       "note": "err"
     },
@@ -6071,15 +4464,11 @@
       "grade": null,
       "note": "err"
     },
-    "RR": {
-      "grade": null,
-      "note": "err"
-    },
-    "RXT": {
-      "grade": null,
-      "note": "err"
-    },
     "RIVN": {
+      "grade": null,
+      "note": "err"
+    },
+    "RR": {
       "grade": null,
       "note": "err"
     },
@@ -6087,23 +4476,15 @@
       "grade": null,
       "note": "err"
     },
+    "RXT": {
+      "grade": null,
+      "note": "err"
+    },
     "RZLV": {
       "grade": null,
       "note": "err"
     },
-    "SCZM": {
-      "grade": null,
-      "note": "err"
-    },
-    "SANG": {
-      "grade": null,
-      "note": "err"
-    },
-    "SEED": {
-      "grade": null,
-      "note": "err"
-    },
-    "SEDG": {
+    "SANA": {
       "grade": null,
       "note": "err"
     },
@@ -6111,7 +4492,7 @@
       "grade": null,
       "note": "err"
     },
-    "SERV": {
+    "SCZM": {
       "grade": null,
       "note": "err"
     },
@@ -6119,11 +4500,31 @@
       "grade": null,
       "note": "err"
     },
+    "SEED": {
+      "grade": null,
+      "note": "err"
+    },
     "SGML": {
       "grade": null,
       "note": "err"
     },
-    "SANA": {
+    "SEDG": {
+      "grade": null,
+      "note": "err"
+    },
+    "SERV": {
+      "grade": null,
+      "note": "err"
+    },
+    "SANG": {
+      "grade": null,
+      "note": "err"
+    },
+    "SHAZ": {
+      "grade": null,
+      "note": "err"
+    },
+    "SHLS": {
       "grade": null,
       "note": "err"
     },
@@ -6135,7 +4536,7 @@
       "grade": null,
       "note": "err"
     },
-    "SHAZ": {
+    "SLGL": {
       "grade": null,
       "note": "err"
     },
@@ -6143,35 +4544,7 @@
       "grade": null,
       "note": "err"
     },
-    "SHLS": {
-      "grade": null,
-      "note": "err"
-    },
-    "SLGL": {
-      "grade": null,
-      "note": "err"
-    },
-    "SMTC": {
-      "grade": null,
-      "note": "err"
-    },
     "SMXT": {
-      "grade": null,
-      "note": "err"
-    },
-    "SMTI": {
-      "grade": null,
-      "note": "err"
-    },
-    "SNT": {
-      "grade": null,
-      "note": "err"
-    },
-    "SOPH": {
-      "grade": null,
-      "note": "err"
-    },
-    "SOLS": {
       "grade": null,
       "note": "err"
     },
@@ -6179,15 +4552,11 @@
       "grade": null,
       "note": "err"
     },
-    "SOFI": {
+    "SMTC": {
       "grade": null,
       "note": "err"
     },
-    "SOXX": {
-      "grade": null,
-      "note": "err"
-    },
-    "SSNC": {
+    "SMTI": {
       "grade": null,
       "note": "err"
     },
@@ -6195,11 +4564,23 @@
       "grade": null,
       "note": "err"
     },
-    "SSRM": {
+    "SOXX": {
       "grade": null,
       "note": "err"
     },
-    "SUNE": {
+    "SOLS": {
+      "grade": null,
+      "note": "err"
+    },
+    "SNT": {
+      "grade": null,
+      "note": "err"
+    },
+    "SOFI": {
+      "grade": null,
+      "note": "err"
+    },
+    "SOPH": {
       "grade": null,
       "note": "err"
     },
@@ -6207,23 +4588,15 @@
       "grade": null,
       "note": "err"
     },
-    "SUPX": {
+    "SUNE": {
       "grade": null,
       "note": "err"
     },
-    "SVA": {
+    "SSNC": {
       "grade": null,
       "note": "err"
     },
-    "TANH": {
-      "grade": null,
-      "note": "err"
-    },
-    "TACT": {
-      "grade": null,
-      "note": "err"
-    },
-    "TATT": {
+    "SSRM": {
       "grade": null,
       "note": "err"
     },
@@ -6231,15 +4604,23 @@
       "grade": null,
       "note": "err"
     },
+    "TATT": {
+      "grade": null,
+      "note": "err"
+    },
+    "SUPX": {
+      "grade": null,
+      "note": "err"
+    },
+    "TACT": {
+      "grade": null,
+      "note": "err"
+    },
+    "TANH": {
+      "grade": null,
+      "note": "err"
+    },
     "TMCR": {
-      "grade": null,
-      "note": "err"
-    },
-    "TDTH": {
-      "grade": null,
-      "note": "err"
-    },
-    "TLN": {
       "grade": null,
       "note": "err"
     },
@@ -6247,7 +4628,7 @@
       "grade": null,
       "note": "err"
     },
-    "TNMG": {
+    "TDTH": {
       "grade": null,
       "note": "err"
     },
@@ -6255,7 +4636,15 @@
       "grade": null,
       "note": "err"
     },
-    "TRSG": {
+    "TNMG": {
+      "grade": null,
+      "note": "err"
+    },
+    "SVA": {
+      "grade": null,
+      "note": "err"
+    },
+    "TLN": {
       "grade": null,
       "note": "err"
     },
@@ -6263,7 +4652,7 @@
       "grade": null,
       "note": "err"
     },
-    "TSEM": {
+    "TRSG": {
       "grade": null,
       "note": "err"
     },
@@ -6279,15 +4668,7 @@
       "grade": null,
       "note": "err"
     },
-    "UCFI": {
-      "grade": null,
-      "note": "err"
-    },
-    "TUSK": {
-      "grade": null,
-      "note": "err"
-    },
-    "UFPT": {
+    "TSEM": {
       "grade": null,
       "note": "err"
     },
@@ -6295,11 +4676,7 @@
       "grade": null,
       "note": "err"
     },
-    "UROY": {
-      "grade": null,
-      "note": "err"
-    },
-    "TTMI": {
+    "UFPT": {
       "grade": null,
       "note": "err"
     },
@@ -6307,7 +4684,39 @@
       "grade": null,
       "note": "err"
     },
+    "UCFI": {
+      "grade": null,
+      "note": "err"
+    },
+    "UROY": {
+      "grade": null,
+      "note": "err"
+    },
+    "TUSK": {
+      "grade": null,
+      "note": "err"
+    },
     "USGO": {
+      "grade": null,
+      "note": "err"
+    },
+    "VAI": {
+      "grade": null,
+      "note": "err"
+    },
+    "WDGF": {
+      "grade": null,
+      "note": "err"
+    },
+    "VRXA": {
+      "grade": null,
+      "note": "err"
+    },
+    "WDAF": {
+      "grade": null,
+      "note": "err"
+    },
+    "VMAR": {
       "grade": null,
       "note": "err"
     },
@@ -6319,31 +4728,7 @@
       "grade": null,
       "note": "err"
     },
-    "VMAR": {
-      "grade": null,
-      "note": "err"
-    },
-    "VAI": {
-      "grade": null,
-      "note": "err"
-    },
-    "VRXA": {
-      "grade": null,
-      "note": "err"
-    },
     "WCLD": {
-      "grade": null,
-      "note": "err"
-    },
-    "WDGF": {
-      "grade": null,
-      "note": "err"
-    },
-    "WDAF": {
-      "grade": null,
-      "note": "err"
-    },
-    "WETO": {
       "grade": null,
       "note": "err"
     },
@@ -6351,11 +4736,11 @@
       "grade": null,
       "note": "err"
     },
-    "WIMI": {
+    "WGS": {
       "grade": null,
       "note": "err"
     },
-    "WGS": {
+    "WETO": {
       "grade": null,
       "note": "err"
     },
@@ -6363,11 +4748,11 @@
       "grade": null,
       "note": "err"
     },
-    "WSPC": {
+    "WOK": {
       "grade": null,
       "note": "err"
     },
-    "WOK": {
+    "WIMI": {
       "grade": null,
       "note": "err"
     },
@@ -6375,23 +4760,7 @@
       "grade": null,
       "note": "err"
     },
-    "XELLL": {
-      "grade": null,
-      "note": "err"
-    },
     "XE": {
-      "grade": null,
-      "note": "err"
-    },
-    "XPON": {
-      "grade": null,
-      "note": "err"
-    },
-    "YDDL": {
-      "grade": null,
-      "note": "err"
-    },
-    "XTIA": {
       "grade": null,
       "note": "err"
     },
@@ -6399,11 +4768,27 @@
       "grade": null,
       "note": "err"
     },
-    "ZENA": {
+    "XPON": {
       "grade": null,
       "note": "err"
     },
-    "ZDAI": {
+    "XTIA": {
+      "grade": null,
+      "note": "err"
+    },
+    "XELLL": {
+      "grade": null,
+      "note": "err"
+    },
+    "WSPC": {
+      "grade": null,
+      "note": "err"
+    },
+    "YSXT": {
+      "grade": null,
+      "note": "err"
+    },
+    "YDDL": {
       "grade": null,
       "note": "err"
     },
@@ -6415,7 +4800,15 @@
       "grade": null,
       "note": "err"
     },
-    "AADX": {
+    "ZDAI": {
+      "grade": null,
+      "note": "err"
+    },
+    "TTMI": {
+      "grade": null,
+      "note": "err"
+    },
+    "ZENA": {
       "grade": null,
       "note": "err"
     },
@@ -6423,7 +4816,7 @@
       "grade": null,
       "note": "err"
     },
-    "AESI": {
+    "AADX": {
       "grade": null,
       "note": "err"
     },
@@ -6431,7 +4824,11 @@
       "grade": null,
       "note": "err"
     },
-    "ZYBT": {
+    "AIQD": {
+      "grade": null,
+      "note": "err"
+    },
+    "AESI": {
       "grade": null,
       "note": "err"
     },
@@ -6439,11 +4836,11 @@
       "grade": null,
       "note": "err"
     },
-    "AIQD": {
+    "AIVI": {
       "grade": null,
       "note": "err"
     },
-    "AIVI": {
+    "ZYBT": {
       "grade": null,
       "note": "err"
     },
@@ -6451,15 +4848,7 @@
       "grade": null,
       "note": "err"
     },
-    "YSXT": {
-      "grade": null,
-      "note": "err"
-    },
     "AIVL": {
-      "grade": null,
-      "note": "err"
-    },
-    "AMR": {
       "grade": null,
       "note": "err"
     },
@@ -6467,7 +4856,11 @@
       "grade": null,
       "note": "err"
     },
-    "ASA": {
+    "AMR": {
+      "grade": null,
+      "note": "err"
+    },
+    "APT": {
       "grade": null,
       "note": "err"
     },
@@ -6475,15 +4868,7 @@
       "grade": null,
       "note": "err"
     },
-    "ARLO": {
-      "grade": null,
-      "note": "err"
-    },
     "AUXX": {
-      "grade": null,
-      "note": "err"
-    },
-    "BCHT": {
       "grade": null,
       "note": "err"
     },
@@ -6495,7 +4880,23 @@
       "grade": null,
       "note": "err"
     },
-    "APT": {
+    "ARLO": {
+      "grade": null,
+      "note": "err"
+    },
+    "BCHT": {
+      "grade": null,
+      "note": "err"
+    },
+    "ASA": {
+      "grade": null,
+      "note": "err"
+    },
+    "BETA": {
+      "grade": null,
+      "note": "err"
+    },
+    "BGR": {
       "grade": null,
       "note": "err"
     },
@@ -6507,19 +4908,7 @@
       "grade": null,
       "note": "err"
     },
-    "BGR": {
-      "grade": null,
-      "note": "err"
-    },
-    "BMNP": {
-      "grade": null,
-      "note": "err"
-    },
     "BKTI": {
-      "grade": null,
-      "note": "err"
-    },
-    "BETA": {
       "grade": null,
       "note": "err"
     },
@@ -6527,7 +4916,19 @@
       "grade": null,
       "note": "err"
     },
-    "BTE": {
+    "BMNP": {
+      "grade": null,
+      "note": "err"
+    },
+    "BUD": {
+      "grade": null,
+      "note": "err"
+    },
+    "BVN": {
+      "grade": null,
+      "note": "err"
+    },
+    "CCEL": {
       "grade": null,
       "note": "err"
     },
@@ -6539,7 +4940,7 @@
       "grade": null,
       "note": "err"
     },
-    "BUD": {
+    "CITR": {
       "grade": null,
       "note": "err"
     },
@@ -6547,7 +4948,7 @@
       "grade": null,
       "note": "err"
     },
-    "CITR": {
+    "BTE": {
       "grade": null,
       "note": "err"
     },
@@ -6555,35 +4956,7 @@
       "grade": null,
       "note": "err"
     },
-    "CCEL": {
-      "grade": null,
-      "note": "err"
-    },
-    "BVN": {
-      "grade": null,
-      "note": "err"
-    },
     "CMCL": {
-      "grade": null,
-      "note": "err"
-    },
-    "CMT": {
-      "grade": null,
-      "note": "err"
-    },
-    "CQP": {
-      "grade": null,
-      "note": "err"
-    },
-    "CMSA": {
-      "grade": null,
-      "note": "err"
-    },
-    "CRS": {
-      "grade": null,
-      "note": "err"
-    },
-    "CMSC": {
       "grade": null,
       "note": "err"
     },
@@ -6591,7 +4964,23 @@
       "grade": null,
       "note": "err"
     },
-    "CRGY": {
+    "CMSA": {
+      "grade": null,
+      "note": "err"
+    },
+    "CMT": {
+      "grade": null,
+      "note": "err"
+    },
+    "CMSC": {
+      "grade": null,
+      "note": "err"
+    },
+    "CQP": {
+      "grade": null,
+      "note": "err"
+    },
+    "CRS": {
       "grade": null,
       "note": "err"
     },
@@ -6619,51 +5008,11 @@
       "grade": null,
       "note": "err"
     },
+    "CRGY": {
+      "grade": null,
+      "note": "err"
+    },
     "DBE": {
-      "grade": null,
-      "note": "err"
-    },
-    "DBP": {
-      "grade": null,
-      "note": "err"
-    },
-    "DEC": {
-      "grade": null,
-      "note": "err"
-    },
-    "DLNG": {
-      "grade": null,
-      "note": "err"
-    },
-    "DIG": {
-      "grade": null,
-      "note": "err"
-    },
-    "DTG": {
-      "grade": null,
-      "note": "err"
-    },
-    "DTB": {
-      "grade": null,
-      "note": "err"
-    },
-    "DTK": {
-      "grade": null,
-      "note": "err"
-    },
-    "DUKB": {
-      "grade": null,
-      "note": "err"
-    },
-    "DUG": {
-      "grade": null,
-      "note": "err"
-    },
-    "DXC": {
-      "grade": null,
-      "note": "err"
-    },
-    "DXYZ": {
       "grade": null,
       "note": "err"
     },
@@ -6671,7 +5020,31 @@
       "grade": null,
       "note": "err"
     },
-    "EE": {
+    "DBP": {
+      "grade": null,
+      "note": "err"
+    },
+    "DIG": {
+      "grade": null,
+      "note": "err"
+    },
+    "DLNG": {
+      "grade": null,
+      "note": "err"
+    },
+    "DTB": {
+      "grade": null,
+      "note": "err"
+    },
+    "DEC": {
+      "grade": null,
+      "note": "err"
+    },
+    "DUG": {
+      "grade": null,
+      "note": "err"
+    },
+    "DTK": {
       "grade": null,
       "note": "err"
     },
@@ -6679,27 +5052,23 @@
       "grade": null,
       "note": "err"
     },
-    "ESE": {
+    "DXYZ": {
       "grade": null,
       "note": "err"
     },
-    "ET": {
+    "DUKB": {
       "grade": null,
       "note": "err"
     },
-    "EMN": {
+    "EE": {
       "grade": null,
       "note": "err"
     },
-    "EVTL": {
+    "DXC": {
       "grade": null,
       "note": "err"
     },
-    "FET": {
-      "grade": null,
-      "note": "err"
-    },
-    "ETSS": {
+    "DTG": {
       "grade": null,
       "note": "err"
     },
@@ -6707,11 +5076,27 @@
       "grade": null,
       "note": "err"
     },
-    "FSM": {
+    "EMN": {
+      "grade": null,
+      "note": "err"
+    },
+    "ET": {
+      "grade": null,
+      "note": "err"
+    },
+    "ESE": {
       "grade": null,
       "note": "err"
     },
     "EXP": {
+      "grade": null,
+      "note": "err"
+    },
+    "ETSS": {
+      "grade": null,
+      "note": "err"
+    },
+    "EVTL": {
       "grade": null,
       "note": "err"
     },
@@ -6723,6 +5108,14 @@
       "grade": null,
       "note": "err"
     },
+    "FSM": {
+      "grade": null,
+      "note": "err"
+    },
+    "GBR": {
+      "grade": null,
+      "note": "err"
+    },
     "FTI": {
       "grade": null,
       "note": "err"
@@ -6731,19 +5124,23 @@
       "grade": null,
       "note": "err"
     },
-    "GCDT": {
-      "grade": null,
-      "note": "err"
-    },
-    "GBR": {
-      "grade": null,
-      "note": "err"
-    },
     "GAM": {
       "grade": null,
       "note": "err"
     },
+    "FET": {
+      "grade": null,
+      "note": "err"
+    },
     "GCO": {
+      "grade": null,
+      "note": "err"
+    },
+    "GCDT": {
+      "grade": null,
+      "note": "err"
+    },
+    "GCTS": {
       "grade": null,
       "note": "err"
     },
@@ -6763,11 +5160,7 @@
       "grade": null,
       "note": "err"
     },
-    "GCTS": {
-      "grade": null,
-      "note": "err"
-    },
-    "GORO": {
+    "GPI": {
       "grade": null,
       "note": "err"
     },
@@ -6775,19 +5168,7 @@
       "grade": null,
       "note": "err"
     },
-    "GTE": {
-      "grade": null,
-      "note": "err"
-    },
     "GWH": {
-      "grade": null,
-      "note": "err"
-    },
-    "HL": {
-      "grade": null,
-      "note": "err"
-    },
-    "HLIO": {
       "grade": null,
       "note": "err"
     },
@@ -6795,7 +5176,19 @@
       "grade": null,
       "note": "err"
     },
-    "GPI": {
+    "GTE": {
+      "grade": null,
+      "note": "err"
+    },
+    "HLIO": {
+      "grade": null,
+      "note": "err"
+    },
+    "HL": {
+      "grade": null,
+      "note": "err"
+    },
+    "GORO": {
       "grade": null,
       "note": "err"
     },
@@ -6803,7 +5196,11 @@
       "grade": null,
       "note": "err"
     },
-    "KOS": {
+    "HTFC": {
+      "grade": null,
+      "note": "err"
+    },
+    "INDO": {
       "grade": null,
       "note": "err"
     },
@@ -6815,27 +5212,19 @@
       "grade": null,
       "note": "err"
     },
+    "KOS": {
+      "grade": null,
+      "note": "err"
+    },
     "IMC": {
       "grade": null,
       "note": "err"
     },
-    "INDO": {
-      "grade": null,
-      "note": "err"
-    },
-    "HTFC": {
-      "grade": null,
-      "note": "err"
-    },
-    "KTH": {
+    "KYN": {
       "grade": null,
       "note": "err"
     },
     "KULR": {
-      "grade": null,
-      "note": "err"
-    },
-    "KYN": {
       "grade": null,
       "note": "err"
     },
@@ -6847,15 +5236,19 @@
       "grade": null,
       "note": "err"
     },
-    "LNG": {
-      "grade": null,
-      "note": "err"
-    },
     "LAR": {
       "grade": null,
       "note": "err"
     },
+    "LNG": {
+      "grade": null,
+      "note": "err"
+    },
     "LBRT": {
+      "grade": null,
+      "note": "err"
+    },
+    "KTH": {
       "grade": null,
       "note": "err"
     },
@@ -6867,23 +5260,11 @@
       "grade": null,
       "note": "err"
     },
-    "MAIA": {
-      "grade": null,
-      "note": "err"
-    },
-    "LZM": {
-      "grade": null,
-      "note": "err"
-    },
     "MDA": {
       "grade": null,
       "note": "err"
     },
-    "MCRP": {
-      "grade": null,
-      "note": "err"
-    },
-    "MHH": {
+    "MAIA": {
       "grade": null,
       "note": "err"
     },
@@ -6891,7 +5272,11 @@
       "grade": null,
       "note": "err"
     },
-    "MITQ": {
+    "MCRP": {
+      "grade": null,
+      "note": "err"
+    },
+    "LZM": {
       "grade": null,
       "note": "err"
     },
@@ -6899,11 +5284,7 @@
       "grade": null,
       "note": "err"
     },
-    "MXC": {
-      "grade": null,
-      "note": "err"
-    },
-    "MRT": {
+    "MITQ": {
       "grade": null,
       "note": "err"
     },
@@ -6911,7 +5292,11 @@
       "grade": null,
       "note": "err"
     },
-    "MX": {
+    "MTA": {
+      "grade": null,
+      "note": "err"
+    },
+    "MRT": {
       "grade": null,
       "note": "err"
     },
@@ -6919,7 +5304,11 @@
       "grade": null,
       "note": "err"
     },
-    "MTA": {
+    "MX": {
+      "grade": null,
+      "note": "err"
+    },
+    "MHH": {
       "grade": null,
       "note": "err"
     },
@@ -6935,7 +5324,7 @@
       "grade": null,
       "note": "err"
     },
-    "NTIP": {
+    "NET": {
       "grade": null,
       "note": "err"
     },
@@ -6943,27 +5332,11 @@
       "grade": null,
       "note": "err"
     },
-    "NET": {
+    "MXC": {
       "grade": null,
       "note": "err"
     },
-    "OBE": {
-      "grade": null,
-      "note": "err"
-    },
-    "OGE": {
-      "grade": null,
-      "note": "err"
-    },
-    "NXE": {
-      "grade": null,
-      "note": "err"
-    },
-    "OTF": {
-      "grade": null,
-      "note": "err"
-    },
-    "OPTT": {
+    "NTIP": {
       "grade": null,
       "note": "err"
     },
@@ -6971,19 +5344,31 @@
       "grade": null,
       "note": "err"
     },
-    "PAR": {
-      "grade": null,
-      "note": "err"
-    },
     "PAG": {
       "grade": null,
       "note": "err"
     },
-    "PBF": {
+    "PAR": {
       "grade": null,
       "note": "err"
     },
-    "PICK": {
+    "OBE": {
+      "grade": null,
+      "note": "err"
+    },
+    "OPTT": {
+      "grade": null,
+      "note": "err"
+    },
+    "OGE": {
+      "grade": null,
+      "note": "err"
+    },
+    "OTF": {
+      "grade": null,
+      "note": "err"
+    },
+    "NXE": {
       "grade": null,
       "note": "err"
     },
@@ -6991,11 +5376,15 @@
       "grade": null,
       "note": "err"
     },
+    "PBF": {
+      "grade": null,
+      "note": "err"
+    },
     "PKE": {
       "grade": null,
       "note": "err"
     },
-    "PLG": {
+    "PICK": {
       "grade": null,
       "note": "err"
     },
@@ -7003,15 +5392,11 @@
       "grade": null,
       "note": "err"
     },
+    "PLG": {
+      "grade": null,
+      "note": "err"
+    },
     "POAS": {
-      "grade": null,
-      "note": "err"
-    },
-    "QNC": {
-      "grade": null,
-      "note": "err"
-    },
-    "REZI": {
       "grade": null,
       "note": "err"
     },
@@ -7019,11 +5404,15 @@
       "grade": null,
       "note": "err"
     },
-    "RGNT": {
+    "REA": {
       "grade": null,
       "note": "err"
     },
-    "REA": {
+    "ROLR": {
+      "grade": null,
+      "note": "err"
+    },
+    "REZI": {
       "grade": null,
       "note": "err"
     },
@@ -7031,11 +5420,15 @@
       "grade": null,
       "note": "err"
     },
+    "RGNT": {
+      "grade": null,
+      "note": "err"
+    },
     "RNGR": {
       "grade": null,
       "note": "err"
     },
-    "ROLR": {
+    "QNC": {
       "grade": null,
       "note": "err"
     },
@@ -7047,7 +5440,7 @@
       "grade": null,
       "note": "err"
     },
-    "RYAM": {
+    "SBMT": {
       "grade": null,
       "note": "err"
     },
@@ -7055,19 +5448,15 @@
       "grade": null,
       "note": "err"
     },
-    "SBMT": {
-      "grade": null,
-      "note": "err"
-    },
-    "SES": {
-      "grade": null,
-      "note": "err"
-    },
-    "SD": {
+    "RYAM": {
       "grade": null,
       "note": "err"
     },
     "SEI": {
+      "grade": null,
+      "note": "err"
+    },
+    "SD": {
       "grade": null,
       "note": "err"
     },
@@ -7076,10 +5465,6 @@
       "note": "err"
     },
     "SLI": {
-      "grade": null,
-      "note": "err"
-    },
-    "SM": {
       "grade": null,
       "note": "err"
     },
@@ -7095,6 +5480,18 @@
       "grade": null,
       "note": "err"
     },
+    "SPXC": {
+      "grade": null,
+      "note": "err"
+    },
+    "SM": {
+      "grade": null,
+      "note": "err"
+    },
+    "SES": {
+      "grade": null,
+      "note": "err"
+    },
     "SSMR": {
       "grade": null,
       "note": "err"
@@ -7103,11 +5500,11 @@
       "grade": null,
       "note": "err"
     },
-    "SPXC": {
+    "ST": {
       "grade": null,
       "note": "err"
     },
-    "ST": {
+    "STDN": {
       "grade": null,
       "note": "err"
     },
@@ -7119,11 +5516,11 @@
       "grade": null,
       "note": "err"
     },
-    "TEN": {
+    "SXT": {
       "grade": null,
       "note": "err"
     },
-    "SXT": {
+    "TEN": {
       "grade": null,
       "note": "err"
     },
@@ -7131,15 +5528,7 @@
       "grade": null,
       "note": "err"
     },
-    "STDN": {
-      "grade": null,
-      "note": "err"
-    },
-    "TALO": {
-      "grade": null,
-      "note": "err"
-    },
-    "TFPM": {
+    "TGE": {
       "grade": null,
       "note": "err"
     },
@@ -7147,23 +5536,11 @@
       "grade": null,
       "note": "err"
     },
-    "TGE": {
-      "grade": null,
-      "note": "err"
-    },
     "TII": {
       "grade": null,
       "note": "err"
     },
-    "TTI": {
-      "grade": null,
-      "note": "err"
-    },
-    "TRP": {
-      "grade": null,
-      "note": "err"
-    },
-    "TMDE": {
+    "TFPM": {
       "grade": null,
       "note": "err"
     },
@@ -7171,11 +5548,11 @@
       "grade": null,
       "note": "err"
     },
-    "TXNM": {
+    "TALO": {
       "grade": null,
       "note": "err"
     },
-    "TSM": {
+    "TMDE": {
       "grade": null,
       "note": "err"
     },
@@ -7183,19 +5560,15 @@
       "grade": null,
       "note": "err"
     },
-    "UYM": {
+    "TSM": {
       "grade": null,
       "note": "err"
     },
-    "USD": {
+    "TXNM": {
       "grade": null,
       "note": "err"
     },
-    "USE": {
-      "grade": null,
-      "note": "err"
-    },
-    "VLN": {
+    "TTI": {
       "grade": null,
       "note": "err"
     },
@@ -7203,11 +5576,15 @@
       "grade": null,
       "note": "err"
     },
-    "URG": {
+    "TRP": {
       "grade": null,
       "note": "err"
     },
-    "VET": {
+    "USE": {
+      "grade": null,
+      "note": "err"
+    },
+    "USD": {
       "grade": null,
       "note": "err"
     },
@@ -7215,15 +5592,23 @@
       "grade": null,
       "note": "err"
     },
+    "VLN": {
+      "grade": null,
+      "note": "err"
+    },
+    "UYM": {
+      "grade": null,
+      "note": "err"
+    },
     "VOYG": {
       "grade": null,
       "note": "err"
     },
-    "VSH": {
+    "VET": {
       "grade": null,
       "note": "err"
     },
-    "WDIG": {
+    "URG": {
       "grade": null,
       "note": "err"
     },
@@ -7231,7 +5616,15 @@
       "grade": null,
       "note": "err"
     },
+    "VSH": {
+      "grade": null,
+      "note": "err"
+    },
     "WDEF": {
+      "grade": null,
+      "note": "err"
+    },
+    "WPM": {
       "grade": null,
       "note": "err"
     },
@@ -7239,11 +5632,15 @@
       "grade": null,
       "note": "err"
     },
+    "WDIG": {
+      "grade": null,
+      "note": "err"
+    },
     "WLKP": {
       "grade": null,
       "note": "err"
     },
-    "WPM": {
+    "WTAI": {
       "grade": null,
       "note": "err"
     },
@@ -7252,10 +5649,6 @@
       "note": "err"
     },
     "WTS": {
-      "grade": null,
-      "note": "err"
-    },
-    "WTAI": {
       "grade": null,
       "note": "err"
     },
